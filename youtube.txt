@@ -131,9 +131,11 @@ Normal|Music|Series|Geral|Vídeo de exemplo|https://youtu.be/aqz-KE-bpKQ
 Nomal|Radio|Series|Música e Lives|Rádio transmissão ao vivo|https://www.youtube.com/watch?v=jfKfPfyJRdk
 
 #Series
-Series|Rodrigo Silva|Profecias de Daniel Explicadas|Inteligência Artificial|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
-Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Tempo do Fim|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|70 Semanas de Daniel|https://www.youtube.com/watch?v=ZV0Zg-u3fAg&list=PLJR4Z_jtOSP8&index=2
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|Inteligência Artificial|https://www.youtube.com/watch?v=-kTPHwgnq_s&list=PLJR4Z_jtOSP8&index=3
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Tempo do Fim|https://www.youtube.com/watch?v=899_Vs7zqJE&list=PLJR4Z_jtOSP8&index=4
+
 Series|Series|Estudos Bíblicos|APOCALIPSE SE CUMPRIR? Rodrigo Silva|https://www.youtube.com/watch?v=esh6wXrLJ2s
 Series|Series|Estudos Bíblicos|A IGREJA NOS DIAS ATUAIS|https://www.youtube.com/watch?v=jYVOCVqiz2c
 Series|Series|Música|Canal de música|https://www.youtube.com/watch?v=M7lc1UVf-VE
