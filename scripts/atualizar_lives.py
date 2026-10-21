@@ -25,6 +25,8 @@ def identificar_canal(nome):
         return "jovem"
     if "bandjornal" in n:
         return "bandjornal"
+    if "tv novo tempo" in n:
+        return "tvnovotempo"
 
     return None
 
