@@ -8,9 +8,9 @@
 Notícias|CNN Brasil Ao Vivo|https://www.youtube.com/watch?v=0O8gRb6eCQk
 Notícias|BandNews Ao Vivo|https://www.youtube.com/@bandnewstv/live
 Notícias|SBT News Ao Vivo|https://www.youtube.com/watch?v=8L_K9RY7HB4
-Normal|Normal|Live|Notícias|CNN Brasil Normal|https://www.youtube.com/live/6u0neDhIKEw
-Normal|Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/live/iE0xOjrTuVM
-Normal|Normal|Live|Notícias|Record News|https://www.youtube.com/live/CHUZ0hjRrdI
+Normal|Normal|Live|Notícias|CNN Brasil Normal|https://www.youtube.com/watch?v=c1C3Wm7E288
+Normal|Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=oKwReki5L1Y
+Normal|Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=CHUZ0hjRrdI
 Normal|Live|Notícias|BAND News|https://www.youtube.com/live/y-hyJDBWOtU
 Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/live/0O8gRb6eCQk
 Normal|Live|Notícias|Record News 2|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
