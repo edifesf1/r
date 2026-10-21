@@ -1,6 +1,7 @@
 
-CNN Brasil|https://www.youtube.com/@CNNbrasil/live
 BandNews|https://www.youtube.com/@BandNews/live
-SBT News|https://www.youtube.com/@sbtnews/live
-Record News|https://www.youtube.com/@recordnews/live
+BandJornal|https://www.youtube.com/@bandjornalismo/live
+CNN Brasil|https://www.youtube.com/@CNNbrasil/live
 Jovem Pan|https://www.youtube.com/@jovempannews/live
+Record News|https://www.youtube.com/@recordnews/live
+SBT News|https://www.youtube.com/@sbtnews/live
