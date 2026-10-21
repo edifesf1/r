@@ -1,0 +1,840 @@
+1000<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Youtube IPTV</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #111; color: #fff; font-family: Arial, sans-serif; }
+    
+    header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      background: #c00;
+      padding: 10px 16px;
+      min-height: 60px;
+    
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+    
+      transform: translateY(-110%);
+      transition: transform 0.10s linear;
+    }
+    
+    /* Mostrar a tarja */
+    header.tarja-visivel {
+      transform: translateY(0);
+    }
+    
+    /* Manter a tarja visível enquanto o usuário interage com ela */
+    header.tarja-visivel:focus-within {
+      transform: translateY(0);
+    }
+
+    #temaAtual { display: none; }
+    main { max-width: 1000px; margin: auto; padding: 16px; }
+    /* O player acompanha o fluxo da página para não cobrir a tarja vermelha. */
+    #player {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      box-shadow: 0 8px 18px rgba(0,0,0,.55);
+    }
+    #player iframe { display: block; width: 100%; height: 100%; border: 0; }
+    #status, #lista { position: relative; z-index: 1; }
+    #status { padding: 12px 0; color: #ccc; }
+    #lista { display: grid; gap: 8px; }
+    #lista button {
+      width: 100%; padding: 15px; text-align: left; color: white;
+      background: #292929; border: 1px solid #444; border-radius: 6px;
+      font-size: 16px; cursor: pointer;
+    }
+    #lista button:focus, #lista button.ativo {
+      border-color: #f44; background: #383030; outline: 2px solid #c00;
+    }
+    #drawerOverlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.65);
+      z-index: 9; display: none;
+    }
+    #drawerOverlay.aberto { display: block; }
+    #drawer {
+      width: min(320px, 86vw); height: 100%; overflow-y: auto;
+      background: #1b1b1b; box-shadow: 4px 0 16px rgba(0,0,0,.4);
+      padding: 0 0 20px;
+    }
+    .drawerHeader {
+      display: flex; justify-content: space-between; align-items: center;
+      background: #c00; padding: 17px 16px; font-size: 20px; font-weight: bold;
+    }
+    #closeMenu {
+      border: 0; color: #fff; background: transparent; font-size: 28px; cursor: pointer;
+    }
+    .menuIntro { color: #bbb; font-size: 13px; padding: 15px 16px 8px; }
+    #temasMenu { display: grid; }
+    #temasMenu button {
+      background: transparent; border: 0; color: #eee; text-align: left;
+      padding: 14px 18px; font-size: 16px; cursor: pointer;
+      border-bottom: 1px solid #333;
+    }
+    #temasMenu button:hover, #temasMenu button.ativo { background: #383030; color: #fff; border-left: 4px solid #f33; }
+    @media (max-width: 600px) {
+      #temaAtual { font-size: 12px; }
+      main { padding: 10px; }
+    }
+
+
+    /* Menu flutuante em cascata A1 -> B2 -> C3 -> D4 */
+    #cascadeBar {
+      position: static; z-index: auto;
+      display: flex; align-items: center; flex: 1 1 auto; gap: 7px;
+      min-width: 0; padding: 0; background: transparent;
+      border: 0; box-shadow: none; overflow-x: auto;
+    }
+    .cascade-group { display: flex; min-width: 0; flex: 1 1 0; }
+    .cascade-group label { display: none; }
+    .cascade-group select {
+      width: 100%; min-width: 0; max-width: 240px; padding: 9px 25px 9px 8px;
+      border: 1px solid rgba(255,255,255,.45); border-radius: 5px; background: #a90000; color: #fff;
+      font-size: 14px; outline: none;
+    }
+    .cascade-group select:focus { border-color: #fff; }
+    .cascade-group[hidden] { display: none; }
+    @media (max-width: 600px) {
+      header { gap: 6px; padding: 8px; }
+      #cascadeBar { gap: 5px; }
+      .cascade-group select { max-width: none; font-size: 12px; padding: 8px 18px 8px 5px; }
+    }
+
+    body.bloqueado { overflow: hidden; }
+    #telaLogin {
+      position: fixed; inset: 0; z-index: 1000; display: flex;
+      align-items: center; justify-content: center; padding: 20px;
+      background: radial-gradient(circle at top, #3a1010, #090909 65%);
+    }
+    #caixaLogin {
+      width: min(420px, 100%); padding: 30px; border-radius: 16px;
+      background: #1b1b1b; border: 1px solid #454545;
+      box-shadow: 0 18px 60px rgba(0,0,0,.55); text-align: center;
+    }
+    #caixaLogin h1 { margin: 0 0 8px; font-size: 26px; }
+    #caixaLogin p { color: #bbb; line-height: 1.5; }
+    #campoLogin {
+      width: 100%; padding: 14px; margin: 12px 0; border-radius: 8px;
+      border: 1px solid #555; background: #101010; color: white;
+      font-size: 18px; text-align: center; text-transform: uppercase;
+    }
+    #entrarLogin {
+      width: 100%; padding: 14px; border: 0; border-radius: 8px;
+      background: #c00; color: white; font-size: 17px; font-weight: bold; cursor: pointer;
+    }
+    #entrarLogin:hover { background: #e11; }
+    #erroLogin { min-height: 22px; color: #ff7777; font-size: 14px; }
+    body.bloqueado > header, body.bloqueado > #drawerOverlay, body.bloqueado > main { visibility: hidden; }
+
+  </style>
+  <!-- Biblioteca HLS para reproduzir links .m3u8 em navegadores sem suporte nativo. -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
+</head>
+<body class="bloqueado">
+  <section id="telaLogin" aria-label="Tela de login">
+    <form id="caixaLogin">
+      <h1>Youtube IPTV</h1>
+      <p>Digite seu login de acesso para continuar.<br>Não é necessária senha.</p>
+      <input id="campoLogin" name="login" autocomplete="off" autocapitalize="characters" placeholder="Ex.: YTXXXXXXXX" maxlength="10" required>
+      <button id="entrarLogin" type="submit">ENTRAR</button>
+      <div id="erroLogin" role="alert"></div>
+    </form>
+  </section>
+
+  <header>
+    <nav id="cascadeBar" aria-label="Filtros">
+      <div class="cascade-group" id="grupoA1">
+        <label for="menuA1">Tema</label>
+        <select id="menuA1" title="Tema" aria-label="Tema"><option value=""></option></select>
+      </div>
+      <div class="cascade-group" id="grupoB2" hidden>
+        <label for="menuB2">Categoria</label>
+        <select id="menuB2" title="Categoria" aria-label="Categoria"><option value=""></option></select>
+      </div>
+      <div class="cascade-group" id="grupoC3" hidden>
+        <label for="menuC3">Classificação</label>
+        <select id="menuC3" title="Classificação" aria-label="Classificação"><option value=""></option></select>
+      </div>
+      <div class="cascade-group" id="grupoD4" hidden>
+        <label for="menuD4">Episódio</label>
+        <select id="menuD4" title="Episódio" aria-label="Episódio"><option value=""></option></select>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <div id="player"></div>
+    <div id="status">Carregando lista de vídeos...</div>
+    <div id="lista"></div>
+  </main>
+
+  <script>
+
+    const tarja = document.querySelector("header");
+    let temporizadorTarja = null;
+    
+    
+    function mostrarTarja() {
+      if (document.body.classList.contains("bloqueado")) return;
+    
+      tarja.classList.add("tarja-visivel");
+    
+      clearTimeout(temporizadorTarja);
+    
+      temporizadorTarja = setTimeout(() => {
+        tarja.classList.remove("tarja-visivel");
+      }, 2000);
+    }
+    
+    function ocultarTarja() {
+      clearTimeout(temporizadorTarja);
+      tarja.classList.remove("tarja-visivel");
+    }
+
+    
+    function ocultarTarja() {
+      clearTimeout(temporizadorTarja);
+    
+      if (!tarja.matches(":focus-within")) {
+        tarja.classList.remove("tarja-visivel");
+      }
+    }
+    
+    // Mouse: aparece ao movimentar o ponteiro.
+    document.addEventListener("mousemove", mostrarTarja, { passive: true });
+    
+    // Celulares e telas sensíveis ao toque.
+    document.addEventListener("touchstart", mostrarTarja, { passive: true });
+    
+    // Controles que enviam eventos de teclado.
+    document.addEventListener("keydown", mostrarTarja);
+    
+    // Se o mouse sair da página, iniciar a contagem para ocultar.
+    document.addEventListener("mouseleave", ocultarTarja);
+    
+    // Ao selecionar um menu, manter a tarja visível durante o uso.
+    tarja.addEventListener("focusin", () => {
+      clearTimeout(temporizadorTarja);
+      tarja.classList.add("tarja-visivel");
+    });
+    
+    
+    tarja.addEventListener("focusout", () => {
+      if (!tarja.matches(":focus-within")) {
+        ocultarTarja();
+      }
+    });
+
+
+    // A lista de logins é carregada diretamente de LOGINS-200.txt.
+    // Assim, alterações nesse arquivo passam a valer sem editar o index.html.
+    let LOGINS_VALIDOS = [];
+    const telaLogin = document.getElementById("telaLogin");
+    const campoLogin = document.getElementById("campoLogin");
+    const erroLogin = document.getElementById("erroLogin");
+    const botaoEntrar = document.getElementById("entrarLogin");
+
+    async function carregarLogins() {
+      botaoEntrar.disabled = true;
+      erroLogin.textContent = "Carregando logins...";
+      try {
+        const resposta = await fetch("./LOGINS-200.txt?v=" + Date.now(), { cache: "no-store" });
+        if (!resposta.ok) throw new Error("HTTP " + resposta.status);
+        const texto = await resposta.text();
+        LOGINS_VALIDOS = [...new Set(texto.split(/\r?\n/)
+          .map(linha => linha.trim().toUpperCase())
+          .filter(linha => /^YT[A-Z0-9]{8}$/.test(linha)))];
+        if (LOGINS_VALIDOS.length === 0) throw new Error("Nenhum login válido encontrado");
+        erroLogin.textContent = "";
+        botaoEntrar.disabled = false;
+        validarLoginSalvo();
+      } catch (erro) {
+        console.error("Erro ao carregar LOGINS-200.txt:", erro);
+        erroLogin.textContent = "Não foi possível carregar os logins. Verifique se LOGINS-200.txt foi publicado no GitHub.";
+      }
+    }
+
+
+    async function ativarTelaCheia() {
+      try {
+        if (!document.fullscreenElement &&
+            document.documentElement.requestFullscreen) {
+          await document.documentElement.requestFullscreen();
+        }
+      } catch (erro) {
+        console.warn("Tela cheia não autorizada pelo navegador:", erro);
+      }
+    }
+    
+      function liberarAcesso(login) {
+        document.body.classList.remove("bloqueado");
+        telaLogin.style.display = "none";
+        sessionStorage.setItem("youtubeIptvLogin", login);
+      
+        // Tentar abrir em tela cheia após a entrada.
+        ativarTelaCheia();
+      
+        // Começar com a tarja escondida.
+        tarja.classList.remove("tarja-visivel");
+        clearTimeout(temporizadorTarja);
+      }
+
+    document.addEventListener("click", function ativarTelaCheiaNoClique() {
+      if (!document.fullscreenElement) {
+        ativarTelaCheia();
+      }
+    });
+    
+    document.addEventListener("touchend", function ativarTelaCheiaNoToque() {
+      if (!document.fullscreenElement) {
+        ativarTelaCheia();
+      }
+    }, { passive: true });
+
+    function validarLoginSalvo() {
+      const salvo = sessionStorage.getItem("youtubeIptvLogin");
+      if (salvo && LOGINS_VALIDOS.includes(salvo)) liberarAcesso(salvo);
+      else sessionStorage.removeItem("youtubeIptvLogin");
+    }
+    document.getElementById("caixaLogin").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const login = campoLogin.value.trim().toUpperCase();
+      if (LOGINS_VALIDOS.includes(login)) {
+        erroLogin.textContent = "";
+        liberarAcesso(login);
+      } else {
+        erroLogin.textContent = "Login inválido. Confira o código e tente novamente.";
+        campoLogin.select();
+      }
+    });
+    carregarLogins();
+
+    
+    const URL_LOG = "https://script.google.com/macros/s/AKfycbyXwVtr-pZu4Ee4cbeH2iQfFD7j2XDP1zq8swofZPGrLt8azs0Kbf7CCJnIPx-4RIQatA/exec";
+    
+    let todosVideos = [];
+    let videos = [];
+    let player = null;
+    let hlsInstance = null;
+    let selecionado = 0;
+    
+    let ytPlayerApi = null;
+    let geracaoPlayer = 0;
+    let ytApiPromise = null;
+    
+    const falhasRecentes = new Map();
+    
+    function registrarFalha(item, tipo, erro, codigo = "") {
+      if (!item || !item.url) return;
+    
+      const mensagem = String(erro || "Falha de reprodução").slice(0, 1000);
+      const chave = [item.url, tipo, codigo, mensagem].join("|");
+      const agora = Date.now();
+      const ultima = falhasRecentes.get(chave);
+    
+      // Evita duplicar o mesmo erro em um intervalo de 60 segundos.
+      if (ultima && agora - ultima < 60000) return;
+    
+      falhasRecentes.set(chave, agora);
+    
+      // Limita o tamanho do controle de duplicidade.
+      if (falhasRecentes.size > 200) {
+        for (const [k, tempo] of falhasRecentes) {
+          if (agora - tempo > 60000) falhasRecentes.delete(k);
+        }
+      }
+    
+      const registro = {
+        canal: item.titulo || "Canal sem nome",
+        tipo: tipo,
+        url: item.url,
+        erro: mensagem,
+        codigo: codigo ? String(codigo) : ""
+      };
+    
+      // O modo no-cors permite enviar o registro sem exigir
+      // que o navegador leia a resposta do Apps Script.
+      fetch(URL_LOG, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=UTF-8"
+        },
+        body: JSON.stringify(registro)
+      }).catch(err => {
+        console.error("Não foi possível enviar o log:", err);
+      });
+    
+      console.warn("Falha de canal registrada para envio:", registro);
+    }
+    function testarLogAutomatico() {
+      registrarFalha(
+        {
+          titulo: "TESTE AUTOMÁTICO DO SITE",
+          url: "https://exemplo.com/canal-teste.m3u8"
+        },
+        "TESTE",
+        "Teste de envio pelo navegador",
+        "TESTE-002"
+      );
+    
+      status.textContent =
+        "Teste enviado. Confira a planilha LOG_CANAIS.";
+    }
+    function carregarYouTubeAPI() {
+      if (window.YT && window.YT.Player) {
+        return Promise.resolve();
+      }
+    
+      if (ytApiPromise) return ytApiPromise;
+    
+      ytApiPromise = new Promise((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          reject(new Error("Tempo esgotado ao carregar a API do YouTube"));
+        }, 15000);
+    
+        const callbackAnterior = window.onYouTubeIframeAPIReady;
+    
+        window.onYouTubeIframeAPIReady = () => {
+          clearTimeout(timeout);
+          if (typeof callbackAnterior === "function") {
+            callbackAnterior();
+          }
+          resolve();
+        };
+    
+        let script = document.querySelector(
+          'script[src="https://www.youtube.com/iframe_api"]'
+        );
+    
+        if (!script) {
+          script = document.createElement("script");
+          script.src = "https://www.youtube.com/iframe_api";
+          script.onerror = () => {
+            clearTimeout(timeout);
+            reject(new Error("Falha ao carregar a API do YouTube"));
+          };
+          document.head.appendChild(script);
+        }
+      });
+    
+      return ytApiPromise;
+    }
+
+
+    const status = document.getElementById("status");
+    const lista = document.getElementById("lista");
+    const menuA1 = document.getElementById("menuA1");
+    const menuB2 = document.getElementById("menuB2");
+    const menuC3 = document.getElementById("menuC3");
+    const menuD4 = document.getElementById("menuD4");
+    const grupos = {
+      A1: document.getElementById("grupoA1"),
+      B2: document.getElementById("grupoB2"),
+      C3: document.getElementById("grupoC3"),
+      D4: document.getElementById("grupoD4"),
+    };
+
+    function preencherSelect(select, valores) {
+      select.replaceChildren();
+      const inicial = document.createElement("option");
+      inicial.value = "";
+      inicial.textContent = "";
+      select.appendChild(inicial);
+      [...new Set(valores.filter(Boolean))].sort((a,b) => a.localeCompare(b, "pt-BR")).forEach(valor => {
+        const option = document.createElement("option");
+        option.value = valor;
+        option.textContent = valor;
+        select.appendChild(option);
+      });
+      select.value = "";
+    }
+
+    function mostrarGrupo(nome, mostrar) { grupos[nome].hidden = !mostrar; }
+
+    function limparAbaixo(nivel) {
+      if (nivel <= 1) { menuB2.value = ""; mostrarGrupo("B2", false); }
+      if (nivel <= 2) { menuC3.value = ""; mostrarGrupo("C3", false); }
+      if (nivel <= 3) { menuD4.value = ""; mostrarGrupo("D4", false); }
+    }
+
+    function aplicarFiltros() {
+      const tema = menuA1.value;
+      const categoria = menuB2.value;
+      const classificacao = menuC3.value;
+      const episodio = menuD4.value;
+      videos = todosVideos.filter(v =>
+        (!tema || v.tema === tema) &&
+        (!categoria || v.categoria === categoria) &&
+        (!classificacao || v.classificacao === classificacao) &&
+        (!episodio || v.titulo === episodio)
+      );
+      lista.replaceChildren();
+      const area = document.getElementById("player");
+      area.replaceChildren();
+      player = null;
+
+      if (!videos.length) {
+        status.textContent = tema ? "Nenhum vídeo nesta seleção." : "Selecione os menus acima.";
+        return;
+      }
+      videos.forEach((video, index) => {
+        const botao = document.createElement("button");
+        botao.textContent = `${index + 1}. ${video.titulo}`;
+        botao.addEventListener("click", () => {
+          selecionado = index;
+          [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === index));
+          criarPlayer();
+        });
+        lista.appendChild(botao);
+      });
+      selecionado = 0;
+      [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === 0));
+      status.textContent = `${videos.length} vídeo(s).`;
+      if (episodio && videos.length === 1) criarPlayer();
+    }
+
+    menuA1.addEventListener("change", () => {
+      limparAbaixo(1);
+      const tema = menuA1.value;
+      if (tema) {
+        preencherSelect(menuB2, todosVideos.filter(v => v.tema === tema).map(v => v.categoria));
+        mostrarGrupo("B2", true);
+      }
+      aplicarFiltros();
+    });
+
+    menuB2.addEventListener("change", () => {
+      limparAbaixo(2);
+      const { tema, categoria } = { tema: menuA1.value, categoria: menuB2.value };
+      if (tema && categoria) {
+        preencherSelect(menuC3, todosVideos.filter(v => v.tema === tema && v.categoria === categoria).map(v => v.classificacao));
+        mostrarGrupo("C3", true);
+      }
+      aplicarFiltros();
+    });
+
+    menuC3.addEventListener("change", () => {
+      limparAbaixo(3);
+      const tema = menuA1.value, categoria = menuB2.value, classificacao = menuC3.value;
+      if (tema && categoria && classificacao) {
+        preencherSelect(menuD4, todosVideos.filter(v => v.tema === tema && v.categoria === categoria && v.classificacao === classificacao).map(v => v.titulo));
+        mostrarGrupo("D4", true);
+      }
+      aplicarFiltros();
+    });
+
+    menuD4.addEventListener("change", aplicarFiltros);
+
+    function extrairId(valor) {
+      try {
+        const url = new URL(valor);
+        if (url.hostname === "youtu.be") {
+          return url.pathname.split("/").filter(Boolean)[0] || null;
+        }
+        if (!["youtube.com", "www.youtube.com", "m.youtube.com",
+              "youtube-nocookie.com", "www.youtube-nocookie.com"].includes(url.hostname)) {
+          return null;
+        }
+        if (url.pathname === "/watch") return url.searchParams.get("v");
+        const partes = url.pathname.split("/").filter(Boolean);
+        if (["embed", "shorts", "live", "v"].includes(partes[0])) return partes[1] || null;
+        return null;
+      } catch { return null; }
+    }
+
+    function criarPlayer() {
+      if (!videos.length) return;
+      const item = videos[selecionado];
+      const area = document.getElementById("player");
+      const geracao = ++geracaoPlayer;
+
+      if (ytPlayerApi) {
+        try {
+          ytPlayerApi.destroy();
+        } catch (_) {}
+      
+        ytPlayerApi = null;
+      }
+      if (hlsInstance) {
+        try { hlsInstance.destroy(); } catch (_) {}
+        hlsInstance = null;
+      }
+      area.replaceChildren();
+      player = null;
+
+      // Links .m3u8 são fluxos HLS, não IDs do YouTube.
+      if (item.tipo === "hls" || /\.m3u8(?:$|[?#])/i.test(item.url)) {
+        const videoEl = document.createElement("video");
+        videoEl.title = item.titulo;
+        videoEl.controls = true;
+        videoEl.autoplay = true;
+        videoEl.playsInline = true;
+        videoEl.preload = "metadata";
+        videoEl.style.cssText = "display:block;width:100%;height:100%;background:#000;";
+        area.appendChild(videoEl);
+        player = videoEl;
+
+        status.textContent = "Carregando transmissão HLS…";
+
+        // Registra erros do elemento de vídeo, inclusive quando o navegador
+        // tem suporte HLS nativo. O detalhe completo aparece em F12 > Console.
+        videoEl.addEventListener("error", () => {
+          const e = videoEl.error;
+          console.error("Erro do elemento de vídeo:", {
+            code: e?.code,
+            message: e?.message,
+            url: item.url,
+            networkState: videoEl.networkState,
+            readyState: videoEl.readyState
+          });
+          if (e) status.textContent = "Erro no vídeo (código " + e.code + "). Abra F12 > Console para ver detalhes. Pode ser bloqueio da fonte, formato ou segmentos.";
+        });
+
+        if (videoEl.canPlayType("application/vnd.apple.mpegurl")) {
+          // Safari/iOS pode reproduzir HLS nativamente.
+          videoEl.src = item.url;
+          videoEl.play().then(() => {
+            status.textContent = "Transmissão HLS reproduzindo.";
+          }).catch(err => {
+            console.warn("Autoplay HLS impedido:", err);
+            status.textContent = "Transmissão carregada. Pressione Play no vídeo.";
+          });
+        } else if (window.Hls && Hls.isSupported()) {
+          hlsInstance = new Hls({
+            enableWorker: true,
+            lowLatencyMode: false,
+            backBufferLength: 30,
+            manifestLoadingTimeOut: 20000,
+            manifestLoadingMaxRetry: 3,
+            manifestLoadingRetryDelay: 1000,
+            levelLoadingTimeOut: 20000,
+            fragLoadingTimeOut: 30000,
+            fragLoadingMaxRetry: 4,
+            fragLoadingRetryDelay: 1000
+          });
+
+          hlsInstance.on(Hls.Events.MEDIA_ATTACHED, () => {
+            console.info("HLS: mídia conectada; carregando playlist", item.url);
+          });
+          hlsInstance.on(Hls.Events.MANIFEST_PARSED, (_event, data) => {
+            console.info("HLS: playlist carregada", {
+              url: item.url,
+              levels: data.levels?.length
+            });
+            status.textContent = "Playlist HLS carregada. Iniciando vídeo…";
+            videoEl.play().then(() => {
+              status.textContent = "Transmissão HLS reproduzindo.";
+            }).catch(err => {
+              console.warn("Autoplay HLS impedido:", err);
+              status.textContent = "Playlist carregada. Pressione Play no vídeo.";
+            });
+          });
+          hlsInstance.on(Hls.Events.ERROR, (_event, data) => {
+            console.error("Erro HLS detalhado:", {
+              type: data.type,
+              details: data.details,
+              fatal: data.fatal,
+              statusHTTP: data.response?.code,
+              responseURL: data.response?.url,
+              url: data.url,
+              error: data.error?.message
+            });
+            
+            if (data.fatal) {
+              registrarFalha(
+                item,
+                "M3U8/HLS",
+                data.details || data.error?.message || "Erro HLS fatal",
+                data.response?.code || data.details || ""
+              );
+            }
+
+            if (!data.fatal) return;
+
+            // Recupera falhas de rede/mídia quando hls.js permite. Isso não
+            // contorna CORS, autenticação ou bloqueios do servidor de origem.
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+              status.textContent = "Falha de rede ao carregar playlist/segmento (" + data.details + "). Tentando novamente… Confira F12 > Console.";
+              try { hlsInstance.startLoad(); } catch (_) {}
+            } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+              status.textContent = "Falha de decodificação de mídia. Tentando recuperar o player…";
+              try { hlsInstance.recoverMediaError(); } catch (_) {}
+            } else {
+              status.textContent = "Falha HLS: " + data.details + ". HTTP: " + (data.response?.code ?? "sem resposta HTTP") + ". Consulte F12 > Console.";
+              try { hlsInstance.destroy(); } catch (_) {}
+              hlsInstance = null;
+            }
+          });
+          hlsInstance.loadSource(item.url);
+          hlsInstance.attachMedia(videoEl);
+        } else {
+          status.textContent = "Este navegador não oferece suporte a HLS via hls.js. Teste em uma versão atual do Chrome, Edge ou Safari.";
+        }
+        return;
+      }
+
+     
+      const container = document.createElement("div");
+      container.id = "youtube-player-container";
+      container.style.cssText =
+        "width:100%;height:100%;background:#000;";
+      area.appendChild(container);
+
+      status.textContent = "Carregando player do YouTube…";
+
+      carregarYouTubeAPI()
+        .then(() => {
+          // Impede que um player antigo seja criado depois
+          // que o usuário já trocou de canal.
+          if (
+            geracao !== geracaoPlayer ||
+            !area.contains(container)
+          ) return;
+
+          ytPlayerApi = new YT.Player(container.id, {
+            width: "100%",
+            height: "100%",
+            videoId: item.id,
+            playerVars: {
+              autoplay: 1,
+              playsinline: 1,
+              rel: 0,
+              enablejsapi: 1,
+              origin: location.origin
+            },
+            events: {
+              onReady: (event) => {
+                status.textContent =
+                  "Player do YouTube carregado.";
+
+                event.target.playVideo();
+              },
+
+              onStateChange: (event) => {
+                if (event.data === YT.PlayerState.PLAYING) {
+                  status.textContent = "Reproduzindo: " + item.titulo;
+                }
+              },
+
+              onError: (event) => {
+                const mensagens = {
+                  2: "Parâmetro ou ID de vídeo inválido",
+                  5: "Erro no player HTML5 do YouTube",
+                  100: "Vídeo removido, privado ou não encontrado",
+                  101: "Vídeo não permite reprodução incorporada",
+                  150: "Vídeo não permite reprodução incorporada",
+                  153: "Erro de identificação do player ou Referer"
+                };
+
+                const mensagem =
+                  mensagens[event.data] ||
+                  "Erro informado pelo player do YouTube";
+
+                status.textContent =
+                  "Falha no canal: " + item.titulo +
+                  ". Código " + event.data;
+
+                registrarFalha(
+                  item,
+                  "YouTube",
+                  mensagem,
+                  event.data
+                );
+              }
+            }
+          });
+
+          player = ytPlayerApi;
+        })
+        .catch((erro) => {
+          if (geracao !== geracaoPlayer) return;
+
+          status.textContent =
+            "Não foi possível carregar o player do YouTube.";
+
+          registrarFalha(
+            item,
+            "YouTube",
+            erro.message || "Falha ao carregar a API do YouTube",
+            "API"
+          );
+        });
+    }
+
+    async function carregarLista() {
+      try {
+        const resposta = await fetch("./youtube.txt?v=" + Date.now(), { cache: "no-store" });
+        if (!resposta.ok) throw new Error("HTTP " + resposta.status);
+        const texto = await resposta.text();
+
+        todosVideos = texto.split(/\r?\n/)
+          .map(linha => linha.trim())
+          .filter(linha => linha && !linha.startsWith("#"))
+          .map((linha, indice) => {
+            const partes = linha.split("|").map(parte => parte.trim());
+            let tema, categoria, classificacao, titulo, url;
+
+            if (partes.length >= 5) {
+              // Formato novo: Tema|Categoria|Classificação|Episódio/Título|URL
+              [tema, categoria, classificacao, titulo] = partes;
+              url = partes.slice(4).join("|").trim();
+            } else if (partes.length >= 3) {
+              // Compatibilidade: Tema|Título|URL
+              const temaAntigo = partes[0] || "Geral";
+              titulo = partes[1] || "Vídeo " + (indice + 1);
+              url = partes.slice(2).join("|").trim();
+              tema = /bíblic|preg|igreja|relig|estudo/i.test(temaAntigo + " " + titulo) ? "religioso" : "normal";
+              categoria = /live|ao vivo|rádio|radio|notícia|cnn|jovem pan|record news|sbt news/i.test(titulo + " " + url) ? "live" : "filmes";
+              classificacao = temaAntigo;
+            } else if (partes.length === 2) {
+              titulo = partes[0] || "Vídeo " + (indice + 1);
+              url = partes[1];
+              tema = "normal"; categoria = "filmes"; classificacao = "Geral";
+            } else {
+              titulo = "Vídeo " + (indice + 1);
+              url = partes[0];
+              tema = "normal"; categoria = "filmes"; classificacao = "Geral";
+            }
+
+            // Preserve a grafia original do youtube.txt, incluindo letras maiúsculas.
+            tema = tema || "Normal";
+            categoria = categoria || "Filmes";
+            classificacao = classificacao || "Geral";
+            titulo = titulo || "Vídeo " + (indice + 1);
+            const id = extrairId(url);
+            const tipo = /\.m3u8(?:$|[?#])/i.test(url) ? "hls" : (id ? "youtube" : "desconhecido");
+            // Não descarte URLs HLS: elas não têm ID do YouTube.
+            if (tipo === "hls") return { tema, categoria, classificacao, titulo, id: null, url, tipo };
+            return id ? { tema, categoria, classificacao, titulo, id, url, tipo } : null;
+          })
+          .filter(Boolean);
+
+        preencherSelect(menuA1, todosVideos.map(v => v.tema));
+        limparAbaixo(1);
+        aplicarFiltros();
+      } catch (erro) {
+        console.error(erro);
+        status.textContent = "Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";
+      }
+    }
+
+    carregarLista();
+  </script>
+</body>
+</html>

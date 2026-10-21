@@ -1,0 +1,422 @@
+#Tema|Categoria|Classificação|Episódio/Título|URL
+#Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ID_DO_VIDEO
+#Religioso|Series|Temporada 1|Episódio 1|https://www.youtube.com/watch?v=ID_DO_VIDEO
+#Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
+
+#Notícias
+Normal|Normal|Live|Notícias|CNN Brasil Normal|https://www.youtube.com/live/6u0neDhIKEw
+Normal|Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/live/iE0xOjrTuVM
+Normal|Normal|Live|Notícias|Record News|https://www.youtube.com/live/CHUZ0hjRrdI
+Normal|Live|Notícias|BAND News|https://www.youtube.com/live/y-hyJDBWOtU
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/live/0O8gRb6eCQk
+Normal|Live|Notícias|Record News 2|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+Normal|Live|Notícias|SBT News|https://www.youtube.com/live/8L_K9RY7HB4
+Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+Normal|Live|Notícias|J3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+Normal|Live|Notícias|JovemPan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+Normal|Live|Notícias|JovemPan 2|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+Normal|Live|Notícias|Record News|https://www.youtube.com/live/CHUZ0hjRrdI
+Normal|Live|Notícias|RS News|https://video07.logicahost.com.br/rsNews01/rsNews01/chunklist_w451977208.m3u8
+Normal|Live|Notícias|SBT News 2|https://sbtNews.maissbt.com/3.m3u8
+Normal|Live|Notícias|TCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
+Normal|Live|Notícias|TV Fronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
+Normal|Live|Aberto|Band Bahia|https://hqf6tcxuhk.singularcdn.net.br/live/0196ff1e-8bbc-76d9-bcda-cfe58c2b0be6/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4OTEzMCwibmJmIjoxNzkxNDg5MTMwLCJleHAiOjE3OTQwODExMzAsInVyaV9zdWIiOiIvMDE5NmZmMWUtOGJiYy03NmQ5LWJjZGEtY2ZlNThjMmIwYmU2LyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.8d3KtqxoIukaUg8Ws3xNnT1OYECYF1BK6XfJ7y03Uxc&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
+Normal|Live|Aberto|Band PA - RVATV|https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
+Normal|Live|Aberto|Band Paraná|https://hqf6tcxuhk.singularcdn.net.br/live/0195d36a-f948-71a4-bf7c-da6c3f84afb1/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTUxMDM1OSwibmJmIjoxNzkxNTEwMzU5LCJleHAiOjE3OTQxMDIzNTksInVyaV9zdWIiOiIvMDE5NWQzNmEtZjk0OC03MWE0LWJmN2MtZGE2YzNmODRhZmIxLyIsInVpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.1DzLlkxuYvscktlGuD1oqbNflGagDfIwIgWyEHurXPo&uid=f83ead9e-d64f-46ea-a282-a35817ba54cb
+Normal|Live|Aberto|Band Rio|https://hqf6tcxuhk.singularcdn.net.br/live/0194f211-4229-749f-a47e-58f819471024/s1/playlist-720p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ5MDY5OSwibmJmIjoxNzkxNDkwNjk5LCJleHAiOjE3OTQwODI2OTksInVyaV9zdWIiOiIvMDE5NGYyMTEtNDIyOS03NDlmLWE0N2UtNThmODE5NDcxMDI0LyIsInVpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.5g_n8NjJJJU8NDwyYRFtDoaQafdD0okEEnXeHZdczWc&uid=f83ead9e-d64f-46ea-a282-a35817ba54cb
+Normal|Live|Aberto|Band RS|https://hqf6tcxuhk.singularcdn.net.br/live/01995331-340e-7730-9dc8-ddcbf32b45a1/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4NzAzMCwibmJmIjoxNzkxNDg3MDMwLCJleHAiOjE3OTQwNzkwMzAsInVyaV9zdWIiOiIvMDE5OTUzMzEtMzQwZS03NzMwLTlkYzgtZGRjYmYzMmI0NWExLyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.xDAWwTjlIfd_W0aVcHTvk1AokK7IZVqROlmXTwNCCsw&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
+Normal|Live|Aberto|Globo|https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQjQvly2VdBNuGPjHOq
+Normal|Live|Aberto|Record - Amplitude Juína MT|https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
+Normal|Live|Aberto|Record - TV Tropical|https://video07.logicahost.com.br/portaltropicalrn/portaltropicalrn/playlist.m3u8
+Normal|Live|Aberto|Record Vila Real MT 1|https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
+Normal|Live|Aberto|Record Vila Real MT 2|https://5a2b083e9f360.streamlock.net/tvmt/tvmt.sdp/chunklist_w546848282.m3u8
+Normal|Live|Aberto|Recorde - TV Conquista|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+Normal|Live|Aberto|Rede TV +|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
+Normal|Live|Aberto|Rede TV ES|https://stream.esemrede.com.br/live/redetves.m3u8
+Normal|Live|Aberto|Rede TV PR|https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+Normal|Live|Aberto|Rede TV RO - SGC|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/chunklist_w1798829609.m3u8
+Normal|Live|Aberto|RedeTV São Luís|https://stmv1.srvif.com/tvsaoluis8/tvsaoluis8/playlist.m3u8
+Normal|Live|Aberto|RedeTV Tocantins|https://5ad482a77183d.streamlock.net/administrativoredetvto.com.br/administrativoredetvto.com.br/playlist.m3u8
+Normal|Live|Aberto|SBT Aratu On|https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
+Normal|Live|Aberto|SBT Interior|https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+Normal|Live|Aberto|SBT Interior 2|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+Normal|Live|Aberto|SBT Nacional|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
+Normal|Live|Aberto|SBT PI - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+Normal|Live|Aberto|Sbt Tailândia|https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
+Normal|Live|Aberto|TV Manchete|https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+Normal|Live|Agro|Canal do Criador|https://stream01.canalrural.com.br/crur/cr3/playlist.m3u8
+Normal|Live|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
+Normal|Live|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
+Normal|Live|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
+Normal|Live|Animes|Anime TV|https://stmv2.painelvideocast.com.br/animetv/animetv/chunklist_w2094162159.m3u8
+Normal|Live|Animes|Loading|https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+Normal|Live|Animes|Naruto Brazil|https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8
+Normal|Live|Animes|One Piece|https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
+Normal|Live|Animes|Pluto TV Anime|https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
+Normal|Live|Filmes|Channel 1|https://stmv2.painelvideocast.com.br/movies1/movies1/playlist.m3u8
+Normal|Live|Filmes|Cindie Lite|https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
+Normal|Live|Filmes|Cine Brasil TV|https://stmv2.painelvideocast.com.br/cinebrasil/cinebrasil/playlist.m3u8
+Normal|Live|Filmes|Cine Catástrofe|https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/chunklist_w872883174.m3u8
+Normal|Live|Filmes|Classico do Cinema 1|https://live20.bozztv.com/giatvplayout7/giatv-208272/playlist.m3u8
+Normal|Live|Filmes|Classico do Cinema 2|https://stmv2.painelvideocast.com.br/multicanais/multicanais/playlist.m3u8
+Normal|Live|Filmes|Classique TV|https://stmv1.srvif.com/classique/classique/playlist.m3u8
+Normal|Live|Filmes|FilmRise|https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889320
+Normal|Live|Filmes|GeekDot|https://stream.ichibansys.com:3764/hybrid/play.m3u8
+Normal|Live|Filmes|Grjngo|https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8
+Normal|Live|Filmes|iCarly|https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
+Normal|Live|Filmes|Já Viu Tv|https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8
+Normal|Live|Filmes|Mega One Tv|https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
+Normal|Live|Filmes|Moviesphere|https://amg00353-amg00353c29-plex-us-3205.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg00353-lionsgatetvfast-moviespherebrazil-plexus/playlist.m3u8
+Normal|Live|Filmes|MyTime Movie Network|https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+Normal|Live|Filmes|NBX Pipoca|https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8
+Normal|Live|Filmes|Nova Juarez|https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
+Normal|Live|Filmes|ORTV|https://tv.ortv.com.br/hls/stream.m3u8
+Normal|Live|Filmes|Osório News|https://stmv2.srvsh.com.br/0003/0003/playlist.m3u8
+Normal|Live|Filmes|RBTI Movies|https://tv.rbti.tv.br/rbti2/540p/index.m3u8
+Normal|Live|Filmes|Rede Clouding|https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
+Normal|Live|Filmes|Rede QDM|https://stmv1.transmissaodigital.com/redeqdm/redeqdm/playlist.m3u8
+Normal|Live|Filmes|Reviva|https://stmv.webtvninjas.com.br/webtvni1/webtvni1/playlist.m3u8
+Normal|Live|Filmes|RS SERIES|https://video01.logicahost.com.br/rsNewswebtv/rsNewswebtv/playlist.m3u8
+Normal|Live|Filmes|Runtime|https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
+Normal|Live|Filmes|Runtime Ação|https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
+Normal|Live|Filmes|Runtime Comédia|https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
+Normal|Live|Filmes|Runtime Crime|https://run-cr-br.otteravision.com/run/cr_br/cr_br_720.m3u8
+Normal|Live|Filmes|Runtime Família|https://run-rufb.otteravision.com/run/rufb/rufb_720.m3u8
+Normal|Live|Filmes|Runtime Romance|https://run-ro-br.otteravision.com/run/ro_br/ro_br_720.m3u8
+Normal|Live|Filmes|SonyOne|https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
+Normal|Live|Filmes|SonyOne Emoções|https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8
+Normal|Live|Filmes|TV CLUBE WEB|https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1900104917_240.m3u8
+Normal|Live|Filmes|TV J.SID|https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8
+Normal|Live|Filmes|TV LatinaSat|https://www.latinasat.com.br/hls/live/stream/index.m3u8
+Normal|Live|Filmes|TVNA|https://stmv6.voxtvhd.com.br/tvnafilmes/tvnafilmes/playlist.m3u8
+Normal|Live|Filmes|TV Series|https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+Normal|Live|Filmes|TV Web Sul Bahia|https://a.cdni.live/Rádiosmultimidia/Rádiosmultimidia/chunklist_w544165624.m3u8
+Normal|Live|Filmes|Vintage|https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
+Normal|Live|Filmes|Vintage WebTV|https://59d39900ebfb8.streamlock.net/tvpantanalms/tvpantanalms/playlist.m3u8
+Normal|Live|Filmes|Viva Web|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
+Normal|Live|Comedia|Cine Comedy|https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSnVyb3WDB6LJcYpPW8CUijWhgk4OD3XcJyAwsVzm2g&s=10
+Normal|Live|Comedia|Kenan & Kel|https://jmp2.uk/plu-5ffcc5130fd98c0007f2e216.m3u8
+Normal|Live|Comedia|Runtime Comédia|https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
+Normal|Live|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
+Normal|Live|Culinária|Receitas Fast|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
+Normal|Live|Cultura|Canal Educação|https://canaleducacao-stream.ebc.com.br/index.m3u8
+Normal|Live|Cultura|Canal FDR|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
+Normal|Live|Cultura|Canal Gov|https://canalgov-stream.ebc.com.br/index.m3u8
+Normal|Live|Cultura|Cultura Fast|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
+Normal|Live|Cultura|Cultura PR 1|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
+Normal|Live|Cultura|Cultura PR 2|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
+Normal|Live|Cultura|Cultura Canal 38|https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+Normal|Live|Cultura|D+ TV|https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
+Normal|Live|Cultura|Educativa MS|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
+Normal|Live|Cultura|ISTV|https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
+Normal|Live|Cultura|ISTV 2|https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
+Normal|Live|Cultura|ISTV 3|https://video10.logicahost.com.br/redeistv/redeistv/playlist.m3u8
+Normal|Live|Cultura|Nature Time|https://amg01576-amg01576c12-plex-us-11251.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
+Normal|Live|Cultura|Rede Brasil|https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+Normal|Live|Cultura|Rede Brasil 2|https://redebrasil.nuvemplay.live/hls/stream.m3u8
+Normal|Live|Cultura|REDE MINAS 2|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15327/playlist/playlist.m3u8
+Normal|Live|Cultura|REDE MINAS 3|https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+Normal|Live|Cultura|Santa Cecilia TV|https://video11.logicahost.com.br/unisantaapp/unisantaapp/chunklist_w835203245.m3u8
+Normal|Live|Cultura|SescTV|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
+Normal|Live|Cultura|Smithsonian Channel|https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
+Normal|Live|Cultura|STZ TV|https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
+Normal|Live|Cultura|TV Aberta SP|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/chunklist_w1066622811.m3u8
+Normal|Live|Cultura|TV Brasil|https://tvbrasil-stream.ebc.com.br/index.m3u8
+Normal|Live|Cultura|TV Brasil Central|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
+Normal|Live|Cultura|TV Brasil Internacional|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
+Normal|Live|Cultura|TV Cultura|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+Normal|Live|Cultura|TV Cultura Pará|https://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8
+Normal|Live|Cultura|TV Futuro RN|https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
+Normal|Live|Cultura|TV Life America|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
+Normal|Live|Cultura|TV Nova Nordeste PE|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
+Normal|Live|Cultura|TV Poços|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
+Normal|Live|Cultura|TV UFOP|https://app.tvufop.com.br/hls/tvufop.m3u8
+Normal|Live|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
+Normal|Live|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+Normal|Live|Documentários|Sobrevivi|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
+Normal|Live|Educativos|Canal Saude|https://cdn.aws.eitvcloud.com/account351-i1495/event/canalsaude/format720p.m3u8
+Normal|Live|Educativos|TV Mais News|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
+Normal|Live|English|TV Carioca Inter|https://video03.logicahost.com.br/cariocainternacional1/cariocainternacional1/playlist.m3u8
+Normal|Live|English|Wording|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w2110040520.m3u8
+Normal|Live|Entretenimento|AWTV-filmes|https://awtv.nuvemplay.live/hls/stream.m3u8
+Normal|Live|Entretenimento|BlitsTV|https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8
+Normal|Live|Entretenimento|Loading|https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+Normal|Live|Entretenimento|MTV Catfish|https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8
+Normal|Live|Entretenimento|MTV Jovens e Maes|https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
+Normal|Live|Entretenimento|NTV|https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
+Normal|Live|Entretenimento|Petlovers TV|https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
+Normal|Live|Entretenimento|TV Curuca|https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8
+Normal|Live|Entretenimento|TV Parana Turismo|https://aovivo.paranaeducativa.pr.gov.br/hls/tve.m3u8
+Normal|Live|Entretenimento|TV+Pet|https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
+Normal|Live|Entretenimento|Uma TV|https://umatv.nuvemplay.live/hls/stream.m3u8
+Normal|Live|Entretenimento|Zoom|https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
+Normal|Live|Kids|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
+Normal|Live|Kids|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+Normal|Live|Kids|LIKE|https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8
+Normal|Live|Kids|Ministério Infantil|https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
+Normal|Live|Kids|Nickelodeon|https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+Normal|Live|Kids|NickOnline|https://x1colegal.com/hls/stream.m3u8
+Normal|Live|Kids|Otaku Sign|https://stmv1.srvif.com/anime/anime/playlist.m3u8
+Normal|Live|Kids|Retrô Cartoon|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
+Normal|Live|Kids|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
+Normal|Live|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
+Normal|Live|Livre|Adesso TV|https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
+Normal|Live|Livre|Amazon Sat|https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+Normal|Live|Livre|Araruna TV|https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
+Normal|Live|Livre|BDC TV (TV Á Crítica)|https://video01.brascast.com/bdctv/bdctv/playlist.m3u8
+Normal|Live|Livre|Canal Metropolitano|https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
+Normal|Live|Livre|Canal Uol|https://video24.mais.uol.com.br/live/6146.m3u8
+Normal|Live|Livre|EuTV|https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+Normal|Live|Livre|Lucas TV|https://stmv1.srvif.com/lucastv/lucastv/playlist.m3u8
+Normal|Live|Livre|MBC Brasil TV|https://cdn.mbcbrasil.tv.br/mbc_web/index.m3u8?cookieCheck=1
+Normal|Live|Livre|O Dia TV|https://6836041ea1117.streamlock.net/tvodia/tvodia/chunklist_w171190789.m3u8
+Normal|Live|Livre|Pop TV|https://rtisoluctions.com.br/hls/test.m3u8
+Normal|Live|Livre|Rádio TV SRN|https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
+Normal|Live|Livre|RedBull TV|https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
+Normal|Live|Livre|Rede SPTV|https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
+Normal|Live|Livre|Soul TV|https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
+Normal|Live|Livre|TV Channel Network|https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8
+Normal|Live|Livre|TV Cidade Brasil|https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
+Normal|Live|Livre|TV Cidade Oeste|https://video07.logicahost.com.br/tvcidadeoeste/tvcidadeoeste/chunklist_w398548848.m3u8
+Normal|Live|Livre|TV Difusao|https://tvdsoultv.acessaRádioss.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
+Normal|Live|Livre|TV Estado|https://video01.brascast.com/82b92cec/82b92cec/playlist.m3u8
+Normal|Live|Livre|TV Litoral|https://srv2.tvmais.net.br/hls/tvlitoral/1_0/index.m3u8
+Normal|Live|Livre|TV Litoral|https://live20.bozztv.com/akamaissh101/ssh101/litoraltv/playlist.m3u8
+Normal|Live|Livre|TV Sul Bahia|https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
+Normal|Live|Público|TV ALMG|https://streaming.almg.gov.br/live/tvalmg.m3u8
+Normal|Live|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
+Normal|Live|Público|TV Câmara 2|https://stream3.camara.gov.br/tv1/manifest.m3u8
+Normal|Live|Rádios|BandFM|https://hqf6tcxuhk.singularcdn.net.br/live/019f04f9-24bd-781c-94bf-f802b5061c57/s1/playlist-720p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMzNzExOSwibmJmIjoxNzkxMzM3MTE5LCJleHAiOjE3OTM5MjkxMTksInVyaV9zdWIiOiIvMDE5ZjA0ZjktMjRiZC03ODFjLTk0YmYtZjgwMmI1MDYxYzU3LyIsInVpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9._stdAfA36doPFBN6FelwlpDbCc7fcq7IdueAmHrujLQ&uid=f83ead9e-d64f-46ea-a282-a35817ba54cb
+Normal|Live|Rádios|CaTV FM|https://5b33b873179a2.streamlock.net:1443/Rádioscamera/livestream/playlist.m3u8
+Normal|Live|Rádios|FM 94.5Cameras ao vivo|https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8
+Normal|Live|Rádios|MKK Web Rádios|https://servidor34-1.brlogic.com:8096/live?source=website
+Normal|Live|Rádios|Rádio Clube Fm|https://clubefm1.brasilstream.com.br/hls/clubefm1/index.m3u8
+Normal|Live|Rádios|Rádios Montanhesa|https://qfm.sistemasgerais.com.br/hlsm/index.m3u8
+Normal|Live|Rádios|TikTok Rádios|https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
+Normal|Live|Rádios|Wording|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w857939128.m3u8
+Normal|Live|Religios|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
+Normal|Live|Religios|Boas Novas|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
+Normal|Live|Religios|Canal Promessas|https://video01.brascast.com/gente8322/gente8322/playlist.m3u8
+Normal|Live|Religios|Despertar TV|https://br.conectmy.com.br/DespertarTV/index.m3u8
+Normal|Live|Religios|Fonte TV|https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
+Normal|Live|Religios|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+Normal|Live|Religios|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+Normal|Live|Religios|Hope English|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldvawCD/s/jsl_0sUSK6VA7GT/master.m3u8
+Normal|Live|Religios|IMPD TV|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
+Normal|Live|Religios|Novo Tempo 2|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
+Normal|Live|Religios|Plena TV|https://stmv7.voxtvhd.com.br/vitoriaplenatv/vitoriaplenatv/playlist.m3u8
+Normal|Live|Religios|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
+Normal|Live|Religios|Rede Boas Novas|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
+Normal|Live|Religios|Rede Gospel|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+Normal|Live|Religios|Rede Mais|https://video09.logicahost.com.br/redefamilia/redefamilia/playlist.m3u8
+Normal|Live|Religios|Rede Super|https://tv02.zas.media:1936/redesuper/redesuper/playlist.m3u8
+Normal|Live|Religios|Rede Universo TV|https://srv5.zcast.com.br/universotv/universotv/playlist.m3u8
+Normal|Live|Religios|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
+Normal|Live|Religios|RIT TV|https://acesso.ecast.site:3648/live/ritlive.m3u8
+Normal|Live|Religios|Rit TV 2|https://stream.ecast.com.br/rit-tv/index.m3u8
+Normal|Live|Religios|Terceiro Anjo|https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8
+Normal|Live|Religios|TV Feliz|https://video01.logicahost.com.br/tvfeliz/tvfeliz/chunklist_w1529613306.m3u8
+Normal|Live|Religios|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
+Normal|Live|Religios|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
+Normal|Live|Religios|TV Judaica|https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8
+Normal|Live|Religios|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
+Normal|Live|Religios|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
+Normal|Live|Religios|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+Normal|Live|Religios|TV Sepiol|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/chunklist_w541628865.m3u8
+Normal|Live|Religios|TV Sonora|https://video01.brascast.com/xavier4499/xavier4499/playlist.m3u8
+Normal|Live|Religios|TV Templo|https://644398c.ha.azioncdn.net/primary/tvtemplo_480p.sdp/playlist.m3u8
+Normal|Live|Religios|TV Universal|https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
+Normal|Live|Religios|TVCI|https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
+Normal|Live|Spanish|6 Tele 6|https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
+Normal|Live|Spanish|Runtime | Plex|https://stream.ads.ottera.tv/cl/261008db3u70u0uf7s7394asb0/1280x720_3071200_0_f.m3u8?i=728_2154
+Normal|Live|Sports|Canal GOAT|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
+Normal|Live|Sports|Caze TV|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
+Normal|Live|Sports|FIFA+ Portuguese English|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+Normal|Live|Sports|Ge Fast|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+Normal|Live|Sports|N Sports|https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
+Normal|Live|Sports|N Sports 2|https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_480p.m3u8
+Normal|Live|Sports|RS News Sports 1|https://video07.logicahost.com.br/rsSports01/rsSports01/playlist.m3u8
+Normal|Live|Sports|RS News Sports 2|https://video03.logicahost.com.br/rsSports2/rsSports2/playlist.m3u8
+Normal|Live|Sports|RS News Sports 3|https://video03.logicahost.com.br/rsSports3/rsSports3/playlist.m3u8
+Normal|Live|Sports|RS News Sports 4|https://video03.logicahost.com.br/rsSports4/rsSports4/playlist.m3u8
+Normal|Live|Sports|RS News Sports 5|https://video03.logicahost.com.br/rsSports5/rsSports5/playlist.m3u8
+Normal|Live|Sports|SFT Combat|https://hrm-sftc.otteravision.com/hrm/sftc/sftc_720p_high.m3u8
+Normal|Live|Travando|CinePIX|https://stream.ads.ottera.tv/playlist.m3u8?network_id=6178
+Normal|Live|Travando|CinturãoVerde|https://play.redecinturaoverde.com.br/playlist.m3u8
+Normal|Live|Travando|ElyTV|https://stmv1.srvsite.com/ely/ely/playlist.m3u8
+Normal|Live|Travando|Kuriakos Kids|https://w2.manasat.com/kKids/smil:kKids.smil/chunklist_w766147378_b1548000_sleng.m3u8
+Normal|Live|Travando|PT KURIAKOS CINE|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+Normal|Live|Travando|Século 21|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/chunklist.m3u8
+Normal|Live|Travando|SIC TV PT|https://production-fast-sic.content.okast.tv/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_ge_video_1080p30.m3u8?bpkio_serviceid=fa2e8c4385712f9aa54bbe52b1bd9b6b&bpkio_sessionid=10a1b253c113-9723022d-e08c-4e9e-ba5c-3d416eb336de&category=all&mm_sp
+Normal|Live|Travando|SICTV (Rede Record RO)|https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8?token=10625035048351615000
+Normal|Live|Travando|TV Passo Fundo|https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8
+Normal|Live|Variedades|Assim é Portugal|https://cdn-origin.smartplay.pe/soultv-assimeportugal/tracks-v1a1/mono.ts.m3u8
+Normal|Live|Variedades|Caravana Play|https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
+Normal|Live|Variedades|Chroma TV|https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
+Normal|Live|Variedades|COM Brasil|https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+Normal|Live|Variedades|COM Brasil 2|https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasilp1080.m3u8
+Normal|Live|Variedades|Conecta Mais TV|https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
+Normal|Live|Variedades|Diário Do Sertão|https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/chunklist_w1706220398.m3u8
+Normal|Live|Variedades|Entorno Sul Web TV|https://video01.brascast.com/manoel2072/manoel2072/playlist.m3u8
+Normal|Live|Variedades|MasterTV|https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
+Normal|Live|Variedades|Nova Barreiros|https://stmv1.srvif.com/novabarreiros/novabarreiros/playlist.m3u8
+Normal|Live|Variedades|PUC TV|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
+Normal|Live|Variedades|RBTV|https://redebrasileira.nuvemplay.live/hls/stream.m3u8
+Normal|Live|Variedades|Rede Live TV|https://stmv1.voxtvhd.com.br/tvrlt/tvrlt/playlist.m3u8
+Normal|Live|Variedades|Rede Meio Norte 1|https://maystreaming.cloudecast.com/redemeio/index.m3u8
+Normal|Live|Variedades|Rede Meio Norte 2|https://isaocorp.cloudecast.com/redemeio/index.m3u8
+Normal|Live|Variedades|Rede Mundo|https://video04.logicahost.com.br/redemundotv/redemundotv/chunklist_w50322081.m3u8
+Normal|Live|Variedades|Rede NGT|https://isaocorp.cloudecast.com/ngt/index.m3u8
+Normal|Live|Variedades|RS Play|https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
+Normal|Live|Variedades|RS TV|https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
+Normal|Live|Variedades|RTN TV|https://tv01.zas.media:1936/rtntv/rtntv/chunklist_w1840290280.m3u8
+Normal|Live|Variedades|TBO|https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
+Normal|Live|Variedades|Tela Brasil|https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8
+Normal|Live|Variedades|TV Acritica|https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8
+Normal|Live|Variedades|TV Aldeia|https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
+Normal|Live|Variedades|TV Alternativa|https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
+Normal|Live|Variedades|TV Antena 10|https://srt01.logicahost.com.br/a10mais/index.m3u8
+Normal|Live|Variedades|TV Arapuan|https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
+Normal|Live|Variedades|TV BRICS|https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
+Normal|Live|Variedades|TV Brusque|https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/rodrigotvbrusque.com.br/playlist.m3u8
+Normal|Live|Variedades|TV Comunitaria|https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=
+Normal|Live|Variedades|TV Diário Macapá|https://video02.logicahost.com.br/tvdiario/tvdiario/playlist.m3u8
+Normal|Live|Variedades|TV Goitacá|https://video01.brascast.com/david7639/david7639/playlist.m3u8
+Normal|Live|Variedades|TV Guará Caxias|https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
+Normal|Live|Variedades|TV Litora|https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8
+Normal|Live|Variedades|TV Mais Brasil|https://stmv8.samcast.com.br/tvmaisbrasil/tvmaisbrasil/playlist.m3u8
+Normal|Live|Variedades|TV Mais Marica|https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
+Normal|Live|Variedades|TV Marajoara|https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
+Normal|Live|Variedades|TV Max 90|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15538/playlist/chunklist.m3u8
+Normal|Live|Variedades|TV Metropole|https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
+Normal|Live|Variedades|TV MON|https://video10.logicahost.com.br/tvmon/tvmon/chunklist_w1167397805.m3u8
+Normal|Live|Variedades|TV NBN|https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
+Normal|Live|Variedades|TV Olho D'água|https://video08.logicahost.com.br/tvolhodagua/tvolhodagua/chunklist_w767214439.m3u8
+Normal|Live|Variedades|TV ONE|https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
+Normal|Live|Variedades|TV Pantanal MS|https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
+Normal|Live|Variedades|TV PBC|https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
+Normal|Live|Variedades|TV Petrópolis|https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
+Normal|Live|Variedades|TV Plan|https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8
+Normal|Live|Variedades|TV Sertão Petrolina|https://video07.logicahost.com.br/sertaopetrolina/sertaopetrolina/playlist.m3u8
+Normal|Live|Variedades|TV Sim|https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+Normal|Live|Variedades|TV Sonata|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
+Normal|Live|Variedades|TV Verdes Campos|https://a.cdni.live/redeverdes2288/redeverdes2288/playlist.m3u8
+Normal|Live|Variedades|TV Video News|https://video01.logicahost.com.br/tvideoNews/tvideoNews/playlist.m3u8
+Normal|Live|Variedades|TVC Rio|https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
+Normal|Live|Variedades|TVCOM Maceio|https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
+Normal|Live|Variedades|TVCOM Santos|https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
+Normal|Live|Variedades|YPÊ TV|https://video01.logicahost.com.br/ypetv/ypetv/chunklist_w489399374.m3u8
+Normal|Live|Vendas|Laboral TV 1|https://tv.laboralsst.com.br/hls/stream.m3u8
+Normal|Live|Vendas|Laboral TV 2|https://tv.laboralsst.com.br/hls/0/stream.m3u8
+Normal|Live|Vendas|TV Tudo BH|https://tv02.zas.media:1936/tvtudo/tvtudo/playlist.m3u8
+Normal|Live|Aberto|SBT|https://www.Aberto.com/live/Pk8WGhLxdpQ?si=RzMke2mnqaa01upT
+Normal|Live|Aberto|SBT 1|https://www.Aberto.com/embed/Pk8WGhLxdpQ?si=D-ge0HUapIXNGRI6&amp;controls=0
+Normal|Live|Aberto|SBT 2|https://www.Aberto.com/live/Pk8WGhLxdpQ?si=qmmgjoe0FRgULwfW
+Normal|Live|Znovos|RS Play|https://video05.logicahost.com.br/rsNews/rsNews/playlist.m3u8
+Normal|Live|Znovos|TVC Pará|https://srt01.logicahost.com.br/tvcbelem/tracks-v1/index.fmp4.m3u8
+Normal|Live|Znovos|UFC ByPass|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
+Normal|Live|Znovos|Plex Cine Espanto|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6683faa4cd6f1d394094114b.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=SyeVyVGKymr-tE2Q-YsZ&auto=0
+Normal|Live|Znovos|Plex Spark TV Luz y Amor|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6623c114ed4918437ed56ebc.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=SyeVyVGKymr-tE2Q-YsZ&auto=0
+Normal|Live|Znovos|Spark TV Luz y Amor|https://candlelightmedia-sparklightlove-3-br.plex.wurl.tv/playlist.m3u8
+Normal|Live|Znovos|Uma História De Amor Parte 10|https://vod3.cf.dmcdn.net/sec2(j5LRKQEXUCsSOhqnHGSDBm32yGEYs7wG8Dd0XU-4vsdPhjRalMJ_cg56peL-SGPCyuarnfsxgyjOoG9vwakrhTT1nHZmu0bfb-joSOvJNGvNXqwmUKAp-AXtZq2br8-GcVd8cDttZHBWC5l5nRwRjrgRT3KUnIxgZnH0yZ7eUVcZcxYI_7jPukgZ6T7z94vg)/video/637/321/575123736_mp4_h264_aac_hq_1.m3u8
+Normal|Live|Znovos|Uma História De Amor Parte 1|https://vod3.cf.dmcdn.net/sec2(oPM-sWdoYgnK-2WfFr-MlApyjlbfQDIKfqtA4lL8AnyPA0cbBOPoxAmvxpuMYIuWW3zV--c_ztbdN6YgmP0rbENVuK1GR3RZ6N9yjXcD4Ht7xDxxzliyQgDVbG67d7XxJFwkw5d2kWmQIKeob4KcZMj9M9U_dNptGmwOYGc01BbH21BEhWr2VQmpUhgifg6r)/video/817/321/575123718_mp4_h264_aac_hq_1.m3u8
+Normal|Live|Znovos|TVL News|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w346284232.m3u8
+Normal|Live|Znovos|Western Bound Brasil|https://ime-wbpo.otteravision.com/ime/wbpo/wbpo1080p.m3u8
+Normal|Live|Znovos|TVitapê|https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
+Normal|Live|Znovos|TVGeral|https://video05.logicahost.com.br/tvgeral/tvgeral/chunklist_w1727045055.m3u8
+Normal|Live|Znovos|BsTVOnline|https://video05.logicahost.com.br/tvgeral/tvgeral/playlist.m3u8
+Normal|Live|Znovos|TVR Sul|https://5a57bda70564a.streamlock.net/tvrsul/tvrsul.sdp/chunklist_w1988926540.m3u8
+Normal|Live|Znovos|TV WTJ Minas|https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
+Normal|Live|Znovos|7 TVs|https://stmv1.samcast.com.br/beatpapo/beatpapo/playlist.m3u8
+Normal|Live|Znovos|TV Master|https://a.cdni.live/tvmaster/tvmaster/playlist.m3u8
+Normal|Live|Znovos|Seven TV|https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
+Normal|Live|Znovos|Jonas|https://raw.githubusercontent.com/edifesf1/dailymotion_to_m3u/refs/heads/main/teste1.m3u8
+Normal|Live|HTTP|Record News 2|http://45.162.64.114/RECORD_News/index.m3u8
+Normal|Live|HTTP|JovemPan 1|http://170.83.49.66:8083/JOVEMPANNewsHD/index.m3u8
+Normal|Live|HTTP|Rede TV|http://45.162.64.114/REDE_TV/index.m3u8
+Normal|Live|HTTP|TV Bahia|http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
+Normal|Live|HTTP|TV Gazeta|http://45.162.64.114/GAZETA/index.m3u8
+Normal|Live|HTTP|AgroCanal|http://45.162.64.114/AGRO_CANAL/index.m3u8
+Normal|Live|HTTP|AgroMais|http://45.162.64.114/AGROMAIS/index.m3u8
+Normal|Live|HTTP|Terra Viva|http://45.162.64.114/TERRAVIVA/index.m3u8
+Normal|Live|HTTP|Canal do Boi|http://45.162.64.114/CANAL_DO_BOI/index.m3u8
+Normal|Live|HTTP|AMC|http://170.83.49.66:8083/AMCHD/index.m3u8
+Normal|Live|HTTP|AXN|http://170.83.16.50/AXN/index.m3u8
+Normal|Live|HTTP|LifeTime|http://170.83.16.50/LIFETIME/index.m3u8
+Normal|Live|HTTP|Sony Movies|http://45.162.64.114/SONY_MOVIES/index.m3u8
+Normal|Live|HTTP|Adult Swim|http://168.197.104.22/ADULT_SWIM/index.m3u8
+Normal|Live|HTTP|Studio Universal Spanish|http://187.102.210.46/universo/index.m3u8
+Normal|Live|HTTP|TNT Novelas|http://45.162.64.114/TNT_NOVELAS/index.m3u8
+Normal|Live|HTTP|TV Natal|http://185.228.163.146:8000/play/a01y/index.m3u8
+Normal|Live|HTTP|Chef TV|http://168.197.104.22/CHEF_TV/index.m3u8
+Normal|Live|HTTP|Arte|http://45.162.64.114/ARTE1/index.m3u8
+Normal|Live|HTTP|Rede Familia|http://168.197.104.22/REDE_FAMILIA/index.m3u8
+Normal|Live|HTTP|REDE MINAS 1|http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
+Normal|Live|HTTP|Futura|http://168.197.104.22/FUTURA/index.m3u8
+Normal|Live|HTTP|Futura 2|http://45.162.64.114/FUTURA/index.m3u8
+Normal|Live|HTTP|TV Brasil 2|http://45.162.64.114/TV_BRASIL/index.m3u8
+Normal|Live|HTTP|TVE Bahia|http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
+Normal|Live|HTTP|TVE RS 1|http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
+Normal|Live|Educativos|Canal Educação|http://45.162.64.114/CANAL_EDUCACAO/index.m3u8
+Normal|Live|Educativos|TVU (Educativoss)|http://150.161.93.220/hls/index.m3u8
+Normal|Live|HTTP|TV Cultura 2|http://45.162.64.114/TV_CULTURA/index.m3u8
+Normal|Live|HTTP|Travel BoxBrazil|http://168.197.104.22/TRAVEL_BOX_BRASIL/index.m3u8
+Normal|Live|HTTP|TV GRANDE NATAL|http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8
+Normal|Live|HTTP|TV Parana Turismo|http://200.189.113.201/hls/tve.m3u8
+Normal|Live|HTTP|TV Vicosa|http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
+Normal|Live|HTTP|WooHoo|http://45.162.64.114/WOOHOO/index.m3u8
+Normal|Live|HTTP|Adult Swim|http://168.197.104.22/ADULT_SWIM/index.m3u8
+Normal|Live|HTTP|Box Kids TV|http://170.83.49.66:8083/BOXKidsHD/index.m3u8
+Normal|Live|HTTP|DumDum|http://45.162.64.114/ZOOMOO_Kids/index.m3u8
+Normal|Live|HTTP|Canal Se7e|http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/chunklist_w756859702.m3u8
+Normal|Live|HTTP|NE TV|http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
+Normal|Live|HTTP|Music Box Brazil|http://168.197.104.22/Music/index.m3u8
+Normal|Live|HTTP|TV Justiça|http://45.162.64.114/TV_JUSTICA/index.m3u8
+Normal|Live|HTTP|TV Senado|http://45.162.64.114/TV_SENADO/index.m3u8
+Normal|Live|HTTP|Rádios U99,9|http://150.161.93.221/hls/stream/index.m3u8
+Normal|Live|HTTP|Cancao Nova|http://45.162.64.114/CANCAO_NOVA/index.m3u8
+Normal|Live|HTTP|Cancao Nova|http://45.162.64.114/CANCAO_NOVA/index.m3u8
+Normal|Live|HTTP|Fonte TV|http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
+Normal|Live|HTTP|Novo Tempo 1|http://45.162.64.114/NOVO_TEMPO/index.m3u8
+Normal|Live|HTTP|Rede CNT|http://45.162.64.114/CNT/index.m3u8
+Normal|Live|HTTP|Rede Seculo 21|http://45.162.64.114/REDE_SECULO_21/index.m3u8
+Normal|Live|HTTP|RedeVida|http://168.197.104.22/REDE_VIDA/index.m3u8
+Normal|Live|HTTP|TV Aparecida|http://45.162.64.114/TV_APARECIDA/index.m3u8
+Normal|Live|HTTP|TV Pai Eterno|http://45.162.64.114/TV_PAI_ETERNO/index.m3u8
+Normal|Live|HTTP|ESPN Spanish|http://181.78.197.59:8000/play/a07z/index.m3u8
+Normal|Live|HTTP|Studio Universal Spanish|http://187.102.210.46/universo/index.m3u8
+Normal|Live|HTTP|ESPN Spanish|http://181.78.197.59:8000/play/a07z/index.m3u8
+Normal|Live|HTTP|ESPN4 English|http://181.78.197.59:8000/play/a07n/index.m3u8
+Normal|Live|HTTP|Fish TV|http://190.128.214.97:64333/play/a006/index.m3u8
+Normal|Live|HTTP|SportTV|http://195.178.110.110/sportv/index.m3u8
+Normal|Live|HTTP|SportTV 2|http://195.178.110.110/sportv2/index.m3u8
+Normal|Live|HTTP|SportTV 3|http://195.178.110.110/sportv3/index.m3u8
+Normal|Live|HTTP|Play TV|http://45.162.64.114/PLAY_TV/index.m3u8
+Normal|Live|HTTP|Primer TV|http://200.194.238.229:8383/live/primer/playlist.m3u8
+
+
+Normal|Music|Canais|Arena Djs|https://stmv8.samcast.com.br/arenajs/arenajs/playlist.m3u8
+Normal|Music|Canais|Central do Brasil|https://stmv2.centralcast.com.br/central/central/chunklist_w348243781.m3u8
+Normal|Music|Canais|Gospel Normal|Music|https://stmv1.srvif.com/gMusic/gMusic/playlist.m3u8
+Normal|Music|Canais|Hip-hop (Music)|https://stmv4.voxtvhd.com.br/carlosdavi6787/carlosdavi6787/playlist.m3u8
+Normal|Music|Canais|Lamore Rock|https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
+Normal|Music|Canais|Mais TV|https://v2.cloudecast.com/maistv/tracks-v1a1/mono.m3u8
+Normal|Music|Canais|MTV Classic BR|https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
+Normal|Music|Canais|MTV Pop BR|https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
+Normal|Music|Canais|MTV Rocks|https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
+Normal|Music|Canais|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
+Normal|Music|Canais|Trace Brazuca 1|https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8
+Normal|Music|Canais|Trace Brazuca 2|https://amg01131-tracetv-tracebrazuca-xiaomi-vvr19.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
+Normal|Music|Canais|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
+Normal|Music|Canais|TV Sao Raimundo|https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
+Normal|Music|Series|Geral|Vídeo de exemplo|https://youtu.be/aqz-KE-bpKQ
+Nomal|Radio|Series|Música e Lives|Rádio transmissão ao vivo|https://www.youtube.com/watch?v=jfKfPfyJRdk
+Series|Series|Estudos Bíblicos|APOCALIPSE SE CUMPRIR? Rodrigo Silva|https://www.youtube.com/watch?v=esh6wXrLJ2s
+Series|Series|Estudos Bíblicos|A IGREJA NOS DIAS ATUAIS|https://www.youtube.com/watch?v=jYVOCVqiz2c
+Series|Series|Música|Canal de música|https://www.youtube.com/watch?v=M7lc1UVf-VE
+
+
+
+Notícias|CNN Brasil Ao Vivo|https://www.youtube.com/watch?v=0O8gRb6eCQk
+Notícias|BandNews Ao Vivo|https://www.youtube.com/@bandnewstv/live
+Notícias|SBT News Ao Vivo|https://www.youtube.com/watch?v=8L_K9RY7HB4
