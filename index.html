@@ -37,6 +37,10 @@
       transform: translateY(0);
     }
 
+    #navegacaoCanais { position:fixed; top:60px; left:0; width:100%; z-index:99; display:flex; justify-content:space-between; align-items:center; padding:8px 12px; pointer-events:none; transform:translateY(-180%); opacity:0; transition:transform .10s linear,opacity .10s linear; }
+    #navegacaoCanais.controles-visiveis { transform:translateY(0); opacity:1; }
+    #navegacaoCanais button { pointer-events:auto; border:1px solid rgba(255,255,255,.55); border-radius:6px; background:rgba(180,0,0,.94); color:#fff; padding:10px 14px; font-size:15px; font-weight:bold; cursor:pointer; box-shadow:0 3px 10px rgba(0,0,0,.4); }
+    #navegacaoCanais button:disabled { opacity:.45; cursor:not-allowed; }
     #temaAtual { display: none; }
     main { max-width: 1000px; margin: auto; padding: 16px; }
     /* O player acompanha o fluxo da página para não cobrir a tarja vermelha. */
@@ -109,7 +113,7 @@
     .cascade-group[hidden] { display: none; }
     @media (max-width: 600px) {
       header { gap: 6px; padding: 8px; }
-      #cascadeBar { gap: 5px; }
+      #navegacaoCanais { padding:6px 8px; }\n      #navegacaoCanais button { padding:9px 10px; font-size:13px; }\n      #cascadeBar { gap: 5px; }
       .cascade-group select { max-width: none; font-size: 12px; padding: 8px 18px 8px 5px; }
     }
 
@@ -187,7 +191,10 @@
     </nav>
   </header>
 
-
+  <div id="navegacaoCanais" aria-label="Navegação entre canais">
+    <button id="canalAnterior" type="button">◀ Anterior</button>
+    <button id="proximoCanal" type="button">Próximo ▶</button>
+  </div>
 
   <main>
     <div id="player"></div>
@@ -203,30 +210,28 @@
     
     function mostrarTarja() {
       if (document.body.classList.contains("bloqueado")) return;
-    
+      const controles = document.getElementById("navegacaoCanais");
       tarja.classList.add("tarja-visivel");
-    
+      controles.classList.add("controles-visiveis");
+      controles.style.top = tarja.getBoundingClientRect().height + "px";
       clearTimeout(temporizadorTarja);
-    
       temporizadorTarja = setTimeout(() => {
-        tarja.classList.remove("tarja-visivel");
+        if (!tarja.matches(":focus-within") && !controles.matches(":focus-within")) {
+          tarja.classList.remove("tarja-visivel");
+          controles.classList.remove("controles-visiveis");
+        }
       }, 2000);
     }
-    
-    function ocultarTarja() {
-      clearTimeout(temporizadorTarja);
-      tarja.classList.remove("tarja-visivel");
-    }
 
-    
     function ocultarTarja() {
       clearTimeout(temporizadorTarja);
-    
-      if (!tarja.matches(":focus-within")) {
+      const controles = document.getElementById("navegacaoCanais");
+      if (!tarja.matches(":focus-within") && !controles.matches(":focus-within")) {
         tarja.classList.remove("tarja-visivel");
+        controles.classList.remove("controles-visiveis");
       }
     }
-    
+
     // Mouse: aparece ao movimentar o ponteiro.
     document.addEventListener("mousemove", mostrarTarja, { passive: true });
     
@@ -247,8 +252,22 @@
     
     
     tarja.addEventListener("focusout", () => {
-      if (!tarja.matches(":focus-within")) {
-        ocultarTarja();
+      if (!tarja.matches(":focus-within") &&
+          !document.getElementById("navegacaoCanais").matches(":focus-within")) ocultarTarja();
+    });
+    const navegacaoCanais = document.getElementById("navegacaoCanais");
+    navegacaoCanais.addEventListener("focusin", () => {
+      clearTimeout(temporizadorTarja);
+      tarja.classList.add("tarja-visivel");
+      navegacaoCanais.classList.add("controles-visiveis");
+      navegacaoCanais.style.top = tarja.getBoundingClientRect().height + "px";
+    });
+    navegacaoCanais.addEventListener("focusout", () => {
+      if (!navegacaoCanais.matches(":focus-within") && !tarja.matches(":focus-within")) {
+        temporizadorTarja = setTimeout(() => {
+          tarja.classList.remove("tarja-visivel");
+          navegacaoCanais.classList.remove("controles-visiveis");
+        }, 2000);
       }
     });
 
@@ -306,6 +325,7 @@
       
         // Começar com a tarja escondida.
         tarja.classList.remove("tarja-visivel");
+        document.getElementById("navegacaoCanais").classList.remove("controles-visiveis");
         clearTimeout(temporizadorTarja);
       }
 
@@ -464,6 +484,22 @@
       C3: document.getElementById("grupoC3"),
       D4: document.getElementById("grupoD4"),
     };
+    const botaoCanalAnterior = document.getElementById("canalAnterior");
+    const botaoProximoCanal = document.getElementById("proximoCanal");
+    function atualizarBotoesNavegacao() {
+      botaoCanalAnterior.disabled = botaoProximoCanal.disabled = videos.length <= 1;
+    }
+    function navegarCanal(direcao) {
+      if (!videos.length) return;
+      selecionado = (selecionado + direcao + videos.length) % videos.length;
+      [...lista.children].forEach((botao, indice) => botao.classList.toggle("ativo", indice === selecionado));
+      criarPlayer();
+      status.textContent = "Canal " + (selecionado + 1) + " de " + videos.length + ": " + videos[selecionado].titulo;
+      mostrarTarja();
+    }
+    botaoCanalAnterior.addEventListener("click", () => navegarCanal(-1));
+    botaoProximoCanal.addEventListener("click", () => navegarCanal(1));
+
 
     function preencherSelect(select, valores) {
       select.replaceChildren();
@@ -505,6 +541,7 @@
       player = null;
 
       if (!videos.length) {
+        atualizarBotoesNavegacao();
         status.textContent = tema ? "Nenhum vídeo nesta seleção." : "Selecione os menus acima.";
         return;
       }
@@ -520,6 +557,7 @@
       });
       selecionado = 0;
       [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === 0));
+      atualizarBotoesNavegacao();
       status.textContent = `${videos.length} vídeo(s).`;
       if (episodio && videos.length === 1) criarPlayer();
     }
