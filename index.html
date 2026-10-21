@@ -490,31 +490,13 @@
       botaoCanalAnterior.disabled = botaoProximoCanal.disabled = videos.length <= 1;
     }
     function navegarCanal(direcao) {
-      // Quando D4 (Episódio) está selecionado, videos contém apenas o item escolhido.
-      // Nesse caso, navegue entre todos os itens da mesma seleção A1/B2/C3 e atualize D4.
-      if (menuD4.value && menuA1.value && menuB2.value && menuC3.value) {
-        const candidatos = todosVideos.filter(v =>
-          v.tema === menuA1.value &&
-          v.categoria === menuB2.value &&
-          v.classificacao === menuC3.value
-        );
-        if (!candidatos.length) return;
-        const atual = videos[selecionado] || candidatos.find(v => v.titulo === menuD4.value);
-        let indiceAtual = candidatos.findIndex(v => atual && v.url === atual.url);
-        if (indiceAtual < 0) indiceAtual = candidatos.findIndex(v => v.titulo === menuD4.value);
-        if (indiceAtual < 0) indiceAtual = 0;
-        const proximo = candidatos[(indiceAtual + direcao + candidatos.length) % candidatos.length];
-        menuD4.value = proximo.titulo;
-        aplicarFiltros();
-        mostrarTarja();
-        return;
-      }
-
       if (!videos.length) return;
       selecionado = (selecionado + direcao + videos.length) % videos.length;
+      const item = videos[selecionado];
+      if (menuD4.value) menuD4.value = item.titulo;
       [...lista.children].forEach((botao, indice) => botao.classList.toggle("ativo", indice === selecionado));
       criarPlayer();
-      status.textContent = "Canal " + (selecionado + 1) + " de " + videos.length + ": " + videos[selecionado].titulo;
+      status.textContent = "Canal " + (selecionado + 1) + " de " + videos.length + ": " + item.titulo;
       mostrarTarja();
     }
     botaoCanalAnterior.addEventListener("click", () => navegarCanal(-1));
@@ -549,11 +531,12 @@
       const categoria = menuB2.value;
       const classificacao = menuC3.value;
       const episodio = menuD4.value;
+      // D4 escolhe o vídeo inicial, mas não reduz a lista abaixo do player.
+      // A lista e os botões de navegação continuam abrangendo todos os itens de A1/B2/C3.
       videos = todosVideos.filter(v =>
         (!tema || v.tema === tema) &&
         (!categoria || v.categoria === categoria) &&
-        (!classificacao || v.classificacao === classificacao) &&
-        (!episodio || v.titulo === episodio)
+        (!classificacao || v.classificacao === classificacao)
       );
       lista.replaceChildren();
       const area = document.getElementById("player");
@@ -570,16 +553,19 @@
         botao.textContent = `${index + 1}. ${video.titulo}`;
         botao.addEventListener("click", () => {
           selecionado = index;
+          if (menuD4.value) menuD4.value = video.titulo;
           [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === index));
           criarPlayer();
         });
         lista.appendChild(botao);
       });
-      selecionado = 0;
-      [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === 0));
+      // Se D4 estiver selecionado, começa pelo episódio escolhido; caso contrário, pelo primeiro.
+      selecionado = episodio ? videos.findIndex(v => v.titulo === episodio) : 0;
+      if (selecionado < 0) selecionado = 0;
+      [...lista.children].forEach((b, i) => b.classList.toggle("ativo", i === selecionado));
       atualizarBotoesNavegacao();
       status.textContent = `${videos.length} vídeo(s).`;
-      if (episodio && videos.length === 1) criarPlayer();
+      if (episodio) criarPlayer();
     }
 
     menuA1.addEventListener("change", () => {
