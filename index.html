@@ -272,6 +272,7 @@
         LOGINS_VALIDOS = [...new Set(texto.split(/\r?\n/)
           .map(linha => linha.trim().toUpperCase())
           .filter(linha => /^[A-Z0-9]{6}$/.test(linha))
+        )];
 
         if (LOGINS_VALIDOS.length === 0) throw new Error("Nenhum login válido encontrado");
         erroLogin.textContent = "";
