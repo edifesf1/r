@@ -93,7 +93,6 @@ def obter_live(url):
 
             dados = json.loads(proc.stdout)
             entradas = dados.get("entries")
-
             candidatos = entradas if entradas else [dados]
 
             for item in candidatos:
@@ -151,6 +150,7 @@ def main():
     linhas = texto.splitlines()
     resultado = []
     alteracoes = 0
+    canais_encontrados = set()
 
     for linha in linhas:
         if not linha.strip() or linha.lstrip().startswith("#"):
@@ -159,32 +159,49 @@ def main():
 
         partes = linha.split("|")
 
-        if len(partes) < 6:
+        # Aceita exclusivamente o formato de cinco colunas:
+        # Tema|Categoria|Classificação|Título|URL
+        if len(partes) != 5:
             resultado.append(linha)
             continue
 
-        nome = partes[4].strip()
-        url_atual = partes[5].strip()
+        nome = partes[3].strip()
+        url_atual = partes[4].strip()
         chave = identificar_canal(nome)
 
-        if (
-            chave in lives
-            and lives[chave]
-            and re.match(
-                r"^https?://(www\.)?(youtube\.com|youtu\.be)/",
-                url_atual,
-                re.IGNORECASE,
-            )
-        ):
-            nova_url = lives[chave]
+        if chave not in lives:
+            resultado.append(linha)
+            continue
 
-            if url_atual != nova_url:
-                partes[5] = nova_url
-                linha = "|".join(partes)
-                alteracoes += 1
-                print(f"Atualizado: {nome} -> {nova_url}")
+        nova_url = lives[chave]
+
+        if not nova_url:
+            print(
+                f"Preservado: {nome} — "
+                "não foi possível confirmar uma live ativa."
+            )
+            resultado.append(linha)
+            continue
+
+        canais_encontrados.add(chave)
+
+        if url_atual != nova_url:
+            partes[4] = nova_url
+            linha = "|".join(partes)
+            alteracoes += 1
+            print(f"Atualizado: {nome} -> {nova_url}")
+        else:
+            print(f"Já atualizado: {nome}")
 
         resultado.append(linha)
+
+    for chave, url in lives.items():
+        if url and chave not in canais_encontrados:
+            print(
+                f"ATENÇÃO: live identificada para '{chave}', "
+                "mas nenhuma linha correspondente de cinco colunas "
+                "foi encontrada em youtube.txt."
+            )
 
     novo_texto = "\n".join(resultado)
 
