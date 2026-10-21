@@ -42,16 +42,43 @@
     #navegacaoCanais button { pointer-events:auto; border:1px solid rgba(255,255,255,.55); border-radius:6px; background:rgba(180,0,0,.94); color:#fff; padding:10px 14px; font-size:15px; font-weight:bold; cursor:pointer; box-shadow:0 3px 10px rgba(0,0,0,.4); }
     #navegacaoCanais button:disabled { opacity:.45; cursor:not-allowed; }
     #temaAtual { display: none; }
-    main { max-width: 1000px; margin: auto; padding: 16px; }
-    /* O player acompanha o fluxo da página para não cobrir a tarja vermelha. */
+    
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: calc(56.25vw + 16px) 16px 16px;
+    }
+    
+    /* Player fixo no topo: os canais passam por baixo dele. */
     #player {
-      position: relative;
-      z-index: 1;
-      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 50;
+      width: min(100%, 1000px);
       aspect-ratio: 16 / 9;
       background: #000;
       box-shadow: 0 8px 18px rgba(0,0,0,.55);
+      overflow: hidden;
     }
+    
+    #player iframe,
+    #player video,
+    #player > div {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    
+    /* Em telas largas, considera a largura máxima de 1000px. */
+    @media (min-width: 1032px) {
+      main {
+        padding-top: 578.5px;
+      }
+    }
+
     #player iframe { display: block; width: 100%; height: 100%; border: 0; }
     #status, #lista { position: relative; z-index: 1; }
     #status { padding: 12px 0; color: #ccc; }
