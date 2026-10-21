@@ -129,6 +129,11 @@ Normal|Music|Canais|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3
 Normal|Music|Canais|TV Sao Raimundo|https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
 Normal|Music|Series|Geral|Vídeo de exemplo|https://youtu.be/aqz-KE-bpKQ
 Nomal|Radio|Series|Música e Lives|Rádio transmissão ao vivo|https://www.youtube.com/watch?v=jfKfPfyJRdk
+
+#Series
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|Inteligência Artificial|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
+Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Tempo do Fim|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
 Series|Series|Estudos Bíblicos|APOCALIPSE SE CUMPRIR? Rodrigo Silva|https://www.youtube.com/watch?v=esh6wXrLJ2s
 Series|Series|Estudos Bíblicos|A IGREJA NOS DIAS ATUAIS|https://www.youtube.com/watch?v=jYVOCVqiz2c
 Series|Series|Música|Canal de música|https://www.youtube.com/watch?v=M7lc1UVf-VE
