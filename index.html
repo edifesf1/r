@@ -148,7 +148,19 @@
     <form id="caixaLogin">
       <h1>Youtube IPTV</h1>
       <p>Digite seu login de acesso para continuar.<br>Não é necessária senha.</p>
-      <input id="campoLogin" name="login" autocomplete="off" autocapitalize="characters" placeholder="Ex.: YTXXXXXXXX" maxlength="10" required>
+            
+      <input
+        id="campoLogin"
+        name="login"
+        autocomplete="off"
+        autocapitalize="characters"
+        placeholder="Ex.: A7B29X"
+        maxlength="6"
+        minlength="6"
+        pattern="[A-Za-z0-9]{6}"
+        required
+      >
+
       <button id="entrarLogin" type="submit">ENTRAR</button>
       <div id="erroLogin" role="alert"></div>
     </form>
@@ -256,9 +268,11 @@
         const resposta = await fetch("./LOGINS-200.txt?v=" + Date.now(), { cache: "no-store" });
         if (!resposta.ok) throw new Error("HTTP " + resposta.status);
         const texto = await resposta.text();
+        
         LOGINS_VALIDOS = [...new Set(texto.split(/\r?\n/)
           .map(linha => linha.trim().toUpperCase())
-          .filter(linha => /^YT[A-Z0-9]{8}$/.test(linha)))];
+          .filter(linha => /^[A-Z0-9]{6}$/.test(linha))
+
         if (LOGINS_VALIDOS.length === 0) throw new Error("Nenhum login válido encontrado");
         erroLogin.textContent = "";
         botaoEntrar.disabled = false;
