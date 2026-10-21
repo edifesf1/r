@@ -17,24 +17,23 @@ PADROES_CLIENTE = [
 
 
 def identificar_canal(nome):
+    """Identifica somente nomes exatos de canais configurados."""
     n = re.sub(r"\s+", " ", nome.casefold()).strip()
 
-    if "cnn brasil" in n:
-        return "cnn"
-    if "bandnews" in n or "band news" in n:
-        return "bandnews"
-    if "sbt news" in n:
-        return "sbt"
-    if "record news" in n:
-        return "record"
-    if "jovem pan" in n:
-        return "jovem"
-    if "bandjornal" in n:
-        return "bandjornal"
-    if "novo tempo" in n:
-        return "tvnovotempo"
+    canais = {
+        "cnn brasil": "cnn",
+        "bandnews": "bandnews",
+        "band news": "bandnews",
+        "sbt news": "sbt",
+        "record news": "record",
+        "jovem pan": "jovem",
+        "bandjornal": "bandjornal",
+        "band jornal": "bandjornal",
+        "novo tempo": "tvnovotempo",
+        "tv novo tempo": "tvnovotempo",
+    }
 
-    return None
+    return canais.get(n)
 
 
 def ler_canais():
@@ -83,7 +82,10 @@ def obter_live(url):
             if proc.returncode != 0 or not proc.stdout.strip():
                 erro = proc.stderr.strip()
 
-                if "Sign in to confirm" in erro:
+                if (
+                    "Sign in to confirm" in erro
+                    or "confirm you're not a bot" in erro.lower()
+                ):
                     print("YouTube exige confirmação contra bots.")
                 elif erro:
                     print(f"Falha de consulta: {erro[-300:]}")
@@ -96,7 +98,7 @@ def obter_live(url):
             candidatos = entradas if entradas else [dados]
 
             for item in candidatos:
-                if not item:
+                if not isinstance(item, dict):
                     continue
 
                 ativo = (
@@ -159,17 +161,39 @@ def main():
 
         partes = linha.split("|")
 
-        # Aceita exclusivamente o formato de cinco colunas:
+        # Formato obrigatório:
         # Tema|Categoria|Classificação|Título|URL
         if len(partes) != 5:
             resultado.append(linha)
             continue
 
+        categoria = partes[1].strip()
+        classificacao = partes[2].strip()
         nome = partes[3].strip()
         url_atual = partes[4].strip()
+
+        # Somente transmissões ao vivo da categoria Notícias.
+        if categoria.casefold() != "live":
+            resultado.append(linha)
+            continue
+
+        if classificacao.casefold() != "notícias":
+            resultado.append(linha)
+            continue
+
+        # Não modificar links que não sejam do YouTube.
+        if not re.match(
+            r"^https?://(www\.)?(youtube\.com|youtu\.be)/",
+            url_atual,
+            re.IGNORECASE,
+        ):
+            resultado.append(linha)
+            continue
+
+        # Correspondência exata: "Record News 2" não é "Record News".
         chave = identificar_canal(nome)
 
-        if chave not in lives:
+        if not chave or chave not in lives:
             resultado.append(linha)
             continue
 
@@ -199,7 +223,7 @@ def main():
         if url and chave not in canais_encontrados:
             print(
                 f"ATENÇÃO: live identificada para '{chave}', "
-                "mas nenhuma linha correspondente de cinco colunas "
+                "mas nenhuma linha correspondente válida "
                 "foi encontrada em youtube.txt."
             )
 
