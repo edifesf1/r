@@ -1,151 +1,125 @@
 
 import json
+import re
 import subprocess
 from pathlib import Path
 
-ARQUIVO = Path("youtube.txt")
+BASE = Path(__file__).resolve().parent.parent
+ARQUIVO_CANAIS = BASE / "canais.txt"
+ARQUIVO_SAIDA = BASE / "youtube.txt"
 
-CANAIS = [
-    {
-        "chave": "cnn",
-        "nome": "CNN Brasil Ao Vivo",
-        "url": "https://www.youtube.com/@CNNbrasil/live",
-    },
-    {
-        "chave": "bandnews",
-        "nome": "BandNews Ao Vivo",
-        "url": "https://www.youtube.com/@bandnewstv/live",
-    },
-    {
-        "chave": "sbt news",
-        "nome": "SBT News Ao Vivo",
-        "url": "https://www.youtube.com/@sbtnews/live",
-    },
-]
-
-
-def localizar_canal(nome):
-    nome = nome.lower().strip()
-
-    if "cnn" in nome:
-        return CANAIS[0]
-
-    if "bandnews" in nome:
-        return CANAIS[1]
-
-    if "sbt" in nome and "news" in nome:
-        return CANAIS[2]
-
-    return None
-
-
-def obter_live(url):
-    """Retorna o link do vídeo somente se houver live ativa."""
-
+def consultar_live(url):
     try:
-        resultado = subprocess.run(
+        proc = subprocess.run(
             [
                 "yt-dlp",
                 "--dump-single-json",
                 "--no-warnings",
                 "--no-playlist",
-                "--skip-download",
                 url,
             ],
             capture_output=True,
             text=True,
             timeout=90,
-            check=False,
         )
 
-        if resultado.returncode != 0 or not resultado.stdout.strip():
-            print(f"Não foi possível consultar: {url}")
-            if resultado.stderr:
-                print(resultado.stderr[-500:])
+        if proc.returncode != 0 or not proc.stdout.strip():
+            print(f"Falha ao consultar: {url}")
+            print(proc.stderr[-500:])
             return None
 
-        dados = json.loads(resultado.stdout)
-
-        # Alguns extratores podem devolver uma coleção de vídeos.
+        dados = json.loads(proc.stdout)
         entradas = dados.get("entries")
-        if entradas:
-            dados = next(
-                (
-                    item for item in entradas
-                    if item
-                    and (
-                        item.get("is_live") is True
-                        or item.get("live_status") == "is_live"
-                    )
-                ),
-                {},
-            )
 
-        esta_ao_vivo = (
+        if entradas:
+            candidatos = [
+                item for item in entradas
+                if item and (
+                    item.get("is_live") is True
+                    or item.get("live_status") == "is_live"
+                )
+            ]
+            dados = candidatos[0] if candidatos else {}
+
+        if not (
             dados.get("is_live") is True
             or dados.get("live_status") == "is_live"
-        )
+        ):
+            print(f"Nenhuma live ativa encontrada: {url}")
+            return None
 
-        video_id = dados.get("id")
+        video_id = dados.get("id", "")
 
-        if esta_ao_vivo and video_id:
-            return f"https://www.youtube.com/watch?v={video_id}"
+        if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+            print(f"ID de vídeo inválido para: {url}")
+            return None
 
-        print(f"Nenhuma transmissão ativa encontrada: {url}")
-        return None
+        return f"https://www.youtube.com/watch?v={video_id}"
 
     except Exception as erro:
-        print(f"Erro consultando {url}: {erro}")
+        print(f"Erro ao consultar {url}: {erro}")
         return None
+
+
+def ler_canais():
+    canais = []
+
+    for linha in ARQUIVO_CANAIS.read_text(
+        encoding="utf-8-sig"
+    ).splitlines():
+        linha = linha.strip()
+
+        if not linha or "|" not in linha:
+            continue
+
+        nome, url = linha.split("|", 1)
+        canais.append((nome.strip(), url.strip()))
+
+    return canais
+
+
+def ler_links_anteriores():
+    links = {}
+
+    if not ARQUIVO_SAIDA.exists():
+        return links
+
+    for linha in ARQUIVO_SAIDA.read_text(
+        encoding="utf-8-sig"
+    ).splitlines():
+        partes = linha.split("|")
+
+        if len(partes) >= 3:
+            links[partes[0].strip().lower()] = partes[2].strip()
+
+    return links
 
 
 def main():
-    if not ARQUIVO.exists():
-        raise FileNotFoundError("O arquivo youtube.txt não existe.")
+    canais = ler_canais()
+    anteriores = ler_links_anteriores()
+    linhas = []
 
-    linhas = ARQUIVO.read_text(encoding="utf-8-sig").splitlines()
-    novas_linhas = []
-    encontrados = set()
+    if not canais:
+        raise RuntimeError("Nenhum canal encontrado em canais.txt")
 
-    for linha in linhas:
-        partes = linha.split("|")
+    for nome, url in canais:
+        novo = consultar_live(url)
 
-        if len(partes) < 3 or linha.lstrip().startswith("#"):
-            novas_linhas.append(linha)
-            continue
+        if novo:
+            link = novo
+        else:
+            link = anteriores.get(nome.lower(), url)
 
-        canal = localizar_canal(partes[1])
+        linhas.append(f"Notícias|{nome}|{link}")
+        print(f"{nome}: {link}")
 
-        if canal is None:
-            novas_linhas.append(linha)
-            continue
+    ARQUIVO_SAIDA.write_text(
+        "\n".join(linhas) + "\n",
+        encoding="utf-8",
+    )
 
-        encontrados.add(canal["chave"])
-
-        # Se não houver live ativa, usa o endereço permanente /live.
-        novo_link = obter_live(canal["url"])
-        if not novo_link:
-            novo_link = canal["url"]
-
-        partes[2] = novo_link
-        nova_linha = "|".join(partes)
-        novas_linhas.append(nova_linha)
-
-        print(f"{partes[1]} -> {novo_link}")
-
-    # Adiciona os canais que ainda não estão no arquivo.
-    for canal in CANAIS:
-        if canal["chave"] not in encontrados:
-            novo_link = obter_live(canal["url"]) or canal["url"]
-            novas_linhas.append(
-                f"Notícias|{canal['nome']}|{novo_link}"
-            )
-            print(f"Adicionado: {canal['nome']} -> {novo_link}")
-
-    conteudo = "\n".join(novas_linhas) + "\n"
-    ARQUIVO.write_text(conteudo, encoding="utf-8")
-
-    print("Atualização de youtube.txt concluída.")
+    print(f"Arquivo gerado: {ARQUIVO_SAIDA}")
 
 
 if __name__ == "__main__":
