@@ -10,7 +10,7 @@ Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c1C3Wm7E288
 Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=oKwReki5L1Y
 Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=CHUZ0hjRrdI
 Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=8L_K9RY7HB4
-Normal|Live|Religios|TV Novo Tempo|https://www.youtube.com/channel/UC_OaSsAydgSIjUtjYn9qLog/live
+Normal|Live|Religios|TV Novo Tempo|https://www.youtube.com/watch?v=8L_K9RY7HB4
 
 Normal|Live|Notícias|JovemPan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|JovemPan 2|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
