@@ -4,20 +4,20 @@
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
 #Notícias
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=plyugnZR2F4
+Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=k3Upuzy39VM
 Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c1C3Wm7E288
-Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=oKwReki5L1Y
-Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=CHUZ0hjRrdI
-Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=8L_K9RY7HB4
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=rSPv2vMW9RM
+Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=t6oyRh37yEA
+Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=k4R6C1j9mWo
+Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=QOKDJFT-f8E
 Normal|Live|Religios|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 Normal|Live|Notícias|JovemPan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|JovemPan 2|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 Normal|Live|Notícias|J3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-Normal|Live|Notícias|Record News 2|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+Normal|Live|Notícias|Record News 2|https://www.youtube.com/watch?v=k4R6C1j9mWo
 Normal|Live|Notícias|RS News|https://video07.logicahost.com.br/rsNews01/rsNews01/chunklist_w451977208.m3u8
-Normal|Live|Notícias|SBT News 2|https://sbtNews.maissbt.com/3.m3u8
+Normal|Live|Notícias|SBT News 2|https://www.youtube.com/watch?v=QOKDJFT-f8E
 Normal|Live|Notícias|TCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 Normal|Live|Notícias|TV Fronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
