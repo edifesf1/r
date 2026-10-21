@@ -4,12 +4,12 @@
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
 #Notícias
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=plyugnZR2F4
+Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=k3Upuzy39VM
 Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c1C3Wm7E288
-Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=oKwReki5L1Y
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=rSPv2vMW9RM
+Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=t6oyRh37yEA
 Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=CHUZ0hjRrdI
-Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=8L_K9RY7HB4
+Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=gMyuJtwAVaY
 Normal|Live|Religios|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 Normal|Live|Notícias|JovemPan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
