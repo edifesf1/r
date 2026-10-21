@@ -665,16 +665,8 @@
           if (e) status.textContent = "Erro no vídeo (código " + e.code + "). Abra F12 > Console para ver detalhes. Pode ser bloqueio da fonte, formato ou segmentos.";
         });
 
-        if (videoEl.canPlayType("application/vnd.apple.mpegurl")) {
-          // Safari/iOS pode reproduzir HLS nativamente.
-          videoEl.src = item.url;
-          videoEl.play().then(() => {
-            status.textContent = "Transmissão HLS reproduzindo.";
-          }).catch(err => {
-            console.warn("Autoplay HLS impedido:", err);
-            status.textContent = "Transmissão carregada. Pressione Play no vídeo.";
-          });
-        } else if (window.Hls && Hls.isSupported()) {
+        // No Chrome/Edge, prioriza HLS.js. Safari/iOS usa HLS nativo como alternativa.
+        if (window.Hls && Hls.isSupported()) {
           hlsInstance = new Hls({
             enableWorker: true,
             lowLatencyMode: false,
@@ -691,12 +683,13 @@
           hlsInstance.on(Hls.Events.MEDIA_ATTACHED, () => {
             console.info("HLS: mídia conectada; carregando playlist", item.url);
           });
+
           hlsInstance.on(Hls.Events.MANIFEST_PARSED, (_event, data) => {
             console.info("HLS: playlist carregada", {
               url: item.url,
               levels: data.levels?.length
             });
-            status.textContent = "Playlist HLS carregada. Iniciando vídeo…";
+            status.textContent = "Playlist HLS carregada. Iniciando transmissão…";
             videoEl.play().then(() => {
               status.textContent = "Transmissão HLS reproduzindo.";
             }).catch(err => {
@@ -704,6 +697,10 @@
               status.textContent = "Playlist carregada. Pressione Play no vídeo.";
             });
           });
+
+          let tentouRecuperarRede = false;
+          let tentouRecuperarMidia = false;
+
           hlsInstance.on(Hls.Events.ERROR, (_event, data) => {
             console.error("Erro HLS detalhado:", {
               type: data.type,
@@ -714,37 +711,52 @@
               url: data.url,
               error: data.error?.message
             });
-            
-            if (data.fatal) {
-              registrarFalha(
-                item,
-                "M3U8/HLS",
-                data.details || data.error?.message || "Erro HLS fatal",
-                data.response?.code || data.details || ""
-              );
-            }
 
             if (!data.fatal) return;
 
-            // Recupera falhas de rede/mídia quando hls.js permite. Isso não
-            // contorna CORS, autenticação ou bloqueios do servidor de origem.
-            if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
-              status.textContent = "Falha de rede ao carregar playlist/segmento (" + data.details + "). Tentando novamente… Confira F12 > Console.";
-              try { hlsInstance.startLoad(); } catch (_) {}
-            } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
-              status.textContent = "Falha de decodificação de mídia. Tentando recuperar o player…";
-              try { hlsInstance.recoverMediaError(); } catch (_) {}
+            registrarFalha(
+              item,
+              "M3U8/HLS",
+              data.details || data.error?.message || "Erro HLS fatal",
+              data.response?.code || data.details || ""
+            );
+
+            if (data.type === Hls.ErrorTypes.NETWORK_ERROR && !tentouRecuperarRede) {
+              tentouRecuperarRede = true;
+              status.textContent = "Falha de rede HLS. Tentando recuperar a transmissão…";
+              hlsInstance.startLoad();
+            } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR && !tentouRecuperarMidia) {
+              tentouRecuperarMidia = true;
+              status.textContent = "Falha de mídia HLS. Tentando recuperar o player…";
+              hlsInstance.recoverMediaError();
             } else {
-              status.textContent = "Falha HLS: " + data.details + ". HTTP: " + (data.response?.code ?? "sem resposta HTTP") + ". Consulte F12 > Console.";
+              status.textContent =
+                "Falha HLS: " + data.details +
+                ". HTTP: " + (data.response?.code ?? "sem resposta HTTP") +
+                ". Abra F12 > Console para ver detalhes.";
               try { hlsInstance.destroy(); } catch (_) {}
               hlsInstance = null;
             }
           });
+
           hlsInstance.loadSource(item.url);
           hlsInstance.attachMedia(videoEl);
+
+        } else if (videoEl.canPlayType("application/vnd.apple.mpegurl")) {
+          // Alternativa para navegadores com suporte HLS nativo.
+          videoEl.src = item.url;
+          videoEl.play().then(() => {
+            status.textContent = "Transmissão HLS reproduzindo.";
+          }).catch(err => {
+            console.warn("Autoplay HLS impedido:", err);
+            status.textContent = "Transmissão carregada. Pressione Play no vídeo.";
+          });
+
         } else {
-          status.textContent = "Este navegador não oferece suporte a HLS via hls.js. Teste em uma versão atual do Chrome, Edge ou Safari.";
+          status.textContent =
+            "Este navegador não oferece suporte à reprodução HLS.";
         }
+
         return;
       }
 
