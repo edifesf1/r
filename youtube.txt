@@ -23,7 +23,7 @@ Normal|Live|Notícias|TV Fronteira|https://tvfronteira.brasilstream.com.br/hls/t
 Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 
 Normal|Live|Agro|Canal do Criador|https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
-Normal|Live|Agro|Canal do Criador 2|https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
+Normal|Live|Agro|Canal do Criador 2|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
 https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
 Normal|Live|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
 Normal|Live|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
