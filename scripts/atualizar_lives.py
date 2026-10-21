@@ -23,6 +23,8 @@ def identificar_canal(nome):
         return "record"
     if "jovem pan" in n:
         return "jovem"
+    if "bandjornal" in n:
+        return "bandjornal"
 
     return None
 
