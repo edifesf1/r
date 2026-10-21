@@ -490,6 +490,26 @@
       botaoCanalAnterior.disabled = botaoProximoCanal.disabled = videos.length <= 1;
     }
     function navegarCanal(direcao) {
+      // Quando D4 (Episódio) está selecionado, videos contém apenas o item escolhido.
+      // Nesse caso, navegue entre todos os itens da mesma seleção A1/B2/C3 e atualize D4.
+      if (menuD4.value && menuA1.value && menuB2.value && menuC3.value) {
+        const candidatos = todosVideos.filter(v =>
+          v.tema === menuA1.value &&
+          v.categoria === menuB2.value &&
+          v.classificacao === menuC3.value
+        );
+        if (!candidatos.length) return;
+        const atual = videos[selecionado] || candidatos.find(v => v.titulo === menuD4.value);
+        let indiceAtual = candidatos.findIndex(v => atual && v.url === atual.url);
+        if (indiceAtual < 0) indiceAtual = candidatos.findIndex(v => v.titulo === menuD4.value);
+        if (indiceAtual < 0) indiceAtual = 0;
+        const proximo = candidatos[(indiceAtual + direcao + candidatos.length) % candidatos.length];
+        menuD4.value = proximo.titulo;
+        aplicarFiltros();
+        mostrarTarja();
+        return;
+      }
+
       if (!videos.length) return;
       selecionado = (selecionado + direcao + videos.length) % videos.length;
       [...lista.children].forEach((botao, indice) => botao.classList.toggle("ativo", indice === selecionado));
