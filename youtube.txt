@@ -5,6 +5,7 @@
 
 #Notícias
 Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=plyugnZR2F4
+Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
 Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c1C3Wm7E288
 Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=oKwReki5L1Y
 Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=CHUZ0hjRrdI
