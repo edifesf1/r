@@ -4,12 +4,12 @@
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
 #LiveYoutube
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=eLU4aocA2wM
+Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=E6ig0Qt5Ho4
 Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=YsIbIuoVMIg
-Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=-8vY_Docx78
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=j2Ule-vMhps
+Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=FISQRBy1mGM
 Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=KrvYkf-0078
-Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=KMEJ2nebioA
+Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=vK7M_yb4x8s
 Normal|Live|Religioso|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 #Notícias
