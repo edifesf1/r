@@ -227,7 +227,7 @@ function ativarTelaCheia(){
 function liberarAcesso(login){
   document.body.classList.remove("bloqueado");
   telaLogin.style.display="none";
-  sessionStorage.setItem("youtubeIptvLogin",login);
+  localStorage.setItem("youtubeIptvLogin",login);
   ativarTelaCheia();
 }
 document.addEventListener("click",()=>{if(!document.fullscreenElement)ativarTelaCheia();});
@@ -248,9 +248,10 @@ async function carregarLogins(){
   }
 }
 function validarLoginSalvo(){
-  const salvo=sessionStorage.getItem("youtubeIptvLogin");
+  // O login fica salvo entre aberturas, mas só é aceito se continuar na lista ativa LOGINS-200.txt.
+  const salvo=localStorage.getItem("youtubeIptvLogin");
   if(salvo&&LOGINS_VALIDOS.includes(salvo))liberarAcesso(salvo);
-  else sessionStorage.removeItem("youtubeIptvLogin");
+  else localStorage.removeItem("youtubeIptvLogin");
 }
 document.getElementById("caixaLogin").addEventListener("submit",e=>{
   e.preventDefault();
