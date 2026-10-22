@@ -1,9 +1,9 @@
-name: Build Edifesf APK
+name: Build Android APK
 
 on:
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches: [ main, master ]
 
 permissions:
   contents: read
@@ -12,27 +12,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar arquivos do repositório
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Configurar Java
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Configurar Gradle
+      - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-
-      - name: Compilar APK Edifesf
-        working-directory: YoutubeIPTVAndroid
+      - name: Build debug APK
         run: gradle assembleDebug
-
-      - name: Disponibilizar Edifesf.apk para download
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Edifesf-APK
-          path: YoutubeIPTVAndroid/app/build/outputs/apk/debug/Edifesf.apk
+          name: Youtube-IPTV-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
