@@ -314,72 +314,106 @@
 
   <script>
 
-    const tarja = document.querySelector("header");
-    let temporizadorTarja = null;
-    
-    
-    function mostrarTarja() {
-      if (document.body.classList.contains("bloqueado")) return;
-      const controles = document.getElementById("navegacaoCanais");
-      tarja.classList.add("tarja-visivel");
-      controles.classList.add("controles-visiveis");
-      controles.style.top = tarja.getBoundingClientRect().height + "px";
-      clearTimeout(temporizadorTarja);
-      temporizadorTarja = setTimeout(() => {
-        if (!tarja.matches(":focus-within") && !controles.matches(":focus-within")) {
-          tarja.classList.remove("tarja-visivel");
-          controles.classList.remove("controles-visiveis");
-        }
-      }, 4000);
-    }
+const tarja = document.querySelector("header");
+const navegacaoCanais = document.getElementById("navegacaoCanais");
 
-    function ocultarTarja() {
-      clearTimeout(temporizadorTarja);
-      const controles = document.getElementById("navegacaoCanais");
-      if (!tarja.matches(":focus-within") && !controles.matches(":focus-within")) {
-        tarja.classList.remove("tarja-visivel");
-        controles.classList.remove("controles-visiveis");
-      }
-    }
+let temporizadorTarja = null;
 
-    // Mouse: aparece ao movimentar o ponteiro.
-    document.addEventListener("mousemove", mostrarTarja, { passive: true });
-    
-    // Celulares e telas sensíveis ao toque.
-    document.addEventListener("touchstart", mostrarTarja, { passive: true });
-    
-    // Controles que enviam eventos de teclado.
-    document.addEventListener("keydown", mostrarTarja);
-    
-    // Se o mouse sair da página, iniciar a contagem para ocultar.
-    document.addEventListener("mouseleave", ocultarTarja);
-    
-    // Ao selecionar um menu, manter a tarja visível durante o uso.
-    tarja.addEventListener("focusin", () => {
-      clearTimeout(temporizadorTarja);
-      tarja.classList.add("tarja-visivel");
-    });
-    
-    
-    tarja.addEventListener("focusout", () => {
-      if (!tarja.matches(":focus-within") &&
-          !document.getElementById("navegacaoCanais").matches(":focus-within")) ocultarTarja();
-    });
-    const navegacaoCanais = document.getElementById("navegacaoCanais");
-    navegacaoCanais.addEventListener("focusin", () => {
-      clearTimeout(temporizadorTarja);
-      tarja.classList.add("tarja-visivel");
-      navegacaoCanais.classList.add("controles-visiveis");
-      navegacaoCanais.style.top = tarja.getBoundingClientRect().height + "px";
-    });
-    navegacaoCanais.addEventListener("focusout", () => {
-      if (!navegacaoCanais.matches(":focus-within") && !tarja.matches(":focus-within")) {
-        temporizadorTarja = setTimeout(() => {
-          tarja.classList.remove("tarja-visivel");
-          navegacaoCanais.classList.remove("controles-visiveis");
-        }, 2000);
-      }
-    });
+function mostrarTarja() {
+  if (document.body.classList.contains("bloqueado")) return;
+
+  tarja.classList.add("tarja-visivel");
+  navegacaoCanais.classList.add("controles-visiveis");
+
+  clearTimeout(temporizadorTarja);
+
+  temporizadorTarja = setTimeout(() => {
+    if (
+      !tarja.matches(":focus-within") &&
+      !navegacaoCanais.matches(":focus-within")
+    ) {
+      tarja.classList.remove("tarja-visivel");
+      navegacaoCanais.classList.remove("controles-visiveis");
+    }
+  }, 4000);
+}
+
+function ocultarTarja() {
+  clearTimeout(temporizadorTarja);
+
+  if (
+    !tarja.matches(":focus-within") &&
+    !navegacaoCanais.matches(":focus-within")
+  ) {
+    tarja.classList.remove("tarja-visivel");
+    navegacaoCanais.classList.remove("controles-visiveis");
+  }
+}
+
+// Mouse e computador.
+document.addEventListener("mousemove", mostrarTarja, { passive: true });
+document.addEventListener("mousedown", mostrarTarja, { passive: true });
+document.addEventListener("click", mostrarTarja, { passive: true });
+
+// Celular e telas sensíveis ao toque.
+document.addEventListener("touchstart", mostrarTarja, { passive: true });
+document.addEventListener("touchmove", mostrarTarja, { passive: true });
+
+// Eventos de ponteiro.
+document.addEventListener("pointerdown", mostrarTarja, { passive: true });
+document.addEventListener("pointermove", (event) => {
+  if (event.pointerType === "mouse") mostrarTarja();
+}, { passive: true });
+
+// Teclado e controle remoto.
+document.addEventListener("keydown", (event) => {
+  mostrarTarja();
+
+  if ([
+    "ArrowUp", "ArrowDown", "ArrowLeft",
+    "ArrowRight", "Enter", " "
+  ].includes(event.key)) {
+    clearTimeout(temporizadorTarja);
+  }
+});
+
+// Mantém a tarja visível durante a navegação pelos menus.
+tarja.addEventListener("focusin", () => {
+  clearTimeout(temporizadorTarja);
+  tarja.classList.add("tarja-visivel");
+});
+
+tarja.addEventListener("focusout", () => {
+  setTimeout(() => {
+    if (
+      !tarja.matches(":focus-within") &&
+      !navegacaoCanais.matches(":focus-within")
+    ) {
+      ocultarTarja();
+    }
+  }, 100);
+});
+
+// Mantém os botões de canais acessíveis pelo controle remoto.
+navegacaoCanais.addEventListener("focusin", () => {
+  clearTimeout(temporizadorTarja);
+  tarja.classList.add("tarja-visivel");
+  navegacaoCanais.classList.add("controles-visiveis");
+});
+
+navegacaoCanais.addEventListener("focusout", () => {
+  setTimeout(() => {
+    if (
+      !navegacaoCanais.matches(":focus-within") &&
+      !tarja.matches(":focus-within")
+    ) {
+      mostrarTarja();
+    }
+  }, 100);
+});
+
+// Oculta a tarja quando o mouse sai da página.
+document.addEventListener("mouseleave", ocultarTarja);
 
 
     // A lista de logins é carregada diretamente de LOGINS-200.txt.
