@@ -164,6 +164,10 @@ function alternarTarja(){
 botaoTarja.addEventListener("click", alternarTarja);
 
 const URL_LOG = "https://script.google.com/macros/s/AKfycbyXwVtr-pZu4Ee4cbeH2iQfFD7j2XDP1zq8swofZPGrLt8azs0Kbf7CCJnIPx-4RIQatA/exec";
+// Depois de implantar o novo Code.gs como Aplicativo da Web, cole aqui a URL terminada em /exec.
+const URL_SESSOES = "https://script.google.com/macros/s/AKfycbxQMYETjf3tDdqiLU8ielvUnkiD2qNID65zZixtuKBWE9JUxDdAaP6AxZMhxhCfvxey/exec";
+const DEVICE_KEY = "edifesfDeviceId";
+let heartbeatTimer = null;
 let LOGINS_VALIDOS = [];
 let todosVideos = [];
 let videos = [];
@@ -224,11 +228,48 @@ function ativarTelaCheia(){
     }
   }catch(e){console.warn("Tela cheia não autorizada:",e);}
 }
-function liberarAcesso(login){
-  document.body.classList.remove("bloqueado");
-  telaLogin.style.display="none";
-  localStorage.setItem("youtubeIptvLogin",login);
-  ativarTelaCheia();
+function obterDeviceId(){
+  let id=localStorage.getItem(DEVICE_KEY);
+  if(!id){id="dev_"+Array.from(crypto.getRandomValues(new Uint8Array(18))).map(n=>n.toString(16).padStart(2,"0")).join("");localStorage.setItem(DEVICE_KEY,id);}
+  return id;
+}
+function chamarControleSessao(action,login){
+  return new Promise((resolve,reject)=>{
+    if(!URL_SESSOES || URL_SESSOES.includes("COLE_AQUI")){reject(new Error("Falta configurar a URL do Apps Script de sessões."));return;}
+    const callback="edifesfCb_"+Date.now()+"_"+Math.floor(Math.random()*1000000);
+    const script=document.createElement("script");
+    const timeout=setTimeout(()=>{limpar();reject(new Error("O servidor de sessões não respondeu."));},12000);
+    function limpar(){clearTimeout(timeout);delete window[callback];script.remove();}
+    window[callback]=(data)=>{limpar();resolve(data);};
+    script.onerror=()=>{limpar();reject(new Error("Não foi possível acessar o servidor de sessões."));};
+    const params=new URLSearchParams({action,login,device:obterDeviceId(),callback,_:String(Date.now())});
+    script.src=URL_SESSOES+"?"+params.toString();document.head.appendChild(script);
+  });
+}
+function pararHeartbeat(){if(heartbeatTimer){clearInterval(heartbeatTimer);heartbeatTimer=null;}}
+function exibirLogin(mensagem){
+  pararHeartbeat();document.body.classList.add("bloqueado");telaLogin.style.display="flex";
+  erroLogin.textContent=mensagem||"Digite seu login de acesso para continuar.";
+}
+function iniciarHeartbeat(login){
+  pararHeartbeat();
+  heartbeatTimer=setInterval(async()=>{
+    try{
+      const resposta=await chamarControleSessao("heartbeat",login);
+      if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");exibirLogin(resposta.message||"Sua sessão não está mais ativa.");}
+    }catch(e){console.warn("Falha temporária ao renovar sessão:",e);}
+  },30000);
+}
+async function liberarAcesso(login){
+  botaoEntrar.disabled=true;erroLogin.textContent="Verificando dispositivo...";
+  try{
+    const resposta=await chamarControleSessao("claim",login);
+    if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");erroLogin.textContent=resposta.message||"Acesso negado.";return false;}
+    document.body.classList.remove("bloqueado");telaLogin.style.display="none";
+    localStorage.setItem("youtubeIptvLogin",login);ativarTelaCheia();iniciarHeartbeat(login);return true;
+  }catch(e){
+    console.error(e);erroLogin.textContent="Não foi possível verificar o login no servidor. Confira a implantação do Apps Script.";return false;
+  }finally{botaoEntrar.disabled=false;}
 }
 document.addEventListener("click",()=>{if(!document.fullscreenElement)ativarTelaCheia();});
 document.addEventListener("touchend",()=>{if(!document.fullscreenElement)ativarTelaCheia();},{passive:true});
@@ -241,23 +282,29 @@ async function carregarLogins(){
     const texto=await resposta.text();
     LOGINS_VALIDOS=[...new Set(texto.split(/\r?\n/).map(l=>l.trim().toUpperCase()).filter(l=>/^[A-Z0-9]{6}$/.test(l)))];
     if(!LOGINS_VALIDOS.length)throw new Error("Nenhum login válido encontrado");
-    erroLogin.textContent="";botaoEntrar.disabled=false;validarLoginSalvo();
+    erroLogin.textContent="";botaoEntrar.disabled=false;await validarLoginSalvo();
   }catch(e){
     console.error("Erro ao carregar LOGINS-200.txt:",e);
     erroLogin.textContent="Não foi possível carregar os logins. Verifique se LOGINS-200.txt está publicado no GitHub.";
   }
 }
-function validarLoginSalvo(){
-  // O login fica salvo entre aberturas, mas só é aceito se continuar na lista ativa LOGINS-200.txt.
+async function validarLoginSalvo(){
   const salvo=localStorage.getItem("youtubeIptvLogin");
-  if(salvo&&LOGINS_VALIDOS.includes(salvo))liberarAcesso(salvo);
-  else localStorage.removeItem("youtubeIptvLogin");
+  if(salvo&&LOGINS_VALIDOS.includes(salvo)){
+    const ok=await liberarAcesso(salvo);
+    if(!ok && erroLogin.textContent.includes("já está em uso")) localStorage.removeItem("youtubeIptvLogin");
+  } else {localStorage.removeItem("youtubeIptvLogin");exibirLogin("Digite seu login de acesso para continuar.");}
 }
-document.getElementById("caixaLogin").addEventListener("submit",e=>{
-  e.preventDefault();
-  const login=campoLogin.value.trim().toUpperCase();
-  if(LOGINS_VALIDOS.includes(login)){erroLogin.textContent="";liberarAcesso(login);}
-  else{erroLogin.textContent="Login inválido. Confira o código e tente novamente.";campoLogin.select();}
+document.getElementById("caixaLogin").addEventListener("submit",async e=>{
+  e.preventDefault();const login=campoLogin.value.trim().toUpperCase();
+  if(!LOGINS_VALIDOS.includes(login)){erroLogin.textContent="Login inválido. Confira o código e tente novamente.";campoLogin.select();return;}
+  await liberarAcesso(login);
+});
+window.addEventListener("beforeunload",()=>{
+  const login=localStorage.getItem("youtubeIptvLogin");
+  if(login && URL_SESSOES && !URL_SESSOES.includes("COLE_AQUI")){
+    const img=new Image();img.src=URL_SESSOES+"?action=release&login="+encodeURIComponent(login)+"&device="+encodeURIComponent(obterDeviceId())+"&_="+Date.now();
+  }
 });
 
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
