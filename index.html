@@ -163,8 +163,7 @@ function alternarTarja(){
 }
 botaoTarja.addEventListener("click", alternarTarja);
 
-const URL_LOG = "https://script.google.com/macros/s/AKfycbyXwVtr-pZu4Ee4cbeH2iQfFD7j2XDP1zq8swofZPGrLt8azs0Kbf7CCJnIPx-4RIQatA/exec";
-// Depois de implantar o novo Code.gs como Aplicativo da Web, cole aqui a URL terminada em /exec.
+// URL do servidor responsável exclusivamente pelo controle de sessões.
 const URL_SESSOES = "https://script.google.com/macros/s/AKfycbxQMYETjf3tDdqiLU8ielvUnkiD2qNID65zZixtuKBWE9JUxDdAaP6AxZMhxhCfvxey/exec";
 const DEVICE_KEY = "edifesfDeviceId";
 let heartbeatTimer = null;
@@ -184,19 +183,8 @@ function mostrarTarja(){ tarja.style.visibility="visible"; }
 function ocultarTarja(){ /* A tarja é fixa e não é ocultada. */ }
 
 function registrarFalha(item,tipo,erro,codigo=""){
-  if(!item||!item.url)return;
-  const mensagem=String(erro||"Falha de reprodução").slice(0,1000);
-  const chave=[item.url,tipo,codigo,mensagem].join("|");
-  const agora=Date.now(),ultima=falhasRecentes.get(chave);
-  if(ultima&&agora-ultima<60000)return;
-  falhasRecentes.set(chave,agora);
-  if(falhasRecentes.size>200){
-    for(const [k,tempo] of falhasRecentes){if(agora-tempo>60000)falhasRecentes.delete(k);}
-  }
-  const registro={canal:item.titulo||"Canal sem nome",tipo,url:item.url,erro:mensagem,codigo:codigo?String(codigo):""};
-  fetch(URL_LOG,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=UTF-8"},body:JSON.stringify(registro)})
-    .catch(err=>console.error("Não foi possível enviar o log:",err));
-  console.warn("Falha de canal registrada para envio:",registro);
+  // Registro remoto de falhas desativado; mantém apenas diagnóstico no console.
+  console.warn("Falha de reprodução:", {canal:item?.titulo||"Canal sem nome", tipo, url:item?.url||"", erro:String(erro||"Falha de reprodução"), codigo:String(codigo||"")});
 }
 
 function carregarYouTubeAPI(){
