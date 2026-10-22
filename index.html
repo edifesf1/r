@@ -94,7 +94,6 @@ body.tarja-recolhida>main{
 body.tarja-recolhida #player{position:absolute;inset:0;width:100%;height:100%}
 body.tarja-recolhida>header>#botaoTarja:hover,
 body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
-}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
 </head>
@@ -114,8 +113,23 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 <header aria-label="Controles do player">
   <nav id="cascadeBar" aria-label="Filtros">
     <div class="cascade-group" id="grupoA1"><label for="menuA1">Tema</label><select id="menuA1" title="Tema" aria-label="Tema"><option value=""></option></select></div>
-    <div class="cascade-group" id="grupoB2" hidden><label for="menuB2">Categoria</label><select id="menuB2" title="Categoria" aria-label="Categoria"><option value=""></option></select></div>
-    <div class="cascade-group" id="grupoC3" hidden><label for="menuC3">Classificação</label><select id="menuC3" title="Classificação" aria-label="Classificação"><option value=""></option></select></div>
+    <div class="cascade-group" id="grupoB2" hidden>
+  <label for="menuB2">Categoria ou pesquisa</label>
+  <select id="menuB2" title="Categoria" aria-label="Categoria">
+    <option value=""></option>
+  </select>
+  <input id="campoPesquisa" type="search"
+    placeholder="Pesquisar conteúdo..."
+    aria-label="Pesquisar canais, filmes, séries e músicas"
+    style="display:none;width:100%;min-width:100px;padding:9px 8px;border-radius:5px;border:1px solid white;background:#a90000;color:white;font-size:14px">
+</div>
+
+<div class="cascade-group" id="grupoC3" hidden>
+  <label for="menuC3">Resultados</label>
+  <select id="menuC3" title="Resultados" aria-label="Resultados">
+    <option value=""></option>
+  </select>
+</div>
     <div class="cascade-group" id="grupoD4" hidden><label for="menuD4">Episódio</label><select id="menuD4" title="Episódio" aria-label="Episódio"><option value=""></option></select></div>
   </nav>
   <div id="navegacaoCanais" aria-label="Navegação entre canais">
@@ -144,6 +158,10 @@ const menuA1 = document.getElementById("menuA1");
 const menuB2 = document.getElementById("menuB2");
 const menuC3 = document.getElementById("menuC3");
 const menuD4 = document.getElementById("menuD4");
+  
+const campoPesquisa = document.getElementById("campoPesquisa");
+let modoPesquisa = false;
+  
 const grupos = {
   A1:document.getElementById("grupoA1"),
   B2:document.getElementById("grupoB2"),
@@ -342,6 +360,15 @@ function aplicarFiltros(){
 }
 menuA1.addEventListener("change",()=>{
   limparAbaixo(1);const tema=menuA1.value;
+  if (tema === "Pesquisa") {
+  ativarPesquisa(true);
+  videos = [];
+  atualizarBotoesNavegacao();
+  document.getElementById("player").replaceChildren();
+  return;
+}
+
+ativarPesquisa(false);
   if(tema){preencherSelect(menuB2,todosVideos.filter(v=>v.tema===tema).map(v=>v.categoria));mostrarGrupo("B2",true);}
   aplicarFiltros();
 });
@@ -351,11 +378,102 @@ menuB2.addEventListener("change",()=>{
   aplicarFiltros();
 });
 menuC3.addEventListener("change",()=>{
-  limparAbaixo(3);const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value;
-  if(tema&&categoria&&classificacao){preencherSelect(menuD4,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria&&v.classificacao===classificacao).map(v=>v.titulo));mostrarGrupo("D4",true);}
+  if(modoPesquisa){
+    if(menuC3.value==="")return;
+    const indice=Number(menuC3.value);
+    if(!Number.isInteger(indice)||indice<0||indice>=videos.length)return;
+    selecionado=indice;
+    criarPlayer();
+    return;
+  }
+
+  limparAbaixo(3);
+  const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value;
+  if(tema&&categoria&&classificacao){
+    preencherSelect(menuD4,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria&&v.classificacao===classificacao).map(v=>v.titulo));
+    mostrarGrupo("D4",true);
+  }
   aplicarFiltros();
 });
 menuD4.addEventListener("change",aplicarFiltros);
+
+function limparPlayerPesquisa(){
+  geracaoPlayer++;
+  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
+  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
+  document.getElementById("player").replaceChildren();
+  player=null;
+}
+
+function ativarPesquisa(ativar) {
+  modoPesquisa = ativar;
+  campoPesquisa.style.display = ativar ? "block" : "none";
+  menuB2.style.display = ativar ? "none" : "";
+  mostrarGrupo("B2", ativar);
+  mostrarGrupo("C3", ativar);
+  mostrarGrupo("D4", false);
+
+  if (ativar) {
+    limparPlayerPesquisa();
+    videos = [];
+    selecionado = 0;
+    campoPesquisa.value = "";
+    menuC3.replaceChildren();
+    const opcao = document.createElement("option");
+    opcao.value = "";
+    opcao.textContent = "Digite para pesquisar";
+    menuC3.appendChild(opcao);
+    menuC3.disabled = true;
+    atualizarBotoesNavegacao();
+    status.textContent = "Digite o nome de um canal ou conteúdo.";
+    campoPesquisa.focus();
+  } else {
+    menuC3.disabled = false;
+    campoPesquisa.value = "";
+  }
+}
+
+function pesquisarConteudo() {
+  if (!modoPesquisa) return;
+
+  const termo = campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
+  const encontrados = termo
+    ? todosVideos.filter(v =>
+        [v.titulo, v.tema, v.categoria, v.classificacao]
+          .some(valor => String(valor || "").toLocaleLowerCase("pt-BR").includes(termo))
+      )
+    : [];
+
+  // Ao mudar a busca, interrompe o conteúdo anterior para não deixar um vídeo antigo tocando.
+  limparPlayerPesquisa();
+  videos = encontrados;
+  selecionado = 0;
+  menuC3.replaceChildren();
+
+  const inicial = document.createElement("option");
+  inicial.value = "";
+  inicial.textContent = termo
+    ? (encontrados.length
+        ? `${encontrados.length} resultado(s) encontrado(s)`
+        : "Nenhum resultado encontrado")
+    : "Digite para pesquisar";
+  menuC3.appendChild(inicial);
+
+  encontrados.forEach((video, indice) => {
+    const opcao = document.createElement("option");
+    opcao.value = String(indice);
+    opcao.textContent = video.titulo;
+    menuC3.appendChild(opcao);
+  });
+
+  menuC3.disabled = encontrados.length === 0;
+  atualizarBotoesNavegacao();
+  status.textContent = encontrados.length
+    ? `${encontrados.length} resultado(s). Selecione um conteúdo para reproduzir.`
+    : (termo ? "Nenhum conteúdo corresponde à pesquisa." : "Digite o nome de um canal ou conteúdo.");
+}
+
+campoPesquisa.addEventListener("input", pesquisarConteudo);
 
 function extrairId(valor){
   try{
@@ -454,7 +572,10 @@ async function carregarLista(){
       if(tipo==="hls")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
     }).filter(Boolean);
-    preencherSelect(menuA1,todosVideos.map(v=>v.tema));limparAbaixo(1);aplicarFiltros();
+    preencherSelect(menuA1, [
+  ...todosVideos.map(v => v.tema),
+  "Pesquisa"
+]);limparAbaixo(1);aplicarFiltros();
   }catch(erro){console.error(erro);status.textContent="Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";}
 }
 
