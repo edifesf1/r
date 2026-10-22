@@ -224,3 +224,120 @@ Filmes|Adventista|Completos|A Esperança Para o Oeste 1|https://www.youtube.com/
 Filmes|Adventista|Completos|A Esperança Para o Oeste 2|https://www.youtube.com/watch?v=VGGYhGVvVRQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=81
 Filmes|Adventista|Completos|Fábrica de Heróes|https://www.youtube.com/watch?v=fLiWfCsA50c&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=82
 Filmes|Adventista|Completos|O Legado da Fé|https://www.youtube.com/watch?v=Ak3oJMMyINc&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=84
+
+
+
+#Documentários
+Documentários|Adventista|O Domínio|O Próximo Reino 1|https://www.youtube.com/watch?v=hoJg83xuvUM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=2
+Documentários|Adventista|O Domínio|O Próximo Reino 2|https://www.youtube.com/watch?v=M2WIGE7KMZ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg
+Documentários|Adventista|Homens de Fé|Adventismo no Brasil|https://www.youtube.com/watch?v=3Dvl9ZCiOaQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=4
+Documentários|Adventista|Homens de Fé|Unidos na Missão|https://www.youtube.com/watch?v=St6l-ONRYGU&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=17
+Documentários|Adventista|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
+Documentários|Adventista|Ucrânia|Na Fronteira Com A Paz|https://www.youtube.com/watch?v=hegGNLFD8jw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=6
+Documentários|Adventista|Ucrânia|Vidas Entre Páginas|https://www.youtube.com/watch?v=q0H47Sh6IEo&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=7
+Documentários|Adventista|Descanso|A Experiência|https://www.youtube.com/watch?v=VTDcYWbJ2fQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=8
+Documentários|Adventista|Origem|Origem|https://www.youtube.com/watch?v=JC7C7o3vdrw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=9
+Documentários|Adventista|Chamado dos Cosmos|Chamado dos Cosmos|https://www.youtube.com/watch?v=5DkH1_GGl3I&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=10
+Documentários|Adventista|Pais|Pais-Legendado|https://www.youtube.com/watch?v=86h02HEfX_8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=11
+Documentários|Adventista|Natureza|O Preço da Vida|https://www.youtube.com/watch?v=6n6GSda7bGQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=12
+Documentários|Adventista|Natureza|Vôo|https://www.youtube.com/watch?v=ShdCSSMbWH4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=19
+Documentários|Adventista|Natureza|Águas Viventes|https://www.youtube.com/watch?v=GAQp63-brZs&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=20
+Documentários|Adventista|Natureza|Metamorfose|https://www.youtube.com/watch?v=j5_2HDFlilM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=21
+Documentários|Adventista|Contramão|Contramão|https://www.youtube.com/watch?v=9nkWxhhWnzE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=13
+Documentários|Adventista|Voluntários|Voluntários Por Toda Terra|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
+Documentários|Adventista|Voluntários|Missão Piauí|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
+Documentários|Adventista|Conflíto|O Grande Conflito|https://www.youtube.com/watch?v=eys7l18DbHQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=15
+Documentários|Adventista|Dois Reinos|Religião e Política|https://www.youtube.com/watch?v=IuSKhEKxmKY&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=16
+Documentários|NovoTempo|Livro|Desmond Doss|https://www.youtube.com/watch?v=TjIJsBxmaBM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=22
+Documentários|Adventista|Feliz7Play|Meu Sol|https://www.youtube.com/watch?v=-pe6ITolnes&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=3
+Documentários|Adventista|Feliz7Play|Expedição Pacaraima|https://www.youtube.com/watch?v=kAoVvw_cVds&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=23
+Documentários|Adventista|Feliz7Play|Devemos Comemorar o Natal|https://www.youtube.com/watch?v=NHYLWiWRUO8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=24
+Documentários|Adventista|Feliz7Play|Mosés-Um Herói|https://www.youtube.com/watch?v=xMxvS9F5HGg&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=25
+Documentários|Adventista|Feliz7Play|A verdade Sobre o Halloween|https://www.youtube.com/watch?v=jYD7rq_3OR0&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=26
+Documentários|Adventista|Feliz7Play|C.S. Lewis|https://www.youtube.com/watch?v=0C1wsUSuFlk&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=27
+Documentários|Adventista|Feliz7Play|Maria Madalena|https://www.youtube.com/watch?v=t47YWQwJkFE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=28
+Documentários|Adventista|Feliz7Play|Com Amor,Ana|https://www.youtube.com/watch?v=WDhQ5Ny-5c4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=29
+
+Documentários|Adventista|Saúde|A Cura da Rinite|https://www.youtube.com/watch?v=pOQlpM6SdbY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw
+Documentários|Adventista|Saúde|Aprenda a Respirar|https://www.youtube.com/watch?v=sAQ8SE9vtCw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=2
+Documentários|Adventista|Saúde|Alergias Respiratórias|https://www.youtube.com/watch?v=Gbrolrw7wOM&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=3
+Documentários|Adventista|Saúde|Hidroterapia para a sinusite|https://www.youtube.com/watch?v=98wHAyI_AxY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=4
+Documentários|Adventista|Saúde|Cérebro Turbinado|https://www.youtube.com/watch?v=I9XkD7D38Xw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=5
+Documentários|Adventista|Saúde|Depresssão|https://www.youtube.com/watch?v=IP6pf8clXlI&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=6
+Documentários|Adventista|Saúde|Prisão de Ventre|https://www.youtube.com/watch?v=czszLGvwT5k&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=7
+
+Documentários|Adventista|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
+Documentários|Adventista|Animações|Lutero O Protestante|https://www.youtube.com/watch?v=6VpIdqo5-ZQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=2
+Documentários|Adventista|Animações|Gênesis 31|https://www.youtube.com/watch?v=HwDddhg6fYQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=3
+Documentários|Adventista|Animações|II Crônicas 26|https://www.youtube.com/watch?v=u0SqhFaBUDI&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=4
+Documentários|Adventista|Animações|Ellen White-Infância e Chamado|https://www.youtube.com/watch?v=ix1yqZE2xBo&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=5
+Documentários|Adventista|Animações|O Grande Conflito|https://www.youtube.com/watch?v=YSdCRwtZMhU&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=6
+
+#Music
+Music|Adventista|Corinhos|Renova-Me|https://www.youtube.com/watch?v=sCEfXG_M3lk&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA
+Music|Adventista|Corinhos|Brilha Jesus|https://www.youtube.com/watch?v=n1pPhQDSFDc&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=2
+Music|Adventista|Corinhos|Momento Assim|https://www.youtube.com/watch?v=5z9QSKxvILE&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=3
+Music|Adventista|Corinhos|Mansão Sobre o Monte|https://www.youtube.com/watch?v=et4bXG6ulBg&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=4
+Music|Adventista|Corinhos|Vou Caminhando|https://www.youtube.com/watch?v=nH0S-CTNte8&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=5
+Music|Adventista|Corinhos|Busca Primeiro|https://www.youtube.com/watch?v=8clpQD1YX8Y&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=6
+Music|Adventista|Corinhos|Não Tardará|https://www.youtube.com/watch?v=wYHdNzbBnb8&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=7
+Music|Adventista|Corinhos|O Senhor é Meu Abrigo|https://www.youtube.com/watch?v=iy3ApaywCEw&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=8
+Music|Adventista|Corinhos|Lado a Lado|https://www.youtube.com/watch?v=Y3hu90nIE5Q&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=9
+Music|Adventista|Corinhos|Deus Está aqui|https://www.youtube.com/watch?v=HRNbvTjrWw8&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=10
+Music|Adventista|Corinhos|Lista 1|https://www.youtube.com/watch?v=ueBJvuJQo7Y&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=11
+Music|Adventista|Corinhos|Lista 2|https://www.youtube.com/watch?v=1K2uT6v34Hc&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=12
+
+Music|Adventista|Clips|Meu Sol|https://www.youtube.com/watch?v=BCP0cEgF_MQ&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-
+Music|Adventista|Clips|Maranata-JA 2022|https://www.youtube.com/watch?v=BoWNEwIY0nI&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=2
+Music|Adventista|Clips|Feliz Com Você-Rayssa Andreoli|https://www.youtube.com/watch?v=2jtSdoL5d1w&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=3
+Music|Adventista|Clips|Feliz Com Você-Maythê Costa e César|https://www.youtube.com/watch?v=XRCrWJ-K1QM&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=4
+Music|Adventista|Clips|Meu Sol -10 A Vida Não é um Jogo|https://www.youtube.com/watch?v=rGgLLt7ATJk&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=5
+Music|Adventista|Clips|Cegueira-O Retorno|https://www.youtube.com/watch?v=CjxjefiSlKg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=6
+Music|Adventista|Clips|Trio Discípulos-Reflexo do Tempo|https://www.youtube.com/watch?v=1qW8mI6au8o&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=7
+Music|Adventista|Clips|Sala 23-Jefferson Pillar|https://www.youtube.com/watch?v=xqZcMnsrpFo&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=8
+Music|Adventista|Clips|Eu Vou-JA 2023|https://www.youtube.com/watch?v=ygwQGsRFvlk&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=9
+Music|Adventista|Clips|Eu Vou-JA 2022|https://www.youtube.com/watch?v=bWgxPMBQhrg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=10
+Music|Adventista|Clips|Chegou A Hora-JA 2021|https://www.youtube.com/watch?v=jZZ_28iIECs&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=11
+Music|Adventista|Clips|Tudo Por Ele-JA 2024|https://www.youtube.com/watch?v=R3Dv1Dftxn0&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=12
+Music|Adventista|Clips|Esqueço Até o Tempo-Filme Milo|https://www.youtube.com/watch?v=lV-rL6vwBFE&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=13
+Music|Adventista|Clips|Caim E Abel-Maythê|https://www.youtube.com/watch?v=IuhlJlK6pwM&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=14
+Music|Adventista|Clips|Sou BR(EU)-Maythê|https://www.youtube.com/watch?v=nWoGhbpxB_E&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=16
+Music|Adventista|Clips|Todas As Casas Boas-Maythê|https://www.youtube.com/watch?v=-YGBfdiXi8E&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=17
+Music|Adventista|Clips|O Amor Vive-Arautos do Rei|https://www.youtube.com/watch?v=dZ70fTlRG4Q&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=18
+Music|Adventista|Clips|Só o Começo-Vocal Livre|https://www.youtube.com/watch?v=6U0rvZaW0Zo&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=19
+Music|Adventista|Clips|Estou em Paz-Bequadro|https://www.youtube.com/watch?v=Gu4fWSjfPbk&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=20
+Music|Adventista|Clips|Nova Chance-Bequadro|https://www.youtube.com/watch?v=xb32fLvsSis&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=21
+Music|Adventista|Clips|Ele é-Bequadro|https://www.youtube.com/watch?v=Vg-Wqdtx9T8&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=22
+Music|Adventista|Clips|Vem me Socorrer-Bequadro|https://www.youtube.com/watch?v=wKCOCMiZ2dA&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=23
+Music|Adventista|Clips|Teimosa-Bequadro|https://www.youtube.com/watch?v=LcOWjQmxJaI&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=24
+Music|Adventista|Clips|Retovisor-Bequadro|https://www.youtube.com/watch?v=OZgiU6byE-g&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=25
+Music|Adventista|Clips|Quando Eu Encontrar Jesus-Bequadro|https://www.youtube.com/watch?v=ktPVkzZ9GWg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=26
+Music|Adventista|Clips|Homem Comum-Bequadro|https://www.youtube.com/watch?v=NhdUhQ7Cd3w&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=27
+Music|Adventista|Clips|Tá-Bequadro|https://www.youtube.com/watch?v=0n1WLTZS9XY&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=28
+Music|Adventista|Clips|Medley-Volta de Jesus|https://www.youtube.com/watch?v=h02qrrFdUUU&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=29
+Music|Adventista|Clips|Temporal-Vocal Livre e Feliz7Play|https://www.youtube.com/watch?v=OoRUCJIFsvw&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=30
+Music|Adventista|Clips|Prisões-Guilherme Leite|https://www.youtube.com/watch?v=QHnHTRoDycg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=31
+Music|Adventista|Clips|O Pior do Homem O Melhor de Jesus|https://www.youtube.com/watch?v=ggEsuD21V50&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=32
+Music|Adventista|Clips|Amazing Grace-Whitley Phipps e Joyce|https://www.youtube.com/watch?v=8gZNJZ3YBBw&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=33
+Music|Adventista|Clips|Re-encontro-Um Convite para os Braços do Pai|https://www.youtube.com/watch?v=bTREwKKXrkM&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=34
+Music|Adventista|Clips|Era Para Ser Eu-Laura Morena|https://www.youtube.com/watch?v=0_1bQjDSp-E&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=35
+Music|Adventista|Clips|Ainda Está Aqui-Maythê e Gabriel|https://www.youtube.com/watch?v=wbejkCawBUU&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=36
+Music|Adventista|Clips|Tudo por Ele-JA 2020|https://www.youtube.com/watch?v=NJyKhO0QenU&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=37
+Music|Adventista|Clips|Caminho no Deserto-Convicção Trio|https://www.youtube.com/watch?v=_i1Z5kLV9ns&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=38
+Music|Adventista|Clips|Nossa Esperança-Convicção Trio|https://www.youtube.com/watch?v=3OvRkU2CxtY&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=39
+Music|Adventista|Clips|Em Ti Confiarei-Convicção Trio|https://www.youtube.com/watch?v=HA8WhRISHy8&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=40
+Music|Adventista|Clips|Jesus Cristo é Minha Vida-Convicção Trio|https://www.youtube.com/watch?v=avFelBdvbK4&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=41
+Music|Adventista|Clips|Agnus Dei-Jandson Nolasco|https://www.youtube.com/watch?v=l_VUrsSaWNA&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=42
+Music|Adventista|Clips|Água Viva-Convicção Trio|https://www.youtube.com/watch?v=n9C09SGcfYQ&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=43
+Music|Adventista|Clips|Restaura-Me-Vocal Harmony Trio|https://www.youtube.com/watch?v=fMQ0GmFKelc&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=44
+Music|Adventista|Clips|Sangue Carmesim-Gabriel Prado e Ministério|https://www.youtube.com/watch?v=v4T9Lv0NGto&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=45
+Music|Adventista|Clips|Desbravadores, Loucos Pro Jesus-Gabriel Prado|https://www.youtube.com/watch?v=rxlgnc4rH6E&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=46
+Music|Adventista|Clips|Ele Virá Outra Vez-Coral Jovem|https://www.youtube.com/watch?v=_8r4ZZTgPs0&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=47
+Music|Adventista|Clips|Vinde a Mim-Grupo Contrastes|https://www.youtube.com/watch?v=nSudSz7zvfE&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=48
+Music|Adventista|Clips|Quem Sou Eu-Tudo Isso e Muito+|https://www.youtube.com/watch?v=nHwWhW9zCYc&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=49
+Music|Adventista|Clips|Quem de Nós-Tudo Isso e Muito+|https://www.youtube.com/watch?v=Bh6Zmv2YLgY&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=50
+Music|Adventista|Clips|O Encontro-Tudo Isso e Muito+|https://www.youtube.com/watch?v=Yh62E3Q6bLA&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=51
+Music|Adventista|Clips|Nós-Tudo Isso e Muito+|https://www.youtube.com/watch?v=6bbOlkXH8Ds&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=52
+Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v=QbziD-rWQsg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=53
+
+
