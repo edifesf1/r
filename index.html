@@ -30,6 +30,12 @@ header{
   background:#990000;color:#fff;font-size:22px;font-weight:bold;cursor:pointer
 }
 #navegacaoCanais button:disabled{opacity:.45;cursor:not-allowed}
+#botaoTarja{
+  display:inline-flex;align-items:center;justify-content:center;
+  flex:0 0 auto;width:30px;height:30px;padding:0;
+  border:1px solid rgba(255,255,255,.7);border-radius:5px;
+  background:#790000;color:#fff;font-size:18px;font-weight:bold;line-height:1;cursor:pointer
+}
 #temaAtual{display:none}
 main{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;overflow:hidden;background:#000}
 #player{position:absolute;inset:0;width:100%;height:100%;background:#000;overflow:hidden}
@@ -60,11 +66,34 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
   .cascade-group select{max-width:none;font-size:11px;padding:8px 15px 8px 4px}
   #navegacaoCanais{gap:3px}
   #navegacaoCanais button{width:30px;height:32px;font-size:18px}
+  #botaoTarja{width:27px;height:27px;font-size:16px}
 }
 @media(max-width:360px){
   header{gap:3px;padding:5px 4px}
   .cascade-group select{font-size:10px;padding-left:3px}
   #navegacaoCanais button{width:27px}
+  #botaoTarja{width:25px;height:25px;font-size:15px}
+}
+
+/* Ao recolher a tarja, o vídeo ocupa toda a tela e o botão continua acessível. */
+body.tarja-recolhida>header{
+  position:fixed;top:0;left:0;right:0;height:0;min-height:0;padding:0;
+  background:transparent;pointer-events:none;z-index:200
+}
+body.tarja-recolhida>header>#cascadeBar,
+body.tarja-recolhida>header>#navegacaoCanais{display:none}
+body.tarja-recolhida>header>#botaoTarja{
+  position:fixed;top:8px;right:8px;pointer-events:auto;
+  width:30px;height:30px;background:rgba(120,0,0,.78);
+  border-color:rgba(255,255,255,.55);opacity:.78
+}
+body.tarja-recolhida>main{
+  position:fixed;inset:0;width:100%;height:100%;min-height:0;
+  flex:none
+}
+body.tarja-recolhida #player{position:absolute;inset:0;width:100%;height:100%}
+body.tarja-recolhida>header>#botaoTarja:hover,
+body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
@@ -93,6 +122,7 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
     <button id="canalAnterior" type="button" title="Canal anterior" aria-label="Canal anterior">◀</button>
     <button id="proximoCanal" type="button" title="Próximo canal" aria-label="Próximo canal">▶</button>
   </div>
+  <button id="botaoTarja" type="button" title="Recolher tarja" aria-label="Recolher tarja" aria-pressed="false">▁</button>
 </header>
 
 <main>
@@ -122,6 +152,16 @@ const grupos = {
 };
 const botaoCanalAnterior = document.getElementById("canalAnterior");
 const botaoProximoCanal = document.getElementById("proximoCanal");
+const botaoTarja = document.getElementById("botaoTarja");
+
+function alternarTarja(){
+  const recolhida = document.body.classList.toggle("tarja-recolhida");
+  botaoTarja.textContent = recolhida ? "☰" : "▁";
+  botaoTarja.title = recolhida ? "Mostrar tarja" : "Recolher tarja";
+  botaoTarja.setAttribute("aria-label", botaoTarja.title);
+  botaoTarja.setAttribute("aria-pressed", String(recolhida));
+}
+botaoTarja.addEventListener("click", alternarTarja);
 
 const URL_LOG = "https://script.google.com/macros/s/AKfycbyXwVtr-pZu4Ee4cbeH2iQfFD7j2XDP1zq8swofZPGrLt8azs0Kbf7CCJnIPx-4RIQatA/exec";
 let LOGINS_VALIDOS = [];
