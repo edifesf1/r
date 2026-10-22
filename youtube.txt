@@ -130,3 +130,97 @@ Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|htt
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|70 Semanas de Daniel|https://www.youtube.com/watch?v=ZV0Zg-u3fAg&list=PLJR4Z_jtOSP8&index=2
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|Inteligência Artificial|https://www.youtube.com/watch?v=-kTPHwgnq_s&list=PLJR4Z_jtOSP8&index=3
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Tempo do Fim|https://www.youtube.com/watch?v=899_Vs7zqJE&list=PLJR4Z_jtOSP8&index=4
+
+#Filmes
+Filmes|Adventista|Filme Desbravadores|Em Busca do Legado Perdido|https://www.youtube.com/watch?v=9qOQIfWaF7E&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1
+Filmes|Adventista|Filme Desbravadores|Engajados|https://www.youtube.com/watch?v=BJxXX0XUaTc&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=6
+Filmes|Adventista|Filme Desbravadores|A Última Missão|https://www.youtube.com/watch?v=aqSa5uvsdzI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=34
+
+Filmes|Adventista|Filme Biblico|De Adão Até O Dilúvio|https://www.youtube.com/watch?v=4HQlSP2amCo&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=4
+Filmes|Adventista|Filme Biblico|Da Torre Até Sodoma|https://www.youtube.com/watch?v=2_wLK6FBE2o&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=2
+
+Filmes|Adventista|Filme Animado|Defensores da Bíblia 3|https://www.youtube.com/watch?v=c0Ms6CK0Mrs&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=10
+Filmes|Adventista|Filme Animado|Defensores da Bíblia 4|https://www.youtube.com/watch?v=Uzr1K52aimw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=3
+Filmes|Adventista|Filme Animado|Corrida da Fé|https://www.youtube.com/watch?v=gkGu8N8ttEI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=14
+Filmes|Adventista|Filme Animado|O Grande Conflito|https://www.youtube.com/watch?v=YSdCRwtZMhU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=33
+
+Filmes|Adventista|Romântico Cristão|Amor Entre Estantes|https://www.youtube.com/watch?v=2QSV5CFk_nA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=5
+
+Filmes|Adventista|Tropa do Lenço|1 Temporada|https://www.youtube.com/watch?v=oAozrBxEq-Y&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=57
+Filmes|Adventista|Tropa do Lenço|2.1 Temporada|https://www.youtube.com/watch?v=zFhbeLH6668&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=38
+Filmes|Adventista|Tropa do Lenço|2.2 Temporada|https://www.youtube.com/watch?v=ueqmf8DANnA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=39
+Filmes|Adventista|Tropa do Lenço|4 Temporada|https://www.youtube.com/watch?v=jVyX5BB9PMM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=9
+Filmes|Adventista|Até O Último Mínuto|Parte 1|https://www.youtube.com/watch?v=jkxhYJThirw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=64
+Filmes|Adventista|Até O Último Mínuto|Parte 2|https://www.youtube.com/watch?v=Zxxmt3XjMeE&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=65
+Filmes|Adventista|Até O Último Mínuto|Parte 3|https://www.youtube.com/watch?v=IpILlj_tDSw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=43
+Filmes|Adventista|Até O Último Mínuto|Parte 4|https://www.youtube.com/watch?v=KNgwqG_Fy8M&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=16
+
+Filmes|Adventista|Comédia|Trocando as Benção|https://www.youtube.com/watch?v=EhK5TNjNIeo&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=11
+
+Filmes|Adventista|Natal|Kizuma|https://www.youtube.com/watch?v=6oUHsMBAYs8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=20
+Filmes|Adventista|Natal|Tudo Isso e Muito+ 1|https://www.youtube.com/watch?v=ZkQpAtfKsXk&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=67
+Filmes|Adventista|Natal|Tudo Isso e Muito+ 2|https://www.youtube.com/watch?v=GRn8qQpC-bw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=44
+Filmes|Adventista|Natal|Lugar Secreto|https://www.youtube.com/watch?v=8biYiP_gkco&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=56
+
+Filmes|Adventista|Você Não Sabe|1 Temporada|https://www.youtube.com/watch?v=BZewnrFQ6yQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=60
+Filmes|Adventista|Você Não Sabe|2 Temporada|https://www.youtube.com/watch?v=e7JBABl_kKs&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=61
+Filmes|Adventista|O Preço do Resgate|Parte 1|https://www.youtube.com/watch?v=jwmepgs7EWU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=48
+Filmes|Adventista|O Preço do Resgate|Parte 2|https://www.youtube.com/watch?v=8e3_OIk5paI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=22
+Filmes|Adventista|O Retorno|Parte 1|https://www.youtube.com/watch?v=u-sKhk6V8NI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=29
+Filmes|Adventista|O Retorno|Parte 2|https://www.youtube.com/watch?v=sY8q9N6ow34&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=28
+Filmes|Adventista|O Retorno|Parte 3|https://www.youtube.com/watch?v=99nb8g661fM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=27
+
+Filmes|Adventista|Completos|O Garoto do Lenço|https://www.youtube.com/watch?v=BAJGGhU3dzo&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=7
+Filmes|Adventista|Completos|Camelo Na Estrada|https://www.youtube.com/watch?v=agqJHWVOKPI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=8
+Filmes|Adventista|Completos|Pela Última Vez|https://www.youtube.com/watch?v=baZtpXCabg4&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=12
+Filmes|Adventista|Completos|Tempo de Acreditar|https://www.youtube.com/watch?v=kiBdXKxQo5c&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=13
+Filmes|Adventista|Completos|Nos dias da Tua Mocidade|https://www.youtube.com/watch?v=0Gn40jG5a1w&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=15
+Filmes|Adventista|Completos|Ainda Hoje|https://www.youtube.com/watch?v=mKDOAdWc2t4&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=17
+Filmes|Adventista|Completos|O Som da Sua Voz|https://www.youtube.com/watch?v=vmkwwXmRVSk&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=18
+Filmes|Adventista|Completos|Zack|https://www.youtube.com/watch?v=3NP096H5sv0&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=19
+Filmes|Adventista|Completos|O Segredo|https://www.youtube.com/watch?v=kYpcNM-g8cU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=21
+Filmes|Adventista|Completos|Uma Garota de Fé|https://www.youtube.com/watch?v=BhuKIOCgbnY&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=23
+Filmes|Adventista|Completos|Camile|https://www.youtube.com/watch?v=GUD_iRqrlLY&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=24
+Filmes|Adventista|Completos|Milo|https://www.youtube.com/watch?v=m8HZesAb7ZU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=25
+Filmes|Adventista|Completos|Recomeço|https://www.youtube.com/watch?v=pE8GSih67h8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=26
+Filmes|Adventista|Completos|De Repente Crente|https://www.youtube.com/watch?v=3WRXk8TgTos&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=30
+Filmes|Adventista|Completos|A Volta|https://www.youtube.com/watch?v=WmfcWHhbpuk&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=31
+Filmes|Adventista|Completos|Ele Vem - O Musical|https://www.youtube.com/watch?v=G_YmfxMXhE0&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=32
+Filmes|Adventista|Completos|Uma Nova Aventura|https://www.youtube.com/watch?v=2J5meIRVNpQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=35
+Filmes|Adventista|Completos|Aventuras Em Galápagos|https://www.youtube.com/watch?v=biTWfbWsjG8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=36
+Filmes|Adventista|Completos|Onde Estiver Seu Coração|https://www.youtube.com/watch?v=yUuOFopVoMk&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=37
+Filmes|Adventista|Completos|Minhas Mãos|https://www.youtube.com/watch?v=SpwJpzJLT7o&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=40
+Filmes|Adventista|Completos|Contramão|https://www.youtube.com/watch?v=34WDtM180Ek&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=41
+Filmes|Adventista|Completos|A Última Oportunidade|https://www.youtube.com/watch?v=7PoqDyQOCM4&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=42
+Filmes|Adventista|Completos|Dinah|https://www.youtube.com/watch?v=FdUO8DIAV8s&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=45
+Filmes|Adventista|Completos|Incertezas|https://www.youtube.com/watch?v=I_fnvgjwdZQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=46
+Filmes|Adventista|Completos|Love Protein|https://www.youtube.com/watch?v=sCSiHa6GCAU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=47
+Filmes|Adventista|Completos|O Silêcio Também Fala|https://www.youtube.com/watch?v=-zNrnIwOiKE&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=49
+Filmes|Adventista|Completos|Não Tenha Medo|https://www.youtube.com/watch?v=9H_Q9t0zXSM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=50
+Filmes|Adventista|Completos|Bequadro|https://www.youtube.com/watch?v=F0lkqfh8VXQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=51
+Filmes|Adventista|Completos|A Esperança Não Morre|https://www.youtube.com/watch?v=1Ey0fTBy6ZU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=52
+Filmes|Adventista|Completos|Renascidos-Novo Coração|https://www.youtube.com/watch?v=25PfhGua2N0&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=53
+Filmes|Adventista|Completos|Encontros|https://www.youtube.com/watch?v=gRIXJGiu_TM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=54
+Filmes|Adventista|Completos|Já Não Sou Eu Que Vive|https://www.youtube.com/watch?v=jXngd3xwzGQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=55
+Filmes|Adventista|Completos|3G's E O Misterioso Sr.Walter|https://www.youtube.com/watch?v=2SFBbFH2zG8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=58
+Filmes|Adventista|Completos|Rico - Ele Tinha Quase Tudo|https://www.youtube.com/watch?v=vFt4pgQLDEA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=59
+Filmes|Adventista|Completos|Libertos-O Preço da Vida|https://www.youtube.com/watch?v=rbO2VqyWiGQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=62
+Filmes|Adventista|Completos|O Resgate|https://www.youtube.com/watch?v=gXeVlGnBLp8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=63
+Filmes|Adventista|Completos|O Silêncio de Lara|https://www.youtube.com/watch?v=G3TvyT3TuzE&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=66
+Filmes|Adventista|Completos|Jacó|https://www.youtube.com/watch?v=hToHQsdJk6k&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=68
+Filmes|Adventista|Completos|A Melhor Aventura|https://www.youtube.com/watch?v=QjLgLsBlUN4&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=69
+Filmes|Adventista|Completos|-10 A Vida Não é Um JOgo|https://www.youtube.com/watch?v=sYWtCr6kHcI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=70
+Filmes|Adventista|Completos|O Legado|https://www.youtube.com/watch?v=u9WyCtIDqHg&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=71
+Filmes|Adventista|Completos|O Novo Governo|https://www.youtube.com/watch?v=a0DDipOgkvM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=72
+Filmes|Adventista|Completos|Separado-Um Homem Escolhido Para Viver|https://www.youtube.com/watch?v=xYy7VQkHY_k&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=73
+Filmes|Adventista|Completos|O Método de Cristo|https://www.youtube.com/watch?v=Ruw5DuKXBZ4&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=74
+Filmes|Adventista|Completos|Opostos Oficial|https://www.youtube.com/watch?v=SQS-G7VUTFA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=76
+Filmes|Adventista|Completos|Agora Vejo|https://www.youtube.com/watch?v=tp7zX8Hbyww&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=76
+Filmes|Adventista|Completos|Escolhas|https://www.youtube.com/watch?v=DzvCqhEgvkk&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=77
+Filmes|Adventista|Completos|A Igreja Dos Sonhos de Deus|https://www.youtube.com/watch?v=iysQ3fyFt5Q&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=78
+Filmes|Adventista|Completos|A Mensagem|https://www.youtube.com/watch?v=yFmQiXgjCZA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=79
+Filmes|Adventista|Completos|A Vitória Final|https://www.youtube.com/watch?v=P8RJLTqU6ss&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=80
+Filmes|Adventista|Completos|A Esperança Para o Oeste 1|https://www.youtube.com/watch?v=828PFpdDsWM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=83
+Filmes|Adventista|Completos|A Esperança Para o Oeste 2|https://www.youtube.com/watch?v=VGGYhGVvVRQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=81
+Filmes|Adventista|Completos|Fábrica de Heróes|https://www.youtube.com/watch?v=fLiWfCsA50c&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=82
+Filmes|Adventista|Completos|O Legado da Fé|https://www.youtube.com/watch?v=Ak3oJMMyINc&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=84
