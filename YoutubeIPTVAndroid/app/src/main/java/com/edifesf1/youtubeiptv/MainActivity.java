@@ -16,6 +16,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.ImageView;
+import android.graphics.drawable.Drawable;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.Gravity;
@@ -87,11 +89,16 @@ public class MainActivity extends Activity {
 
         root.addView(webView, new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
         status = new TextView(this);
-        status.setText("Edifesf\n\nSeja Bem Vindo");
+        status.setText("Seja Bem Vindo");
         status.setTextColor(Color.WHITE);
-        status.setTextSize(22);
+        status.setTextSize(20);
         status.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
         status.setGravity(Gravity.CENTER);
+        status.setCompoundDrawablePadding(20);
+        Drawable logo = getResources().getDrawable(R.drawable.logo_edifesf, getTheme());
+        int logoSize = (int) (280 * getResources().getDisplayMetrics().density);
+        logo.setBounds(0, 0, logoSize, logoSize);
+        status.setCompoundDrawables(null, logo, null, null);
         status.setFocusable(true);
         status.setFocusableInTouchMode(true);
         status.setBackgroundColor(Color.BLACK);
@@ -101,7 +108,7 @@ public class MainActivity extends Activity {
     }
 
     private void loadAddressFromTxt() {
-        showStatus("Edifesf\n\nSeja Bem Vindo");
+        showStatus("Seja Bem Vindo");
         new Thread(() -> {
             HttpURLConnection connection = null;
             try {
@@ -127,7 +134,7 @@ public class MainActivity extends Activity {
                 }
                 final String finalAddress = address;
                 handler.post(() -> {
-                    showStatus("Edifesf\n\nSeja Bem Vindo");
+                    showStatus("Seja Bem Vindo");
                     webView.loadUrl(finalAddress);
                 });
             } catch (Exception e) {
