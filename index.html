@@ -437,9 +437,10 @@ function pesquisarConteudo() {
   if (!modoPesquisa) return;
 
   const termo = campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
+  // A pesquisa considera somente os dois últimos campos: classificação (C3) e título (D4).
   const encontrados = termo
     ? todosVideos.filter(v =>
-        [v.titulo, v.tema, v.categoria, v.classificacao]
+        [v.classificacao, v.titulo]
           .some(valor => String(valor || "").toLocaleLowerCase("pt-BR").includes(termo))
       )
     : [];
@@ -462,7 +463,8 @@ function pesquisarConteudo() {
   encontrados.forEach((video, indice) => {
     const opcao = document.createElement("option");
     opcao.value = String(indice);
-    opcao.textContent = video.titulo;
+    // Mostra juntos os campos C3 e D4 no resultado.
+    opcao.textContent = [video.classificacao, video.titulo].filter(Boolean).join(" - ");
     menuC3.appendChild(opcao);
   });
 
@@ -572,10 +574,24 @@ async function carregarLista(){
       if(tipo==="hls")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
     }).filter(Boolean);
-    preencherSelect(menuA1, [
-  ...todosVideos.map(v => v.tema),
-  "Pesquisa"
-]);limparAbaixo(1);aplicarFiltros();
+    // "Pesquisa" fica sempre como primeira opção; os temas vêm depois em ordem alfabética.
+    const temas = [...new Set(todosVideos.map(v => v.tema).filter(Boolean))]
+      .filter(tema => tema !== "Pesquisa")
+      .sort((a, b) => a.localeCompare(b, "pt-BR"));
+    menuA1.replaceChildren();
+    const opcaoPesquisa = document.createElement("option");
+    opcaoPesquisa.value = "Pesquisa";
+    opcaoPesquisa.textContent = "Pesquisa";
+    menuA1.appendChild(opcaoPesquisa);
+    temas.forEach(tema => {
+      const opcao = document.createElement("option");
+      opcao.value = tema;
+      opcao.textContent = tema;
+      menuA1.appendChild(opcao);
+    });
+    menuA1.value = "";
+    limparAbaixo(1);
+    aplicarFiltros();
   }catch(erro){console.error(erro);status.textContent="Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";}
 }
 
