@@ -6,10 +6,10 @@
 #LiveYoutube
 Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=kDo5YlP88os
 Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=RAZmleiGaZQ
-Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=zirbj0ZHAcM
-Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=thkEXzG-_n8
-Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=GPvYLeJMD1w
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=XorHO6_5ih0
+Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
+Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=KrvYkf-0078
+Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=kIsTWfnEcD8
 Normal|Live|Religioso|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 #Notícias
