@@ -7,7 +7,7 @@
     <application
         android:allowBackup="false"
         android:usesCleartextTraffic="true"
-        android:label="Youtube IPTV"
+        android:label="Edifesf"
         android:theme="@style/AppTheme"
         android:supportsRtl="true">
         <activity

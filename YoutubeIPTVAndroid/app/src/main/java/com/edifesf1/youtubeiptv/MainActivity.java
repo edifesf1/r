@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
 
         root.addView(webView, new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
         status = new TextView(this);
-        status.setText("Youtube IPTV\n\nLendo o endereço do arquivo link.txt...");
+        status.setText("Edifesf\n\nSeja Bem Vindo");
         status.setTextColor(Color.WHITE);
         status.setTextSize(22);
         status.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
@@ -101,7 +101,7 @@ public class MainActivity extends Activity {
     }
 
     private void loadAddressFromTxt() {
-        showStatus("Youtube IPTV\n\nConsultando link.txt...");
+        showStatus("Edifesf\n\nSeja Bem Vindo");
         new Thread(() -> {
             HttpURLConnection connection = null;
             try {
@@ -127,7 +127,7 @@ public class MainActivity extends Activity {
                 }
                 final String finalAddress = address;
                 handler.post(() -> {
-                    showStatus("Abrindo o site...\n" + finalAddress);
+                    showStatus("Edifesf\n\nSeja Bem Vindo");
                     webView.loadUrl(finalAddress);
                 });
             } catch (Exception e) {

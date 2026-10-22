@@ -14,3 +14,11 @@ android {
         versionName '1.0'
     }
 }
+
+
+// Define o nome do arquivo APK gerado.
+android.applicationVariants.all { variant ->
+    variant.outputs.all { output ->
+        outputFileName = "Edifesf.apk"
+    }
+}
