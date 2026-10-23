@@ -1,4 +1,4 @@
-name: Build Edifesf APK
+name: Build Edifesf1 APK
 
 on:
   workflow_dispatch:
