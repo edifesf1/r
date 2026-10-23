@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.edifesf1.youtubeiptv'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.edifesf1.youtubeiptv"
