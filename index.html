@@ -197,18 +197,40 @@ function desligar(){
 }
 
 // Clique padrão
-function clicar(){
+
+function clicar() {
   ponteiro.classList.add('clicando');
   setTimeout(() => ponteiro.classList.remove('clicando'), 100);
 
-  let el = document.elementFromPoint(mouseX, mouseY);
-  if(el && !['camadaMouse','ponteiro'].includes(el.id)){
-    el.focus();
-    el.click();
-    el.dispatchEvent(new MouseEvent('mousedown', {bubbles:true,clientX:mouseX,clientY:mouseY}));
-    el.dispatchEvent(new MouseEvent('mouseup', {bubbles:true,clientX:mouseX,clientY:mouseY}));
+  // Esconde temporariamente a camada visual do mouse
+  // para descobrir qual elemento está abaixo do ponteiro.
+  const camada = document.getElementById('camadaMouse');
+  camada.style.display = 'none';
+
+  const el = document.elementFromPoint(mouseX, mouseY);
+
+  camada.style.display = '';
+
+  if (!el) return;
+
+  // Não tenta clicar na própria camada ou no ponteiro.
+  if (el.id === 'camadaMouse' || el.id === 'ponteiro') return;
+
+  // Procura o controle interativo mais próximo.
+  const alvo = el.closest(
+    'button, select, input, a, [role="button"], video'
+  ) || el;
+
+  if (alvo.disabled) return;
+
+  // Leva o foco ao controle e dispara o clique.
+  if (typeof alvo.focus === 'function') {
+    alvo.focus({ preventScroll: true });
   }
+
+  alvo.click();
 }
+
 
 // ===== ATALHOS DIRETOS PARA O YOUTUBE =====
 function pularAnuncio(){
