@@ -23,7 +23,6 @@ import android.graphics.drawable.Drawable;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.Gravity;
-import android.view.accessibility.AccessibilityEvent;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -56,12 +55,13 @@ public class MainActivity extends Activity {
         webView.setFocusable(true);
         webView.setFocusableInTouchMode(true);
 
-        // ✅ Habilita eventos de hover e toque para o ponteiro funcionar
+        // ✅ Encaminha toques e cliques para o WebView
         webView.setOnTouchListener((v, event) -> {
             v.performClick();
             return false;
         });
 
+        // ✅ Encaminha eventos de hover (ponteiro passando sobre)
         webView.setOnHoverListener((v, event) -> {
             webView.onHoverEvent(event);
             return false;
@@ -77,8 +77,6 @@ public class MainActivity extends Activity {
         settings.setLoadsImagesAutomatically(true);
         settings.setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
         settings.setUserAgentString(settings.getUserAgentString() + " YoutubeIPTVAndroid/1.0");
-        
-        // ✅ Importante: habilita suporte a ponteiro/mouse
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
 
@@ -135,7 +133,7 @@ public class MainActivity extends Activity {
         status.requestFocus();
     }
 
-    // ✅ NOVO: Faz o controle remoto enviar eventos de mouse para mostrar a bolinha
+    // ✅ Processa movimento do controle remoto/mouse e envia para o WebView
     @Override
     public boolean onGenericMotionEvent(MotionEvent event) {
         if (webView != null) {
@@ -147,15 +145,6 @@ public class MainActivity extends Activity {
             }
         }
         return super.onGenericMotionEvent(event);
-    }
-
-    // ✅ NOVO: Encaminha eventos de movimento para o WebView
-    @Override
-    public boolean dispatchHoverEvent(MotionEvent event) {
-        if (webView != null) {
-            webView.onHoverEvent(event);
-        }
-        return super.dispatchHoverEvent(event);
     }
 
     private void loadAddressFromTxt() {
