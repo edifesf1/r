@@ -21,7 +21,7 @@ header{
   border:1px solid rgba(255,255,255,.5);border-radius:5px;
   background:#a90000;color:#fff;font-size:14px;outline:none
 }
-.cascade-group select:focus{border-color:#fff}
+.cascade-group select:focus{border-color:#fff;outline:2px solid #ff0;}
 .cascade-group[hidden]{display:none}
 #navegacaoCanais{display:flex;align-items:center;justify-content:center;gap:5px;flex:0 0 auto}
 #navegacaoCanais button{
@@ -29,10 +29,7 @@ header{
   padding:0;border:1px solid rgba(255,255,255,.65);border-radius:6px;
   background:#990000;color:#fff;font-size:22px;font-weight:bold;cursor:pointer
 }
-#navegacaoCanais button:focus, #botaoTarja:focus, select:focus{
-  outline: 3px solid #ff0; /* ✅ FIRE TV: mostra claramente o que está selecionado */
-  outline-offset: 2px;
-}
+#navegacaoCanais button:focus{outline:3px solid #ff0;}
 #navegacaoCanais button:disabled{opacity:.45;cursor:not-allowed}
 #botaoTarja{
   display:inline-flex;align-items:center;justify-content:center;
@@ -40,24 +37,42 @@ header{
   border:1px solid rgba(255,255,255,.7);border-radius:5px;
   background:#790000;color:#fff;font-size:18px;font-weight:bold;line-height:1;cursor:pointer
 }
+#botaoTarja:focus{outline:3px solid #ff0;}
 #temaAtual{display:none}
 main{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;overflow:hidden;background:#000}
-#player{
-  position:absolute;inset:0;width:100%;height:100%;background:#000;overflow:hidden;
-  /* ✅ FIRE TV: permite receber foco e navegar */
-  outline: none;
-}
-/* ✅ FIRE TV: destaque quando o player recebe foco */
-#player:focus-within{
-  outline: 3px solid #0f0;
-  outline-offset: -3px;
-}
+#player{position:absolute;inset:0;width:100%;height:100%;background:#000;overflow:hidden}
 #player iframe,#player video,#player>div,#player>div iframe{
   display:block;width:100%!important;height:100%!important;border:0;
-  /* ✅ FIRE TV: ESSENCIAL — permite foco no player */
-  tabindex: 0;
 }
 #status,#lista{display:none!important}
+
+/* ===== CURSOR MÓVEL PARA FIRE STICK ===== */
+#modoMouseOverlay{
+  position:fixed;inset:0;z-index:500;display:none;
+  cursor:none !important;
+}
+body.modo-mouse #modoMouseOverlay{display:block;}
+#cursorVirtual{
+  position:fixed;top:50%;left:50%;width:24px;height:24px;
+  margin:-12px 0 0 -12px;pointer-events:none;z-index:9999;
+  transition:transform 0.05s ease;
+}
+#cursorVirtual>div{
+  width:100%;height:100%;background:#fff;border:2px solid #000;
+  border-radius:50%;box-shadow:0 0 8px rgba(255,255,255,.8);
+}
+#dicaModoMouse{
+  position:fixed;bottom:16px;left:50%;transform:translateX(-50%);
+  background:rgba(0,0,0,.8);color:#fff;padding:10px 20px;border-radius:30px;
+  font-size:14px;z-index:5001;display:none;pointer-events:none;
+}
+body.modo-mouse #dicaModoMouse{display:block;}
+#botaoSairMouse{
+  position:fixed;top:10px;left:50%;transform:translateX(-50%);
+  background:rgba(200,0,0,.9);color:#fff;border:none;
+  padding:8px 20px;border-radius:20px;font-size:14px;z-index:5001;
+}
+
 #drawerOverlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:900;display:none}
 #drawerOverlay.aberto{display:block}
 #drawer{width:min(320px,86vw);height:100%;overflow-y:auto;background:#1b1b1b;box-shadow:4px 0 16px rgba(0,0,0,.4);padding:0 0 20px}
@@ -114,6 +129,14 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
 </head>
 <body class="bloqueado">
+
+<!-- ===== SOBREPOSIÇÃO DO MODO MOUSE ===== -->
+<div id="modoMouseOverlay">
+  <div id="cursorVirtual"><div></div></div>
+  <button id="botaoSairMouse">⬆️ SAIR DO MODO MOUSE</button>
+  <div id="dicaModoMouse">🎯 Use as setas para mover • OK = clicar • ⬆️ = voltar</div>
+</div>
+
 <section id="telaLogin" aria-label="Tela de login">
   <form id="caixaLogin">
     <h1>Youtube IPTV</h1>
@@ -153,12 +176,7 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
   <button id="botaoTarja" type="button" title="Recolher tarja" aria-label="Recolher tarja" aria-pressed="false">▁</button>
 </header>
 <main>
-  <!-- ✅ FIRE TV: Botão auxiliar para enviar foco direto ao player -->
-  <button id="focarPlayerBtn" type="button" 
-    style="position:fixed;bottom:10px;right:10px;z-index:999;display:none;background:rgba(0,150,0,.8);color:white;border:none;border-radius:50%;width:44px;height:44px;font-size:20px;cursor:pointer;"
-    title="Selecionar vídeo" aria-label="Selecionar vídeo">▶</button>
-  
-  <div id="player" tabindex="1"></div>
+  <div id="player"></div>
   <div id="status">Carregando lista de vídeos...</div>
   <div id="lista"></div>
 </main>
@@ -175,7 +193,15 @@ const menuA1 = document.getElementById("menuA1");
 const menuB2 = document.getElementById("menuB2");
 const menuC3 = document.getElementById("menuC3");
 const menuD4 = document.getElementById("menuD4");
-const focarPlayerBtn = document.getElementById("focarPlayerBtn"); // ✅ FIRE TV
+
+// ===== VARIÁVEIS DO MODO MOUSE =====
+const cursorVirtual = document.getElementById("cursorVirtual");
+const botaoSairMouse = document.getElementById("botaoSairMouse");
+const overlayMouse = document.getElementById("modoMouseOverlay");
+let modoMouseAtivo = false;
+let mouseX = window.innerWidth / 2;
+let mouseY = window.innerHeight / 2;
+const VELOCIDADE_MOUSE = 15; // Ajusta a velocidade do ponteiro
   
 const campoPesquisa = document.getElementById("campoPesquisa");
 let modoPesquisa = false;
@@ -190,19 +216,72 @@ const botaoCanalAnterior = document.getElementById("canalAnterior");
 const botaoProximoCanal = document.getElementById("proximoCanal");
 const botaoTarja = document.getElementById("botaoTarja");
 
-// ✅ FIRE TV: Enviar foco para o player do YouTube
-function focarPlayer(){
-  const playerContainer = document.getElementById("player");
-  // Tenta focar no iframe do YouTube
-  const iframe = playerContainer.querySelector("iframe");
-  if(iframe){
-    iframe.focus();
-    status.textContent = "✅ Foco enviado ao player — use as setas para controlar";
-  } else {
-    playerContainer.focus();
+// ===== FUNÇÕES DO MODO MOUSE =====
+function atualizarPosicaoCursor(){
+  cursorVirtual.style.transform = `translate(${mouseX - 12}px, ${mouseY - 12}px)`;
+}
+function ativarModoMouse(){
+  if(modoMouseAtivo) return;
+  modoMouseAtivo = true;
+  document.body.classList.add("modo-mouse");
+  mouseX = window.innerWidth / 2;
+  mouseY = window.innerHeight / 2;
+  atualizarPosicaoCursor();
+  status.textContent = "🖱️ MODO MOUSE ATIVO • ⬅️➡️⬆️⬇️ mover • OK clicar • ⬆️ sair";
+}
+function desativarModoMouse(){
+  if(!modoMouseAtivo) return;
+  modoMouseAtivo = false;
+  document.body.classList.remove("modo-mouse");
+  status.textContent = "Tarja ativa • ⬇️ para entrar no modo mouse";
+}
+function simularClique(x, y){
+  // Dispara um clique verdadeiro na posição do cursor
+  const elementos = document.elementsFromPoint(x, y);
+  for(const el of elementos){
+    if(el === overlayMouse || el === cursorVirtual) continue;
+    const clique = new MouseEvent("click", {
+      clientX: x, clientY: y,
+      bubbles: true, cancelable: true
+    });
+    el.dispatchEvent(clique);
+    break;
   }
 }
-focarPlayerBtn.addEventListener("click", focarPlayer);
+
+// ===== TECLADO / CONTROLE REMOTO =====
+document.addEventListener("keydown", (e) => {
+  const tecla = e.key;
+  
+  if(modoMouseAtivo){
+    // MODO MOUSE — controla o ponteiro
+    e.preventDefault();
+    if(tecla === "ArrowLeft") mouseX = Math.max(0, mouseX - VELOCIDADE_MOUSE);
+    else if(tecla === "ArrowRight") mouseX = Math.min(window.innerWidth, mouseX + VELOCIDADE_MOUSE);
+    else if(tecla === "ArrowUp"){
+      // Sair do modo mouse com seta para cima
+      desativarModoMouse();
+      return;
+    }
+    else if(tecla === "ArrowDown") mouseY = Math.min(window.innerHeight, mouseY + VELOCIDADE_MOUSE);
+    else if(tecla === "Enter" || tecla === "OK"){
+      // Clicar na posição atual
+      simularClique(mouseX, mouseY);
+    }
+    atualizarPosicaoCursor();
+  }else{
+    // MODO NORMAL — tarja funcionando normalmente
+    if(tecla === "ArrowDown"){
+      const focoAtual = document.activeElement;
+      // Se estiver focado na tarja ou em qualquer elemento superior → ativa modo mouse
+      if(focoAtual.closest("header") || focoAtual === document.body){
+        e.preventDefault();
+        ativarModoMouse();
+      }
+    }
+  }
+});
+botaoSairMouse.addEventListener("click", desativarModoMouse);
 
 function alternarTarja(){
   const recolhida = document.body.classList.toggle("tarja-recolhida");
@@ -210,36 +289,8 @@ function alternarTarja(){
   botaoTarja.title = recolhida ? "Mostrar tarja" : "Recolher tarja";
   botaoTarja.setAttribute("aria-label", botaoTarja.title);
   botaoTarja.setAttribute("aria-pressed", String(recolhida));
-  // ✅ FIRE TV: Ao recolher tarja, foca no vídeo automaticamente
-  if(recolhida){
-    setTimeout(focarPlayer, 300);
-  }
 }
 botaoTarja.addEventListener("click", alternarTarja);
-
-// ✅ FIRE TV: Navegação com teclado/controle remoto
-document.addEventListener("keydown", (e) => {
-  // Botão "para baixo" — desce direto pro player
-  if(e.key === "ArrowDown" || e.keyCode === 40){
-    const ativo = document.activeElement;
-    // Se estiver na tarja, desce pro player
-    if(ativo.closest("header")){
-      e.preventDefault();
-      focarPlayer();
-    }
-  }
-  // Botão "para cima" — volta pra tarja
-  if(e.key === "ArrowUp" || e.keyCode === 38){
-    const ativo = document.activeElement;
-    const playerEl = document.getElementById("player");
-    // Se estiver no player, volta pro primeiro elemento da tarja
-    if(ativo === playerEl || playerEl.contains(ativo)){
-      e.preventDefault();
-      const primeiro = document.querySelector("header select, header button");
-      if(primeiro) primeiro.focus();
-    }
-  }
-});
 
 // URL do servidor responsável exclusivamente pelo controle de sessões.
 const URL_SESSOES = "https://script.google.com/macros/s/AKfycbyjEMCft9Z-84Owpfukv4ROvVv3w2Ax4QsyPvULPuk424Ej8Liz8AU5xmQnoLSDMl2b/exec";
@@ -535,7 +586,6 @@ function criarPlayer(){
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;videoEl.controls=true;videoEl.autoplay=true;videoEl.playsInline=true;videoEl.preload="metadata";
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
-    videoEl.setAttribute("tabindex", "0"); // ✅ FIRE TV
     area.appendChild(videoEl);player=videoEl;
     videoEl.addEventListener("error",()=>{
       const e=videoEl.error;console.error("Erro do elemento de vídeo:",{code:e?.code,message:e?.message,url:item.url});
@@ -544,7 +594,7 @@ function criarPlayer(){
     if(window.Hls&&Hls.isSupported()){
       hlsInstance=new Hls({enableWorker:true,lowLatencyMode:false,backBufferLength:30,manifestLoadingTimeOut:20000,manifestLoadingMaxRetry:3,manifestLoadingRetryDelay:1000,levelLoadingTimeOut:20000,fragLoadingTimeOut:30000,fragLoadingMaxRetry:4,fragLoadingRetryDelay:1000});
       hlsInstance.on(Hls.Events.MANIFEST_PARSED,()=>{
-        videoEl.play().then(()=>{status.textContent="Transmissão HLS reproduzindo. ✅ Pressione BAIXO para controlar";setTimeout(focarPlayer, 500);}).catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
+        videoEl.play().then(()=>{status.textContent="Transmissão HLS reproduzindo. ⬇️ = modo mouse";}).catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
       });
       let rede=false,midia=false;
       hlsInstance.on(Hls.Events.ERROR,(_event,data)=>{
@@ -557,36 +607,21 @@ function criarPlayer(){
       });
       hlsInstance.loadSource(item.url);hlsInstance.attachMedia(videoEl);
     }else if(videoEl.canPlayType("application/vnd.apple.mpegurl")){
-      videoEl.src=item.url;videoEl.play().then(()=>setTimeout(focarPlayer, 500)).catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
+      videoEl.src=item.url;videoEl.play().catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
     }else status.textContent="Este navegador não oferece suporte à reprodução HLS.";
     return;
   }
   const container=document.createElement("div");container.id="youtube-player-container-"+geracao;
-  container.style.cssText="width:100%;height:100%;background:#000;";
-  area.appendChild(container);
+  container.style.cssText="width:100%;height:100%;background:#000;";area.appendChild(container);
   status.textContent="Carregando player do YouTube…";
   carregarYouTubeAPI().then(()=>{
     if(geracao!==geracaoPlayer||!area.contains(container))return;
     ytPlayerApi=new YT.Player(container.id,{
       width:"100%",height:"100%",videoId:item.id,
-      playerVars:{
-        autoplay:1,
-        playsinline:1,
-        rel:0,
-        enablejsapi:1, // ✅ FIRE TV — essencial para controle via remoto
-        origin:location.origin,
-        widget_referrer:location.origin
-      },
+      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin},
       events:{
-        onReady:event=>{
-          status.textContent="✅ Pronto! Pressione BAIXO no remoto para controlar o vídeo";
-          event.target.playVideo();
-          // ✅ FIRE TV — já envia o foco pro player automaticamente
-          setTimeout(focarPlayer, 800);
-        },
-        onStateChange:event=>{
-          if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo+" | ⬇️ BAIXO = controlar vídeo";
-        },
+        onReady:event=>{status.textContent="✅ Pronto! ⬇️ = modo mouse para pular anúncio/legenda";event.target.playVideo();},
+        onStateChange:event=>{if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo+" | ⬇️ = modo mouse";},
         onError:event=>{
           const mensagens={2:"Parâmetro ou ID de vídeo inválido",5:"Erro no player HTML5 do YouTube",100:"Vídeo removido, privado ou não encontrado",101:"Vídeo não permite reprodução incorporada",150:"Vídeo não permite reprodução incorporada",153:"Erro de identificação do player ou Referer"};
           status.textContent="Falha no canal: "+item.titulo+". Código "+event.data;
