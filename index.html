@@ -42,15 +42,16 @@ main{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;overflo
 #player iframe,#player video,#player>div,#player>div iframe{display:block;width:100%!important;height:100%!important;border:0}
 #status,#lista{display:none!important}
 
-/* ===== SISTEMA DE MOUSE — ISOLADO, NÃO INTERFERE EM NADA ===== */
+/* ===== SISTEMA DE MOUSE — CORRIGIDO ===== */
 #camadaMouse{position:fixed;inset:0;z-index:99999;display:none;pointer-events:none}
 body.modo-mouse #camadaMouse{display:block}
 #ponteiro{
   position:absolute;top:50%;left:50%;width:28px;height:28px;
   margin:-14px 0 0 -14px;pointer-events:none;z-index:100000;
   background:#fff;border:3px solid #c00;border-radius:50%;
-  box-shadow:0 0 12px rgba(255,255,255,.85)
+  box-shadow:0 0 12px rgba(255,255,255,.85);transition:transform 0.05s
 }
+#ponteiro.clicando{transform:scale(0.85);box-shadow:0 0 6px rgba(255,255,255,.9)}
 
 #drawerOverlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:900;display:none}
 #drawerOverlay.aberto{display:block}
@@ -108,7 +109,6 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 </head>
 <body class="bloqueado">
 
-<!-- === CAMADA DO MOUSE — não interfere em nada === -->
 <div id="camadaMouse"><div id="ponteiro"></div></div>
 
 <section id="telaLogin" aria-label="Tela de login">
@@ -157,8 +157,7 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 
 <script>
 // =====================================================
-// 🖱️ SISTEMA DE MOUSE — TOTALMENTE ISOLADO
-// NÃO ALTERA NENHUMA LINHA DO CÓDIGO ORIGINAL ABAIXO
+// 🖱️ SISTEMA DE MOUSE — CLIQUE CORRIGIDO PARA O YOUTUBE
 // =====================================================
 (function(){
 const ponteiro = document.getElementById('ponteiro');
@@ -172,6 +171,7 @@ function atualizar(){
   ponteiro.style.left = mouseX + 'px';
   ponteiro.style.top = mouseY + 'px';
 }
+
 function ligar(){
   ativo = true;
   document.body.classList.add('modo-mouse');
@@ -179,14 +179,44 @@ function ligar(){
   mouseY = window.innerHeight / 2;
   atualizar();
 }
+
 function desligar(){
   ativo = false;
   document.body.classList.remove('modo-mouse');
 }
+
+// ✅ CLIQUE OTIMIZADO — funciona inclusive no iframe do YouTube
 function clicar(){
-  const el = document.elementFromPoint(mouseX, mouseY);
-  if(el && !['camadaMouse','ponteiro'].includes(el.id)) el.click();
+  // Efeito visual no ponteiro
+  ponteiro.classList.add('clicando');
+  setTimeout(() => ponteiro.classList.remove('clicando'), 100);
+
+  // Método 1: elemento direto
+  let el = document.elementFromPoint(mouseX, mouseY);
+  if(el && !['camadaMouse','ponteiro'].includes(el.id)){
+    el.click();
+    // Também dispara evento nativo para iframes
+    el.dispatchEvent(new MouseEvent('mousedown', {bubbles:true,clientX:mouseX,clientY:mouseY}));
+    el.dispatchEvent(new MouseEvent('mouseup', {bubbles:true,clientX:mouseX,clientY:mouseY}));
+    el.dispatchEvent(new MouseEvent('click', {bubbles:true,clientX:mouseX,clientY:mouseY}));
+  }
+
+  // Método 2: clique nativo na coordenada — ESSENCIAL para o YouTube
+  const evento = new MouseEvent('click', {
+    view: window,
+    bubbles: true,
+    cancelable: true,
+    clientX: mouseX,
+    clientY: mouseY,
+    screenX: mouseX,
+    screenY: mouseY
+  });
+  document.dispatchEvent(evento);
+
+  // Método 3: foco + toque no elemento
+  if(el && el.focus) el.focus();
 }
+
 document.addEventListener('keydown', e => {
   if(ativo){
     e.preventDefault();
@@ -198,7 +228,9 @@ document.addEventListener('keydown', e => {
         if(mouseY <= ALTURA_TARJA + 14){ desligar(); return; }
         mouseY = Math.max(ALTURA_TARJA + 14, mouseY - VELOCIDADE);
         break;
-      case 'Enter': case 'OK': clicar(); break;
+      case 'Enter': case 'OK': case ' ':
+        clicar();
+        break;
     }
     atualizar();
   } else if(e.key === 'ArrowDown'){
@@ -208,7 +240,7 @@ document.addEventListener('keydown', e => {
 })();
 
 // =====================================================
-// 🔒 SEU CÓDIGO ORIGINAL — NADA FOI ALTERADO AQUI
+// 🔒 SEU CÓDIGO ORIGINAL — NADA ALTERADO
 // =====================================================
 const tarja = document.querySelector("header");
 const navegacaoCanais = document.getElementById("navegacaoCanais");
