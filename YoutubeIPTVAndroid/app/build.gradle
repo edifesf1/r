@@ -20,16 +20,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    // Opcional: voltar o nome do APK se desejar
+    // applicationVariants.all { variant ->
+    //     variant.outputs.all { output ->
+    //         outputFileName = "Edifesf.apk"
+    //     }
+    // }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    // ✅ Biblioteca essencial para o Tema de TV e Ponteiro funcionar
-    implementation 'androidx.leanback:leanback:1.0.0'
+    implementation 'androidx.leanback:leanback:1.2.0'
     implementation 'com.google.android.material:material:1.11.0'
 }
