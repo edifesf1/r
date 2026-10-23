@@ -1,3 +1,9 @@
+name: Build Edifesf APK
+
+'on': push: branches: - main paths: - 'PlayerEdifesf/**' - '.github/workflows/build.yml' workflow_dispatch:
+
+jobs: build: name: Compilar APK runs-on: ubuntu-latest
+
 steps:
   - name: Checkout
     uses: actions/checkout@v4
@@ -18,7 +24,10 @@ steps:
 
   - name: Instalar pacotes Android
     run: |
-      sdkmanager --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+      sdkmanager --install \
+        "platform-tools" \
+        "platforms;android-35" \
+        "build-tools;35.0.0"
 
   - name: Compilar APK
     working-directory: PlayerEdifesf
