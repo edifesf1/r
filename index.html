@@ -283,9 +283,16 @@ document.addEventListener('keydown', e => {
         mouseY = Math.min(window.innerHeight - 14, mouseY + VELOCIDADE); 
         break;
       case 'ArrowUp':
-        if(mouseY <= ALTURA_TARJA + 14){ desligar(); return; }
-        mouseY = Math.max(ALTURA_TARJA + 14, mouseY - VELOCIDADE);
-        break;
+        case 'ArrowUp':
+  mouseY = Math.max(14, mouseY - VELOCIDADE);
+
+  // Na região da tarja, a seta para cima
+  // devolve o controle à navegação normal.
+  if (mouseY <= ALTURA_TARJA + 14) {
+    desligar();
+    return;
+  }
+  break;
       case 'Enter': case 'OK': case ' ':
         clicar();
         break;
