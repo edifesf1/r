@@ -111,4 +111,3 @@ public class MainActivity extends Activity {
     @Override
     protected void onDestroy() { if (webView != null) webView.destroy(); super.onDestroy(); }
 }
-
