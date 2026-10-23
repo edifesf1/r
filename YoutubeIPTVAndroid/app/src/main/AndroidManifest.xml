@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">  <!-- ✅ Adicionado --->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,16 +14,13 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:banner="@mipmap/ic_launcher"
-        tools:replace="android:theme,android:allowBackup">  <!-- ✅ Resolve conflito -->
+        android:theme="@style/AppTheme">
         
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape"
-            android:exported="true"
-            android:theme="@style/Theme.Leanback"
-            android:supportsPictureInPicture="true">
+            android:exported="true">
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
