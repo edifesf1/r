@@ -25,13 +25,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
-    // Opcional: voltar o nome do APK se desejar
-    // applicationVariants.all { variant ->
-    //     variant.outputs.all { output ->
-    //         outputFileName = "Edifesf.apk"
-    //     }
-    // }
 }
 
 dependencies {
