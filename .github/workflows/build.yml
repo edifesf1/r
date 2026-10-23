@@ -1,3 +1,4 @@
+
 name: Build Edifesf APK 'on': push: branches: - main paths: - "PlayerEdifesf/**" - ".github/workflows/build.yml" workflow_dispatch:
 
 jobs: build: runs-on: ubuntu-latest steps: - name: Checkout uses: actions/checkout@v4
