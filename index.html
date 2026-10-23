@@ -41,27 +41,6 @@ main{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;overflo
 #player{position:absolute;inset:0;width:100%;height:100%;background:#000;overflow:hidden}
 #player iframe,#player video,#player>div,#player>div iframe{display:block;width:100%!important;height:100%!important;border:0}
 #status,#lista{display:none!important}
-
-/* ===== SISTEMA DE MOUSE ===== */
-#camadaMouse{position:fixed;inset:0;z-index:99999;display:none;pointer-events:none}
-body.modo-mouse #camadaMouse{display:block}
-#ponteiro{
-  position:absolute;top:50%;left:50%;width:28px;height:28px;
-  margin:-14px 0 0 -14px;pointer-events:none;z-index:100000;
-  background:#fff;border:3px solid #c00;border-radius:50%;
-  box-shadow:0 0 12px rgba(255,255,255,.85);transition:transform 0.05s
-}
-#ponteiro.clicando{transform:scale(0.85);box-shadow:0 0 6px rgba(255,255,255,.9)}
-
-/* Painel de atalhos */
-#atalhosInfo{
-  position:fixed;bottom:10px;left:50%;transform:translateX(-50%);
-  background:rgba(0,0,0,.75);color:#fff;padding:8px 16px;
-  border-radius:20px;font-size:12px;z-index:999;display:none;
-  text-align:center;line-height:1.5
-}
-body.modo-mouse #atalhosInfo{display:block}
-
 #drawerOverlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:900;display:none}
 #drawerOverlay.aberto{display:block}
 #drawer{width:min(320px,86vw);height:100%;overflow-y:auto;background:#1b1b1b;box-shadow:4px 0 16px rgba(0,0,0,.4);padding:0 0 20px}
@@ -88,7 +67,6 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
   #navegacaoCanais{gap:3px}
   #navegacaoCanais button{width:30px;height:32px;font-size:18px}
   #botaoTarja{width:27px;height:27px;font-size:16px}
-  #atalhosInfo{font-size:10px;padding:6px 10px}
 }
 @media(max-width:360px){
   header{gap:3px;padding:5px 4px}
@@ -96,6 +74,8 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
   #navegacaoCanais button{width:27px}
   #botaoTarja{width:25px;height:25px;font-size:15px}
 }
+
+/* Ao recolher a tarja, o vídeo ocupa toda a tela e o botão continua acessível. */
 body.tarja-recolhida>header{
   position:fixed;top:0;left:0;right:0;height:0;min-height:0;padding:0;
   background:transparent;pointer-events:none;z-index:200
@@ -118,10 +98,6 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
 </head>
 <body class="bloqueado">
-
-<div id="camadaMouse"><div id="ponteiro"></div></div>
-<div id="atalhosInfo">⏭️ Pular: Seta Direita | Legenda: L | Play/Pause: OK | Voltar ponteiro: Seta Cima na tarja</div>
-
 <section id="telaLogin" aria-label="Tela de login">
   <form id="caixaLogin">
     <h1>Youtube IPTV</h1>
@@ -133,6 +109,7 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
     <div id="erroLogin" role="alert"></div>
   </form>
 </section>
+
 <header aria-label="Controles do player">
   <nav id="cascadeBar" aria-label="Filtros">
     <div class="cascade-group" id="grupoA1"><label for="menuA1">Tema</label><select id="menuA1" title="Tema" aria-label="Tema"><option value=""></option></select></div>
@@ -146,6 +123,7 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
     aria-label="Pesquisar canais, filmes, séries e músicas"
     style="display:none;width:100%;min-width:100px;padding:9px 8px;border-radius:5px;border:1px solid white;background:#a90000;color:white;font-size:14px">
 </div>
+
 <div class="cascade-group" id="grupoC3" hidden>
   <label for="menuC3">Resultados</label>
   <select id="menuC3" title="Resultados" aria-label="Resultados">
@@ -160,201 +138,14 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
   </div>
   <button id="botaoTarja" type="button" title="Recolher tarja" aria-label="Recolher tarja" aria-pressed="false">▁</button>
 </header>
+
 <main>
   <div id="player"></div>
-  <div id="status"></div>
+  <div id="status">Carregando lista de vídeos...</div>
   <div id="lista"></div>
 </main>
 
 <script>
-// =====================================================
-// 🖱️ SISTEMA DE MOUSE + ATALHOS DIRETOS DA API
-// =====================================================
-(function(){
-const ponteiro = document.getElementById('ponteiro');
-const ALTURA_TARJA = 58;
-const VELOCIDADE = 14;
-let mouseX = window.innerWidth / 2;
-let mouseY = window.innerHeight / 2;
-let ativo = false;
-
-function atualizar(){
-  ponteiro.style.left = mouseX + 'px';
-  ponteiro.style.top = mouseY + 'px';
-}
-
-function ligar(){
-  ativo = true;
-  document.body.classList.add('modo-mouse');
-  mouseX = window.innerWidth / 2;
-  mouseY = window.innerHeight / 2;
-  atualizar();
-}
-
-function desligar(){
-  ativo = false;
-  document.body.classList.remove('modo-mouse');
-}
-
-// Clique padrão
-
-function clicar() {
-  ponteiro.classList.add('clicando');
-  setTimeout(() => ponteiro.classList.remove('clicando'), 100);
-
-  // Esconde temporariamente a camada visual do mouse
-  // para descobrir qual elemento está abaixo do ponteiro.
-  const camada = document.getElementById('camadaMouse');
-  camada.style.display = 'none';
-
-  const el = document.elementFromPoint(mouseX, mouseY);
-
-  camada.style.display = '';
-
-  if (!el) return;
-
-  // Não tenta clicar na própria camada ou no ponteiro.
-  if (el.id === 'camadaMouse' || el.id === 'ponteiro') return;
-
-  // Procura o controle interativo mais próximo.
-  const alvo = el.closest(
-    'button, select, input, a, [role="button"], video'
-  ) || el;
-
-  if (alvo.disabled) return;
-
-  // Leva o foco ao controle e dispara o clique.
-  if (typeof alvo.focus === 'function') {
-    alvo.focus({ preventScroll: true });
-  }
-
-  alvo.click();
-}
-
-
-// ===== ATALHOS DIRETOS PARA O YOUTUBE =====
-function pularAnuncio(){
-  if(window.ytPlayerApi && ytPlayerApi.seekTo){
-    ytPlayerApi.seekTo(999999); // Pula direto pro fim do anúncio
-    status.textContent = "⏭️ Anúncio pulado!";
-  }
-}
-
-function alternarLegenda(){
-  if(window.ytPlayerApi && ytPlayerApi.toggleCaption){
-    ytPlayerApi.toggleCaption();
-    status.textContent = "🔤 Legenda alternada!";
-  }
-}
-
-function playPause(){
-  if(!window.ytPlayerApi) return;
-  const estado = ytPlayerApi.getPlayerState();
-  if(estado === 1) ytPlayerApi.pauseVideo();
-  else ytPlayerApi.playVideo();
-}
-
-function avancarTempo(segundos=10){
-  if(window.ytPlayerApi && ytPlayerApi.getCurrentTime){
-    ytPlayerApi.seekTo(ytPlayerApi.getCurrentTime() + segundos);
-  }
-}
-
-function retrocederTempo(segundos=10){
-  if(window.ytPlayerApi && ytPlayerApi.getCurrentTime){
-    ytPlayerApi.seekTo(Math.max(0, ytPlayerApi.getCurrentTime() - segundos));
-  }
-}
-
-document.addEventListener('keydown', e => {
-  const tecla = e.key;
-
-  // MODO NORMAL: navegação do player e ativação do mouse
-  if (!ativo) {
-    if (tecla === 'ArrowUp' || tecla === 'ArrowDown') {
-      e.preventDefault();
-      ligar();
-      return;
-    }
-
-    if (tecla.toLowerCase() === 'l') {
-      e.preventDefault();
-      alternarLegenda();
-      return;
-    }
-
-    if (tecla === 'Enter' || tecla === 'OK' || tecla === ' ') {
-      e.preventDefault();
-      playPause();
-      return;
-    }
-
-    if (tecla === 'ArrowRight') {
-      e.preventDefault();
-      pularAnuncio();
-      return;
-    }
-
-    // Outras teclas ficam livres para o navegador.
-    return;
-  }
-
-  // MODO MOUSE: bloqueia a navegação do player
-  // para que as setas movimentem a bolinha.
-  if ([
-    'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown',
-    'Enter', ' ', 'OK'
-  ].includes(tecla)) {
-    e.preventDefault();
-    e.stopImmediatePropagation();
-  }
-
-  switch (tecla) {
-    case 'ArrowLeft':
-      mouseX = Math.max(14, mouseX - VELOCIDADE);
-      break;
-
-    case 'ArrowRight':
-      mouseX = Math.min(
-        window.innerWidth - 14,
-        mouseX + VELOCIDADE
-      );
-      break;
-
-    case 'ArrowDown':
-      mouseY = Math.min(
-        window.innerHeight - 14,
-        mouseY + VELOCIDADE
-      );
-      break;
-
-    case 'ArrowUp':
-  mouseY = Math.max(14, mouseY - VELOCIDADE);
-  break;
-
-    case 'Enter':
-    case 'OK':
-    case ' ':
-      clicar();
-      break;
-
-    case 'l':
-    case 'L':
-      alternarLegenda();
-      break;
-
-    default:
-      return;
-  }
-
-  atualizar();
-});
-})();
-
-  
-// =====================================================
-// 🔒 SEU CÓDIGO ORIGINAL — NADA ALTERADO
-// =====================================================
 const tarja = document.querySelector("header");
 const navegacaoCanais = document.getElementById("navegacaoCanais");
 const telaLogin = document.getElementById("telaLogin");
@@ -380,6 +171,7 @@ const grupos = {
 const botaoCanalAnterior = document.getElementById("canalAnterior");
 const botaoProximoCanal = document.getElementById("proximoCanal");
 const botaoTarja = document.getElementById("botaoTarja");
+
 function alternarTarja(){
   const recolhida = document.body.classList.toggle("tarja-recolhida");
   botaoTarja.textContent = recolhida ? "☰" : "▁";
@@ -388,6 +180,8 @@ function alternarTarja(){
   botaoTarja.setAttribute("aria-pressed", String(recolhida));
 }
 botaoTarja.addEventListener("click", alternarTarja);
+
+// URL do servidor responsável exclusivamente pelo controle de sessões.
 const URL_SESSOES = "https://script.google.com/macros/s/AKfycbyjEMCft9Z-84Owpfukv4ROvVv3w2Ax4QsyPvULPuk424Ej8Liz8AU5xmQnoLSDMl2b/exec";
 const DEVICE_KEY = "edifesfDeviceId";
 let heartbeatTimer = null;
@@ -401,11 +195,16 @@ let geracaoPlayer = 0;
 let ytApiPromise = null;
 let selecionado = 0;
 const falhasRecentes = new Map();
+
+/* A tarja fica sempre visível; não depende de eventos dentro do YouTube. */
 function mostrarTarja(){ tarja.style.visibility="visible"; }
-function ocultarTarja(){ }
+function ocultarTarja(){ /* A tarja é fixa e não é ocultada. */ }
+
 function registrarFalha(item,tipo,erro,codigo=""){
+  // Registro remoto de falhas desativado; mantém apenas diagnóstico no console.
   console.warn("Falha de reprodução:", {canal:item?.titulo||"Canal sem nome", tipo, url:item?.url||"", erro:String(erro||"Falha de reprodução"), codigo:String(codigo||"")});
 }
+
 function carregarYouTubeAPI(){
   if(window.YT&&window.YT.Player)return Promise.resolve();
   if(ytApiPromise)return ytApiPromise;
@@ -427,6 +226,7 @@ function carregarYouTubeAPI(){
   });
   return ytApiPromise;
 }
+
 function ativarTelaCheia(){
   try{
     if(!document.fullscreenElement&&document.documentElement.requestFullscreen){
@@ -479,6 +279,7 @@ async function liberarAcesso(login){
 }
 document.addEventListener("click",()=>{if(!document.fullscreenElement)ativarTelaCheia();});
 document.addEventListener("touchend",()=>{if(!document.fullscreenElement)ativarTelaCheia();},{passive:true});
+
 async function carregarLogins(){
   botaoEntrar.disabled=true;erroLogin.textContent="Carregando logins...";
   try{
@@ -511,6 +312,7 @@ window.addEventListener("beforeunload",()=>{
     const img=new Image();img.src=URL_SESSOES+"?action=release&login="+encodeURIComponent(login)+"&device="+encodeURIComponent(obterDeviceId())+"&_="+Date.now();
   }
 });
+
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
 function navegarCanal(direcao){
   if(!videos.length)return;
@@ -522,6 +324,7 @@ function navegarCanal(direcao){
 }
 botaoCanalAnterior.addEventListener("click",()=>navegarCanal(-1));
 botaoProximoCanal.addEventListener("click",()=>navegarCanal(1));
+
 function preencherSelect(select,valores){
   select.replaceChildren();
   const inicial=document.createElement("option");inicial.value="";inicial.textContent="";select.appendChild(inicial);
@@ -564,6 +367,7 @@ menuA1.addEventListener("change",()=>{
   document.getElementById("player").replaceChildren();
   return;
 }
+
 ativarPesquisa(false);
   if(tema){preencherSelect(menuB2,todosVideos.filter(v=>v.tema===tema).map(v=>v.categoria));mostrarGrupo("B2",true);}
   aplicarFiltros();
@@ -582,6 +386,7 @@ menuC3.addEventListener("change",()=>{
     criarPlayer();
     return;
   }
+
   limparAbaixo(3);
   const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value;
   if(tema&&categoria&&classificacao){
@@ -591,6 +396,7 @@ menuC3.addEventListener("change",()=>{
   aplicarFiltros();
 });
 menuD4.addEventListener("change",aplicarFiltros);
+
 function limparPlayerPesquisa(){
   geracaoPlayer++;
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
@@ -598,6 +404,7 @@ function limparPlayerPesquisa(){
   document.getElementById("player").replaceChildren();
   player=null;
 }
+
 function ativarPesquisa(ativar) {
   modoPesquisa = ativar;
   campoPesquisa.style.display = ativar ? "block" : "none";
@@ -605,6 +412,7 @@ function ativarPesquisa(ativar) {
   mostrarGrupo("B2", ativar);
   mostrarGrupo("C3", ativar);
   mostrarGrupo("D4", false);
+
   if (ativar) {
     limparPlayerPesquisa();
     videos = [];
@@ -624,19 +432,25 @@ function ativarPesquisa(ativar) {
     campoPesquisa.value = "";
   }
 }
+
 function pesquisarConteudo() {
   if (!modoPesquisa) return;
+
   const termo = campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
+  // A pesquisa considera somente os dois últimos campos: classificação (C3) e título (D4).
   const encontrados = termo
     ? todosVideos.filter(v =>
         [v.classificacao, v.titulo]
           .some(valor => String(valor || "").toLocaleLowerCase("pt-BR").includes(termo))
       )
     : [];
+
+  // Ao mudar a busca, interrompe o conteúdo anterior para não deixar um vídeo antigo tocando.
   limparPlayerPesquisa();
   videos = encontrados;
   selecionado = 0;
   menuC3.replaceChildren();
+
   const inicial = document.createElement("option");
   inicial.value = "";
   inicial.textContent = termo
@@ -645,19 +459,24 @@ function pesquisarConteudo() {
         : "Nenhum resultado encontrado")
     : "Digite para pesquisar";
   menuC3.appendChild(inicial);
+
   encontrados.forEach((video, indice) => {
     const opcao = document.createElement("option");
     opcao.value = String(indice);
+    // Mostra juntos os campos C3 e D4 no resultado.
     opcao.textContent = [video.classificacao, video.titulo].filter(Boolean).join(" - ");
     menuC3.appendChild(opcao);
   });
+
   menuC3.disabled = encontrados.length === 0;
   atualizarBotoesNavegacao();
   status.textContent = encontrados.length
     ? `${encontrados.length} resultado(s). Selecione um conteúdo para reproduzir.`
     : (termo ? "Nenhum conteúdo corresponde à pesquisa." : "Digite o nome de um canal ou conteúdo.");
 }
+
 campoPesquisa.addEventListener("input", pesquisarConteudo);
+
 function extrairId(valor){
   try{
     const url=new URL(valor);
@@ -669,6 +488,7 @@ function extrairId(valor){
     return null;
   }catch(e){return null;}
 }
+
 function criarPlayer(){
   if(!videos.length)return;
   const item=videos[selecionado];if(!item)return;
@@ -676,6 +496,7 @@ function criarPlayer(){
   if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
   area.replaceChildren();player=null;
+
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;videoEl.controls=true;videoEl.autoplay=true;videoEl.playsInline=true;videoEl.preload="metadata";
@@ -705,6 +526,7 @@ function criarPlayer(){
     }else status.textContent="Este navegador não oferece suporte à reprodução HLS.";
     return;
   }
+
   const container=document.createElement("div");container.id="youtube-player-container-"+geracao;
   container.style.cssText="width:100%;height:100%;background:#000;";area.appendChild(container);
   status.textContent="Carregando player do YouTube…";
@@ -712,16 +534,10 @@ function criarPlayer(){
     if(geracao!==geracaoPlayer||!area.contains(container))return;
     ytPlayerApi=new YT.Player(container.id,{
       width:"100%",height:"100%",videoId:item.id,
-      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin,cc_load_policy:0},
+      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin},
       events:{
-        onReady:event=>{
-          status.textContent="Player do YouTube carregado. Seta→=Pular | L=Legenda";
-          window.ytPlayerApi = ytPlayerApi; // Expõe para os atalhos
-        },
-        onStateChange:event=>{
-          if(event.data===YT.PlayerState.PLAYING)
-            status.textContent="Reproduzindo: "+item.titulo+" | Seta→=Pular anúncio | L=Legenda";
-        },
+        onReady:event=>{status.textContent="Player do YouTube carregado.";event.target.playVideo();},
+        onStateChange:event=>{if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo;},
         onError:event=>{
           const mensagens={2:"Parâmetro ou ID de vídeo inválido",5:"Erro no player HTML5 do YouTube",100:"Vídeo removido, privado ou não encontrado",101:"Vídeo não permite reprodução incorporada",150:"Vídeo não permite reprodução incorporada",153:"Erro de identificação do player ou Referer"};
           status.textContent="Falha no canal: "+item.titulo+". Código "+event.data;
@@ -736,6 +552,7 @@ function criarPlayer(){
     registrarFalha(item,"YouTube",erro.message||"Falha ao carregar a API do YouTube","API");
   });
 }
+
 async function carregarLista(){
   try{
     const resposta=await fetch("./youtube.txt?v="+Date.now(),{cache:"no-store"});
@@ -757,6 +574,7 @@ async function carregarLista(){
       if(tipo==="hls")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
     }).filter(Boolean);
+    // "Pesquisa" fica sempre como primeira opção; os temas vêm depois em ordem alfabética.
     const temas = [...new Set(todosVideos.map(v => v.tema).filter(Boolean))]
       .filter(tema => tema !== "Pesquisa")
       .sort((a, b) => a.localeCompare(b, "pt-BR"));
@@ -776,6 +594,7 @@ async function carregarLista(){
     aplicarFiltros();
   }catch(erro){console.error(erro);status.textContent="Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";}
 }
+
 carregarLogins();
 carregarLista();
 </script>
