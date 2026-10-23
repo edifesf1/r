@@ -3,13 +3,10 @@
 #Religiosoo|Series|Temporada 1|Episódio 1|https://www.youtube.com/watch?v=ID_DO_VIDEO
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
-#LiveYoutube
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=PfVJDIwIB1E
-Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=EALwpcaCvF8
-Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=Y-vTGM3OEzE
-Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=bIN9lcTxCjI
-Normal|Live|Religioso|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
+#Notícias
+    #LiveYoutube
+Normal|Live|Notícias|0 BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
+Normal|Live|Notícias|0 BandNews|https://www.youtube.com/watch?v=PfVJDIwIB1E
 Normal|Live|Notícias|0 CNN Brasil|https://www.youtube.com/watch?v=BOrYMU2jgtc
 
 #Notícias
@@ -18,9 +15,15 @@ Normal|Live|Notícias|0 Record News 2|https://rnw-rn.otteravision.com/rnw/rn/rnw
 Normal|Live|Notícias|0 SBT News 2|https://sbtNews.maissbt.com/3.m3u8
 Normal|Live|Notícias|0 Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 Normal|Live|Notícias|J3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+    #LiveYoutube
+Normal|Live|Notícias|Jovem Pan|https://www.youtube.com/watch?v=EALwpcaCvF8
 Normal|Live|Notícias|JovemPan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|JovemPan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
+    #LiveYoutube
+Normal|Live|Notícias|Record News|https://www.youtube.com/watch?v=Y-vTGM3OEzE
 Normal|Live|Notícias|RS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
+    #LiveYoutube
+Normal|Live|Notícias|SBT News|https://www.youtube.com/watch?v=bIN9lcTxCjI
 Normal|Live|Notícias|TCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 
 #Agro
@@ -98,6 +101,8 @@ Normal|Live|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gosp
 Normal|Live|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 Normal|Live|Religioso|Hope English|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldvawCD/s/jsl_0sUSK6VA7GT/master.m3u8
 Normal|Live|Religioso|IMPD TV|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
+    #LiveYoutube
+Normal|Live|Religioso|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 Normal|Live|Religioso|TV Novo Tempo 2|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Normal|Live|Religioso|Plena TV|https://stmv7.voxtvhd.com.br/vitoriaplenatv/vitoriaplenatv/playlist.m3u8
 Normal|Live|Religioso|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
