@@ -4,9 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.view.InputDevice;
 import android.view.KeyEvent;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.webkit.CookieManager;
@@ -23,6 +21,8 @@ import android.graphics.drawable.Drawable;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.Gravity;
+import android.view.accessibility.AccessibilityEvent;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -55,18 +55,6 @@ public class MainActivity extends Activity {
         webView.setFocusable(true);
         webView.setFocusableInTouchMode(true);
 
-        // ✅ Encaminha toques e cliques para o WebView
-        webView.setOnTouchListener((v, event) -> {
-            v.performClick();
-            return false;
-        });
-
-        // ✅ Encaminha eventos de hover (ponteiro passando sobre)
-        webView.setOnHoverListener((v, event) -> {
-            webView.onHoverEvent(event);
-            return false;
-        });
-
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
@@ -77,9 +65,6 @@ public class MainActivity extends Activity {
         settings.setLoadsImagesAutomatically(true);
         settings.setMixedContentMode(WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
         settings.setUserAgentString(settings.getUserAgentString() + " YoutubeIPTVAndroid/1.0");
-        settings.setAllowFileAccess(true);
-        settings.setAllowContentAccess(true);
-
         CookieManager.getInstance().setAcceptCookie(true);
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true);
 
@@ -87,29 +72,22 @@ public class MainActivity extends Activity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
+                // Keep website navigation inside the app's embedded browser.
                 return false;
             }
-
             @Override
             public void onPageFinished(WebView view, String url) {
                 pageLoaded = true;
                 status.setVisibility(View.GONE);
                 view.requestFocus(View.FOCUS_DOWN);
             }
-
             @Override
             public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
-                if (request.isForMainFrame()) {
-                    showStatus("Não foi possível abrir o site. Verifique a internet e pressione OK para tentar novamente.");
-                }
+                if (request.isForMainFrame()) showStatus("Não foi possível abrir o site. Verifique a internet e pressione OK para tentar novamente.");
             }
         });
 
-        root.addView(webView, new FrameLayout.LayoutParams(
-                FrameLayout.LayoutParams.MATCH_PARENT,
-                FrameLayout.LayoutParams.MATCH_PARENT
-        ));
-
+        root.addView(webView, new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
         status = new TextView(this);
         status.setText("Seja Bem Vindo");
         status.setTextColor(Color.WHITE);
@@ -124,27 +102,9 @@ public class MainActivity extends Activity {
         status.setFocusable(true);
         status.setFocusableInTouchMode(true);
         status.setBackgroundColor(Color.BLACK);
-        root.addView(status, new FrameLayout.LayoutParams(
-                FrameLayout.LayoutParams.MATCH_PARENT,
-                FrameLayout.LayoutParams.MATCH_PARENT
-        ));
-
+        root.addView(status, new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
         setContentView(root);
         status.requestFocus();
-    }
-
-    // ✅ Processa movimento do controle remoto/mouse e envia para o WebView
-    @Override
-    public boolean onGenericMotionEvent(MotionEvent event) {
-        if (webView != null) {
-            int source = event.getSource();
-            if ((source & InputDevice.SOURCE_MOUSE) == InputDevice.SOURCE_MOUSE ||
-                (source & InputDevice.SOURCE_JOYSTICK) == InputDevice.SOURCE_JOYSTICK ||
-                (source & InputDevice.SOURCE_DPAD) == InputDevice.SOURCE_DPAD) {
-                webView.onGenericMotionEvent(event);
-            }
-        }
-        return super.onGenericMotionEvent(event);
     }
 
     private void loadAddressFromTxt() {
@@ -160,28 +120,23 @@ public class MainActivity extends Activity {
                 connection.setUseCaches(false);
                 connection.setRequestProperty("Cache-Control", "no-cache");
                 connection.setRequestProperty("User-Agent", "YoutubeIPTVAndroid/1.0");
-
                 int code = connection.getResponseCode();
                 if (code < 200 || code >= 300) throw new Exception("HTTP " + code);
-
                 StringBuilder body = new StringBuilder();
                 try (InputStream in = connection.getInputStream();
                      BufferedReader reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
                     String line;
                     while ((line = reader.readLine()) != null) body.append(line.trim());
                 }
-
                 String address = body.toString().replace("\uFEFF", "").trim();
                 if (!(address.startsWith("https://") || address.startsWith("http://"))) {
                     throw new Exception("O link.txt não contém um endereço HTTP/HTTPS válido.");
                 }
-
                 final String finalAddress = address;
                 handler.post(() -> {
                     showStatus("Seja Bem Vindo");
                     webView.loadUrl(finalAddress);
                 });
-
             } catch (Exception e) {
                 handler.post(() -> showStatus("Não consegui ler o link.txt.\n\nVerifique a conexão com a internet.\n\nPressione OK para tentar novamente."));
             } finally {
@@ -217,23 +172,16 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
-        if (event.getAction() == KeyEvent.ACTION_UP
-                && event.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER
-                && status != null
-                && status.getVisibility() == View.VISIBLE) {
+        if (event.getAction() == KeyEvent.ACTION_UP && event.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER && status != null && status.getVisibility() == View.VISIBLE) {
             loadAddressFromTxt();
             return true;
         }
-
-        if (event.getAction() == KeyEvent.ACTION_UP
-                && (event.getKeyCode() == KeyEvent.KEYCODE_BACK
-                    || event.getKeyCode() == KeyEvent.KEYCODE_ESCAPE)) {
+        if (event.getAction() == KeyEvent.ACTION_UP && (event.getKeyCode() == KeyEvent.KEYCODE_BACK || event.getKeyCode() == KeyEvent.KEYCODE_ESCAPE)) {
             if (webView != null && webView.canGoBack()) {
                 webView.goBack();
                 return true;
             }
         }
-
         return super.dispatchKeyEvent(event);
     }
 
