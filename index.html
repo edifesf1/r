@@ -245,69 +245,95 @@ function retrocederTempo(segundos=10){
 }
 
 document.addEventListener('keydown', e => {
-  // === TECLAS QUE FUNCIONAM SEMPRE, MESMO SEM MOUSE ATIVO ===
-  if(e.key === 'ArrowRight' && !ativo) {
-    e.preventDefault();
-    pularAnuncio(); // Seta direita = pula anúncio direto!
-    return;
-  }
-  if(e.key.toLowerCase() === 'l' && !ativo) {
-    e.preventDefault();
-    alternarLegenda(); // Tecla L = liga/desliga legenda
-    return;
-  }
-  if((e.key === 'Enter' || e.key === 'OK' || e.key === ' ') && !ativo) {
-    e.preventDefault();
-    playPause(); // Play/Pause
-    return;
-  }
-  if(e.key === 'ArrowUp' && !ativo) {
-    e.preventDefault();
-    ligar(); // Seta cima = ativa ponteiro
-    return;
-  }
+  const tecla = e.key;
 
-  // === MOUSE ATIVO ===
-  if(ativo){
-    e.preventDefault();
-    switch(e.key){
-      case 'ArrowLeft': 
-        mouseX = Math.max(14, mouseX - VELOCIDADE); 
-        break;
-      case 'ArrowRight': 
-        mouseX = Math.min(window.innerWidth - 14, mouseX + VELOCIDADE); 
-        // Se estiver no ponteiro, seta direita também pula anúncio
-        if(mouseX > window.innerWidth * 0.7) pularAnuncio();
-        break;
-      case 'ArrowDown': 
-        mouseY = Math.min(window.innerHeight - 14, mouseY + VELOCIDADE); 
-        break;
-      case 'ArrowUp':
-        case 'ArrowUp':
-  mouseY = Math.max(14, mouseY - VELOCIDADE);
-
-  // Na região da tarja, a seta para cima
-  // devolve o controle à navegação normal.
-  if (mouseY <= ALTURA_TARJA + 14) {
-    desligar();
-    return;
-  }
-  break;
-      case 'Enter': case 'OK': case ' ':
-        clicar();
-        break;
-      case 'l': case 'L':
-        alternarLegenda(); // Também funciona com ponteiro ativo
-        break;
+  // MODO NORMAL: navegação do player e ativação do mouse
+  if (!ativo) {
+    if (tecla === 'ArrowUp' || tecla === 'ArrowDown') {
+      e.preventDefault();
+      ligar();
+      return;
     }
-    atualizar();
-  } else if(e.key === 'ArrowDown'){
-    e.preventDefault(); 
-    ligar();
+
+    if (tecla.toLowerCase() === 'l') {
+      e.preventDefault();
+      alternarLegenda();
+      return;
+    }
+
+    if (tecla === 'Enter' || tecla === 'OK' || tecla === ' ') {
+      e.preventDefault();
+      playPause();
+      return;
+    }
+
+    if (tecla === 'ArrowRight') {
+      e.preventDefault();
+      pularAnuncio();
+      return;
+    }
+
+    // Outras teclas ficam livres para o navegador.
+    return;
   }
+
+  // MODO MOUSE: bloqueia a navegação do player
+  // para que as setas movimentem a bolinha.
+  if ([
+    'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown',
+    'Enter', ' ', 'OK'
+  ].includes(tecla)) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+  }
+
+  switch (tecla) {
+    case 'ArrowLeft':
+      mouseX = Math.max(14, mouseX - VELOCIDADE);
+      break;
+
+    case 'ArrowRight':
+      mouseX = Math.min(
+        window.innerWidth - 14,
+        mouseX + VELOCIDADE
+      );
+      break;
+
+    case 'ArrowDown':
+      mouseY = Math.min(
+        window.innerHeight - 14,
+        mouseY + VELOCIDADE
+      );
+      break;
+
+    case 'ArrowUp':
+      if (mouseY <= ALTURA_TARJA + 14) {
+        desligar();
+        return;
+      }
+      mouseY = Math.max(14, mouseY - VELOCIDADE);
+      break;
+
+    case 'Enter':
+    case 'OK':
+    case ' ':
+      clicar();
+      break;
+
+    case 'l':
+    case 'L':
+      alternarLegenda();
+      break;
+
+    default:
+      return;
+  }
+
+  atualizar();
 });
 })();
 
+  
 // =====================================================
 // 🔒 SEU CÓDIGO ORIGINAL — NADA ALTERADO
 // =====================================================
