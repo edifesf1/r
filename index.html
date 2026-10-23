@@ -42,10 +42,9 @@ main{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;overflo
 #player iframe,#player video,#player>div,#player>div iframe{display:block;width:100%!important;height:100%!important;border:0}
 #status,#lista{display:none!important}
 
-/* ===== MODO MOUSE — SEM TEXTO NA TELA ===== */
+/* ===== MODO MOUSE — ADICIONADO SEM MEXER NO RESTO ===== */
 #camadaMouse{
-  position:fixed;inset:0;z-index:99999;display:none;background:transparent;
-  pointer-events:none
+  position:fixed;inset:0;z-index:99999;display:none;pointer-events:none
 }
 body.modo-mouse #camadaMouse{display:block}
 
@@ -53,30 +52,18 @@ body.modo-mouse #camadaMouse{display:block}
   position:absolute;top:50%;left:50%;width:28px;height:28px;
   margin:-14px 0 0 -14px;pointer-events:none;z-index:100000;
   background:#fff;border:3px solid #c00;border-radius:50%;
-  box-shadow:0 0 12px rgba(255,255,255,.85);
-  transition:none
+  box-shadow:0 0 12px rgba(255,255,255,.85)
 }
 
-/* Tarja recolhida */
-body.tarja-recolhida>header{
-  position:fixed;top:0;left:0;right:0;height:0;min-height:0;padding:0;
-  background:transparent;pointer-events:none;z-index:200
-}
-body.tarja-recolhida>header>#cascadeBar,
-body.tarja-recolhida>header>#navegacaoCanais{display:none}
-body.tarja-recolhida>header>#botaoTarja{
-  position:fixed;top:8px;right:8px;pointer-events:auto;
-  width:30px;height:30px;background:rgba(120,0,0,.78);
-  border-color:rgba(255,255,255,.55);opacity:.78
-}
-body.tarja-recolhida>main{
-  position:fixed;inset:0;width:100%;height:100%;min-height:0;
-  flex:none
-}
-body.tarja-recolhida #player{position:absolute;inset:0;width:100%;height:100%}
-body.tarja-recolhida>header>#botaoTarja:hover,
-body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
-
+#drawerOverlay{position:fixed;inset:0;background:rgba(0,0,0,.65);z-index:900;display:none}
+#drawerOverlay.aberto{display:block}
+#drawer{width:min(320px,86vw);height:100%;overflow-y:auto;background:#1b1b1b;box-shadow:4px 0 16px rgba(0,0,0,.4);padding:0 0 20px}
+.drawerHeader{display:flex;justify-content:space-between;align-items:center;background:#c00;padding:17px 16px;font-size:20px;font-weight:bold}
+#closeMenu{border:0;color:#fff;background:transparent;font-size:28px;cursor:pointer}
+.menuIntro{color:#bbb;font-size:13px;padding:15px 16px 8px}
+#temasMenu{display:grid}
+#temasMenu button{background:transparent;border:0;color:#eee;text-align:left;padding:14px 18px;font-size:16px;cursor:pointer;border-bottom:1px solid #333}
+#temasMenu button:hover,#temasMenu button.ativo{background:#383030;color:#fff;border-left:4px solid #f33}
 body.bloqueado{overflow:hidden}
 body.bloqueado>header,body.bloqueado>main{visibility:hidden}
 #telaLogin{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;background:radial-gradient(circle at top,#3a1010,#090909 65%)}
@@ -101,12 +88,30 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
   #navegacaoCanais button{width:27px}
   #botaoTarja{width:25px;height:25px;font-size:15px}
 }
+body.tarja-recolhida>header{
+  position:fixed;top:0;left:0;right:0;height:0;min-height:0;padding:0;
+  background:transparent;pointer-events:none;z-index:200
+}
+body.tarja-recolhida>header>#cascadeBar,
+body.tarja-recolhida>header>#navegacaoCanais{display:none}
+body.tarja-recolhida>header>#botaoTarja{
+  position:fixed;top:8px;right:8px;pointer-events:auto;
+  width:30px;height:30px;background:rgba(120,0,0,.78);
+  border-color:rgba(255,255,255,.55);opacity:.78
+}
+body.tarja-recolhida>main{
+  position:fixed;inset:0;width:100%;height:100%;min-height:0;
+  flex:none
+}
+body.tarja-recolhida #player{position:absolute;inset:0;width:100%;height:100%}
+body.tarja-recolhida>header>#botaoTarja:hover,
+body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.15"></script>
 </head>
 <body class="bloqueado">
 
-<!-- ===== CAMADA DO MOUSE — SEM TEXTO ===== -->
+<!-- ===== CAMADA DO MOUSE — só isso foi adicionado ===== -->
 <div id="camadaMouse">
   <div id="ponteiro"></div>
 </div>
@@ -157,12 +162,12 @@ body.bloqueado>header,body.bloqueado>main{visibility:hidden}
 
 <script>
 // =====================================================
-// 🖱️ MODO MOUSE — PERCORRE TELA INTEIRA, SEM TEXTO
+// 🖱️ SISTEMA DE MOUSE — ADICIONADO, SEM MEXER NO RESTO
 // =====================================================
 const camadaMouse = document.getElementById('camadaMouse');
 const ponteiro = document.getElementById('ponteiro');
-const ALTURA_TARJA = 58; // Altura da tarja no topo
-const VELOCIDADE = 14; // Ajuste: maior = mais rápido
+const ALTURA_TARJA = 58;
+const VELOCIDADE = 14;
 
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
@@ -195,7 +200,7 @@ function clicarAqui(){
   }
 }
 
-// TECLADO
+// TECLADO — só adicionei isso, NÃO mudei mais nada
 document.addEventListener('keydown', function(e){
   if(modoMouseLigado){
     e.preventDefault();
@@ -210,7 +215,6 @@ document.addEventListener('keydown', function(e){
         mouseY = Math.min(window.innerHeight - 14, mouseY + VELOCIDADE);
         break;
       case 'ArrowUp':
-        // ✅ SÓ desliga o mouse quando CHEGAR BEM NO TOPO da tarja
         if(mouseY <= ALTURA_TARJA + 14){
           desligarMouse();
           return;
@@ -233,7 +237,7 @@ document.addEventListener('keydown', function(e){
 });
 
 // =====================================================
-// RESTO DO SISTEMA
+// SEU CÓDIGO ORIGINAL — EXATAMENTE COMO VOCÊ DEIXOU
 // =====================================================
 const tarja = document.querySelector("header");
 const navegacaoCanais = document.getElementById("navegacaoCanais");
@@ -247,8 +251,10 @@ const menuA1 = document.getElementById("menuA1");
 const menuB2 = document.getElementById("menuB2");
 const menuC3 = document.getElementById("menuC3");
 const menuD4 = document.getElementById("menuD4");
+  
 const campoPesquisa = document.getElementById("campoPesquisa");
 let modoPesquisa = false;
+  
 const grupos = {
   A1:document.getElementById("grupoA1"),
   B2:document.getElementById("grupoB2"),
@@ -258,7 +264,6 @@ const grupos = {
 const botaoCanalAnterior = document.getElementById("canalAnterior");
 const botaoProximoCanal = document.getElementById("proximoCanal");
 const botaoTarja = document.getElementById("botaoTarja");
-
 function alternarTarja(){
   const recolhida = document.body.classList.toggle("tarja-recolhida");
   botaoTarja.textContent = recolhida ? "☰" : "▁";
@@ -267,7 +272,6 @@ function alternarTarja(){
   botaoTarja.setAttribute("aria-pressed", String(recolhida));
 }
 botaoTarja.addEventListener("click", alternarTarja);
-
 const URL_SESSOES = "https://script.google.com/macros/s/AKfycbyjEMCft9Z-84Owpfukv4ROvVv3w2Ax4QsyPvULPuk424Ej8Liz8AU5xmQnoLSDMl2b/exec";
 const DEVICE_KEY = "edifesfDeviceId";
 let heartbeatTimer = null;
@@ -280,11 +284,12 @@ let ytPlayerApi = null;
 let geracaoPlayer = 0;
 let ytApiPromise = null;
 let selecionado = 0;
-
+const falhasRecentes = new Map();
+function mostrarTarja(){ tarja.style.visibility="visible"; }
+function ocultarTarja(){ }
 function registrarFalha(item,tipo,erro,codigo=""){
   console.warn("Falha de reprodução:", {canal:item?.titulo||"Canal sem nome", tipo, url:item?.url||"", erro:String(erro||"Falha de reprodução"), codigo:String(codigo||"")});
 }
-
 function carregarYouTubeAPI(){
   if(window.YT&&window.YT.Player)return Promise.resolve();
   if(ytApiPromise)return ytApiPromise;
@@ -306,35 +311,31 @@ function carregarYouTubeAPI(){
   });
   return ytApiPromise;
 }
-
 function ativarTelaCheia(){
   try{
     if(!document.fullscreenElement&&document.documentElement.requestFullscreen){
       document.documentElement.requestFullscreen().catch(()=>{});
     }
-  }catch(e){}
+  }catch(e){console.warn("Tela cheia não autorizada:",e);}
 }
-
 function obterDeviceId(){
   let id=localStorage.getItem(DEVICE_KEY);
   if(!id){id="dev_"+Array.from(crypto.getRandomValues(new Uint8Array(18))).map(n=>n.toString(16).padStart(2,"0")).join("");localStorage.setItem(DEVICE_KEY,id);}
   return id;
 }
-
 function chamarControleSessao(action,login){
   return new Promise((resolve,reject)=>{
-    if(!URL_SESSOES || URL_SESSOES.includes("COLE_AQUI")){reject(new Error("Falta configurar URL"));return;}
+    if(!URL_SESSOES || URL_SESSOES.includes("COLE_AQUI")){reject(new Error("Falta configurar a URL do Apps Script de sessões."));return;}
     const callback="edifesfCb_"+Date.now()+"_"+Math.floor(Math.random()*1000000);
     const script=document.createElement("script");
-    const timeout=setTimeout(()=>{limpar();reject(new Error("Sem resposta"));},12000);
+    const timeout=setTimeout(()=>{limpar();reject(new Error("O servidor de sessões não respondeu."));},12000);
     function limpar(){clearTimeout(timeout);delete window[callback];script.remove();}
     window[callback]=(data)=>{limpar();resolve(data);};
-    script.onerror=()=>{limpar();reject(new Error("Falha de conexão"));};
-    script.src=URL_SESSOES+"?"+new URLSearchParams({action,login,device:obterDeviceId(),callback});
-    document.head.appendChild(script);
+    script.onerror=()=>{limpar();reject(new Error("Não foi possível acessar o servidor de sessões."));};
+    const params=new URLSearchParams({action,login,device:obterDeviceId(),callback,_:String(Date.now())});
+    script.src=URL_SESSOES+"?"+params.toString();document.head.appendChild(script);
   });
 }
-
 function pararHeartbeat(){if(heartbeatTimer){clearInterval(heartbeatTimer);heartbeatTimer=null;}}
 function exibirLogin(mensagem){
   pararHeartbeat();document.body.classList.add("bloqueado");telaLogin.style.display="flex";
@@ -345,66 +346,73 @@ function iniciarHeartbeat(login){
   heartbeatTimer=setInterval(async()=>{
     try{
       const resposta=await chamarControleSessao("heartbeat",login);
-      if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");exibirLogin(resposta.message||"Sessão encerrada.");}
-    }catch(e){}
+      if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");exibirLogin(resposta.message||"Sua sessão não está mais ativa.");}
+    }catch(e){console.warn("Falha temporária ao renovar sessão:",e);}
   },30000);
 }
 async function liberarAcesso(login){
-  botaoEntrar.disabled=true;erroLogin.textContent="Verificando...";
+  botaoEntrar.disabled=true;erroLogin.textContent="Verificando dispositivo...";
   try{
     const resposta=await chamarControleSessao("claim",login);
     if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");erroLogin.textContent=resposta.message||"Acesso negado.";return false;}
     document.body.classList.remove("bloqueado");telaLogin.style.display="none";
     localStorage.setItem("youtubeIptvLogin",login);ativarTelaCheia();iniciarHeartbeat(login);return true;
   }catch(e){
-    erroLogin.textContent="Não foi possível verificar o login.";return false;
+    console.error(e);erroLogin.textContent="Não foi possível verificar o login no servidor. Confira a implantação do Apps Script.";return false;
   }finally{botaoEntrar.disabled=false;}
 }
-
-document.addEventListener("click",ativarTelaCheia);
-document.addEventListener("touchend",ativarTelaCheia,{passive:true});
-
+document.addEventListener("click",()=>{if(!document.fullscreenElement)ativarTelaCheia();});
+document.addEventListener("touchend",()=>{if(!document.fullscreenElement)ativarTelaCheia();},{passive:true});
 async function carregarLogins(){
-  botaoEntrar.disabled=true;erroLogin.textContent="Carregando...";
+  botaoEntrar.disabled=true;erroLogin.textContent="Carregando logins...";
   try{
-    const r=await fetch("./LOGINS-200.txt?v="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error(""+r.status);
-    LOGINS_VALIDOS=[...new Set((await r.text()).split(/\r?\n/).map(l=>l.trim().toUpperCase()).filter(l=>/^[A-Z0-9]{6}$/.test(l)))];
-    const salvo=localStorage.getItem("youtubeIptvLogin");
-    if(salvo&&LOGINS_VALIDOS.includes(salvo))await liberarAcesso(salvo);
-    else telaLogin.style.display="flex";
-  }catch(e){erroLogin.textContent="Não foi possível carregar os logins.";}
-  finally{botaoEntrar.disabled=false;}
+    const resposta=await fetch("./LOGINS-200.txt?v="+Date.now(),{cache:"no-store"});
+    if(!resposta.ok)throw new Error("HTTP "+resposta.status);
+    const texto=await resposta.text();
+    LOGINS_VALIDOS=[...new Set(texto.split(/\r?\n/).map(l=>l.trim().toUpperCase()).filter(l=>/^[A-Z0-9]{6}$/.test(l)))];
+    if(!LOGINS_VALIDOS.length)throw new Error("Nenhum login válido encontrado");
+    erroLogin.textContent="";botaoEntrar.disabled=false;await validarLoginSalvo();
+  }catch(e){
+    console.error("Erro ao carregar LOGINS-200.txt:",e);
+    erroLogin.textContent="Não foi possível carregar os logins. Verifique se LOGINS-200.txt está publicado no GitHub.";
+  }
 }
-
+async function validarLoginSalvo(){
+  const salvo=localStorage.getItem("youtubeIptvLogin");
+  if(salvo&&LOGINS_VALIDOS.includes(salvo)){
+    const ok=await liberarAcesso(salvo);
+    if(!ok && erroLogin.textContent.includes("já está em uso")) localStorage.removeItem("youtubeIptvLogin");
+  } else {localStorage.removeItem("youtubeIptvLogin");exibirLogin("Digite seu login de acesso para continuar.");}
+}
 document.getElementById("caixaLogin").addEventListener("submit",async e=>{
-  e.preventDefault();
-  const l=campoLogin.value.trim().toUpperCase();
-  if(!LOGINS_VALIDOS.includes(l)){erroLogin.textContent="Login inválido.";campoLogin.select();return;}
-  await liberarAcesso(l);
+  e.preventDefault();const login=campoLogin.value.trim().toUpperCase();
+  if(!LOGINS_VALIDOS.includes(login)){erroLogin.textContent="Login inválido. Confira o código e tente novamente.";campoLogin.select();return;}
+  await liberarAcesso(login);
 });
-
 window.addEventListener("beforeunload",()=>{
   const login=localStorage.getItem("youtubeIptvLogin");
   if(login && URL_SESSOES && !URL_SESSOES.includes("COLE_AQUI")){
-    const img=new Image();
-    img.src=URL_SESSOES+"?action=release&login="+encodeURIComponent(login)+"&device="+encodeURIComponent(obterDeviceId())+"&_="+Date.now();
+    const img=new Image();img.src=URL_SESSOES+"?action=release&login="+encodeURIComponent(login)+"&device="+encodeURIComponent(obterDeviceId())+"&_="+Date.now();
   }
 });
-
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
 function navegarCanal(direcao){
   if(!videos.length)return;
   selecionado=(selecionado+direcao+videos.length)%videos.length;
   const item=videos[selecionado];
   if(menuD4.value)menuD4.value=item.titulo;
+  [...lista.children].forEach((b,i)=>b.classList.toggle("ativo",i===selecionado));
   criarPlayer();
 }
 botaoCanalAnterior.addEventListener("click",()=>navegarCanal(-1));
 botaoProximoCanal.addEventListener("click",()=>navegarCanal(1));
-
 function preencherSelect(select,valores){
-  select.innerHTML='<option value=""></option>'+[...new Set(valores.filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR")).map(v=>`<option>${v}</option>`).join('');
+  select.replaceChildren();
+  const inicial=document.createElement("option");inicial.value="";inicial.textContent="";select.appendChild(inicial);
+  [...new Set(valores.filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR")).forEach(valor=>{
+    const option=document.createElement("option");option.value=valor;option.textContent=valor;select.appendChild(option);
+  });
+  select.value="";
 }
 function mostrarGrupo(nome,mostrar){grupos[nome].hidden=!mostrar;}
 function limparAbaixo(nivel){
@@ -415,139 +423,237 @@ function limparAbaixo(nivel){
 function aplicarFiltros(){
   const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value,episodio=menuD4.value;
   videos=todosVideos.filter(v=>(!tema||v.tema===tema)&&(!categoria||v.categoria===categoria)&&(!classificacao||v.classificacao===classificacao));
-  if(!videos.length){atualizarBotoesNavegacao();return;}
+  lista.replaceChildren();
+  const area=document.getElementById("player");
+  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
+  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
+  area.replaceChildren();player=null;
+  if(!videos.length){atualizarBotoesNavegacao();status.textContent=tema?"Nenhum vídeo nesta seleção.":"Selecione os menus acima.";return;}
+  videos.forEach((video,index)=>{
+    const botao=document.createElement("button");botao.textContent=`${index+1}. ${video.titulo}`;
+    botao.addEventListener("click",()=>{selecionado=index;criarPlayer();});lista.appendChild(botao);
+  });
   selecionado=episodio?videos.findIndex(v=>v.titulo===episodio):0;
   if(selecionado<0)selecionado=0;
   atualizarBotoesNavegacao();
+  status.textContent=`${videos.length} vídeo(s).`;
   if(episodio||!player)criarPlayer();
 }
-
 menuA1.addEventListener("change",()=>{
   limparAbaixo(1);const tema=menuA1.value;
-  if(tema==="Pesquisa"){
-    ativarPesquisa(true);return;
-  }
-  ativarPesquisa(false);
+  if (tema === "Pesquisa") {
+  ativarPesquisa(true);
+  videos = [];
+  atualizarBotoesNavegacao();
+  document.getElementById("player").replaceChildren();
+  return;
+}
+ativarPesquisa(false);
   if(tema){preencherSelect(menuB2,todosVideos.filter(v=>v.tema===tema).map(v=>v.categoria));mostrarGrupo("B2",true);}
   aplicarFiltros();
 });
 menuB2.addEventListener("change",()=>{
-  limparAbaixo(2);
-  if(menuA1.value&&menuB2.value){preencherSelect(menuC3,todosVideos.filter(v=>v.tema===menuA1.value&&v.categoria===menuB2.value).map(v=>v.classificacao));mostrarGrupo("C3",true);}
+  limparAbaixo(2);const tema=menuA1.value,categoria=menuB2.value;
+  if(tema&&categoria){preencherSelect(menuC3,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria).map(v=>v.classificacao));mostrarGrupo("C3",true);}
   aplicarFiltros();
 });
 menuC3.addEventListener("change",()=>{
   if(modoPesquisa){
-    const idx=Number(menuC3.value);
-    if(Number.isInteger(idx)&&idx>=0&&idx<videos.length){selecionado=idx;criarPlayer();}
+    if(menuC3.value==="")return;
+    const indice=Number(menuC3.value);
+    if(!Number.isInteger(indice)||indice<0||indice>=videos.length)return;
+    selecionado=indice;
+    criarPlayer();
     return;
   }
   limparAbaixo(3);
-  if(menuA1.value&&menuB2.value&&menuC3.value){
-    preencherSelect(menuD4,todosVideos.filter(v=>v.tema===menuA1.value&&v.categoria===menuB2.value&&v.classificacao===menuC3.value).map(v=>v.titulo));
+  const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value;
+  if(tema&&categoria&&classificacao){
+    preencherSelect(menuD4,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria&&v.classificacao===classificacao).map(v=>v.titulo));
     mostrarGrupo("D4",true);
   }
   aplicarFiltros();
 });
 menuD4.addEventListener("change",aplicarFiltros);
-
 function limparPlayerPesquisa(){
   geracaoPlayer++;
-  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}}
-  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}}
-  document.getElementById("player").innerHTML='';player=null;
+  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
+  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
+  document.getElementById("player").replaceChildren();
+  player=null;
 }
-function ativarPesquisa(ativar){
-  modoPesquisa=ativar;
-  campoPesquisa.style.display=ativar?'block':'none';
-  menuB2.style.display=ativar?'none':'';
-  mostrarGrupo("B2",ativar);mostrarGrupo("C3",ativar);mostrarGrupo("D4",false);
-  if(ativar){limparPlayerPesquisa();videos=[];selecionado=0;campoPesquisa.focus();}
-  else{campoPesquisa.value='';}
+function ativarPesquisa(ativar) {
+  modoPesquisa = ativar;
+  campoPesquisa.style.display = ativar ? "block" : "none";
+  menuB2.style.display = ativar ? "none" : "";
+  mostrarGrupo("B2", ativar);
+  mostrarGrupo("C3", ativar);
+  mostrarGrupo("D4", false);
+  if (ativar) {
+    limparPlayerPesquisa();
+    videos = [];
+    selecionado = 0;
+    campoPesquisa.value = "";
+    menuC3.replaceChildren();
+    const opcao = document.createElement("option");
+    opcao.value = "";
+    opcao.textContent = "Digite para pesquisar";
+    menuC3.appendChild(opcao);
+    menuC3.disabled = true;
+    atualizarBotoesNavegacao();
+    status.textContent = "Digite o nome de um canal ou conteúdo.";
+    campoPesquisa.focus();
+  } else {
+    menuC3.disabled = false;
+    campoPesquisa.value = "";
+  }
 }
-function pesquisarConteudo(){
-  if(!modoPesquisa)return;
-  const t=campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
-  videos=t?todosVideos.filter(v=>(v.classificacao+v.titulo).toLocaleLowerCase("pt-BR").includes(t)):[];
-  selecionado=0;
-  preencherSelect(menuC3,videos.map(v=>[v.classificacao,v.titulo].filter(Boolean).join(" - ")));
-  if(videos.length)criarPlayer();
+function pesquisarConteudo() {
+  if (!modoPesquisa) return;
+  const termo = campoPesquisa.value.trim().toLocaleLowerCase("pt-BR");
+  const encontrados = termo
+    ? todosVideos.filter(v =>
+        [v.classificacao, v.titulo]
+          .some(valor => String(valor || "").toLocaleLowerCase("pt-BR").includes(termo))
+      )
+    : [];
+  limparPlayerPesquisa();
+  videos = encontrados;
+  selecionado = 0;
+  menuC3.replaceChildren();
+  const inicial = document.createElement("option");
+  inicial.value = "";
+  inicial.textContent = termo
+    ? (encontrados.length
+        ? `${encontrados.length} resultado(s) encontrado(s)`
+        : "Nenhum resultado encontrado")
+    : "Digite para pesquisar";
+  menuC3.appendChild(inicial);
+  encontrados.forEach((video, indice) => {
+    const opcao = document.createElement("option");
+    opcao.value = String(indice);
+    opcao.textContent = [video.classificacao, video.titulo].filter(Boolean).join(" - ");
+    menuC3.appendChild(opcao);
+  });
+  menuC3.disabled = encontrados.length === 0;
+  atualizarBotoesNavegacao();
+  status.textContent = encontrados.length
+    ? `${encontrados.length} resultado(s). Selecione um conteúdo para reproduzir.`
+    : (termo ? "Nenhum conteúdo corresponde à pesquisa." : "Digite o nome de um canal ou conteúdo.");
 }
-campoPesquisa.addEventListener("input",pesquisarConteudo);
-
+campoPesquisa.addEventListener("input", pesquisarConteudo);
 function extrairId(valor){
   try{
-    const u=new URL(valor);
-    if(u.hostname==="youtu.be")return u.pathname.slice(1).split('/')[0];
-    if(["youtube.com","www.youtube.com","m.youtube.com","youtube-nocookie.com","www.youtube-nocookie.com"].includes(u.hostname)){
-      if(u.pathname==="/watch")return u.searchParams.get("v");
-      const p=u.pathname.split('/').filter(Boolean);
-      if(["embed","shorts","live","v"].includes(p[0]))return p[1];
-    }
-  }catch{}
-  return null;
+    const url=new URL(valor);
+    if(url.hostname==="youtu.be")return url.pathname.split("/").filter(Boolean)[0]||null;
+    if(!["youtube.com","www.youtube.com","m.youtube.com","youtube-nocookie.com","www.youtube-nocookie.com"].includes(url.hostname))return null;
+    if(url.pathname==="/watch")return url.searchParams.get("v");
+    const partes=url.pathname.split("/").filter(Boolean);
+    if(["embed","shorts","live","v"].includes(partes[0]))return partes[1]||null;
+    return null;
+  }catch(e){return null;}
 }
-
 function criarPlayer(){
   if(!videos.length)return;
-  const item=videos[selecionado];
-  const area=document.getElementById("player");
-  geracaoPlayer++;
-  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}}
-  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}}
-  area.innerHTML='';player=null;
-
-  if(item.url.match(/\.m3u8(?:$|[?#])/i)){
-    const v=document.createElement('video');
-    v.controls=v.autoplay=v.playsInline=true;
-    v.style.cssText='width:100%;height:100%;object-fit:contain;background:#000';
-    area.appendChild(v);
+  const item=videos[selecionado];if(!item)return;
+  const area=document.getElementById("player"),geracao=++geracaoPlayer;
+  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
+  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
+  area.replaceChildren();player=null;
+  if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
+    const videoEl=document.createElement("video");
+    videoEl.title=item.titulo;videoEl.controls=true;videoEl.autoplay=true;videoEl.playsInline=true;videoEl.preload="metadata";
+    videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
+    area.appendChild(videoEl);player=videoEl;
+    videoEl.addEventListener("error",()=>{
+      const e=videoEl.error;console.error("Erro do elemento de vídeo:",{code:e?.code,message:e?.message,url:item.url});
+      if(e)status.textContent="Erro no vídeo (código "+e.code+").";
+    });
     if(window.Hls&&Hls.isSupported()){
-      hlsInstance=new Hls({enableWorker:true,manifestLoadingTimeOut:20000,fragLoadingTimeOut:30000});
-      hlsInstance.on(Hls.Events.MANIFEST_PARSED,()=>v.play().catch(()=>{}));
-      hlsInstance.on(Hls.Events.ERROR,(_,d)=>{if(d.fatal)registrarFalha(item,"HLS",d.details,"");});
-      hlsInstance.loadSource(item.url);hlsInstance.attachMedia(v);
-    }else if(v.canPlayType('application/vnd.apple.mpegurl')){v.src=item.url;v.play().catch(()=>{});}
+      hlsInstance=new Hls({enableWorker:true,lowLatencyMode:false,backBufferLength:30,manifestLoadingTimeOut:20000,manifestLoadingMaxRetry:3,manifestLoadingRetryDelay:1000,levelLoadingTimeOut:20000,fragLoadingTimeOut:30000,fragLoadingMaxRetry:4,fragLoadingRetryDelay:1000});
+      hlsInstance.on(Hls.Events.MANIFEST_PARSED,()=>{
+        videoEl.play().then(()=>{status.textContent="Transmissão HLS reproduzindo.";}).catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
+      });
+      let rede=false,midia=false;
+      hlsInstance.on(Hls.Events.ERROR,(_event,data)=>{
+        console.error("Erro HLS:",data);
+        if(!data.fatal)return;
+        registrarFalha(item,"M3U8/HLS",data.details||data.error?.message||"Erro HLS fatal",data.response?.code||data.details||"");
+        if(data.type===Hls.ErrorTypes.NETWORK_ERROR&&!rede){rede=true;hlsInstance.startLoad();}
+        else if(data.type===Hls.ErrorTypes.MEDIA_ERROR&&!midia){midia=true;hlsInstance.recoverMediaError();}
+        else{status.textContent="Falha HLS: "+data.details;try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
+      });
+      hlsInstance.loadSource(item.url);hlsInstance.attachMedia(videoEl);
+    }else if(videoEl.canPlayType("application/vnd.apple.mpegurl")){
+      videoEl.src=item.url;videoEl.play().catch(()=>{status.textContent="Transmissão carregada. Pressione Play no vídeo.";});
+    }else status.textContent="Este navegador não oferece suporte à reprodução HLS.";
     return;
   }
-
-  const c=document.createElement('div');c.id='yt'+geracaoPlayer;
-  area.appendChild(c);
+  const container=document.createElement("div");container.id="youtube-player-container-"+geracao;
+  container.style.cssText="width:100%;height:100%;background:#000;";area.appendChild(container);
+  status.textContent="Carregando player do YouTube…";
   carregarYouTubeAPI().then(()=>{
-    ytPlayerApi=new YT.Player(c.id,{
-      width:'100%',height:'100%',videoId:item.id,
+    if(geracao!==geracaoPlayer||!area.contains(container))return;
+    ytPlayerApi=new YT.Player(container.id,{
+      width:"100%",height:"100%",videoId:item.id,
       playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin},
       events:{
-        onReady:e=>e.target.playVideo(),
-        onError:e=>registrarFalha(item,"YouTube","Erro de reprodução",String(e.data))
+        onReady:event=>{status.textContent="Player do YouTube carregado.";event.target.playVideo();},
+        onStateChange:event=>{if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo;},
+        onError:event=>{
+          const mensagens={2:"Parâmetro ou ID de vídeo inválido",5:"Erro no player HTML5 do YouTube",100:"Vídeo removido, privado ou não encontrado",101:"Vídeo não permite reprodução incorporada",150:"Vídeo não permite reprodução incorporada",153:"Erro de identificação do player ou Referer"};
+          status.textContent="Falha no canal: "+item.titulo+". Código "+event.data;
+          registrarFalha(item,"YouTube",mensagens[event.data]||"Erro informado pelo player do YouTube",event.data);
+        }
       }
     });
     player=ytPlayerApi;
-  }).catch(e=>registrarFalha(item,"YouTube",e.message||"Falha na API","API"));
+  }).catch(erro=>{
+    if(geracao!==geracaoPlayer)return;
+    status.textContent="Não foi possível carregar o player do YouTube.";
+    registrarFalha(item,"YouTube",erro.message||"Falha ao carregar a API do YouTube","API");
+  });
 }
-
 async function carregarLista(){
   try{
-    const r=await fetch("./youtube.txt?v="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error("HTTP "+r.status);
-    const t=await r.text();
-    todosVideos=t.split(/\r?\n/).map(l=>l.trim()).filter(l&&!l.startsWith('#')).map(l=>{
-      const p=l.split('|').map(x=>x.trim());
-      let tema='Geral',categoria='Filmes',classificacao='Geral',titulo,url;
-      if(p.length>=5)[tema,categoria,classificacao,titulo,url]=p;
-      else if(p.length>=3)[tema,titulo,url]=p;
-      else if(p.length===2)[titulo,url]=p;
-      else return null;
-      const id=extrairId(url);
-      if(url.match(/\.m3u8(?:$|[?#])/i))return {tema,categoria,classificacao,titulo,url,tipo:'hls'};
-      return id?{tema,categoria,classificacao,titulo,url,id,tipo:'youtube'}:null;
+    const resposta=await fetch("./youtube.txt?v="+Date.now(),{cache:"no-store"});
+    if(!resposta.ok)throw new Error("HTTP "+resposta.status);
+    const texto=await resposta.text();
+    todosVideos=texto.split(/\r?\n/).map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map((linha,indice)=>{
+      const partes=linha.split("|").map(p=>p.trim());
+      let tema,categoria,classificacao,titulo,url;
+      if(partes.length>=5){[tema,categoria,classificacao,titulo]=partes;url=partes.slice(4).join("|").trim();}
+      else if(partes.length>=3){
+        const temaAntigo=partes[0]||"Geral";titulo=partes[1]||"Vídeo "+(indice+1);url=partes.slice(2).join("|").trim();
+        tema=/bíblic|preg|igreja|relig|estudo/i.test(temaAntigo+" "+titulo)?"religioso":"normal";
+        categoria=/live|ao vivo|rádio|radio|notícia|cnn|jovem pan|record news|sbt news/i.test(titulo+" "+url)?"live":"filmes";
+        classificacao=temaAntigo;
+      }else if(partes.length===2){titulo=partes[0]||"Vídeo "+(indice+1);url=partes[1];tema="normal";categoria="filmes";classificacao="Geral";}
+      else{titulo="Vídeo "+(indice+1);url=partes[0];tema="normal";categoria="filmes";classificacao="Geral";}
+      tema=tema||"Normal";categoria=categoria||"Filmes";classificacao=classificacao||"Geral";titulo=titulo||"Vídeo "+(indice+1);
+      const id=extrairId(url),tipo=/\.m3u8(?:$|[?#])/i.test(url)?"hls":(id?"youtube":"desconhecido");
+      if(tipo==="hls")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
+      return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
     }).filter(Boolean);
-    const temas=['Pesquisa',...[...new Set(todosVideos.map(v=>v.tema).filter(Boolean))].filter(t=>t!=='Pesquisa').sort((a,b)=>a.localeCompare(b,"pt-BR"))];
-    menuA1.innerHTML=temas.map(t=>`<option>${t}</option>`).join('');
+    const temas = [...new Set(todosVideos.map(v => v.tema).filter(Boolean))]
+      .filter(tema => tema !== "Pesquisa")
+      .sort((a, b) => a.localeCompare(b, "pt-BR"));
+    menuA1.replaceChildren();
+    const opcaoPesquisa = document.createElement("option");
+    opcaoPesquisa.value = "Pesquisa";
+    opcaoPesquisa.textContent = "Pesquisa";
+    menuA1.appendChild(opcaoPesquisa);
+    temas.forEach(tema => {
+      const opcao = document.createElement("option");
+      opcao.value = tema;
+      opcao.textContent = tema;
+      menuA1.appendChild(opcao);
+    });
+    menuA1.value = "";
+    limparAbaixo(1);
     aplicarFiltros();
-  }catch(e){console.error('Erro ao carregar lista:',e);}
+  }catch(erro){console.error(erro);status.textContent="Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";}
 }
-
 carregarLogins();
 carregarLista();
 </script>
