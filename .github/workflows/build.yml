@@ -1,11 +1,5 @@
-name: Compilar PlayerEdifesf APK
-
-'on': push: branches: - main workflow_dispatch:
-
-jobs: build: runs-on: ubuntu-latest
-
 steps:
-  - name: Baixar codigo
+  - name: Checkout
     uses: actions/checkout@v4
 
   - name: Configurar Java
@@ -22,8 +16,7 @@ steps:
   - name: Configurar Android SDK
     uses: android-actions/setup-android@v3
 
-  - name: Instalar SDK Android
-    working-directory: .
+  - name: Instalar pacotes Android
     run: |
       sdkmanager --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
@@ -31,7 +24,7 @@ steps:
     working-directory: PlayerEdifesf
     run: gradle assembleDebug
 
-  - name: Disponibilizar APK
+  - name: Publicar APK
     uses: actions/upload-artifact@v4
     with:
       name: PlayerEdifesf-APK
