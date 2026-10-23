@@ -1,15 +1,12 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">  <!-- ✅ Adicionado --->
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     
-    <!-- ✅ Declara suporte a TV/Fire Stick -->
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
-    
-    <!-- ✅ Indica suporte a mouse/controle remoto como ponteiro -->
-    <uses-feature
-        android:name="android.hardware.type.pointer"
-        android:required="false" />
+    <uses-feature android:name="android.hardware.type.pointer" android:required="false" />
 
     <application
         android:allowBackup="false"
@@ -18,22 +15,20 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        <!-- ✅ Banner que aparece na tela do Fire Stick -->
-        android:banner="@mipmap/ic_launcher">
+        android:banner="@mipmap/ic_launcher"
+        tools:replace="android:theme,android:allowBackup">  <!-- ✅ Resolve conflito -->
         
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape"
             android:exported="true"
-            <!-- ✅ Tema otimizado para TV → garante suporte a ponteiro -->
             android:theme="@style/Theme.Leanback"
             android:supportsPictureInPicture="true">
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!-- ✅ Aparece na seção de apps da TV/Fire Stick -->
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
