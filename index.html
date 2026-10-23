@@ -329,12 +329,8 @@ document.addEventListener('keydown', e => {
       break;
 
     case 'ArrowUp':
-      if (mouseY <= ALTURA_TARJA + 14) {
-        desligar();
-        return;
-      }
-      mouseY = Math.max(14, mouseY - VELOCIDADE);
-      break;
+  mouseY = Math.max(14, mouseY - VELOCIDADE);
+  break;
 
     case 'Enter':
     case 'OK':
