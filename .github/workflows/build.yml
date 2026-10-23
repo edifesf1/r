@@ -1,16 +1,8 @@
 name: Compilar PlayerEdifesf APK
 
-'on': workflow_dispatch: push: paths: - "PlayerEdifesf/**" - ".github/workflows/build.yml"
+on: [push, workflow_dispatch]
 
 jobs: build: runs-on: ubuntu-latest
-
-defaults:
-  run:
-    working-directory: PlayerEdifesf
-
-env:
-  ANDROID_HOME: /usr/local/lib/android/sdk
-  ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
 steps:
   - name: Baixar codigo
@@ -20,24 +12,21 @@ steps:
     uses: actions/setup-java@v4
     with:
       distribution: temurin
-      java-version: "17"
+      java-version: '17'
 
   - name: Configurar Gradle
     uses: gradle/actions/setup-gradle@v4
     with:
-      gradle-version: "8.7"
+      gradle-version: '8.7'
 
   - name: Configurar Android SDK
     uses: android-actions/setup-android@v3
 
   - name: Instalar SDK Android
-    run: |
-      sdkmanager --install \
-        "platform-tools" \
-        "platforms;android-35" \
-        "build-tools;35.0.0"
+    run: sdkmanager --install "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
   - name: Compilar APK
+    working-directory: PlayerEdifesf
     run: gradle assembleDebug
 
   - name: Disponibilizar APK
