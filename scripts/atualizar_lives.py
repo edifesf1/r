@@ -21,14 +21,12 @@ def identificar_canal(nome):
     n = re.sub(r"\s+", " ", nome.casefold()).strip()
 
     canais = {
-        "cnn brasil": "cnn",
         "bandnews": "bandnews",
-        "band news": "bandnews",
-        "sbt news": "sbt",
-        "record news": "record",
-        "jovem pan": "jovem",
         "bandjornal": "bandjornal",
-        "band jornal": "bandjornal",
+        "cnn brasil": "cnn",
+        "zjovem pan": "jovem",
+        "zrecord news": "record",
+        "zsbt news": "sbt",
         "novo tempo": "tvnovotempo",
         "tv novo tempo": "tvnovotempo",
     }
