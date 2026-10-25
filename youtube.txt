@@ -7,7 +7,7 @@
     #LiveYoutube
 Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
 Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=PfVJDIwIB1E
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=NBnCrE-uAI8
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=PT1elxQmzqg
 
 #Notícias
 Normal|Live|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
@@ -16,7 +16,7 @@ Normal|Live|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 Normal|Live|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
     #LiveYoutube
-Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=W1pXwK-tBm8
+Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
 Normal|Live|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|zJovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
     #LiveYoutube
