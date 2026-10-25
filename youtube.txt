@@ -5,8 +5,8 @@
 
 #Notícias
     #LiveYoutube
-Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=KznWTBFSHOE
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=le0uHrL4RJ4
+Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
+Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=dBMGWcGtqNU
 Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=o6Z6Ax_XVsY
 
 #Notícias
@@ -20,7 +20,7 @@ Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=j7wHkV5gM6Y
 Normal|Live|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|zJovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
     #LiveYoutube
-Normal|Live|Notícias|zRecord News|https://www.youtube.com/watch?v=uvKSa2XYzRs
+Normal|Live|Notícias|zRecord News|https://www.youtube.com/watch?v=C9RnfKGx18s
 Normal|Live|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
     #LiveYoutube
 Normal|Live|Notícias|zSBT News|https://www.youtube.com/watch?v=wnPpVYByYk4
