@@ -345,4 +345,5 @@ Music|Adventista|Clips|O Encontro-Tudo Isso e Muito+|https://www.youtube.com/wat
 Music|Adventista|Clips|Nós-Tudo Isso e Muito+|https://www.youtube.com/watch?v=6bbOlkXH8Ds&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=52
 Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v=QbziD-rWQsg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=53
 
-
+Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
+Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
