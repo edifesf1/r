@@ -497,6 +497,27 @@ function criarPlayer(){
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
   area.replaceChildren();player=null;
 
+  // Fluxos de rádio/áudio diretos (por exemplo, URLs /stream sem extensão).
+  if(item.tipo==="audio"){
+    const audioEl=document.createElement("audio");
+    audioEl.title=item.titulo;
+    audioEl.controls=true;
+    audioEl.autoplay=true;
+    audioEl.preload="none";
+    audioEl.style.cssText="display:block;width:100%;max-width:900px;margin:auto;position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);";
+    area.appendChild(audioEl);
+    player=audioEl;
+    audioEl.addEventListener("playing",()=>{status.textContent="Reproduzindo rádio: "+item.titulo;});
+    audioEl.addEventListener("error",()=>{
+      const e=audioEl.error;
+      console.error("Erro no áudio:",{code:e?.code,message:e?.message,url:item.url});
+      status.textContent="Não foi possível reproduzir esta rádio neste navegador. Verifique o formato do fluxo ou CORS.";
+    });
+    audioEl.src=item.url;
+    audioEl.play().catch(()=>{status.textContent="Rádio carregada. Pressione Play para iniciar.";});
+    return;
+  }
+
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;videoEl.controls=true;videoEl.autoplay=true;videoEl.playsInline=true;videoEl.preload="metadata";
@@ -575,8 +596,9 @@ async function carregarLista(){
       }else if(partes.length===2){titulo=partes[0]||"Vídeo "+(indice+1);url=partes[1];tema="normal";categoria="filmes";classificacao="Geral";}
       else{titulo="Vídeo "+(indice+1);url=partes[0];tema="normal";categoria="filmes";classificacao="Geral";}
       tema=tema||"Normal";categoria=categoria||"Filmes";classificacao=classificacao||"Geral";titulo=titulo||"Vídeo "+(indice+1);
-      const id=extrairId(url),tipo=/\.m3u8(?:$|[?#])/i.test(url)?"hls":(id?"youtube":"desconhecido");
-      if(tipo==="hls")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
+      const id=extrairId(url);
+      const tipo=/\.m3u8(?:$|[?#])/i.test(url)?"hls":(id?"youtube":(/^https?:\/\//i.test(url)?"audio":"desconhecido"));
+      if(tipo==="hls"||tipo==="audio")return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
     }).filter(Boolean);
     // "Pesquisa" fica sempre como primeira opção; os temas vêm depois em ordem alfabética.
