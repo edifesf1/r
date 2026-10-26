@@ -346,5 +346,5 @@ Music|Adventista|Clips|Nós-Tudo Isso e Muito+|https://www.youtube.com/watch?v=6
 Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v=QbziD-rWQsg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=53
 
 Music|Radios|Catorlica|BrasilStream2|https://www.youtube.com/watch?v=QbziD-rWQsg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=53
-Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
+Music|Radios|Catorlica|BrasilStream|https://raw.githubusercontent.com/edifesf1/meu.m3u8/refs/heads/main/radio1.m3u8
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
