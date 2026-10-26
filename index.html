@@ -534,9 +534,14 @@ function criarPlayer(){
     if(geracao!==geracaoPlayer||!area.contains(container))return;
     ytPlayerApi=new YT.Player(container.id,{
       width:"100%",height:"100%",videoId:item.id,
-      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin},
+      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin,cc_load_policy:0},
       events:{
-        onReady:event=>{status.textContent="Player do YouTube carregado.";event.target.playVideo();},
+        onReady:event=>{
+          status.textContent="Player do YouTube carregado.";
+          // Tenta manter as legendas do YouTube desativadas por padrão.
+          try{event.target.unloadModule("captions");}catch(e){}
+          event.target.playVideo();
+        },
         onStateChange:event=>{if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo;},
         onError:event=>{
           const mensagens={2:"Parâmetro ou ID de vídeo inválido",5:"Erro no player HTML5 do YouTube",100:"Vídeo removido, privado ou não encontrado",101:"Vídeo não permite reprodução incorporada",150:"Vídeo não permite reprodução incorporada",153:"Erro de identificação do player ou Referer"};
