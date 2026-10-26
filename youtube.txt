@@ -347,3 +347,6 @@ Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v
 
 Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
+Music|Radios|Catorlica|Blumenau-100.1 FM |https://www.arcadaalianca.com.br/radio/100-1-fm--blumenau/play/
+Music|Radios|Catorlica|Joinville|https://hlsplayer.net/embed?src=https://stm10.virtualcast.com.br:8436/arcaaliancajoinville&type=mp4
+
