@@ -5,9 +5,9 @@
 
 #Notícias
     #LiveYoutube
-Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=oDiUIO40tws
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=Fn7E6aUVKuA
+Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=DJ2WRYBGT2w
+Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=L0cpSBH_EFk
+Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=D-PLtEZelok
 
 #Notícias
 Normal|Live|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
@@ -16,14 +16,14 @@ Normal|Live|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 Normal|Live|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
     #LiveYoutube
-Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=IhFskmGNVBw
+Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=pRmUtGTdRtQ
 Normal|Live|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 Normal|Live|Notícias|zJovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
     #LiveYoutube
 Normal|Live|Notícias|zRecord News|https://www.youtube.com/watch?v=KR9eomPGLZE
 Normal|Live|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
     #LiveYoutube
-Normal|Live|Notícias|zSBT News|https://www.youtube.com/watch?v=osqK8isQHc4
+Normal|Live|Notícias|zSBT News|https://www.youtube.com/watch?v=XPoVAdGF2oo
 Normal|Live|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 
 #Agro
