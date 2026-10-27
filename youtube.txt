@@ -1,134 +1,178 @@
 #Tema|Categoria|Classificação|Episódio/Título|URL
-#Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ID_DO_VIDEO
+#AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 #Religiosoo|Series|Temporada 1|Episódio 1|https://www.youtube.com/watch?v=ID_DO_VIDEO
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
 #Notícias
     #LiveYoutube
-Normal|Live|Notícias|BandJornal|https://www.youtube.com/watch?v=DJ2WRYBGT2w
-Normal|Live|Notícias|BandNews|https://www.youtube.com/watch?v=L0cpSBH_EFk
-Normal|Live|Notícias|CNN Brasil|https://www.youtube.com/watch?v=D-PLtEZelok
+AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
+AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=oDiUIO40tws
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=Fn7E6aUVKuA
+AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
+AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
+AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+AoVivo|Canais|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
+AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 
-#Notícias
-Normal|Live|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
-Normal|Live|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-Normal|Live|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
-Normal|Live|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-Normal|Live|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-    #LiveYoutube
-Normal|Live|Notícias|zJovem Pan|https://www.youtube.com/watch?v=pRmUtGTdRtQ
-Normal|Live|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
-Normal|Live|Notícias|zJovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
-    #LiveYoutube
-Normal|Live|Notícias|zRecord News|https://www.youtube.com/watch?v=KR9eomPGLZE
-Normal|Live|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-    #LiveYoutube
-Normal|Live|Notícias|zSBT News|https://www.youtube.com/watch?v=XPoVAdGF2oo
-Normal|Live|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
+#Notícias comentadas
+#AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=IhFskmGNVBw
+#AoVivo|Canais|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+#AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=KR9eomPGLZE
+#AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=osqK8isQHc4
 
 #Agro
-Normal|Live|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
-#Normal|Live|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
-Normal|Live|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
-Normal|Live|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
-Normal|Live|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
+AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
+#AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
+AoVivo|Canais|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
+AoVivo|Canais|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
+AoVivo|Canais|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 
 #Culinária
-Normal|Live|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
-Normal|Live|Culinária|Receitas Fast|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
+AoVivo|Canais|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
+AoVivo|Canais|Culinária|Receitas Fast|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
 
 #Cultura
-Normal|Live|Cultura|Canal Educação|https://canaleducacao-stream.ebc.com.br/index.m3u8
-Normal|Live|Cultura|Canal FDR|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
-Normal|Live|Cultura|Canal Gov|https://canalgov-stream.ebc.com.br/index.m3u8
-Normal|Live|Cultura|Cultura Fast|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
-Normal|Live|Cultura|Cultura PR|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
-Normal|Live|Cultura|D+ TV|https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-Normal|Live|Cultura|Educativa MS|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
-Normal|Live|Cultura|ISTV|https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
-#Normal|Live|Cultura|ISTV|https://video10.logicahost.com.br/redeistv/redeistv/playlist.m3u8
-Normal|Live|Cultura|Nature Time|https://amg01576-amg01576c12-plex-us-11251.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
-Normal|Live|Cultura|Rede Brasil|https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
-#Normal|Live|Cultura|Rede Brasil|https://redebrasil.nuvemplay.live/hls/stream.m3u8
-Normal|Live|Cultura|Rede Minas|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15327/playlist/playlist.m3u8
-#Normal|Live|Cultura|Rede Minas|https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
-Normal|Live|Cultura|Santa Cecilia TV|https://video11.logicahost.com.br/unisantaapp/unisantaapp/chunklist_w835203245.m3u8
-Normal|Live|Cultura|SescTV|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
-Normal|Live|Cultura|TV Aberta SP|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/chunklist_w1066622811.m3u8
-Normal|Live|Cultura|TV Brasil|https://tvbrasil-stream.ebc.com.br/index.m3u8
-Normal|Live|Cultura|TV Brasil Central|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
-Normal|Live|Cultura|TV Brasil Internacional|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
-Normal|Live|Cultura|TV Cultura|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-Normal|Live|Cultura|TV Futuro RN|https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
-Normal|Live|Cultura|TV Life America|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
-Normal|Live|Cultura|TV Nova Nordeste PE|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
-Normal|Live|Cultura|TV Poços|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
-Normal|Live|Cultura|TV UFOP|https://app.tvufop.com.br/hls/tvufop.m3u8
-Normal|Live|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
-Normal|Live|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+AoVivo|Canais|Cultura|Canal Educação|https://canaleducacao-stream.ebc.com.br/index.m3u8
+AoVivo|Canais|Cultura|Canal FDR|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
+AoVivo|Canais|Cultura|Canal Gov|https://canalgov-stream.ebc.com.br/index.m3u8
+AoVivo|Canais|Cultura|Cultura Fast|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
+AoVivo|Canais|Cultura|D+ TV|https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
+AoVivo|Canais|Cultura|Educativa MS|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
+AoVivo|Canais|Cultura|ISTV|https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
+AoVivo|Canais|Cultura|Nature Time|https://amg01576-amg01576c12-plex-us-11251.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
+AoVivo|Canais|Cultura|Rede Brasil|https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
+AoVivo|Canais|Cultura|Rede Minas|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15327/playlist/playlist.m3u8
+AoVivo|Canais|Cultura|Santa Cecilia TV|https://video11.logicahost.com.br/unisantaapp/unisantaapp/chunklist_w835203245.m3u8
+AoVivo|Canais|Cultura|SescTV|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
+
+AoVivo|Canais|Cultura|Sobrevivi|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
+AoVivo|Canais|Cultura|TV Aberta SP|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/chunklist_w1066622811.m3u8
+AoVivo|Canais|Cultura|TV Brasil|https://tvbrasil-stream.ebc.com.br/index.m3u8
+AoVivo|Canais|Cultura|TV Brasil Central|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
+AoVivo|Canais|Cultura|TV Brasil Internacional|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
+AoVivo|Canais|Cultura|TV Cultura|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+AoVivo|Canais|Cultura|TV Futuro RN|https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
+AoVivo|Canais|Cultura|TV Life America|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
+AoVivo|Canais|Cultura|TV Mais News|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
+AoVivo|Canais|Cultura|TV Nova Nordeste PE|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
+AoVivo|Canais|Cultura|TV Poços|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
+AoVivo|Canais|Cultura|TV UFOP|https://app.tvufop.com.br/hls/tvufop.m3u8
+AoVivo|Canais|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
+AoVivo|Canais|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+
+
+#AoVivo|Canais|Cultura|ISTV|https://video10.logicahost.com.br/redeistv/redeistv/playlist.m3u8
+#AoVivo|Canais|Cultura|Rede Brasil|https://redebrasil.nuvemplay.live/hls/stream.m3u8
+#AoVivo|Canais|Cultura|Rede Minas|https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+
 
 #Documentários
-Normal|Live|Documentários|Sobrevivi|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
-
-#Educativos
-Normal|Live|Educativos|TV Mais News|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
-
 #Kids
-Normal|Live|Kids|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
-Normal|Live|Kids|Gospel Cartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-Normal|Live|Kids|Like|https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8
-Normal|Live|Kids|Ministério Infantil|https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
-Normal|Live|Kids|Nickelodeon|https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
-Normal|Live|Kids|NickOnline|https://x1colegal.com/hls/stream.m3u8
-Normal|Live|Kids|Otaku Sign|https://stmv1.srvif.com/anime/anime/playlist.m3u8
-Normal|Live|Kids|Retrô Cartoon|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
-Normal|Live|Kids|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
-Normal|Live|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
+AoVivo|Canais|Kids|3 Palavrinhas|https://www.youtube.com/@3palavrinhas/live
+AoVivo|Canais|Kids|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
+AoVivo|Canais|Kids|Gospel Cartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+AoVivo|Canais|Kids|Kuriakos Kids|https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+AoVivo|Canais|Kids|Ministério Infantil|https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
+AoVivo|Canais|Kids|Nickelodeon|https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+AoVivo|Canais|Kids|NickOnline|https://x1colegal.com/hls/stream.m3u8
+AoVivo|Canais|Kids|Otaku Sign|https://stmv1.srvif.com/anime/anime/playlist.m3u8
+AoVivo|Canais|Kids|Retrô Cartoon|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
+AoVivo|Canais|Kids|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
+AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 
 #Público
-Normal|Live|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
-Normal|Live|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
+AoVivo|Canais|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
+AoVivo|Canais|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
 
-#Religioso
-Normal|Live|Religioso|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
-Normal|Live|Religioso|Boas Novas|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
-Normal|Live|Religioso|Boas Novas 2|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
-Normal|Live|Religioso|Canal Promessas|https://video01.brascast.com/gente8322/gente8322/playlist.m3u8
-Normal|Live|Religioso|Central do Brasil|https://stmv2.centralcast.com.br/central/central/chunklist_w348243781.m3u8
-Normal|Live|Religioso|Despertar TV|https://br.conectmy.com.br/DespertarTV/index.m3u8
-Normal|Live|Religioso|Fonte TV|https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
-Normal|Live|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-Normal|Live|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-Normal|Live|Religioso|Hope English|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldvawCD/s/jsl_0sUSK6VA7GT/master.m3u8
-Normal|Live|Religioso|IMPD TV|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
-    #LiveYoutube
-Normal|Live|Religioso|TV Novo Tempo|https://www.youtube.com/watch?v=l2_O7pDT0Fg
-Normal|Live|Religioso|TV Novo Tempo 2|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-Normal|Live|Religioso|Plena TV|https://stmv7.voxtvhd.com.br/vitoriaplenatv/vitoriaplenatv/playlist.m3u8
-Normal|Live|Religioso|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
-Normal|Live|Religioso|Rede Gospel|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
-Normal|Live|Religioso|Rede Mais|https://video09.logicahost.com.br/redefamilia/redefamilia/playlist.m3u8
-Normal|Live|Religioso|Rede Super|https://tv02.zas.media:1936/redesuper/redesuper/playlist.m3u8
-Normal|Live|Religioso|Rede Universo|https://srv5.zcast.com.br/universotv/universotv/playlist.m3u8
-Normal|Live|Religioso|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-Normal|Live|Religioso|Rit TV|https://stream.ecast.com.br/rit-tv/index.m3u8
-Normal|Live|Religioso|Terceiro Anjo|https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8
-Normal|Live|Religioso|TV Feliz|https://video01.logicahost.com.br/tvfeliz/tvfeliz/chunklist_w1529613306.m3u8
-Normal|Live|Religioso|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
-Normal|Live|Religioso|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
-Normal|Live|Religioso|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
-Normal|Live|Religioso|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
-Normal|Live|Religioso|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
-Normal|Live|Religioso|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-Normal|Live|Religioso|TV Sepiol|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/chunklist_w541628865.m3u8
-Normal|Live|Religioso|TV Sonora|https://video01.brascast.com/xavier4499/xavier4499/playlist.m3u8
-Normal|Live|Religioso|TV Templo|https://644398c.ha.azioncdn.net/primary/tvtemplo_480p.sdp/playlist.m3u8
-Normal|Live|Religioso|TV Universal|https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
-Normal|Live|Religioso|TVCI|https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
+#Católico
+AoVivo|Canais|Catolico|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
+AoVivo|Canais|Catolico|Tv Evangelizar|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
+AoVivo|Canais|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
+AoVivo|Canais|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
+AoVivo|Canais|Catolico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
+AoVivo|Canais|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+AoVivo|Canais|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1447182119.m3u8
+AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/@Santu%C3%A1rioNacionaldeAparecida/live
+AoVivo|Canais|Catolico|Seculo 21|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
+AoVivo|Canais|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
+AoVivo|Canais|Catolico|TV Aparecida|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
+AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/@VaticanNewsPT/live
+AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
+
+
+#Evangelico
+AoVivo|Canais|Evangelico|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
+AoVivo|Canais|Evangelico|Boas Novas|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
+AoVivo|Canais|Evangelico|Canal Promessas|https://video01.brascast.com/gente8322/gente8322/playlist.m3u8
+AoVivo|Canais|Evangelico|Central do Brasil|https://stmv2.centralcast.com.br/central/central/chunklist_w348243781.m3u8
+AoVivo|Canais|Evangelico|Despertar TV|https://br.conectmy.com.br/DespertarTV/index.m3u8
+AoVivo|Canais|Evangelico|Fonte TV|https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
+AoVivo|Canais|Evangelico|Fonte Viva Gospel|https://stmv1.liveplushd.com.br/webtvfontevivagospel/webtvfontevivagospel/playlist.m3u8
+AoVivo|Canais|Evangelico|Hope English|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldvawCD/s/jsl_0sUSK6VA7GT/master.m3u8
+AoVivo|Canais|Evangelico|Igreja Mundial|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
+AoVivo|Canais|Evangelico|Igreja Online|https://vz-68323952-633.b-cdn.net/77de4c9e-b8c2-487c-87f0-f333f267ac0f/playlist.m3u8
+AoVivo|Canais|Evangelico|IMPD TV|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
+AoVivo|Canais|Evangelico|IURDTV |https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/fdc85437d7631afb59fe3767dcc464dd/source/index.m3u8
+AoVivo|Canais|Evangelico|KTV-Angola|https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|Kuriakos tv|https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
+AoVivo|Canais|Evangelico|ADB TV|https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
+AoVivo|Canais|Evangelico|Rede Alfa|https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
+AoVivo|Canais|Evangelico|Rede Gospel|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+AoVivo|Canais|Evangelico|Rede Mais Família|https://video09.logicahost.com.br/redefamilia/redefamilia/playlist.m3u8
+AoVivo|Canais|Evangelico|Rede Super|https://tv02.zas.media:1936/redesuper/redesuper/playlist.m3u8
+AoVivo|Canais|Evangelico|Rede Universo|https://srv5.zcast.com.br/universotv/universotv/playlist.m3u8
+AoVivo|Canais|Evangelico|Rit TV|https://stream.ecast.com.br/rit-tv/index.m3u8
+AoVivo|Canais|Evangelico|Semear TV|https://5c483b9d1019c.streamlock.net/semeartv/semeartv/playlist.m3u8
+AoVivo|Canais|Evangelico|Terceiro Anjo|https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Adorador|https://stmv1.voxtvhd.com.br/tvadoradorgospel/tvadoradorgospel/playlist.m3u8
+AoVivo|Canais|Evangelico|Tv Adorar Jesus|https://stmv1.srvif.com/tvadorando/tvadorando/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Feliz|https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
+AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Maanaim|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
+AoVivo|Canais|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/@NovoTempoPortugal/live
+AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
+AoVivo|Canais|Evangelico|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Reconcavo|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Sepiol|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Sonora|https://video01.brascast.com/xavier4499/xavier4499/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Templo|https://644398c.ha.azioncdn.net/primary/tvtemplo_480p.sdp/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Universal|https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
+AoVivo|Canais|Evangelico|Way TV|https://live.wayone.cloud/waytv/waytv1/playlist.m3u8
+
+#Filmes
+AoVivo|Filmes|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+
+AoVivo|Canais|Catolico|Pai Eterno | https://www.youtube.com/@paieterno/live
+#AoVivo|Canais|Catolico|Rede Vida 2 | https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
+#AoVivo|Canais|Catolico|Rede Vida | https://www.youtube.com/@tvredevida/live
+#AoVivo|Canais|Catolico|Tv Evangelizar|https://cache01sp.cdnsimba.com.br/bpk-token/2ac@zbex5ekoq24ty4mja13rzio5jmoaz3hrzfoi5eba/origin/1/0r8Y0tjINil-vqiTDrOV91D5C-jHr2mru7Pf7ep2zgI/variants/video-2/index.m3u8?live=2
+#AoVivo|Canais|Catolico|Tv Evangelizar|https://www.youtube.com/@TVEvangelizarOficial/live
+#AoVivo|Canais|Catolico|Santuário de São Miguel Arcanjo|https://www.youtube.com/@ssaomiguelof/live
+#AoVivo|Canais|Catolico|Século 21|https://www.youtube.com/@RedeSeculo21/live
+#AoVivo|Canais|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
+#AoVivo|Canais|Catolico|TV Aparecida|https://www.youtube.com/@tvaparecida/live
+#AoVivo|Canais|Catolico|TV Aparecida PUC|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
+#AoVivo|Canais|Catolico|Web tv 2| https://stmv1.srvif.com/avemaria/avemaria/playlist.m3u8
+#AoVivo|Canais|Evangelico|Boas Novas 2|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
+#AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/watch?v=l2_O7pDT0Fg
+#AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/@novotempo/live
+
 
 #Music
-Normal|Music|Canais|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
-Normal|Music|Canais|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
+AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
+AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
+AoVivo|Music|Catolica|English| https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
+AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
 
 #Series
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
@@ -346,6 +390,7 @@ Music|Adventista|Clips|Nós-Tudo Isso e Muito+|https://www.youtube.com/watch?v=6
 Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v=QbziD-rWQsg&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=53
 
 Music|Radios|Evangelica|NovoTempo|https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntRioRJ.smil/chunklist_b64000_slpor.m3u8
+
 Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
 Music|Radios|Catorlica|AcordeVerde|https://hts03.brascast.com:9144/live
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
@@ -357,9 +402,9 @@ Music|Radios|Catorlica|Brasil Campinas|https://centova2.svdns.com.br:20030/strea
 Music|Radios|Catorlica|Canção Nova|https://streaming.fox.srv.br:8116/stream
 Music|Radios|Catorlica|Catedral|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
 Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
-Music|Radios|Catorlica|Evangelizar|https://cache02rj.cdnsimba.com.br/bpk-token/1ab@c3xnumar5wrsbqysofygap1izyi5ndfdcf3qb2da/radio-995/hls/index.m3u8
 Music|Radios|Catorlica|Evangelizar2|https://8239.brasilstream.com.br/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
-
+Music|Radios|Catorlica|Semeando Viçosa|https://player.hstbr.net/webradiosemeando/itunes.pls
+Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
 
