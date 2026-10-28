@@ -161,7 +161,6 @@ AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.sm
 #Music
 AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
 AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
-AoVivo|Music|Catolica|English|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
 AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
 
 #Series
@@ -382,6 +381,7 @@ Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v
 Music|Radios|Evangelica|NovoTempo|https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntRioRJ.smil/chunklist_b64000_slpor.m3u8
 
 Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
+Music|Radios|Catorlica|Catolica|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
 Music|Radios|Catorlica|AcordeVerde|https://hts03.brascast.com:9144/live
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
 Music|Radios|Catorlica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
