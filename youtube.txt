@@ -132,17 +132,17 @@ AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=Bd0osIrrEJg
 AoVivo|Canais|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=rWs1GRF8eyo
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ZAptVDXclkk
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/watch?v=vJrCFY0L1-I
+AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/watch?v=-Mxw9Z4igpw
 AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 AoVivo|Canais|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
-AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=UUR_BQQ0Ly4
+AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=XUwyffw8gN4
 AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=Ni1uVWQT1MY
 AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=S7QhwTqy8gc
 
