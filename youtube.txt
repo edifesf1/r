@@ -3,6 +3,28 @@
 #Religiosoo|Series|Temporada 1|Episódio 1|https://www.youtube.com/watch?v=ID_DO_VIDEO
 #Infantil|Filmes|Animação|Aventura infantil|https://www.youtube.com/watch?v=ID_DO_VIDEO
 
+#Agro
+AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
+#AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
+AoVivo|Canais|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
+AoVivo|Canais|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
+AoVivo|Canais|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
+
+#Católico
+AoVivo|Canais|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
+AoVivo|Canais|Catolico|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
+AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/@Santu%C3%A1rioNacionaldeAparecida/live
+AoVivo|Canais|Catolico|Tv Evangelizar|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
+AoVivo|Canais|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
+AoVivo|Canais|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
+AoVivo|Canais|Catolico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
+AoVivo|Canais|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+AoVivo|Canais|Catolico|Seculo 21|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
+AoVivo|Canais|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
+AoVivo|Canais|Catolico|TV Aparecida|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
+AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/@VaticanNewsPT/live
+AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
+
 #Notícias
     #LiveYoutube
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
@@ -22,13 +44,6 @@ AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 #AoVivo|Canais|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 #AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=KR9eomPGLZE
 #AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=osqK8isQHc4
-
-#Agro
-AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
-#AoVivo|Canais|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/index.m3u8
-AoVivo|Canais|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
-AoVivo|Canais|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
-AoVivo|Canais|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 
 #Culinária
 AoVivo|Canais|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
@@ -86,22 +101,6 @@ AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv
 #Público
 AoVivo|Canais|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo|Canais|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
-
-#Católico
-AoVivo|Canais|Catolico|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo|Canais|Catolico|Tv Evangelizar|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
-AoVivo|Canais|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
-AoVivo|Canais|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
-AoVivo|Canais|Catolico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
-AoVivo|Canais|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-AoVivo|Canais|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1447182119.m3u8
-AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/@Santu%C3%A1rioNacionaldeAparecida/live
-AoVivo|Canais|Catolico|Seculo 21|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
-AoVivo|Canais|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
-AoVivo|Canais|Catolico|TV Aparecida|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
-AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/@VaticanNewsPT/live
-AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
-
 
 #Evangelico
 AoVivo|Canais|Evangelico|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
