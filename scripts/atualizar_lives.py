@@ -3,6 +3,7 @@ import json
 import re
 import subprocess
 import time
+import unicodedata
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
@@ -16,44 +17,55 @@ PADROES_CLIENTE = [
 ]
 
 
-def identificar_canal(nome):
-    """Identifica somente nomes exatos de canais configurados."""
-    n = re.sub(r"\s+", " ", nome.casefold()).strip()
-
-    canais = {
-        "bandnews": "bandnews",
-        "bandjornal": "bandjornal",
-        "cnn brasil": "cnn",
-        "zjovem pan": "jovem",
-        "zrecord news": "record",
-        "zsbt news": "sbt",
-        "novo tempo": "tvnovotempo",
-        "tv novo tempo": "tvnovotempo",
-    }
-
-    return canais.get(n)
+def normalizar_nome(nome):
+    """Compara nomes ignorando maiúsculas, acentos e espaços extras."""
+    nome = unicodedata.normalize("NFKD", nome.casefold())
+    nome = "".join(
+        c for c in nome
+        if not unicodedata.combining(c)
+    )
+    return re.sub(r"\s+", " ", nome).strip()
 
 
 def ler_canais():
+    """Lê os canais cadastrados em canais.txt."""
     canais = {}
 
-    for linha in ARQUIVO_CANAIS.read_text(
-        encoding="utf-8-sig"
-    ).splitlines():
-        if not linha.strip() or "|" not in linha:
+    for numero, linha in enumerate(
+        ARQUIVO_CANAIS.read_text(encoding="utf-8-sig").splitlines(),
+        start=1,
+    ):
+        if not linha.strip() or linha.lstrip().startswith("#"):
+            continue
+
+        if "|" not in linha:
+            print(f"Linha inválida em canais.txt: {numero}")
             continue
 
         nome, url = linha.split("|", 1)
-        chave = identificar_canal(nome)
+        nome = nome.strip()
+        url = url.strip()
 
-        if chave and url.strip().startswith("https://"):
-            canais[chave] = url.strip()
+        if not nome or not url.startswith("https://"):
+            print(f"Nome ou URL inválidos na linha {numero}.")
+            continue
+
+        chave = normalizar_nome(nome)
+
+        if chave in canais:
+            print(f"Canal duplicado em canais.txt: {nome}")
+            continue
+
+        canais[chave] = {
+            "nome": nome,
+            "url": url,
+        }
 
     return canais
 
 
 def obter_live(url):
-    """Retorna somente um vídeo identificado como live ativa."""
+    """Retorna a URL de uma transmissão ao vivo confirmada."""
 
     for cliente in PADROES_CLIENTE:
         comando = [
@@ -110,12 +122,13 @@ def obter_live(url):
                     ativo
                     and re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id)
                 ):
-                    print(f"Live identificada: {video_id}")
-                    return (
+                    nova_url = (
                         "https://www.youtube.com/watch?v=" + video_id
                     )
+                    print(f"Live ativa encontrada: {nova_url}")
+                    return nova_url
 
-            print("Nenhuma live ativa identificada nesta tentativa.")
+            print("Nenhuma transmissão ao vivo ativa encontrada.")
 
         except subprocess.TimeoutExpired:
             print(f"Tempo esgotado: {url}")
@@ -124,7 +137,7 @@ def obter_live(url):
 
         time.sleep(2)
 
-    print(f"Consulta indisponível após as tentativas: {url}")
+    print(f"Não foi possível confirmar uma live ativa: {url}")
     return None
 
 
@@ -133,21 +146,23 @@ def main():
         raise FileNotFoundError("canais.txt não foi encontrado.")
 
     if not ARQUIVO_LISTA.exists():
-        raise FileNotFoundError("youtube.txt não existe.")
+        raise FileNotFoundError("youtube.txt não foi encontrado.")
 
-    fontes = ler_canais()
+    canais = ler_canais()
 
-    if not fontes:
+    if not canais:
         raise RuntimeError("Nenhum canal válido em canais.txt.")
-
-    lives = {}
-
-    for chave, url in fontes.items():
-        print(f"\nConsultando {chave}: {url}")
-        lives[chave] = obter_live(url)
 
     texto = ARQUIVO_LISTA.read_text(encoding="utf-8-sig")
     linhas = texto.splitlines()
+
+    # Consulta cada canal cadastrado, sem nomes fixos no código.
+    lives = {}
+
+    for chave, canal in canais.items():
+        print(f"\nConsultando canal: {canal['nome']}")
+        lives[chave] = obter_live(canal["url"])
+
     resultado = []
     alteracoes = 0
     canais_encontrados = set()
@@ -159,53 +174,37 @@ def main():
 
         partes = linha.split("|")
 
-        # Formato obrigatório:
-        # Tema|Categoria|Classificação|Título|URL
+        # Formato: Tema|Categoria|Classificação|Título|URL
         if len(partes) != 5:
             resultado.append(linha)
             continue
 
-        categoria = partes[1].strip()
-        classificacao = partes[2].strip()
         nome = partes[3].strip()
         url_atual = partes[4].strip()
+        chave = normalizar_nome(nome)
 
-        # Somente transmissões ao vivo da categoria Notícias.
-        if categoria.casefold() != "live":
+        # Só processa canais cadastrados em canais.txt.
+        if chave not in canais:
             resultado.append(linha)
             continue
 
-        if classificacao.casefold() != "notícias":
-            resultado.append(linha)
-            continue
-
-        # Não modificar links que não sejam do YouTube.
+        # Evita modificar links externos ou outras fontes.
         if not re.match(
             r"^https?://(www\.)?(youtube\.com|youtu\.be)/",
             url_atual,
             re.IGNORECASE,
         ):
             resultado.append(linha)
-            continue
-
-        # Correspondência exata: "Record News 2" não é "Record News".
-        chave = identificar_canal(nome)
-
-        if not chave or chave not in lives:
-            resultado.append(linha)
-            continue
-
-        nova_url = lives[chave]
-
-        if not nova_url:
-            print(
-                f"Preservado: {nome} — "
-                "não foi possível confirmar uma live ativa."
-            )
-            resultado.append(linha)
+            print(f"Preservado: {nome} — URL não é do YouTube.")
             continue
 
         canais_encontrados.add(chave)
+        nova_url = lives.get(chave)
+
+        if not nova_url:
+            print(f"Preservado: {nome} — live não confirmada.")
+            resultado.append(linha)
+            continue
 
         if url_atual != nova_url:
             partes[4] = nova_url
@@ -217,12 +216,12 @@ def main():
 
         resultado.append(linha)
 
-    for chave, url in lives.items():
-        if url and chave not in canais_encontrados:
+    # Avisa quando há canal cadastrado sem linha correspondente.
+    for chave, canal in canais.items():
+        if chave not in canais_encontrados:
             print(
-                f"ATENÇÃO: live identificada para '{chave}', "
-                "mas nenhuma linha correspondente válida "
-                "foi encontrada em youtube.txt."
+                f"ATENÇÃO: '{canal['nome']}' está em canais.txt, "
+                "mas não tem linha correspondente válida em youtube.txt."
             )
 
     novo_texto = "\n".join(resultado)
