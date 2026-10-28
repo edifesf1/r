@@ -519,10 +519,39 @@ function criarPlayer(){
   }
 
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
+
     const videoEl=document.createElement("video");
-    videoEl.title=item.titulo;videoEl.controls=true;videoEl.autoplay=true;videoEl.playsInline=true;videoEl.preload="metadata";
+    videoEl.title=item.titulo;
+    videoEl.controls=false;
+    videoEl.autoplay=true;
+    videoEl.playsInline=true;
+    videoEl.preload="metadata";
+    videoEl.tabIndex=0;
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
-    area.appendChild(videoEl);player=videoEl;
+
+    videoEl.addEventListener("click",()=>{
+      if(videoEl.paused){
+        videoEl.play().catch(()=>{});
+      }else{
+        videoEl.pause();
+      }
+    });
+
+    videoEl.addEventListener("keydown",e=>{
+      if(e.key==="Enter"||e.key===" "){
+        e.preventDefault();
+        e.stopPropagation();
+        if(videoEl.paused){
+          videoEl.play().catch(()=>{});
+        }else{
+          videoEl.pause();
+        }
+      }
+    });
+
+    area.appendChild(videoEl);
+    player=videoEl;
+
     videoEl.addEventListener("error",()=>{
       const e=videoEl.error;console.error("Erro do elemento de vídeo:",{code:e?.code,message:e?.message,url:item.url});
       if(e)status.textContent="Erro no vídeo (código "+e.code+").";
