@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -115,22 +114,22 @@ body.tarja-recolhida>header>#botaoTarja:focus{opacity:1}
   <nav id="cascadeBar" aria-label="Filtros">
     <div class="cascade-group" id="grupoA1"><label for="menuA1">Tema</label><select id="menuA1" title="Tema" aria-label="Tema"><option value=""></option></select></div>
     <div class="cascade-group" id="grupoB2" hidden>
-      <label for="menuB2">Categoria ou pesquisa</label>
-      <select id="menuB2" title="Categoria" aria-label="Categoria">
-        <option value=""></option>
-      </select>
-      <input id="campoPesquisa" type="search"
-        placeholder="Pesquisar conteúdo..."
-        aria-label="Pesquisar canais, filmes, séries e músicas"
-        style="display:none;width:100%;min-width:100px;padding:9px 8px;border-radius:5px;border:1px solid white;background:#a90000;color:white;font-size:14px">
-    </div>
+  <label for="menuB2">Categoria ou pesquisa</label>
+  <select id="menuB2" title="Categoria" aria-label="Categoria">
+    <option value=""></option>
+  </select>
+  <input id="campoPesquisa" type="search"
+    placeholder="Pesquisar conteúdo..."
+    aria-label="Pesquisar canais, filmes, séries e músicas"
+    style="display:none;width:100%;min-width:100px;padding:9px 8px;border-radius:5px;border:1px solid white;background:#a90000;color:white;font-size:14px">
+</div>
 
-    <div class="cascade-group" id="grupoC3" hidden>
-      <label for="menuC3">Resultados</label>
-      <select id="menuC3" title="Resultados" aria-label="Resultados">
-        <option value=""></option>
-      </select>
-    </div>
+<div class="cascade-group" id="grupoC3" hidden>
+  <label for="menuC3">Resultados</label>
+  <select id="menuC3" title="Resultados" aria-label="Resultados">
+    <option value=""></option>
+  </select>
+</div>
     <div class="cascade-group" id="grupoD4" hidden><label for="menuD4">Episódio</label><select id="menuD4" title="Episódio" aria-label="Episódio"><option value=""></option></select></div>
   </nav>
   <div id="navegacaoCanais" aria-label="Navegação entre canais">
@@ -159,10 +158,10 @@ const menuA1 = document.getElementById("menuA1");
 const menuB2 = document.getElementById("menuB2");
 const menuC3 = document.getElementById("menuC3");
 const menuD4 = document.getElementById("menuD4");
-
+  
 const campoPesquisa = document.getElementById("campoPesquisa");
 let modoPesquisa = false;
-
+  
 const grupos = {
   A1:document.getElementById("grupoA1"),
   B2:document.getElementById("grupoB2"),
@@ -315,7 +314,6 @@ window.addEventListener("beforeunload",()=>{
 });
 
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
-
 function navegarCanal(direcao){
   if(!videos.length)return;
   selecionado=(selecionado+direcao+videos.length)%videos.length;
@@ -324,83 +322,6 @@ function navegarCanal(direcao){
   [...lista.children].forEach((b,i)=>b.classList.toggle("ativo",i===selecionado));
   criarPlayer();
 }
-
-/*
- * Identifica transmissões ao vivo usando os campos do youtube.txt
- * e os formatos comuns de URL do YouTube.
- */
-function ehTransmissaoAoVivo(item){
-  if(!item)return false;
-
-  const categoria=String(item.categoria||"").trim().toLowerCase();
-  const classificacao=String(item.classificacao||"").trim().toLowerCase();
-  const titulo=String(item.titulo||"").trim().toLowerCase();
-  const url=String(item.url||"").trim().toLowerCase();
-
-  if(["live","ao vivo"].includes(categoria))return true;
-  if(["live","ao vivo"].includes(classificacao))return true;
-
-  // URLs do YouTube com o caminho /live, como /@canal/live.
-  if(/youtube\.com\/.*\/live(?:[/?#]|$)/i.test(url))return true;
-
-  // Também reconhece URLs que contenham /live no caminho.
-  try{
-    const endereco=new URL(url);
-    if(
-      (endereco.hostname==="youtube.com"||
-       endereco.hostname==="www.youtube.com"||
-       endereco.hostname==="m.youtube.com") &&
-      /\/live\/?$/i.test(endereco.pathname)
-    )return true;
-  }catch(e){}
-
-  if(/\bao vivo\b/.test(titulo))return true;
-
-  return false;
-}
-
-/*
- * Avança somente para outro vídeo gravado do YouTube.
- * Nunca muda automaticamente para rádio, M3U/M3U8 ou Live.
- */
-function avancarParaProximoGravado(itemAtual,geracaoAtual){
-  if(!itemAtual||itemAtual.tipo!=="youtube")return;
-  if(ehTransmissaoAoVivo(itemAtual))return;
-
-  // Ignora eventos atrasados de um player que já foi substituído.
-  if(geracaoAtual!==geracaoPlayer)return;
-  if(videos[selecionado]!==itemAtual)return;
-
-  const total=videos.length;
-  if(total<=1)return;
-
-  for(let passo=1;passo<total;passo++){
-    const indice=(selecionado+passo)%total;
-    const candidato=videos[indice];
-
-    if(
-      candidato &&
-      candidato.tipo==="youtube" &&
-      !ehTransmissaoAoVivo(candidato)
-    ){
-      selecionado=indice;
-
-      if(menuD4.value){
-        menuD4.value=candidato.titulo;
-      }
-
-      [...lista.children].forEach((b,i)=>{
-        b.classList.toggle("ativo",i===selecionado);
-      });
-
-      criarPlayer();
-      return;
-    }
-  }
-
-  // Nenhum outro vídeo gravado disponível: mantém o atual.
-}
-
 botaoCanalAnterior.addEventListener("click",()=>navegarCanal(-1));
 botaoProximoCanal.addEventListener("click",()=>navegarCanal(1));
 
@@ -440,14 +361,14 @@ function aplicarFiltros(){
 menuA1.addEventListener("change",()=>{
   limparAbaixo(1);const tema=menuA1.value;
   if (tema === "Pesquisa") {
-    ativarPesquisa(true);
-    videos = [];
-    atualizarBotoesNavegacao();
-    document.getElementById("player").replaceChildren();
-    return;
-  }
+  ativarPesquisa(true);
+  videos = [];
+  atualizarBotoesNavegacao();
+  document.getElementById("player").replaceChildren();
+  return;
+}
 
-  ativarPesquisa(false);
+ativarPesquisa(false);
   if(tema){preencherSelect(menuB2,todosVideos.filter(v=>v.tema===tema).map(v=>v.categoria));mostrarGrupo("B2",true);}
   aplicarFiltros();
 });
@@ -598,6 +519,7 @@ function criarPlayer(){
   }
 
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
+
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;
     videoEl.controls=false;
@@ -642,12 +564,12 @@ function criarPlayer(){
       let rede=false,midia=false;
       hlsInstance.on(Hls.Events.ERROR,(_event,data)=>{
         console.error("Erro HLS detalhado:", {
-          tipo: data.type,
-          detalhe: data.details,
-          fatal: data.fatal,
-          resposta: data.response,
-          erro: data.error
-        });
+  tipo: data.type,
+  detalhe: data.details,
+  fatal: data.fatal,
+  resposta: data.response,
+  erro: data.error
+});
         if(!data.fatal)return;
         registrarFalha(item,"M3U8/HLS",data.details||data.error?.message||"Erro HLS fatal",data.response?.code||data.details||"");
         if(data.type===Hls.ErrorTypes.NETWORK_ERROR&&!rede){rede=true;hlsInstance.startLoad();}
@@ -676,17 +598,7 @@ function criarPlayer(){
           try{event.target.unloadModule("captions");}catch(e){}
           event.target.playVideo();
         },
-        onStateChange:event=>{
-          if(event.data===YT.PlayerState.PLAYING){
-            status.textContent="Reproduzindo: "+item.titulo;
-          }
-
-          // Avança apenas quando termina um vídeo gravado do YouTube.
-          // A função ignora transmissões ao vivo e outros tipos de conteúdo.
-          if(event.data===YT.PlayerState.ENDED){
-            avancarParaProximoGravado(item,geracao);
-          }
-        },
+        onStateChange:event=>{if(event.data===YT.PlayerState.PLAYING)status.textContent="Reproduzindo: "+item.titulo;},
         onError:event=>{
           const mensagens={2:"Parâmetro ou ID de vídeo inválido",5:"Erro no player HTML5 do YouTube",100:"Vídeo removido, privado ou não encontrado",101:"Vídeo não permite reprodução incorporada",150:"Vídeo não permite reprodução incorporada",153:"Erro de identificação do player ou Referer"};
           status.textContent="Falha no canal: "+item.titulo+". Código "+event.data;
