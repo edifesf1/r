@@ -87,13 +87,13 @@ AoVivo|Canais|Evangelico|Terceiro Anjo|https://streamer1.streamhost.org/salive/G
 AoVivo|Canais|Evangelico|TV Adorador|https://stmv1.voxtvhd.com.br/tvadoradorgospel/tvadoradorgospel/playlist.m3u8
 AoVivo|Canais|Evangelico|Tv Adorar Jesus|https://stmv1.srvif.com/tvadorando/tvadorando/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Feliz|https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
-AoVivo|Canais|Evangelico|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
-AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
-AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Canais|Evangelico|TV Maanaim|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
+AoVivo|Canais|Evangelico|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
+AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=dkJ_GKTcm_U
-AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Canais|Evangelico|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Reconcavo|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Sepiol|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/playlist.m3u8
