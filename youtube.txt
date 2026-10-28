@@ -135,8 +135,8 @@ AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana
 AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Maanaim|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
 AoVivo|Canais|Evangelico|TV Novo Tempo 3|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/watch?v=P14PCCuhmXY
-AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Evangelico|BR TV Novo Tempo|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Evangelico|PT TV Novo Tempo|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Canais|Evangelico|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Reconcavo|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
