@@ -164,7 +164,7 @@ AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.sm
 AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
 AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
 
-AoVivo|Filmes|Religioso|Country Gospel|https://www.youtube.com/watch?v=rWs1GRF8eyo
+AoVivo|Music|Evangelico|Country Gospel|https://www.youtube.com/watch?v=rWs1GRF8eyo
 AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
 AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=rWs1GRF8eyo
 AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=rWs1GRF8eyo
