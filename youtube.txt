@@ -153,7 +153,7 @@ AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/pl
 #AoVivo|Canais|Catolico|Rede Vida 3|https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
 AoVivo|Canais|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|Tv Evangelizar|https://cache01sp.cdnsimba.com.br/bpk-token/2ac@zbex5ekoq24ty4mja13rzio5jmoaz3hrzfoi5eba/origin/1/0r8Y0tjINil-vqiTDrOV91D5C-jHr2mru7Pf7ep2zgI/variants/video-2/index.m3u8?live=2
-AoVivo|Canais|Catolico|Tv Evangelizar|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Catolico|Tv Evangelizar|https://www.youtube.com/watch?v=LfyqS2nBSgo
 AoVivo|Canais|Catolico|Santuário de São Miguel|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Catolico|Seculo 21|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
@@ -398,7 +398,7 @@ Music|Radios|Catorlica|Brasil Campinas|https://centova2.svdns.com.br:20030/strea
 Music|Radios|Catorlica|Canção Nova|https://streaming.fox.srv.br:8116/stream
 Music|Radios|Catorlica|Catedral|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
 Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
-Music|Radios|Catorlica|Evangelizar 2|https://8239.brasilstream.com.br/stream
+Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
 Music|Radios|Catorlica|Semeando Viçosa|https://player.hstbr.net/webradiosemeando/itunes.pls
