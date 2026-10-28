@@ -104,25 +104,6 @@ AoVivo|Canais|Evangelico|TV Templo|https://644398c.ha.azioncdn.net/primary/tvtem
 AoVivo|Canais|Evangelico|TV Universal|https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
 AoVivo|Canais|Evangelico|Way TV|https://live.wayone.cloud/waytv/waytv1/playlist.m3u8
 
-#Notícias
-    #LiveYoutube
-AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=iPCXxDbY2ZE
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ubhEw6BGxtk
-AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
-AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
-AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
-AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo|Canais|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
-
-#Notícias comentadas
-AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
-AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=e6PEYxBrLRs
-AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=ZNALp19FZdI
-
 #Kids
 AoVivo|Canais|Kids|3 Palavrinhas|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Kids|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
@@ -136,9 +117,28 @@ AoVivo|Canais|Kids|Retrô Cartoon|https://stmv1.video.brstream.com.br/retrotv/re
 AoVivo|Canais|Kids|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
 AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 
+#Notícias
+    #LiveYoutube
+AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
+AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=iPCXxDbY2ZE
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ubhEw6BGxtk
+AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
+AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
+AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+AoVivo|Canais|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
+AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
+AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
+AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=e6PEYxBrLRs
+AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=ZNALp19FZdI
+
 #Público
 AoVivo|Canais|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo|Canais|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
+
+#----------------------------------------------------------------------------------------------------------------------
 
 #Filmes
 AoVivo|Filmes|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
