@@ -51,7 +51,6 @@ AoVivo|Canais|Cultura|TV Brasil|https://tvbrasil-stream.ebc.com.br/index.m3u8
 AoVivo|Canais|Cultura|TV Brasil Central|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
 AoVivo|Canais|Cultura|TV Brasil Internacional|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
 AoVivo|Canais|Cultura|TV Cultura|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-AoVivo|Canais|Cultura|TV Futuro RN|https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
 AoVivo|Canais|Cultura|TV Life America|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
 AoVivo|Canais|Cultura|TV Mais News|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
 AoVivo|Canais|Cultura|TV Nova Nordeste PE|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
