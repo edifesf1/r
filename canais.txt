@@ -2,16 +2,17 @@
 #    if "bandjornal" in nome or "band jornal" in nome:
 #        return "bandjornal"
 
-BandNews|https://www.youtube.com/radiobandnewsfm/live
+
 BandJornal|https://www.youtube.com/@bandjornalismo/live
-CNN Brasil|https://www.youtube.com/@CNNbrasil/live
-zJovem Pan|https://www.youtube.com/@jovempannews/live
-zRecord News|https://www.youtube.com/@recordnews/live
-zSBT News|https://www.youtube.com/@sbtnews/live
 3 Palavrinhas|https://www.youtube.com/@3palavrinhas/live
 Rede Vida|https://www.youtube.com/@tvredevida/live
 Tv Evangelizar|https://www.youtube.com/@TVEvangelizarOficial/live
 Santuário de São Miguel|https://www.youtube.com/@ssaomiguelof/live
 Século 21|https://www.youtube.com/@RedeSeculo21/live
+BandNews|https://www.youtube.com/radiobandnewsfm/live
+CNN Brasil|https://www.youtube.com/@CNNbrasil/live
+zJovem Pan|https://www.youtube.com/@jovempannews/live
+zRecord News|https://www.youtube.com/@recordnews/live
+zSBT News|https://www.youtube.com/@sbtnews/live
 Revista Oeste|https://www.youtube.com/@RevistaOeste/live
 Brasil Urgente|https://www.youtube.com/brasilurgente/live
