@@ -143,8 +143,8 @@ AoVivo|Canais|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u
 #Filmes
 AoVivo|Filmes|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 
 #AoVivo|Canais|Catolico|Rede Vida 3|https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
 AoVivo|Canais|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
