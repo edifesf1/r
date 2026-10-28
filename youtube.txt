@@ -132,6 +132,7 @@ AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv
 #Notícias
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=Bd0osIrrEJg
+AoVivo|Canais|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
 AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=rWs1GRF8eyo
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
@@ -158,10 +159,15 @@ AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/
 AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 
+
 #Music
 AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
 AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
+
+AoVivo|Filmes|Religioso|Country Gospel|https://www.youtube.com/watch?v=rWs1GRF8eyo
 AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
+AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=rWs1GRF8eyo
+AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=rWs1GRF8eyo
 
 #Series
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
