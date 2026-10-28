@@ -28,8 +28,8 @@ AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radi
 #Notícias
     #LiveYoutube
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=oDiUIO40tws
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=Fn7E6aUVKuA
+AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=iPCXxDbY2ZE
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=qnc_1l_P9e8
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
