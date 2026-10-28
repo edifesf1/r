@@ -39,11 +39,10 @@ AoVivo|Canais|Cultura|Canal Gov|https://canalgov-stream.ebc.com.br/index.m3u8
 AoVivo|Canais|Cultura|Cultura Fast|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
 AoVivo|Canais|Cultura|D+ TV|https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
 AoVivo|Canais|Cultura|Educativa MS|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
-AoVivo|Canais|Cultura|ISTV|https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
 AoVivo|Canais|Cultura|Nature Time|https://amg01576-amg01576c12-plex-us-11251.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
 AoVivo|Canais|Cultura|Rede Brasil|https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 AoVivo|Canais|Cultura|Rede Minas|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15327/playlist/playlist.m3u8
-AoVivo|Canais|Cultura|Santa Cecilia TV|https://video11.logicahost.com.br/unisantaapp/unisantaapp/chunklist_w835203245.m3u8
+AoVivo|Canais|Cultura|Santa Cecilia TV|https://video11.logicahost.com.br/unisantaapp/unisantaapp/playlist.m3u8
 AoVivo|Canais|Cultura|SescTV|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
 
 AoVivo|Canais|Cultura|Sobrevivi|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
