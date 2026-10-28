@@ -8,12 +8,12 @@ CNN Brasil|https://www.youtube.com/@CNNbrasil/live
 zJovem Pan|https://www.youtube.com/@jovempannews/live
 zRecord News|https://www.youtube.com/@recordnews/live
 zSBT News|https://www.youtube.com/@sbtnews/live
-TV Novo Tempo|https://www.youtube.com/channel/UC_OaSsAydgSIjUtjYn9qLog/live
 Santuário Nacional|https://www.youtube.com/@Santu%C3%A1rioNacionaldeAparecida/live
 Vatican Media|https://www.youtube.com/@VaticanNewsPT/live
 3 Palavrinhas|https://www.youtube.com/@3palavrinhas/live
-TV Novo Tempo PT|https://www.youtube.com/@NovoTempoPortugal/live
-TV Novo Tempo 2|https://www.youtube.com/@novotempo/live
+TV Novo Tempo|https://www.youtube.com/channel/UC_OaSsAydgSIjUtjYn9qLog/live
+PT TV Novo Tempo|https://www.youtube.com/@NovoTempoPortugal/live
+BR TV Novo Tempo|https://www.youtube.com/@novotempo/live
 Pai Eterno|https://www.youtube.com/@paieterno/live
 Rede Vida|https://www.youtube.com/@tvredevida/live
 Tv Evangelizar|https://www.youtube.com/@TVEvangelizarOficial/live
