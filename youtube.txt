@@ -60,6 +60,7 @@ AoVivo|Canais|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/p
 AoVivo|Canais|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
 
 #Evangelico
+AoVivo|Canais|Evangelico|ADB TV|https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
 AoVivo|Canais|Evangelico|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 AoVivo|Canais|Evangelico|Boas Novas|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
 AoVivo|Canais|Evangelico|Canal Promessas|https://video01.brascast.com/gente8322/gente8322/playlist.m3u8
@@ -75,7 +76,6 @@ AoVivo|Canais|Evangelico|IURDTV|https://cdn-us-east-prod-ingest-infra-dacast-com
 AoVivo|Canais|Evangelico|KTV-Angola|https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|Kuriakos tv|https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
-AoVivo|Canais|Evangelico|ADB TV|https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
 AoVivo|Canais|Evangelico|Rede Alfa|https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 AoVivo|Canais|Evangelico|Rede Gospel|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 AoVivo|Canais|Evangelico|Rede Mais Família|https://video09.logicahost.com.br/redefamilia/redefamilia/playlist.m3u8
