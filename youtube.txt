@@ -130,14 +130,13 @@ AoVivo|Canais|Kids|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvarac
 AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 
 #Notícias
-    #LiveYoutube
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=-EhjoWAOXFE
 AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=McwaYFPaCRo
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/@RevistaOeste/live
+AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/watch?v=evGa3XSPBc0
 AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
