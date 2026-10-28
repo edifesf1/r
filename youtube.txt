@@ -11,9 +11,8 @@ AoVivo|Canais|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/
 AoVivo|Canais|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 
 #Católico
-AoVivo|Canais|Catolico|Pai Eterno 2|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
+AoVivo|Canais|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo|Canais|Catolico|Rede Vida 2|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Catolico|Tv Evangelizar 2|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
 AoVivo|Canais|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
 AoVivo|Canais|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
@@ -22,14 +21,14 @@ AoVivo|Canais|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadre
 AoVivo|Canais|Catolico|Seculo 21 2|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo|Canais|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
 AoVivo|Canais|Catolico|TV Aparecida 2|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
-AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/watch?v=2gRTiQYxhOg
+AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/watch?v=8vjkbyEq4Sg
 AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
 
 #Notícias
     #LiveYoutube
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=iPCXxDbY2ZE
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=Pl0O6eU_Ffg
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c2ApdwPdT3c
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
@@ -43,7 +42,7 @@ AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
 #AoVivo|Canais|Notícias|zJovem Pan - Cidade Verde|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=e6PEYxBrLRs
-AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=ZNALp19FZdI
+AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=P14PCCuhmXY
 
 #Culinária
 AoVivo|Canais|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
@@ -134,9 +133,8 @@ AoVivo|Canais|Evangelico|TV Mana Brasil|https://w1.manasat.com/tvmana-brasil/smi
 AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Maanaim|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
-AoVivo|Canais|Evangelico|TV Novo Tempo 3|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-AoVivo|Canais|Evangelico|BR TV Novo Tempo|https://www.youtube.com/watch?v=P14PCCuhmXY
-AoVivo|Canais|Evangelico|PT TV Novo Tempo|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
+AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=dkJ_GKTcm_U
 AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Canais|Evangelico|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Reconcavo|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
@@ -152,7 +150,6 @@ AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/
 AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 
-AoVivo|Canais|Catolico|Pai Eterno|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|Rede Vida 3|https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
 AoVivo|Canais|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|Tv Evangelizar|https://cache01sp.cdnsimba.com.br/bpk-token/2ac@zbex5ekoq24ty4mja13rzio5jmoaz3hrzfoi5eba/origin/1/0r8Y0tjINil-vqiTDrOV91D5C-jHr2mru7Pf7ep2zgI/variants/video-2/index.m3u8?live=2
@@ -164,7 +161,6 @@ AoVivo|Canais|Catolico|TV Aparecida|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|TV Aparecida PUC|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
 #AoVivo|Canais|Catolico|Web tv 2|https://stmv1.srvif.com/avemaria/avemaria/playlist.m3u8
 #AoVivo|Canais|Evangelico|Boas Novas 2|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
-AoVivo|Canais|Evangelico|TV Novo Tempo|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Evangelico|TV Novo Tempo 3|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 
