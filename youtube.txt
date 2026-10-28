@@ -13,7 +13,7 @@ AoVivo|Canais|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/p
 #Católico
 AoVivo|Canais|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo|Canais|Catolico|Rede Vida|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/@Santu%C3%A1rioNacionaldeAparecida/live
+AoVivo|Canais|Catolico|Santuário Nacional|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Catolico|Tv Evangelizar|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
 AoVivo|Canais|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
 AoVivo|Canais|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
@@ -22,7 +22,7 @@ AoVivo|Canais|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadre
 AoVivo|Canais|Catolico|Seculo 21|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo|Canais|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
 AoVivo|Canais|Catolico|TV Aparecida|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
-AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/@VaticanNewsPT/live
+AoVivo|Canais|Catolico|Vatican Media|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
 
 #Notícias
@@ -86,7 +86,7 @@ AoVivo|Canais|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/in
 
 #Documentários
 #Kids
-AoVivo|Canais|Kids|3 Palavrinhas|https://www.youtube.com/@3palavrinhas/live
+AoVivo|Canais|Kids|3 Palavrinhas|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Kids|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
 AoVivo|Canais|Kids|Gospel Cartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 AoVivo|Canais|Kids|Kuriakos Kids|https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
@@ -114,7 +114,7 @@ AoVivo|Canais|Evangelico|Hope English|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldv
 AoVivo|Canais|Evangelico|Igreja Mundial|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
 AoVivo|Canais|Evangelico|Igreja Online|https://vz-68323952-633.b-cdn.net/77de4c9e-b8c2-487c-87f0-f333f267ac0f/playlist.m3u8
 AoVivo|Canais|Evangelico|IMPD TV|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
-AoVivo|Canais|Evangelico|IURDTV |https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/fdc85437d7631afb59fe3767dcc464dd/source/index.m3u8
+AoVivo|Canais|Evangelico|IURDTV|https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/fdc85437d7631afb59fe3767dcc464dd/source/index.m3u8
 AoVivo|Canais|Evangelico|KTV-Angola|https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|Kuriakos tv|https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|Plenitude TV|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
@@ -135,7 +135,7 @@ AoVivo|Canais|Evangelico|Tv Maná PT|https://w1.manasat.com/tvmana-2/smil:tvmana
 AoVivo|Canais|Evangelico|Tv Maná Moçambique|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Maanaim|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
 AoVivo|Canais|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/@NovoTempoPortugal/live
+AoVivo|Canais|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Evangelico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Canais|Evangelico|TV Ouro Negro|https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
 AoVivo|Canais|Evangelico|TV Reconcavo|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
@@ -151,26 +151,26 @@ AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/
 AoVivo|Filmes|Religioso|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 
-AoVivo|Canais|Catolico|Pai Eterno | https://www.youtube.com/@paieterno/live
-#AoVivo|Canais|Catolico|Rede Vida 2 | https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
-#AoVivo|Canais|Catolico|Rede Vida | https://www.youtube.com/@tvredevida/live
+AoVivo|Canais|Catolico|Pai Eterno|https://www.youtube.com/watch?v=P14PCCuhmXY
+#AoVivo|Canais|Catolico|Rede Vida 2|https://live.eu-north-1a.cf.dmcdn.net/sec2(kUogJtKdwkq6AaNHlEiuUB1__UxVLHZVcXocgyVEPu8ATdCgSd1hyD-ol41Gv2-epbWJ3-lURzGWUlBkZtQZp2p0QmfiFSGNYQRhNrk2vP2I0YvKtu1nfMGAkeqLP5dP)/dm/3/xb1dec2/s/live-720.m3u8
+AoVivo|Canais|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|Tv Evangelizar|https://cache01sp.cdnsimba.com.br/bpk-token/2ac@zbex5ekoq24ty4mja13rzio5jmoaz3hrzfoi5eba/origin/1/0r8Y0tjINil-vqiTDrOV91D5C-jHr2mru7Pf7ep2zgI/variants/video-2/index.m3u8?live=2
-#AoVivo|Canais|Catolico|Tv Evangelizar|https://www.youtube.com/@TVEvangelizarOficial/live
-#AoVivo|Canais|Catolico|Santuário de São Miguel Arcanjo|https://www.youtube.com/@ssaomiguelof/live
-#AoVivo|Canais|Catolico|Século 21|https://www.youtube.com/@RedeSeculo21/live
-#AoVivo|Canais|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
-#AoVivo|Canais|Catolico|TV Aparecida|https://www.youtube.com/@tvaparecida/live
+AoVivo|Canais|Catolico|Tv Evangelizar|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Catolico|Santuário de São Miguel|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Catolico|Século 21|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
+AoVivo|Canais|Catolico|TV Aparecida|https://www.youtube.com/watch?v=P14PCCuhmXY
 #AoVivo|Canais|Catolico|TV Aparecida PUC|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
-#AoVivo|Canais|Catolico|Web tv 2| https://stmv1.srvif.com/avemaria/avemaria/playlist.m3u8
+#AoVivo|Canais|Catolico|Web tv 2|https://stmv1.srvif.com/avemaria/avemaria/playlist.m3u8
 #AoVivo|Canais|Evangelico|Boas Novas 2|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
-#AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/watch?v=l2_O7pDT0Fg
-#AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/@novotempo/live
+AoVivo|Canais|Evangelico|TV Novo Tempo 2|https://www.youtube.com/watch?v=P14PCCuhmXY
+#AoVivo|Canais|Evangelico|TV Novo Tempo 3|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 
 
 #Music
 AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
 AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
-AoVivo|Music|Catolica|English| https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
+AoVivo|Music|Catolica|English|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
 AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
 
 #Series
@@ -395,7 +395,7 @@ Music|Radios|Catorlica|AcordeVerde|https://hts03.brascast.com:9144/live
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
 Music|Radios|Catorlica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
 Music|Radios|Catorlica|Ave Maria|http://man.streams.com.br:7821/stream
-Music|Radios|Catorlica|Arca Aliança Blumenau-100.1 FM |https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
+Music|Radios|Catorlica|Arca Aliança Blumenau-100.1 FM|https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
 Music|Radios|Catorlica|Bom Jesus|https://centova11.ipstm.net:20036/stream
 Music|Radios|Catorlica|Brasil Campinas|https://centova2.svdns.com.br:20030/stream
 Music|Radios|Catorlica|Canção Nova|https://streaming.fox.srv.br:8116/stream
