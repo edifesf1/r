@@ -106,7 +106,7 @@ AoVivo|Canais|Evangelico|Way TV|https://live.wayone.cloud/waytv/waytv1/playlist.
     #LiveYoutube
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
 AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=iPCXxDbY2ZE
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=c2ApdwPdT3c
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=ubhEw6BGxtk
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
@@ -119,7 +119,7 @@ AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 #Notícias comentadas
 AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
 AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=e6PEYxBrLRs
-AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=P14PCCuhmXY
+AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=ZNALp19FZdI
 
 #Kids
 AoVivo|Canais|Kids|3 Palavrinhas|https://www.youtube.com/watch?v=P14PCCuhmXY
