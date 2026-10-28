@@ -26,7 +26,6 @@ AoVivo|Canais|Catolico|Rede Vida 2|https://d12e4o88jd8gex.cloudfront.net/out/v1/
 AoVivo|Canais|Catolico|Santuário de São Miguel|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Catolico|Seculo 21|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Catolico|Seculo 21 2|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
-AoVivo|Canais|Catolico|TV Aparecida|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Canais|Catolico|TV Aparecida 2|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 #AoVivo|Canais|Catolico|TV Aparecida PUC|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
 AoVivo|Canais|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
@@ -165,9 +164,12 @@ AoVivo|Music|Normal|Top TV|https://isaocorp.cloudecast.com/toptv/index.m3u8
 AoVivo|Music|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
 
 AoVivo|Music|Evangelico|Country Gospel|https://www.youtube.com/watch?v=rWs1GRF8eyo
+AoVivo|Music|Evangelico|Fonte de Adoração|https://www.youtube.com/watch?v=VB43nHtEkNg
 AoVivo|Music|Evangelico|Gospel Music|https://stmv1.srvif.com/gmusic/gmusic/playlist.m3u8
-AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=rWs1GRF8eyo
-AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=rWs1GRF8eyo
+AoVivo|Music|Evangelico|Golden GOSPEL|https://www.youtube.com/watch?v=DibNV_2cONs
+AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=LwWW--Jny6s
+AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=3feDXN3uY3g
+AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL2|https://www.youtube.com/watch?v=piWhR241kg4
 
 #Series
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
