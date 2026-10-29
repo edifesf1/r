@@ -153,6 +153,7 @@ AoVivo|Canais|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u
 #----------------------------------------------------------------------------------------------------------------------
 
 #Filmes
+AoVivo|Filmes|Catolico|Tv Caatólica Filmes|https://stmv2.painelvideocast.com.br/caloticatv/caloticatv/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo|Filmes|Religioso|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
@@ -271,7 +272,44 @@ Filmes|Adventista|Completos|A Esperança Para o Oeste 2|https://www.youtube.com/
 Filmes|Adventista|Completos|Fábrica de Heróes|https://www.youtube.com/watch?v=fLiWfCsA50c&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=82
 Filmes|Adventista|Completos|O Legado da Fé|https://www.youtube.com/watch?v=Ak3oJMMyINc&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=84
 
+Filmes|Religioso|Normal|A Bússola de Deus|https://www.youtube.com/watch?v=YowjWr385Qc
+Filmes|Religioso|Normal|A Cura Pela Graça|https://www.youtube.com/watch?v=gG8BIlxJis8&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=6
+Filmes|Religioso|Normal|A Prova de Fogo|https://www.youtube.com/watch?v=TY7Q9U_Ly6A
+Filmes|Religioso|Normal|Amor Sem Limites|https://www.youtube.com/watch?v=CbZMxpb2W6o&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=2
+Filmes|Religioso|Normal|O Apocalipse|https://www.youtube.com/watch?v=zSKsqSLDk68
+Filmes|Religioso|Normal|Campeão |https://www.youtube.com/watch?v=hLspAVv1I2w
+Filmes|Religioso|Normal|Com Deus no Caminho|https://www.youtube.com/watch?v=6Ika-mE0aKg
+Filmes|Religioso|Normal|Eu Acredito de 2019|https://www.youtube.com/watch?v=CV8YTj8nxR0
+Filmes|Religioso|Normal|Coragem e Esperança|https://www.youtube.com/watch?v=Exijkl72QQQ
+Filmes|Religioso|Normal|Desafiando a Fé|https://www.youtube.com/watch?v=mvTIBRN21pk
+Filmes|Religioso|Normal|Desafiando Gigantes|https://www.youtube.com/watch?v=Tr4zbeJumIk
+Filmes|Religioso|Normal|Deus nao esta morto 1|https://www.youtube.com/watch?v=GM2gErRZ4WE
+Filmes|Religioso|Normal|Deus Não Está Morto 2|https://www.youtube.com/watch?v=sNNEcR7HgJg
+Filmes|Religioso|Normal|Deus Não Está Morto 3|https://www.youtube.com/watch?v=2wBPtSyvYwI
+Filmes|Religioso|Normal|Em Defesa de Cristo|https://www.youtube.com/watch?v=8Vb2KN_C1fE
+Filmes|Religioso|Normal|Entre a vingança e o perdao|https://www.youtube.com/watch?v=m6UwITqi9xM
+Filmes|Religioso|Normal|Graça e Perdão|https://www.youtube.com/watch?v=lOR97hYdCZU&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=5
+Filmes|Religioso|Normal|Guerra Interior|https://www.youtube.com/watch?v=NCVk5Nv86bU
+Filmes|Religioso|Normal|O Chamado de Deus|https://www.youtube.com/watch?v=D5nhGxqhCQo
+Filmes|Religioso|Normal|O Evangelho Segundo João|https://www.youtube.com/watch?v=cUxLOVIwwfo
+Filmes|Religioso|Normal|O Filho de Deus|https://www.youtube.com/watch?v=fHHxpcYY8ck
+Filmes|Religioso|Normal|O Fim do Mundo|https://www.youtube.com/watch?v=IAXaOWPp1_Q
+Filmes|Religioso|Normal|O Metodo de Cristo|https://www.youtube.com/watch?v=sjp3u23jipg&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=1
+Filmes|Religioso|Normal|O Milagre da Fé|https://www.youtube.com/watch?v=QSxJ0Y49xIM&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=7
+Filmes|Religioso|Normal|O Milagre de Cokeville|https://www.youtube.com/watch?v=47Mcu7Gas6g&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=7
+Filmes|Religioso|Normal|Quando Tudo Parece Perdido|https://www.youtube.com/watch?v=bzcRCRbGTW0
+Filmes|Religioso|Normal|Recuperando a Esperança|https://www.youtube.com/watch?v=I7IOJvYdWrs&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=3
+Filmes|Religioso|Normal|Restaurado|https://www.youtube.com/watch?v=3FbQuBWUv-c&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=5
+Filmes|Religioso|Normal|Só Resta a Esperança|https://www.youtube.com/watch?v=QfFNdzuEaIo&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=2
+Filmes|Religioso|Normal|Torre de Babel|https://www.youtube.com/watch?v=lbFcxI9R_mk
+Filmes|Religioso|Normal|Um Anjo em Nossas Vidas|https://www.youtube.com/watch?v=25WTt2yDXwU
+Filmes|Religioso|Normal|Um homem de Deus|https://www.youtube.com/watch?v=wPPUj8Xn1SI
+Filmes|Religioso|Normal|Um Lugar para Recomeçar|https://www.youtube.com/watch?v=SpODjPk4IIw
+Filmes|Religioso|Normal|Um Pouco de Fé|https://www.youtube.com/watch?v=4hw97bPXCJI&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL
+Filmes|Religioso|Normal|Uma Chance Para Viver|https://www.youtube.com/watch?v=S9lMeTXNGRs&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=6
+Filmes|Religioso|Normal|Uma História de Fé e Coragem|https://www.youtube.com/watch?v=7oTtTHgSGog&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=3
 
+Filmes|Religioso|Kids|Os Milagres de Jesus|https://www.youtube.com/watch?v=DLqRnxcju1s
 
 #Documentários
 Documentários|Adventista|O Domínio|O Próximo Reino 1|https://www.youtube.com/watch?v=hoJg83xuvUM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=2
