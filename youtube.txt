@@ -403,5 +403,6 @@ Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
 Music|Radios|Catorlica|webradio13demaio|https://raw.githubusercontent.com/edifesf1/meu.m3u8/refs/heads/main/teste.m3u8
+Music|Radios|Catorlica|Semeando Viçosa|http://s33.maxcast.com.br:8076/live
 Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
 
