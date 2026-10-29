@@ -172,6 +172,49 @@ AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=LwWW--J
 AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=3feDXN3uY3g
 AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL2|https://www.youtube.com/watch?v=piWhR241kg4
 
+
+Documentarios|Estudos|Cid Moreira|01 A Bíblia|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
+Documentarios|Estudos|Cid Moreira|02 A Beleza da Criacao Divina |https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
+Documentarios|Estudos|Cid Moreira|03 Interferencia na Criacao|https://www.youtube.com/watch?v=HudnzjHMsKM&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=2
+Documentarios|Estudos|Cid Moreira||https://www.youtube.com/watch?v=CyjMv6jtzGY&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=3
+Documentarios|Estudos|Cid Moreira|04 O Plano da Salvação|https://www.youtube.com/watch?v=Njp3mZklYIo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=9
+Documentarios|Estudos|Cid Moreira|05 Fé, Arrependimento e Confissão|https://www.youtube.com/watch?v=KjK7OXzx4Ic&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=10
+Documentarios|Estudos|Cid Moreira|06 Sinais da Vinda de Cristo|https://www.youtube.com/watch?v=3kOZFffzj8A&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=2
+Documentarios|Estudos|Cid Moreira|07 A Volta de Cristo|https://www.youtube.com/watch?v=Qb2A8tkTZfQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=4
+Documentarios|Estudos|Cid Moreira|08 O Milênio|https://www.youtube.com/watch?v=4w0EgbtUvSQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=5
+Documentarios|Estudos|Cid Moreira|09 A Verdade sobre a Morte|https://www.youtube.com/watch?v=xI6VbDW60is&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
+Documentarios|Estudos|Cid Moreira|10 A Nova Terra|https://www.youtube.com/watch?v=iXTvjRB1Kx0&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=11
+Documentarios|Estudos|Cid Moreira|11 Os Seis Passos da Salvação|https://www.youtube.com/watch?v=IWz-e_NucMU&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=12
+Documentarios|Estudos|Cid Moreira|12 A Verdade sobre o Juízo|https://www.youtube.com/watch?v=YCASBWMQWhE&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=13
+Documentarios|Estudos|Cid Moreira|13 As Leis na Bíblia |https://www.youtube.com/watch?v=jRTZmhdrOJo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=14
+Documentarios|Estudos|Cid Moreira|14 A Mudança dos Dez Mandamentos|https://www.youtube.com/watch?v=10mqGiulVY4&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=15
+Documentarios|Estudos|Cid Moreira|15 A Origem da Guarda do Domingo|https://www.youtube.com/watch?v=1s6VXhRNoGk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=16
+Documentarios|Estudos|Cid Moreira|16 O Mandamento Esquecido|https://www.youtube.com/watch?v=3lvmQ7j5f8g&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=17
+Documentarios|Estudos|Cid Moreira|17 A Verdade sobre a Saúde|https://www.youtube.com/watch?v=pk8car_Tytk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=18
+Documentarios|Estudos|Cid Moreira|18 O Dom de Profecia|https://www.youtube.com/watch?v=hFOB5WbKppc&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=19
+Documentarios|Estudos|Cid Moreira|19 Dízimos e Ofertas|https://www.youtube.com/watch?v=W8smglbiLeU&list=PLF29DFCA769898BA7&index=18
+Documentarios|Estudos|Cid Moreira|21 - A BÍBLIA SAGRADA|https://www.youtube.com/watch?v=8Oo20efu6AU&list=PL82647D600D1765C7&index=1
+Documentarios|Estudos|Cid Moreira|22 - A BELEZA DA CRIAÇÃO|https://www.youtube.com/watch?v=lLqpqooZmpU&list=PL82647D600D1765C7&index=2
+Documentarios|Estudos|Cid Moreira|23 - INTERFERÊNCIA NA CRIAÇÃO DIVINA|https://www.youtube.com/watch?v=1PCOjUjmoHM&list=PL82647D600D1765C7&index=3
+Documentarios|Estudos|Cid Moreira|24 - O PLANO DA SALVAÇÃO|https://www.youtube.com/watch?v=_meZN4gtl7I&list=PL82647D600D1765C7&index=4
+Documentarios|Estudos|Cid Moreira| 25 - FÉ, ARREPENDIMENTO E CONFISSÃO|https://www.youtube.com/watch?v=bne4N8QWmR8&list=PL82647D600D1765C7&index=5
+Documentarios|Estudos|Cid Moreira|26 - SINAIS DA VOLTA DE CRISTO|https://www.youtube.com/watch?v=p_HhyNGPFiQ&list=PL82647D600D1765C7&index=6
+Documentarios|Estudos|Cid Moreira|27 - A VOLTA DE CRISTO|https://www.youtube.com/watch?v=SAQdV6kCh7c&list=PL82647D600D1765C7&index=7
+Documentarios|Estudos|Cid Moreira|28 - O MILÊNIO|https://www.youtube.com/watch?v=MvC-nBCbCBE&list=PL82647D600D1765C7&index=8
+Documentarios|Estudos|Cid Moreira|29 - A VERDADE SOBRE A MORTE|https://www.youtube.com/watch?v=6L3whcKBbIY&list=PL82647D600D1765C7&index=9
+Documentarios|Estudos|Cid Moreira|30 - A NOVA TERRA|https://www.youtube.com/watch?v=uuKDzR6VR3A&list=PL82647D600D1765C7&index=10
+Documentarios|Estudos|Cid Moreira|31 - OS SEIS PASSOS DA SALVAÇÃO|https://www.youtube.com/watch?v=NgvNd3Yh9mk&list=PL82647D600D1765C7&index=11
+Documentarios|Estudos|Cid Moreira|32 - A VERDADE SOBRE O JUÍZO|https://www.youtube.com/watch?v=h-GTeNbhlro&list=PL82647D600D1765C7&index=12
+Documentarios|Estudos|Cid Moreira|33 - AS LEIS NA BÍBLIA|https://www.youtube.com/watch?v=b84p3vbvGws&list=PL82647D600D1765C7&index=13
+Documentarios|Estudos|Cid Moreira|34 - A MUDANÇA DOS DEZ MANDAMENTOS|https://www.youtube.com/watch?v=m34k6yEgFoc&list=PL82647D600D1765C7&index=14
+Documentarios|Estudos|Cid Moreira|35 - A ORIGEM DA GUARDA DO DOMINGO|https://www.youtube.com/watch?v=5kWA4j_iFDQ&list=PL82647D600D1765C7&index=15
+Documentarios|Estudos|Cid Moreira|36 - O MANDAMENTO ESQUECIDO |https://www.youtube.com/watch?v=YotkrLFQRKA&list=PL82647D600D1765C7&index=16
+Documentarios|Estudos|Cid Moreira|37 - A VERDADE SOBRE A SAÚDE |https://www.youtube.com/watch?v=FuqsC0DGg8s&list=PL82647D600D1765C7&index=17
+Documentarios|Estudos|Cid Moreira|38 - O DOM DE PROFECIA |https://www.youtube.com/watch?v=8e_fkZdmphQ&list=PL82647D600D1765C7&index=18
+Documentarios|Estudos|Cid Moreira|39 - DÍZIMOS E OFERTAS|https://www.youtube.com/watch?v=HVxRiNe0yyU&list=PL82647D600D1765C7&index=19
+Documentarios|Estudos|Cid Moreira|40 - IDENTIFICANDO A IGREJA VERDADEIRA|https://www.youtube.com/watch?v=NL8dSCkqtSo&list=PL82647D600D1765C7&index=20
+Documentarios|Estudos|Cid Moreira|41 - O BATISMO|https://www.youtube.com/watch?v=D02bFb_c_Fw&list=PL82647D600D1765C7&index=21
+
 #Series
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
 Series|Rodrigo Silva|Profecias de Daniel Explicadas|70 Semanas de Daniel|https://www.youtube.com/watch?v=ZV0Zg-u3fAg&list=PLJR4Z_jtOSP8&index=2
