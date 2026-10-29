@@ -402,6 +402,8 @@ Music|Radios|Catorlica|Canção Nova|https://streaming.fox.srv.br:8116/stream
 Music|Radios|Catorlica|Catedral|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
 Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
 Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
+Music|Radios|Catorlica|Padroeira|https://stm9.voxhd.com.br:11176/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
+Music|Radios|Catorlica|Rede Vida|https://r15.ciclano.io/proxy/diariofm/stream
 Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
