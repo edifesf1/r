@@ -393,8 +393,6 @@ Music|Radios|Catorlica|Catolica|https://stream.knbcdn.com.br/musica-catolica/pla
 Music|Radios|Catorlica|AcordeVerde|https://hts03.brascast.com:9144/live
 Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
 Music|Radios|Catorlica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
-Music|Radios|Catorlica|Ave Maria|http://man.streams.com.br:7821/stream
-Music|Radios|Catorlica|Ave Maria2|https://raw.githubusercontent.com/edifesf1/meu.m3u8/refs/heads/main/teste.m3u8
 Music|Radios|Catorlica|Arca Aliança Blumenau-100.1 FM|https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
 Music|Radios|Catorlica|Bom Jesus|https://centova11.ipstm.net:20036/stream
 Music|Radios|Catorlica|Brasil Campinas|https://centova2.svdns.com.br:20030/stream
@@ -404,6 +402,6 @@ Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracao
 Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
-Music|Radios|Catorlica|Semeando Viçosa|https://player.hstbr.net/webradiosemeando/itunes.pls
+Music|Radios|Catorlica|Semeando Viçosa|https://player.hstbr.net/webradiosemeando/winamp.pls
 Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
 
