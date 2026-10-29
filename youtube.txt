@@ -388,22 +388,21 @@ Music|Adventista|Clips|Propósito-Estevão Cesar|https://www.youtube.com/watch?v
 
 Music|Radios|Evangelica|NovoTempo|https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntRioRJ.smil/chunklist_b64000_slpor.m3u8
 
-Music|Radios|Catorlica|aaa|https://raw.githubusercontent.com/edifesf1/meu.m3u8/refs/heads/main/teste.m3u8
-Music|Radios|Catorlica|Amparo|https://s37.maxcast.com.br:8938/live
-Music|Radios|Catorlica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
-Music|Radios|Catorlica|Catolica|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
-Music|Radios|Catorlica|AcordeVerde|https://hts03.brascast.com:9144/live
-Music|Radios|Catorlica|AmericaFM|https://everest.radionanet.com:9110/stream
-Music|Radios|Catorlica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
-Music|Radios|Catorlica|Arca Aliança Blumenau-100.1 FM|https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
-Music|Radios|Catorlica|Bom Jesus|https://centova11.ipstm.net:20036/stream
-Music|Radios|Catorlica|Brasil Campinas|https://centova2.svdns.com.br:20030/stream
-Music|Radios|Catorlica|Canção Nova|https://streaming.fox.srv.br:8116/stream
-Music|Radios|Catorlica|Catedral|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
-Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
-Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
-Music|Radios|Catorlica|Padroeira|https://stm9.voxhd.com.br:11176/stream
-Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
-Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
-Music|Radios|Catorlica|Rede Vida|https://r15.ciclano.io/proxy/diariofm/stream
-Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
+Music|Radios|Catolica|AcordeVerde|https://hts03.brascast.com:9144/live
+Music|Radios|Catolica|AmericaFM|https://everest.radionanet.com:9110/stream
+Music|Radios|Catolica|Amparo|https://s37.maxcast.com.br:8938/live
+Music|Radios|Catolica|BrasilStream|https://9735.brasilstream.com.br/stream?1745341191933
+Music|Radios|Catolica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
+Music|Radios|Catolica|Arca Aliança Blumenau-100.1 FM|https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
+Music|Radios|Catolica|Bom Jesus|https://centova11.ipstm.net:20036/stream
+Music|Radios|Catolica|Brasil Campinas|https://centova2.svdns.com.br:20030/stream
+Music|Radios|Catolica|Canção Nova|https://streaming.fox.srv.br:8116/stream
+Music|Radios|Catolica|Catedral|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
+Music|Radios|Catolica|Catolica|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
+Music|Radios|Catolica|Coração FM|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
+Music|Radios|Catolica|Evangelizar Music|https://8239.brasilstream.com.br/stream
+Music|Radios|Catolica|Padroeira|https://stm9.voxhd.com.br:11176/stream
+Music|Radios|Catolica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
+Music|Radios|Catolica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
+Music|Radios|Catolica|Rede Vida|https://r15.ciclano.io/proxy/diariofm/stream
+Music|Radios|Catolica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
