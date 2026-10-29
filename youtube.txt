@@ -402,7 +402,10 @@ Music|Radios|Catorlica|Coração FM|https://5a57bda70564a.streamlock.net/coracao
 Music|Radios|Catorlica|Evangelizar Music|https://8239.brasilstream.com.br/stream
 Music|Radios|Catorlica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/stream
 Music|Radios|Catorlica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
-Music|Radios|Catorlica|Semeando Viçosa|http://s33.maxcast.com.br:8076/live
+Music|Radios|Catorlica|Semeando Viçosa1|http://s33.maxcast.com.br:8076/live.m3u
+Music|Radios|Catorlica|Semeando Viçosa2|http://s33.maxcast.com.br:8076/autodj.m3u
+Music|Radios|Catorlica|Semeando Viçosa3|http://s33.maxcast.com.br:8076/live.xspf
+Music|Radios|Catorlica|Semeando Viçosa4|http://s33.maxcast.com.br:8076/autodj.xspf
 Music|Radios|Catorlica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
 Music|Radios|Catorlica|WebRadio13demaio|http://s16.maxcast.com.br:8835/live
 
