@@ -294,6 +294,26 @@ Filmes|Canais|@HistoriasdaBiblia.oficial|O Mundo Antes do Dilúvio|https://www.y
 Filmes|Canais|@HistoriasdaBiblia.oficial|O Mundo Depois da Morte de Jesus|https://www.youtube.com/watch?v=pTUWEnZmlNo&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=6
 Filmes|Canais|@HistoriasdaBiblia.oficial|Paixão de Cristo|https://www.youtube.com/watch?v=fXrPhIJbttw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=20
 Filmes|Canais|@HistoriasdaBiblia.oficial|Sodoma e Gomorra|https://www.youtube.com/watch?v=p30uvU3vXQs&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=12
+Filmes|Canais|@Vozdoevangeelho|A História antes de Cristo|https://www.youtube.com/watch?v=6vl3f15w5wk&list=PLI1fdGj6XWqI&index=10
+Filmes|Canais|@Vozdoevangeelho|A Ordem de Jesus|https://www.youtube.com/watch?v=HbvBGrzefHk&list=PLI1fdGj6XWqI&index=7
+Filmes|Canais|@Vozdoevangeelho|Abrão — Quando a Promessa Parecia Impossível|https://www.youtube.com/watch?v=1Wg5WreObwM
+Filmes|Canais|@Vozdoevangeelho|Deus Criador|https://www.youtube.com/watch?v=JQ4QlmkqeI4&list=PLI1fdGj6XWqI&index=8
+Filmes|Canais|@Vozdoevangeelho|Jesus - A Hipocrisia|https://www.youtube.com/watch?v=bL10F-jVpJk
+Filmes|Canais|@Vozdoevangeelho|Jesus - Antes de Nascer 1|https://www.youtube.com/watch?v=mfGuEpZQg9g
+Filmes|Canais|@Vozdoevangeelho|Jesus - Antes de Nascer 2|https://www.youtube.com/watch?v=2YegSz6fHc0
+Filmes|Canais|@Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 1|https://www.youtube.com/watch?v=HqvZpk1Alf0&list=PLI1fdGj6XWqI&index=11
+Filmes|Canais|@Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 2|https://www.youtube.com/watch?v=nCTDsdG2x3w&list=PLI1fdGj6XWqI&index=14
+Filmes|Canais|@Vozdoevangeelho|Jesus - Capacitou seus 12 Apóstolos|https://www.youtube.com/watch?v=b0ExM72VEqY
+Filmes|Canais|@Vozdoevangeelho|Jesus - João Revelou quem era Jesus|https://www.youtube.com/watch?v=2Z4a_655ER8&list=PLI1fdGj6XWqI&index=2
+Filmes|Canais|@Vozdoevangeelho|Jesus - Nascimento|https://www.youtube.com/watch?v=FDnRE8UVyis
+Filmes|Canais|@Vozdoevangeelho|Jesus - Parábola do Semeador|https://www.youtube.com/watch?v=9xQNMoCf3S4
+Filmes|Canais|@Vozdoevangeelho|Jesus - Prega o Arrependimento|https://www.youtube.com/watch?v=NfGEGtXSlyc&list=PLI1fdGj6XWqI&index=6
+Filmes|Canais|@Vozdoevangeelho|Jesus - Prometeu voltar|https://www.youtube.com/watch?v=Rsyi82acxkE&list=PLI1fdGj6XWqI&index=15
+Filmes|Canais|@Vozdoevangeelho|Jesus - Revelou O Único Caminho|https://www.youtube.com/watch?v=yuYidcJfivc&list=PLI1fdGj6XWqI&index=4
+Filmes|Canais|@Vozdoevangeelho|Jesus - Sataná Tentou Jesus|https://www.youtube.com/watch?v=ZXUIlUVBruw&list=PLI1fdGj6XWqI&index=5
+Filmes|Canais|@Vozdoevangeelho|Jesus - Sepultado|https://www.youtube.com/watch?v=lgL0pqEzXas
+Filmes|Canais|@Vozdoevangeelho|Jesus - Único Caminho|https://www.youtube.com/watch?v=rYKm9dFjIHw&list=PLI1fdGj6XWqI&index=9
+Filmes|Canais|@Vozdoevangeelho|Jesus - Uniu O Homem e a Mulher|https://www.youtube.com/watch?v=lCiiI_XAYCg&list=PLI1fdGj6XWqI&index=1
 
 
 Filmes|Religioso|Normal|A Bússola de Deus|https://www.youtube.com/watch?v=YowjWr385Qc
