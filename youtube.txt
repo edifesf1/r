@@ -1,11 +1,11 @@
-#Adventista|AoVivo|@@aa|@@aa|
+#Adventista|AoVivo|aaaa|aaaa|
 Adventista|AoVivo|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista|AoVivo|Evangelico|TV Novo Tempo BR|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 Adventista|AoVivo|Evangelico|TV Novo Tempo ES|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista|AoVivo|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=dkJ_GKTcm_U
 Adventista|AoVivo|Evangelico|SUMtv Latino|https://www.youtube.com/watch?v=BKblvq9QQBU
 Adventista|Documentarios|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
-#Adventista|Documentarios|@@aa|@@aa|
+#Adventista|Documentarios|aaaa|aaaa|
 Adventista|Documentarios|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
 Adventista|Documentarios|Animações|Ellen White-Infância e Chamado|https://www.youtube.com/watch?v=ix1yqZE2xBo&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=5
 Adventista|Documentarios|Animações|Gênesis 31|https://www.youtube.com/watch?v=HwDddhg6fYQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=3
@@ -47,7 +47,7 @@ Adventista|Documentarios|Ucrânia|Na Fronteira Com A Paz|https://www.youtube.com
 Adventista|Documentarios|Ucrânia|Vidas Entre Páginas|https://www.youtube.com/watch?v=q0H47Sh6IEo&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=7
 Adventista|Documentarios|Voluntários|Missão Piauí|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
 Adventista|Documentarios|Voluntários|Voluntários Por Toda Terra|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
-#Adventista|Estudos|@@aa|@@aa|
+#Adventista|Estudos|aaaa|aaaa|
 Adventista|Estudos|Cid Moreira|01 A Bíblia|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
 Adventista|Estudos|Cid Moreira|02 A Beleza da Criacao Divina|https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
 Adventista|Estudos|Cid Moreira|03 Interferencia na Criacao|https://www.youtube.com/watch?v=HudnzjHMsKM&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=2
@@ -89,7 +89,7 @@ Adventista|Estudos|Cid Moreira|39 - DÍZIMOS E OFERTAS|https://www.youtube.com/w
 Adventista|Estudos|Cid Moreira|40 - IDENTIFICANDO A IGREJA VERDADEIRA|https://www.youtube.com/watch?v=NL8dSCkqtSo&list=PL82647D600D1765C7&index=20
 Adventista|Estudos|Cid Moreira|41 - O BATISMO|https://www.youtube.com/watch?v=D02bFb_c_Fw&list=PL82647D600D1765C7&index=21
 Adventista|Estudos|Cid Moreira||https://www.youtube.com/watch?v=CyjMv6jtzGY&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=3
-#Adventista|Filmes|@@aa|@@aa|
+#Adventista|Filmes|aaaa|aaaa|
 Adventista|Filmes|Até O Último Mínuto|Parte 1|https://www.youtube.com/watch?v=jkxhYJThirw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=64
 Adventista|Filmes|Até O Último Mínuto|Parte 2|https://www.youtube.com/watch?v=Zxxmt3XjMeE&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=65
 Adventista|Filmes|Até O Último Mínuto|Parte 3|https://www.youtube.com/watch?v=IpILlj_tDSw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=43
@@ -174,7 +174,7 @@ Adventista|Filmes|Tropa do Lenço|2.2 Temporada|https://www.youtube.com/watch?v=
 Adventista|Filmes|Tropa do Lenço|4 Temporada|https://www.youtube.com/watch?v=jVyX5BB9PMM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=9
 Adventista|Filmes|Você Não Sabe|1 Temporada|https://www.youtube.com/watch?v=BZewnrFQ6yQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=60
 Adventista|Filmes|Você Não Sabe|2 Temporada|https://www.youtube.com/watch?v=e7JBABl_kKs&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=61
-#Adventista|Music|@@aa|@@aa|
+#Adventista|Music|aaaa|aaaa|
 Adventista|Music|Clips|Agnus Dei-Jandson Nolasco|https://www.youtube.com/watch?v=l_VUrsSaWNA&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=42
 Adventista|Music|Clips|Água Viva-Convicção Trio|https://www.youtube.com/watch?v=n9C09SGcfYQ&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=43
 Adventista|Music|Clips|Ainda Está Aqui-Maythê e Gabriel|https://www.youtube.com/watch?v=wbejkCawBUU&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=36
@@ -240,20 +240,83 @@ Adventista|Music|Corinhos|O Senhor é Meu Abrigo|https://www.youtube.com/watch?v
 Adventista|Music|Corinhos|Renova-Me|https://www.youtube.com/watch?v=sCEfXG_M3lk&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA
 Adventista|Music|Corinhos|Vou Caminhando|https://www.youtube.com/watch?v=nH0S-CTNte8&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=5
 Adventista|Music|Evangelica|NovoTempo|https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntRioRJ.smil/chunklist_b64000_slpor.m3u8
-#Adventista|Rodrigo Silva|@@aa|@@aa|
+#Adventista|Rodrigo Silva|aaaa|aaaa|
 Adventista|Rodrigo Silva|Daniel|70 Semanas de Daniel|https://www.youtube.com/watch?v=ZV0Zg-u3fAg&list=PLJR4Z_jtOSP8&index=2
 Adventista|Rodrigo Silva|Daniel|Inteligência Artificial|https://www.youtube.com/watch?v=-kTPHwgnq_s&list=PLJR4Z_jtOSP8&index=3
 Adventista|Rodrigo Silva|Daniel|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
 Adventista|Rodrigo Silva|Daniel|O Tempo do Fim|https://www.youtube.com/watch?v=899_Vs7zqJE&list=PLJR4Z_jtOSP8&index=4
-#AoVivo|Normal|Agro|@@aa|
+Adventista|Serie|8 Remédio Naturais|1. Alimentação|https://www.youtube.com/watch?v=J897KfohUVc&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF
+Adventista|Serie|8 Remédio Naturais|2. Água|https://www.youtube.com/watch?v=KBMEo0heCKk&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=2
+Adventista|Serie|8 Remédio Naturais|3. Ar Puro|https://www.youtube.com/watch?v=YuSCO0mZ33M&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=3
+Adventista|Serie|8 Remédio Naturais|4. Luz Solar|https://www.youtube.com/watch?v=OX8jTAzIi-8&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=4
+Adventista|Serie|8 Remédio Naturais|5. Exercícios Físicos|https://www.youtube.com/watch?v=rUIrqs2iENA&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=5
+Adventista|Serie|8 Remédio Naturais|6. Sono|https://www.youtube.com/watch?v=cQxSjJKkarQ&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=6
+Adventista|Serie|8 Remédio Naturais|7. Temperança|https://www.youtube.com/watch?v=BuLZMYL1tXI&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=7
+Adventista|Serie|8 Remédio Naturais|8. Confiança em Deus|https://www.youtube.com/watch?v=QzKiQ807m_Y&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=8
+#Adventista|Serie|aaaa|aaaa|
+Adventista|Serie|Ensino de Jesus|1. As Escrituras|https://www.youtube.com/watch?v=FSXBBQER5Vw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=1
+Adventista|Serie|Ensino de Jesus|10. A Ressurreição|https://www.youtube.com/watch?v=YZQR2ITG-x4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=10
+Adventista|Serie|Ensino de Jesus|11. O Juízo|https://www.youtube.com/watch?v=s6AOBpxWoYg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=11
+Adventista|Serie|Ensino de Jesus|12. A Lei|https://www.youtube.com/watch?v=iic8UReIx0Y&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=12
+Adventista|Serie|Ensino de Jesus|13. O Sábado|https://www.youtube.com/watch?v=GELukSjFIxQ&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=13
+Adventista|Serie|Ensino de Jesus|14. A Igreja|https://www.youtube.com/watch?v=niMC7mP42AI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=14
+Adventista|Serie|Ensino de Jesus|15. Os Profetas|https://www.youtube.com/watch?v=i1Bk3lu4pY4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=15
+Adventista|Serie|Ensino de Jesus|16. O Batismo|https://www.youtube.com/watch?v=a8g7_gbI3Zw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=16
+Adventista|Serie|Ensino de Jesus|17. Cuidado Com o Corpo|https://www.youtube.com/watch?v=uwQHrgNjymo&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=17
+Adventista|Serie|Ensino de Jesus|18. Os Ritos e as Tradições|https://www.youtube.com/watch?v=8ypdVYeN0UA&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=18
+Adventista|Serie|Ensino de Jesus|2. A Salvação|https://www.youtube.com/watch?v=DjdC57uAVLI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=2
+Adventista|Serie|Ensino de Jesus|3. A Santificação|https://www.youtube.com/watch?v=SwAmRHfsXXg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=3
+Adventista|Serie|Ensino de Jesus|4. O Espírito Santo|https://www.youtube.com/watch?v=FV3an2TdwxE&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=4
+Adventista|Serie|Ensino de Jesus|5. A Oração|https://www.youtube.com/watch?v=gRjxtWX2LYw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=5
+Adventista|Serie|Ensino de Jesus|6. O Perdão|https://www.youtube.com/watch?v=yPsc8apqzQ0&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=6
+Adventista|Serie|Ensino de Jesus|7. O Dinheiro|https://www.youtube.com/watch?v=WNcBP-jPDlw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=7
+Adventista|Serie|Ensino de Jesus|8. Sua Volta|https://www.youtube.com/watch?v=rjWBSHxXVnc&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=8
+Adventista|Serie|Ensino de Jesus|9. A Morte|https://www.youtube.com/watch?v=LC_EFT82a_U&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=9
+Adventista|Serie|Ensino de Jesus||
+Adventista|Serie|Ensino de Jesus||
+Adventista|Serie|Ensino de Jesus||
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|1. Juicio Investigador |https://www.youtube.com/watch?v=y9viJHldpUM&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|10. Cristo Viene|https://www.youtube.com/watch?v=51GLSz69dfc&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=9
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|2. Una Profecia Asombrosa|https://www.youtube.com/watch?v=8XWmv4prUWE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=2
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|3. Salvación en el Santuario|https://www.youtube.com/watch?v=67FCaR2azBc&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=3
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|4. Los Mensaje de los Tres Angeles |https://www.youtube.com/watch?v=wDMwmi5CpcE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=4
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|5. Como en los Dias de Noe|https://www.youtube.com/watch?v=UQPEUbwHIYQ&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=5
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|6. La Verdadera Iglesia |https://www.youtube.com/watch?v=rixnjIDX-Xo&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=6
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|7. A Donde Van Los Muertos |https://www.youtube.com/watch?v=UfFC4sZv6Zs&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=7
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|8. El Mandamiento mas Olvidado|https://www.youtube.com/watch?v=RkSW7khxikA&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=8
+Adventista|Serie|Historia da Igreja|1. O Clamor da Meia Noite|https://www.youtube.com/watch?v=sy8GLDe9SPU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=1
+Adventista|Serie|Historia da Igreja|2. O Chamado de Ellen G.White|https://www.youtube.com/watch?v=g7rokCPowoI&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=2
+Adventista|Serie|Historia da Igreja|3. A Vida de Ellen G.White|https://www.youtube.com/watch?v=Z5aaqibEdjk&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=3
+Adventista|Serie|Historia da Igreja|4. Os Adventistas do 7 Dia|https://www.youtube.com/watch?v=REOQAQ3U2MA&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=4
+Adventista|Serie|Historia da Igreja|5. Uma História de Fé|https://www.youtube.com/watch?v=k2EES6qfOAw&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=5
+Adventista|Serie|Historia da Igreja|6. Visão de Ellen G.White|https://www.youtube.com/watch?v=Uyge3ZE0gjs&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=6
+Adventista|Serie|Historia da Igreja|7. História da Fé|https://www.youtube.com/watch?v=MiUkPxd3HIU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=7
+Adventista|Serie|Historia da Igreja|8. IASD Córrego do Manteiga|https://www.youtube.com/watch?v=7b-cSqItCog&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=8
+Adventista|Serie|Pr.Dilson Bezerra|1 - O Conflito Final-Remanescente|https://www.youtube.com/watch?v=0UNXkaB1M3E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=1
+Adventista|Serie|Pr.Dilson Bezerra|2 - O Conflito Final-Apocalipse|https://www.youtube.com/watch?v=PZTc3QfIg6E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=2
+Adventista|Serie|Pr.Dilson Bezerra|3 - O Conflito Final-Primeiro Anjo|https://www.youtube.com/watch?v=RA5tS1J7Hmw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=3
+Adventista|Serie|Pr.Dilson Bezerra|4 - O Conflito Final-Segundo Anjo|https://www.youtube.com/watch?v=gy2bjOQdoYg&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=4
+Adventista|Serie|Pr.Dilson Bezerra|5 - O Conflito Final-Terceiro Anjo|https://www.youtube.com/watch?v=nb5RwHXzmiM&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=5
+Adventista|Serie|Pr.Dilson Bezerra|6 - O Conflito Final-Visão do Trono|https://www.youtube.com/watch?v=omISXLWLzQI&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=6
+Adventista|Serie|Pr.Dilson Bezerra|7 - O Conflito Final-Cântico da Vitória|https://www.youtube.com/watch?v=5k9mQ_3RC5k&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=7
+Adventista|Serie|Pr.Dilson Bezerra|8 - O Conflito Final-Última Noite|https://www.youtube.com/watch?v=B0MWdX1jlDw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=8
+Adventista|Serie|Pr.Henry Feyerabend|1. O melhor Negócio|https://www.youtube.com/watch?v=aNlS6ZKbmVU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=1
+Adventista|Serie|Pr.Henry Feyerabend|2. Conheça o Espírito Santo|https://www.youtube.com/watch?v=yWoMoOvYRYU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=2
+Adventista|Serie|Pr.Henry Feyerabend|3. O Folego do Onipotente|https://www.youtube.com/watch?v=wEoDs2Fr174&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=3
+Adventista|Serie|Pr.Henry Feyerabend|4. Cheios do Espírito Santo|https://www.youtube.com/watch?v=jy2piRy-e2A&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=4
+Adventista|Serie|Pr.Henry Feyerabend|5. Uma Voz Suave e Delicada|https://www.youtube.com/watch?v=C69aDwk0fjY&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=5
+Adventista|Serie|Pr.Henry Feyerabend|6. O Ponto Sem Retorno|https://www.youtube.com/watch?v=BhuYvGq6IKM&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=6
+Adventista|Serie|Pr.Henry Feyerabend|7. Uma Harpa Aeolina|https://www.youtube.com/watch?v=FwX4JZ_Vu5Y&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=7
+Adventista|Serie|Pr.Henry Feyerabend|8. Bom Humor Saudades|https://www.youtube.com/watch?v=OhwKe11GU-c&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=8
+#AoVivo|Normal|Agro|aaaa|
 AoVivo|Normal|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
 AoVivo|Normal|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
 AoVivo|Normal|Agro|TV Coop|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
 AoVivo|Normal|Agro|Vivax TV|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
-#AoVivo|Normal|Culinária|@@aa|
+#AoVivo|Normal|Culinária|aaaa|
 AoVivo|Normal|Culinária|MasterChef|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
 AoVivo|Normal|Culinária|Receitas Fast|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#AoVivo|Normal|Cultura|@@aa|
+#AoVivo|Normal|Cultura|aaaa|
 AoVivo|Normal|Cultura|Canal Educação|https://canaleducacao-stream.ebc.com.br/index.m3u8
 AoVivo|Normal|Cultura|Canal FDR|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
 AoVivo|Normal|Cultura|Canal Gov|https://canalgov-stream.ebc.com.br/index.m3u8
@@ -278,27 +341,27 @@ AoVivo|Normal|Cultura|TV Poços|https://video01.logicahost.com.br/tvpocos/tvpoco
 AoVivo|Normal|Cultura|TV UFOP|https://app.tvufop.com.br/hls/tvufop.m3u8
 AoVivo|Normal|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 AoVivo|Normal|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
-#AoVivo|Normal|Notícias|@@aa|
+#AoVivo|Normal|Notícias|aaaa|
 AoVivo|Normal|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=GDrGd5lPias
+AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=3LeJzRf2EZA
 AoVivo|Normal|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
-AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=oNRSSMvifc0
+AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=qQkckzJF_bU
 AoVivo|Normal|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Normal|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Normal|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=zj_7P4IR0AE
+AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=psg1xAHg3TA
 AoVivo|Normal|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Normal|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Normal|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=fmXSEMrNN7A
-AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=P0DCupirlj4
+AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=lPzFI7fE_9Y
+AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=LjkhXwkW-XM
 AoVivo|Normal|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=utqnAY5lZ8Y
+AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=rSaDdoONlIw
 AoVivo|Normal|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
-#AoVivo|Normal|Público|@@aa|
+#AoVivo|Normal|Público|aaaa|
 AoVivo|Normal|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo|Normal|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
-#AoVivo|Religioso|Catolico|@@aa|
+#AoVivo|Religioso|Catolico|aaaa|
 AoVivo|Religioso|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo|Religioso|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Religioso|Catolico|Rede Vida 2|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
@@ -316,7 +379,7 @@ AoVivo|Religioso|Catolico|TV Judaica|https://streaming.tvjudaica.com/main.m3u8
 AoVivo|Religioso|Catolico|TV Padre Cicero|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
 AoVivo|Religioso|Catolico|Vatican Media|https://www.youtube.com/watch?v=8vjkbyEq4Sg
 AoVivo|Religioso|Catolico|Web tv|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
-#AoVivo|Religioso|Evangelico|@@aa|
+#AoVivo|Religioso|Evangelico|aaaa|
 AoVivo|Religioso|Evangelico|ADB TV|https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
 AoVivo|Religioso|Evangelico|Bem Mais TV|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 AoVivo|Religioso|Evangelico|Boas Novas|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
@@ -365,71 +428,71 @@ AoVivo|Religioso|Filmes|Gospel Caartoon|https://stmv1.srvif.com/gospelcartoon/go
 AoVivo|Religioso|Filmes|Gospel Movie TV|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo|Religioso|Filmes|Gospel Movies|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo|Religioso|Filmes|Kuriakos Cine|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
-#Filmes|Canais|@@aa|@@aa|
-Filmes|Canais|@HistoriasdaBiblia.oficial|A Bíblia Do Início ao Fim|https://www.youtube.com/watch?v=hZ7zIMfpV7k&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=14
-Filmes|Canais|@HistoriasdaBiblia.oficial|Apocalipse 1|https://www.youtube.com/watch?v=8HCxPS9qqbg&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=15
-Filmes|Canais|@HistoriasdaBiblia.oficial|Apocalipse 2|https://www.youtube.com/watch?v=ohT5saH5HuM&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=21
-Filmes|Canais|@HistoriasdaBiblia.oficial|Arca da Aliança|https://www.youtube.com/watch?v=mxb2klONVvQ&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=17
-Filmes|Canais|@HistoriasdaBiblia.oficial|Daniel 1|https://www.youtube.com/watch?v=xtEF1ymxJmw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=2
-Filmes|Canais|@HistoriasdaBiblia.oficial|Daniel 2|https://www.youtube.com/watch?v=c3mVAX8lQfA&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=9
-Filmes|Canais|@HistoriasdaBiblia.oficial|Ezequiel|https://www.youtube.com/watch?v=UlAMZ5dP6ks&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=5
-Filmes|Canais|@HistoriasdaBiblia.oficial|Gogue e Magogue|https://www.youtube.com/watch?v=aJ-T7O-pYTk&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=16
-Filmes|Canais|@HistoriasdaBiblia.oficial|Jesus Enfrenta uma Legião de Demônios|https://www.youtube.com/watch?v=BLAjlYA181w&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=13
-Filmes|Canais|@HistoriasdaBiblia.oficial|Jó - O Filme|https://www.youtube.com/watch?v=FgWoUKknYvg&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=11
-Filmes|Canais|@HistoriasdaBiblia.oficial|Matusalém|https://www.youtube.com/watch?v=YnhTQwlKdIU&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=7
-Filmes|Canais|@HistoriasdaBiblia.oficial|Moisés 1 - A Fúria do Faraó|https://www.youtube.com/watch?v=bl71o6gPGk4&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=4
-Filmes|Canais|@HistoriasdaBiblia.oficial|Moisés 2 - A Jornada à Terra Prometida|https://www.youtube.com/watch?v=o54KCAPrQbQ&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=18
-Filmes|Canais|@HistoriasdaBiblia.oficial|Nabucodonosor|https://www.youtube.com/watch?v=D-xLziLo1Zc&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM
-Filmes|Canais|@HistoriasdaBiblia.oficial|Nefilins 1|https://www.youtube.com/watch?v=YysUjqLO1oE&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=8
-Filmes|Canais|@HistoriasdaBiblia.oficial|Nefilins 2|https://www.youtube.com/watch?v=jpZuhZf0fj0&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=10
-Filmes|Canais|@HistoriasdaBiblia.oficial|O Mundo Antes de Jesus|https://www.youtube.com/watch?v=4VA_v-eOSyI&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=19
-Filmes|Canais|@HistoriasdaBiblia.oficial|O Mundo Antes do Dilúvio|https://www.youtube.com/watch?v=2Hgm-hsGIZw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=3
-Filmes|Canais|@HistoriasdaBiblia.oficial|O Mundo Depois da Morte de Jesus|https://www.youtube.com/watch?v=pTUWEnZmlNo&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=6
-Filmes|Canais|@HistoriasdaBiblia.oficial|Paixão de Cristo|https://www.youtube.com/watch?v=fXrPhIJbttw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=20
-Filmes|Canais|@HistoriasdaBiblia.oficial|Sodoma e Gomorra|https://www.youtube.com/watch?v=p30uvU3vXQs&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=12
-Filmes|Canais|@Vozdoevangeelho|A História antes de Cristo|https://www.youtube.com/watch?v=6vl3f15w5wk&list=PLI1fdGj6XWqI&index=10
-Filmes|Canais|@Vozdoevangeelho|A Ordem de Jesus|https://www.youtube.com/watch?v=HbvBGrzefHk&list=PLI1fdGj6XWqI&index=7
-Filmes|Canais|@Vozdoevangeelho|Abrão — Quando a Promessa Parecia Impossível|https://www.youtube.com/watch?v=1Wg5WreObwM
-Filmes|Canais|@Vozdoevangeelho|Deus Criador|https://www.youtube.com/watch?v=JQ4QlmkqeI4&list=PLI1fdGj6XWqI&index=8
-Filmes|Canais|@Vozdoevangeelho|Jesus - A Hipocrisia|https://www.youtube.com/watch?v=bL10F-jVpJk
-Filmes|Canais|@Vozdoevangeelho|Jesus - Antes de Nascer 1|https://www.youtube.com/watch?v=mfGuEpZQg9g
-Filmes|Canais|@Vozdoevangeelho|Jesus - Antes de Nascer 2|https://www.youtube.com/watch?v=2YegSz6fHc0
-Filmes|Canais|@Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 1|https://www.youtube.com/watch?v=HqvZpk1Alf0&list=PLI1fdGj6XWqI&index=11
-Filmes|Canais|@Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 2|https://www.youtube.com/watch?v=nCTDsdG2x3w&list=PLI1fdGj6XWqI&index=14
-Filmes|Canais|@Vozdoevangeelho|Jesus - Capacitou seus 12 Apóstolos|https://www.youtube.com/watch?v=b0ExM72VEqY
-Filmes|Canais|@Vozdoevangeelho|Jesus - João Revelou quem era Jesus|https://www.youtube.com/watch?v=2Z4a_655ER8&list=PLI1fdGj6XWqI&index=2
-Filmes|Canais|@Vozdoevangeelho|Jesus - Nascimento|https://www.youtube.com/watch?v=FDnRE8UVyis
-Filmes|Canais|@Vozdoevangeelho|Jesus - Parábola do Semeador|https://www.youtube.com/watch?v=9xQNMoCf3S4
-Filmes|Canais|@Vozdoevangeelho|Jesus - Prega o Arrependimento|https://www.youtube.com/watch?v=NfGEGtXSlyc&list=PLI1fdGj6XWqI&index=6
-Filmes|Canais|@Vozdoevangeelho|Jesus - Prometeu voltar|https://www.youtube.com/watch?v=Rsyi82acxkE&list=PLI1fdGj6XWqI&index=15
-Filmes|Canais|@Vozdoevangeelho|Jesus - Revelou O Único Caminho|https://www.youtube.com/watch?v=yuYidcJfivc&list=PLI1fdGj6XWqI&index=4
-Filmes|Canais|@Vozdoevangeelho|Jesus - Sataná Tentou Jesus|https://www.youtube.com/watch?v=ZXUIlUVBruw&list=PLI1fdGj6XWqI&index=5
-Filmes|Canais|@Vozdoevangeelho|Jesus - Sepultado|https://www.youtube.com/watch?v=lgL0pqEzXas
-Filmes|Canais|@Vozdoevangeelho|Jesus - Único Caminho|https://www.youtube.com/watch?v=rYKm9dFjIHw&list=PLI1fdGj6XWqI&index=9
-Filmes|Canais|@Vozdoevangeelho|Jesus - Uniu O Homem e a Mulher|https://www.youtube.com/watch?v=lCiiI_XAYCg&list=PLI1fdGj6XWqI&index=1
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus A Ordem|https://www.youtube.com/shorts/HbvBGrzefHk
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus A Trasnfiguração|https://www.youtube.com/shorts/jw3-Oi3v85w
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus A verdadeira Pureza|https://www.youtube.com/shorts/MKMgeJ5eqf4
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Avisou Sobre o Fim|https://www.youtube.com/shorts/nCTDsdG2x3w
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Disse|https://www.youtube.com/shorts/NfGEGtXSlyc
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Esta voltando|https://www.youtube.com/shorts/Rsyi82acxkE
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Fé e Medo|https://www.youtube.com/shorts/ahGDqUWfjS4
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Fé Inabalável|https://www.youtube.com/shorts/c2Gi5cfo7yU
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Fez o Alerta|https://www.youtube.com/shorts/gfeQKj-wKcc
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Jesus Uniu o Homem|https://www.youtube.com/shorts/lCiiI_XAYCg
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus João o Revelou|https://www.youtube.com/shorts/2Z4a_655ER8
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Mandou Pedro|https://www.youtube.com/shorts/ZggtNNpV8MI
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Morte de João Batista|https://www.youtube.com/shorts/JyFqiM7DaGU
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Multiplicação dos Pães|https://www.youtube.com/shorts/zaamlITQE_A
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus O Milagre não Aconteceu|https://www.youtube.com/shorts/q-Om0atxcRY
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus O que Realmente Importa|https://www.youtube.com/shorts/AwQwS6lgmsY
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Parábolo do Joio|https://www.youtube.com/shorts/LT5zM0O4BMo
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Quem é eu Sou|https://www.youtube.com/shorts/b1vThFlaqdM
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Reino dos Céus|https://www.youtube.com/shorts/9Plul7PsCbE
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Renuncia-se a Si Mesmo|https://www.youtube.com/shorts/ZOAL5FQqWSY
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Satanás o Tentou|https://www.youtube.com/shorts/ZXUIlUVBruw
-Filmes|Canais|@Vozdoevangeelho|zShort - Jesus Sinais Que Não Veêm|https://www.youtube.com/shorts/Gdkg2oAMq9A
-#Filmes|Religioso|@@aa|@@aa|
+#Filmes|Canais|aaaa|aaaa|
+Filmes|Canais|HistoriasdaBiblia.oficial|A Bíblia Do Início ao Fim|https://www.youtube.com/watch?v=hZ7zIMfpV7k&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=14
+Filmes|Canais|HistoriasdaBiblia.oficial|Apocalipse 1|https://www.youtube.com/watch?v=8HCxPS9qqbg&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=15
+Filmes|Canais|HistoriasdaBiblia.oficial|Apocalipse 2|https://www.youtube.com/watch?v=ohT5saH5HuM&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=21
+Filmes|Canais|HistoriasdaBiblia.oficial|Arca da Aliança|https://www.youtube.com/watch?v=mxb2klONVvQ&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=17
+Filmes|Canais|HistoriasdaBiblia.oficial|Daniel 1|https://www.youtube.com/watch?v=xtEF1ymxJmw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=2
+Filmes|Canais|HistoriasdaBiblia.oficial|Daniel 2|https://www.youtube.com/watch?v=c3mVAX8lQfA&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=9
+Filmes|Canais|HistoriasdaBiblia.oficial|Ezequiel|https://www.youtube.com/watch?v=UlAMZ5dP6ks&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=5
+Filmes|Canais|HistoriasdaBiblia.oficial|Gogue e Magogue|https://www.youtube.com/watch?v=aJ-T7O-pYTk&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=16
+Filmes|Canais|HistoriasdaBiblia.oficial|Jesus Enfrenta uma Legião de Demônios|https://www.youtube.com/watch?v=BLAjlYA181w&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=13
+Filmes|Canais|HistoriasdaBiblia.oficial|Jó - O Filme|https://www.youtube.com/watch?v=FgWoUKknYvg&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=11
+Filmes|Canais|HistoriasdaBiblia.oficial|Matusalém|https://www.youtube.com/watch?v=YnhTQwlKdIU&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=7
+Filmes|Canais|HistoriasdaBiblia.oficial|Moisés 1 - A Fúria do Faraó|https://www.youtube.com/watch?v=bl71o6gPGk4&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=4
+Filmes|Canais|HistoriasdaBiblia.oficial|Moisés 2 - A Jornada à Terra Prometida|https://www.youtube.com/watch?v=o54KCAPrQbQ&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=18
+Filmes|Canais|HistoriasdaBiblia.oficial|Nabucodonosor|https://www.youtube.com/watch?v=D-xLziLo1Zc&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM
+Filmes|Canais|HistoriasdaBiblia.oficial|Nefilins 1|https://www.youtube.com/watch?v=YysUjqLO1oE&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=8
+Filmes|Canais|HistoriasdaBiblia.oficial|Nefilins 2|https://www.youtube.com/watch?v=jpZuhZf0fj0&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=10
+Filmes|Canais|HistoriasdaBiblia.oficial|O Mundo Antes de Jesus|https://www.youtube.com/watch?v=4VA_v-eOSyI&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=19
+Filmes|Canais|HistoriasdaBiblia.oficial|O Mundo Antes do Dilúvio|https://www.youtube.com/watch?v=2Hgm-hsGIZw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=3
+Filmes|Canais|HistoriasdaBiblia.oficial|O Mundo Depois da Morte de Jesus|https://www.youtube.com/watch?v=pTUWEnZmlNo&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=6
+Filmes|Canais|HistoriasdaBiblia.oficial|Paixão de Cristo|https://www.youtube.com/watch?v=fXrPhIJbttw&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=20
+Filmes|Canais|HistoriasdaBiblia.oficial|Sodoma e Gomorra|https://www.youtube.com/watch?v=p30uvU3vXQs&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=12
+Filmes|Canais|Vozdoevangeelho|A História antes de Cristo|https://www.youtube.com/watch?v=6vl3f15w5wk&list=PLI1fdGj6XWqI&index=10
+Filmes|Canais|Vozdoevangeelho|A Ordem de Jesus|https://www.youtube.com/watch?v=HbvBGrzefHk&list=PLI1fdGj6XWqI&index=7
+Filmes|Canais|Vozdoevangeelho|Abrão — Quando a Promessa Parecia Impossível|https://www.youtube.com/watch?v=1Wg5WreObwM
+Filmes|Canais|Vozdoevangeelho|Deus Criador|https://www.youtube.com/watch?v=JQ4QlmkqeI4&list=PLI1fdGj6XWqI&index=8
+Filmes|Canais|Vozdoevangeelho|Jesus - A Hipocrisia|https://www.youtube.com/watch?v=bL10F-jVpJk
+Filmes|Canais|Vozdoevangeelho|Jesus - Antes de Nascer 1|https://www.youtube.com/watch?v=mfGuEpZQg9g
+Filmes|Canais|Vozdoevangeelho|Jesus - Antes de Nascer 2|https://www.youtube.com/watch?v=2YegSz6fHc0
+Filmes|Canais|Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 1|https://www.youtube.com/watch?v=HqvZpk1Alf0&list=PLI1fdGj6XWqI&index=11
+Filmes|Canais|Vozdoevangeelho|Jesus - Avisou sobre esses Sinais 2|https://www.youtube.com/watch?v=nCTDsdG2x3w&list=PLI1fdGj6XWqI&index=14
+Filmes|Canais|Vozdoevangeelho|Jesus - Capacitou seus 12 Apóstolos|https://www.youtube.com/watch?v=b0ExM72VEqY
+Filmes|Canais|Vozdoevangeelho|Jesus - João Revelou quem era Jesus|https://www.youtube.com/watch?v=2Z4a_655ER8&list=PLI1fdGj6XWqI&index=2
+Filmes|Canais|Vozdoevangeelho|Jesus - Nascimento|https://www.youtube.com/watch?v=FDnRE8UVyis
+Filmes|Canais|Vozdoevangeelho|Jesus - Parábola do Semeador|https://www.youtube.com/watch?v=9xQNMoCf3S4
+Filmes|Canais|Vozdoevangeelho|Jesus - Prega o Arrependimento|https://www.youtube.com/watch?v=NfGEGtXSlyc&list=PLI1fdGj6XWqI&index=6
+Filmes|Canais|Vozdoevangeelho|Jesus - Prometeu voltar|https://www.youtube.com/watch?v=Rsyi82acxkE&list=PLI1fdGj6XWqI&index=15
+Filmes|Canais|Vozdoevangeelho|Jesus - Revelou O Único Caminho|https://www.youtube.com/watch?v=yuYidcJfivc&list=PLI1fdGj6XWqI&index=4
+Filmes|Canais|Vozdoevangeelho|Jesus - Sataná Tentou Jesus|https://www.youtube.com/watch?v=ZXUIlUVBruw&list=PLI1fdGj6XWqI&index=5
+Filmes|Canais|Vozdoevangeelho|Jesus - Sepultado|https://www.youtube.com/watch?v=lgL0pqEzXas
+Filmes|Canais|Vozdoevangeelho|Jesus - Único Caminho|https://www.youtube.com/watch?v=rYKm9dFjIHw&list=PLI1fdGj6XWqI&index=9
+Filmes|Canais|Vozdoevangeelho|Jesus - Uniu O Homem e a Mulher|https://www.youtube.com/watch?v=lCiiI_XAYCg&list=PLI1fdGj6XWqI&index=1
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus A Ordem|https://www.youtube.com/shorts/HbvBGrzefHk
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus A Trasnfiguração|https://www.youtube.com/shorts/jw3-Oi3v85w
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus A verdadeira Pureza|https://www.youtube.com/shorts/MKMgeJ5eqf4
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Avisou Sobre o Fim|https://www.youtube.com/shorts/nCTDsdG2x3w
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Disse|https://www.youtube.com/shorts/NfGEGtXSlyc
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Esta voltando|https://www.youtube.com/shorts/Rsyi82acxkE
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Fé e Medo|https://www.youtube.com/shorts/ahGDqUWfjS4
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Fé Inabalável|https://www.youtube.com/shorts/c2Gi5cfo7yU
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Fez o Alerta|https://www.youtube.com/shorts/gfeQKj-wKcc
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Jesus Uniu o Homem|https://www.youtube.com/shorts/lCiiI_XAYCg
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus João o Revelou|https://www.youtube.com/shorts/2Z4a_655ER8
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Mandou Pedro|https://www.youtube.com/shorts/ZggtNNpV8MI
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Morte de João Batista|https://www.youtube.com/shorts/JyFqiM7DaGU
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Multiplicação dos Pães|https://www.youtube.com/shorts/zaamlITQE_A
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus O Milagre não Aconteceu|https://www.youtube.com/shorts/q-Om0atxcRY
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus O que Realmente Importa|https://www.youtube.com/shorts/AwQwS6lgmsY
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Parábolo do Joio|https://www.youtube.com/shorts/LT5zM0O4BMo
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Quem é eu Sou|https://www.youtube.com/shorts/b1vThFlaqdM
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Reino dos Céus|https://www.youtube.com/shorts/9Plul7PsCbE
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Renuncia-se a Si Mesmo|https://www.youtube.com/shorts/ZOAL5FQqWSY
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Satanás o Tentou|https://www.youtube.com/shorts/ZXUIlUVBruw
+Filmes|Canais|Vozdoevangeelho|zShort - Jesus Sinais Que Não Veêm|https://www.youtube.com/shorts/Gdkg2oAMq9A
+#Filmes|Religioso|aaaa|aaaa|
 Filmes|Religioso|Kids|Os Milagres de Jesus|https://www.youtube.com/watch?v=DLqRnxcju1s
 Filmes|Religioso|Normal|A Bússola de Deus|https://www.youtube.com/watch?v=YowjWr385Qc
 Filmes|Religioso|Normal|A Cura Pela Graça|https://www.youtube.com/watch?v=gG8BIlxJis8&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL&index=6
@@ -467,7 +530,7 @@ Filmes|Religioso|Normal|Um Lugar para Recomeçar|https://www.youtube.com/watch?v
 Filmes|Religioso|Normal|Um Pouco de Fé|https://www.youtube.com/watch?v=4hw97bPXCJI&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL
 Filmes|Religioso|Normal|Uma Chance Para Viver|https://www.youtube.com/watch?v=S9lMeTXNGRs&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=6
 Filmes|Religioso|Normal|Uma História de Fé e Coragem|https://www.youtube.com/watch?v=7oTtTHgSGog&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=3
-#Kids|AoVivo|@@aa|@@aa|
+#Kids|AoVivo|aaaa|aaaa|
 Kids|AoVivo|Canais|3 Palavrinhas|https://www.youtube.com/watch?v=P14PCCuhmXY
 Kids|AoVivo|Canais|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
 Kids|AoVivo|Canais|Gospel Cartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
@@ -479,7 +542,7 @@ Kids|AoVivo|Canais|Otaku Sign|https://stmv1.srvif.com/anime/anime/playlist.m3u8
 Kids|AoVivo|Canais|Retrô Cartoon|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
 Kids|AoVivo|Canais|TV Aracati|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
 Kids|AoVivo|Canais|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
-#Music|AoVivo|@@aa|@@aa|
+#Music|AoVivo|aaaa|aaaa|
 Music|AoVivo|Evangelico|Country Gospel|https://www.youtube.com/watch?v=rWs1GRF8eyo
 Music|AoVivo|Evangelico|Fonte de Adoração|https://www.youtube.com/watch?v=VB43nHtEkNg
 Music|AoVivo|Evangelico|Golden GOSPEL|https://www.youtube.com/watch?v=DibNV_2cONs
@@ -507,3 +570,4 @@ Music|Radios|Catolica|Rádio Imaculada|https://radio.saopaulo01.com.br:10863/str
 Music|Radios|Catolica|Radio Maria|https://dreamsiteradiocp6.com/proxy/rmbrasile?mp=/stream
 Music|Radios|Catolica|Rede Vida|https://r15.ciclano.io/proxy/diariofm/stream
 Music|Radios|Catolica|Vox Del Rei|https://servidor32-4.brlogic.com:7400/live
+
