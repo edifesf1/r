@@ -280,20 +280,20 @@ AoVivo|Normal|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/p
 AoVivo|Normal|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
 #AoVivo|Normal|Notícias|@@aa|
 AoVivo|Normal|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=3LeJzRf2EZA
+AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=GDrGd5lPias
 AoVivo|Normal|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
-AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=qQkckzJF_bU
+AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=oNRSSMvifc0
 AoVivo|Normal|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Normal|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Normal|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=psg1xAHg3TA
+AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=zj_7P4IR0AE
 AoVivo|Normal|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Normal|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Normal|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=lPzFI7fE_9Y
-AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=LjkhXwkW-XM
+AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=fmXSEMrNN7A
+AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=P0DCupirlj4
 AoVivo|Normal|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=rSaDdoONlIw
+AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=utqnAY5lZ8Y
 AoVivo|Normal|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 #AoVivo|Normal|Público|@@aa|
 AoVivo|Normal|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
