@@ -172,6 +172,51 @@ AoVivo|Music|Evangelico|Peaceful Healing|https://www.youtube.com/watch?v=LwWW--J
 AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL|https://www.youtube.com/watch?v=3feDXN3uY3g
 AoVivo|Music|Evangelico|TOP MÚSICAS GOSPEL2|https://www.youtube.com/watch?v=piWhR241kg4
 
+#Documentarios
+Documentarios|Adventista|O Domínio|O Próximo Reino 1|https://www.youtube.com/watch?v=hoJg83xuvUM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=2
+Documentarios|Adventista|O Domínio|O Próximo Reino 2|https://www.youtube.com/watch?v=M2WIGE7KMZ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg
+Documentarios|Adventista|Homens de Fé|Adventismo no Brasil|https://www.youtube.com/watch?v=3Dvl9ZCiOaQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=4
+Documentarios|Adventista|Homens de Fé|Unidos na Missão|https://www.youtube.com/watch?v=St6l-ONRYGU&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=17
+Documentarios|Adventista|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
+Documentarios|Adventista|Ucrânia|Na Fronteira Com A Paz|https://www.youtube.com/watch?v=hegGNLFD8jw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=6
+Documentarios|Adventista|Ucrânia|Vidas Entre Páginas|https://www.youtube.com/watch?v=q0H47Sh6IEo&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=7
+Documentarios|Adventista|Descanso|A Experiência|https://www.youtube.com/watch?v=VTDcYWbJ2fQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=8
+Documentarios|Adventista|Origem|Origem|https://www.youtube.com/watch?v=JC7C7o3vdrw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=9
+Documentarios|Adventista|Chamado dos Cosmos|Chamado dos Cosmos|https://www.youtube.com/watch?v=5DkH1_GGl3I&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=10
+Documentarios|Adventista|Pais|Pais-Legendado|https://www.youtube.com/watch?v=86h02HEfX_8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=11
+Documentarios|Adventista|Natureza|O Preço da Vida|https://www.youtube.com/watch?v=6n6GSda7bGQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=12
+Documentarios|Adventista|Natureza|Vôo|https://www.youtube.com/watch?v=ShdCSSMbWH4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=19
+Documentarios|Adventista|Natureza|Águas Viventes|https://www.youtube.com/watch?v=GAQp63-brZs&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=20
+Documentarios|Adventista|Natureza|Metamorfose|https://www.youtube.com/watch?v=j5_2HDFlilM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=21
+Documentarios|Adventista|Contramão|Contramão|https://www.youtube.com/watch?v=9nkWxhhWnzE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=13
+Documentarios|Adventista|Voluntários|Voluntários Por Toda Terra|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
+Documentarios|Adventista|Voluntários|Missão Piauí|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
+Documentarios|Adventista|Conflíto|O Grande Conflito|https://www.youtube.com/watch?v=eys7l18DbHQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=15
+Documentarios|Adventista|Dois Reinos|Religião e Política|https://www.youtube.com/watch?v=IuSKhEKxmKY&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=16
+Documentarios|NovoTempo|Livro|Desmond Doss|https://www.youtube.com/watch?v=TjIJsBxmaBM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=22
+Documentarios|Adventista|Feliz7Play|Meu Sol|https://www.youtube.com/watch?v=-pe6ITolnes&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=3
+Documentarios|Adventista|Feliz7Play|Expedição Pacaraima|https://www.youtube.com/watch?v=kAoVvw_cVds&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=23
+Documentarios|Adventista|Feliz7Play|Devemos Comemorar o Natal|https://www.youtube.com/watch?v=NHYLWiWRUO8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=24
+Documentarios|Adventista|Feliz7Play|Mosés-Um Herói|https://www.youtube.com/watch?v=xMxvS9F5HGg&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=25
+Documentarios|Adventista|Feliz7Play|A verdade Sobre o Halloween|https://www.youtube.com/watch?v=jYD7rq_3OR0&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=26
+Documentarios|Adventista|Feliz7Play|C.S. Lewis|https://www.youtube.com/watch?v=0C1wsUSuFlk&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=27
+Documentarios|Adventista|Feliz7Play|Maria Madalena|https://www.youtube.com/watch?v=t47YWQwJkFE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=28
+Documentarios|Adventista|Feliz7Play|Com Amor,Ana|https://www.youtube.com/watch?v=WDhQ5Ny-5c4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=29
+
+Documentarios|Adventista|Saúde|A Cura da Rinite|https://www.youtube.com/watch?v=pOQlpM6SdbY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw
+Documentarios|Adventista|Saúde|Aprenda a Respirar|https://www.youtube.com/watch?v=sAQ8SE9vtCw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=2
+Documentarios|Adventista|Saúde|Alergias Respiratórias|https://www.youtube.com/watch?v=Gbrolrw7wOM&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=3
+Documentarios|Adventista|Saúde|Hidroterapia para a sinusite|https://www.youtube.com/watch?v=98wHAyI_AxY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=4
+Documentarios|Adventista|Saúde|Cérebro Turbinado|https://www.youtube.com/watch?v=I9XkD7D38Xw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=5
+Documentarios|Adventista|Saúde|Depresssão|https://www.youtube.com/watch?v=IP6pf8clXlI&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=6
+Documentarios|Adventista|Saúde|Prisão de Ventre|https://www.youtube.com/watch?v=czszLGvwT5k&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=7
+
+Documentarios|Adventista|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
+Documentarios|Adventista|Animações|Lutero O Protestante|https://www.youtube.com/watch?v=6VpIdqo5-ZQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=2
+Documentarios|Adventista|Animações|Gênesis 31|https://www.youtube.com/watch?v=HwDddhg6fYQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=3
+Documentarios|Adventista|Animações|II Crônicas 26|https://www.youtube.com/watch?v=u0SqhFaBUDI&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=4
+Documentarios|Adventista|Animações|Ellen White-Infância e Chamado|https://www.youtube.com/watch?v=ix1yqZE2xBo&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=5
+Documentarios|Adventista|Animações|O Grande Conflito|https://www.youtube.com/watch?v=YSdCRwtZMhU&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=6
 
 Documentarios|Estudos|Cid Moreira|01 A Bíblia|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
 Documentarios|Estudos|Cid Moreira|02 A Beleza da Criacao Divina |https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
@@ -418,52 +463,6 @@ Filmes|Religioso|Normal|Uma Chance Para Viver|https://www.youtube.com/watch?v=S9
 Filmes|Religioso|Normal|Uma História de Fé e Coragem|https://www.youtube.com/watch?v=7oTtTHgSGog&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=3
 
 Filmes|Religioso|Kids|Os Milagres de Jesus|https://www.youtube.com/watch?v=DLqRnxcju1s
-
-#Documentários
-Documentários|Adventista|O Domínio|O Próximo Reino 1|https://www.youtube.com/watch?v=hoJg83xuvUM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=2
-Documentários|Adventista|O Domínio|O Próximo Reino 2|https://www.youtube.com/watch?v=M2WIGE7KMZ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg
-Documentários|Adventista|Homens de Fé|Adventismo no Brasil|https://www.youtube.com/watch?v=3Dvl9ZCiOaQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=4
-Documentários|Adventista|Homens de Fé|Unidos na Missão|https://www.youtube.com/watch?v=St6l-ONRYGU&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=17
-Documentários|Adventista|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
-Documentários|Adventista|Ucrânia|Na Fronteira Com A Paz|https://www.youtube.com/watch?v=hegGNLFD8jw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=6
-Documentários|Adventista|Ucrânia|Vidas Entre Páginas|https://www.youtube.com/watch?v=q0H47Sh6IEo&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=7
-Documentários|Adventista|Descanso|A Experiência|https://www.youtube.com/watch?v=VTDcYWbJ2fQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=8
-Documentários|Adventista|Origem|Origem|https://www.youtube.com/watch?v=JC7C7o3vdrw&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=9
-Documentários|Adventista|Chamado dos Cosmos|Chamado dos Cosmos|https://www.youtube.com/watch?v=5DkH1_GGl3I&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=10
-Documentários|Adventista|Pais|Pais-Legendado|https://www.youtube.com/watch?v=86h02HEfX_8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=11
-Documentários|Adventista|Natureza|O Preço da Vida|https://www.youtube.com/watch?v=6n6GSda7bGQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=12
-Documentários|Adventista|Natureza|Vôo|https://www.youtube.com/watch?v=ShdCSSMbWH4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=19
-Documentários|Adventista|Natureza|Águas Viventes|https://www.youtube.com/watch?v=GAQp63-brZs&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=20
-Documentários|Adventista|Natureza|Metamorfose|https://www.youtube.com/watch?v=j5_2HDFlilM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=21
-Documentários|Adventista|Contramão|Contramão|https://www.youtube.com/watch?v=9nkWxhhWnzE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=13
-Documentários|Adventista|Voluntários|Voluntários Por Toda Terra|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
-Documentários|Adventista|Voluntários|Missão Piauí|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
-Documentários|Adventista|Conflíto|O Grande Conflito|https://www.youtube.com/watch?v=eys7l18DbHQ&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=15
-Documentários|Adventista|Dois Reinos|Religião e Política|https://www.youtube.com/watch?v=IuSKhEKxmKY&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=16
-Documentários|NovoTempo|Livro|Desmond Doss|https://www.youtube.com/watch?v=TjIJsBxmaBM&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=22
-Documentários|Adventista|Feliz7Play|Meu Sol|https://www.youtube.com/watch?v=-pe6ITolnes&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=3
-Documentários|Adventista|Feliz7Play|Expedição Pacaraima|https://www.youtube.com/watch?v=kAoVvw_cVds&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=23
-Documentários|Adventista|Feliz7Play|Devemos Comemorar o Natal|https://www.youtube.com/watch?v=NHYLWiWRUO8&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=24
-Documentários|Adventista|Feliz7Play|Mosés-Um Herói|https://www.youtube.com/watch?v=xMxvS9F5HGg&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=25
-Documentários|Adventista|Feliz7Play|A verdade Sobre o Halloween|https://www.youtube.com/watch?v=jYD7rq_3OR0&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=26
-Documentários|Adventista|Feliz7Play|C.S. Lewis|https://www.youtube.com/watch?v=0C1wsUSuFlk&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=27
-Documentários|Adventista|Feliz7Play|Maria Madalena|https://www.youtube.com/watch?v=t47YWQwJkFE&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=28
-Documentários|Adventista|Feliz7Play|Com Amor,Ana|https://www.youtube.com/watch?v=WDhQ5Ny-5c4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=29
-
-Documentários|Adventista|Saúde|A Cura da Rinite|https://www.youtube.com/watch?v=pOQlpM6SdbY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw
-Documentários|Adventista|Saúde|Aprenda a Respirar|https://www.youtube.com/watch?v=sAQ8SE9vtCw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=2
-Documentários|Adventista|Saúde|Alergias Respiratórias|https://www.youtube.com/watch?v=Gbrolrw7wOM&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=3
-Documentários|Adventista|Saúde|Hidroterapia para a sinusite|https://www.youtube.com/watch?v=98wHAyI_AxY&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=4
-Documentários|Adventista|Saúde|Cérebro Turbinado|https://www.youtube.com/watch?v=I9XkD7D38Xw&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=5
-Documentários|Adventista|Saúde|Depresssão|https://www.youtube.com/watch?v=IP6pf8clXlI&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=6
-Documentários|Adventista|Saúde|Prisão de Ventre|https://www.youtube.com/watch?v=czszLGvwT5k&list=PLg7vVjTMs6Z4l-iMmXyRo1EDnxoqUlakw&index=7
-
-Documentários|Adventista|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
-Documentários|Adventista|Animações|Lutero O Protestante|https://www.youtube.com/watch?v=6VpIdqo5-ZQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=2
-Documentários|Adventista|Animações|Gênesis 31|https://www.youtube.com/watch?v=HwDddhg6fYQ&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=3
-Documentários|Adventista|Animações|II Crônicas 26|https://www.youtube.com/watch?v=u0SqhFaBUDI&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=4
-Documentários|Adventista|Animações|Ellen White-Infância e Chamado|https://www.youtube.com/watch?v=ix1yqZE2xBo&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=5
-Documentários|Adventista|Animações|O Grande Conflito|https://www.youtube.com/watch?v=YSdCRwtZMhU&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=6
 
 #Music
 Music|Adventista|Corinhos|Renova-Me|https://www.youtube.com/watch?v=sCEfXG_M3lk&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA
