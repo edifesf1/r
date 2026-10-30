@@ -3,6 +3,7 @@ Adventista|AoVivo|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV
 Adventista|AoVivo|Evangelico|TV Novo Tempo BR|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 Adventista|AoVivo|Evangelico|TV Novo Tempo ES|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista|AoVivo|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=dkJ_GKTcm_U
+Adventista|AoVivo|Evangelico|SUMtv Latino|https://www.youtube.com/watch?v=dkJ_GKTcm_U
 Adventista|Documentarios|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
 #Adventista|Documentarios|@@aa|@@aa|
 Adventista|Documentarios|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
