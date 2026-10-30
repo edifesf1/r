@@ -16,3 +16,4 @@ zRecord News|https://www.youtube.com/@recordnews/live
 zSBT News|https://www.youtube.com/@sbtnews/live
 Revista Oeste|https://www.youtube.com/@RevistaOeste/live
 Brasil Urgente|https://www.youtube.com/brasilurgente/live
+SUMtv Latino|https://www.youtube.com/@SUMtvLatino/live
