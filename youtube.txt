@@ -130,21 +130,21 @@ AoVivo|Canais|Kids|Xtreme TV|https://video11.logicahost.com.br/xtremetv/xtremetv
 
 #Notícias
 AoVivo|Canais|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=3LeJzRf2EZA
+AoVivo|Canais|Notícias|BandNews|https://www.youtube.com/watch?v=0iUzy_MPbB4
 AoVivo|Canais|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
-AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=lOEqMp5IM-E
+AoVivo|Canais|Notícias|CNN Brasil|https://www.youtube.com/watch?v=TurwIPv-6k0
 AoVivo|Canais|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Canais|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Canais|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/watch?v=psg1xAHg3TA
+AoVivo|Canais|Notícias|Revista Oeste|https://www.youtube.com/watch?v=kpIS1rk407s
 AoVivo|Canais|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Canais|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Canais|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 AoVivo|Canais|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo|Canais|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
-AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=eTz4XgOQaAE
+AoVivo|Canais|Notícias|zJovem Pan|https://www.youtube.com/watch?v=6nldbYvEDrk
 AoVivo|Canais|Notícias|zRecord News|https://www.youtube.com/watch?v=ZHGKq-5HFLk
-AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=aU_OBteLbXU
+AoVivo|Canais|Notícias|zSBT News|https://www.youtube.com/watch?v=-ZowXABy7g8
 
 #Público
 AoVivo|Canais|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
