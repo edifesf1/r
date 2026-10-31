@@ -1,9 +1,9 @@
 #Adventista|AoVivo|aaaa|aaaa|
+Adventista|AoVivo|Evangelico|SUMtv Latino|https://www.youtube.com/watch?v=BKblvq9QQBU
 Adventista|AoVivo|Evangelico|TV Novo Tempo|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista|AoVivo|Evangelico|TV Novo Tempo BR|https://www.youtube.com/watch?v=l2_O7pDT0Fg
 Adventista|AoVivo|Evangelico|TV Novo Tempo ES|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista|AoVivo|Evangelico|TV Novo Tempo PT|https://www.youtube.com/watch?v=dkJ_GKTcm_U
-Adventista|AoVivo|Evangelico|SUMtv Latino|https://www.youtube.com/watch?v=BKblvq9QQBU
 Adventista|Documentarios|A Criação|A Terra é Testemunha|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
 #Adventista|Documentarios|aaaa|aaaa|
 Adventista|Documentarios|Animações|A Última Crise Na Terra|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
@@ -48,46 +48,46 @@ Adventista|Documentarios|Ucrânia|Vidas Entre Páginas|https://www.youtube.com/w
 Adventista|Documentarios|Voluntários|Missão Piauí|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
 Adventista|Documentarios|Voluntários|Voluntários Por Toda Terra|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
 #Adventista|Estudos|aaaa|aaaa|
-Adventista|Estudos|Cid Moreira|01 A Bíblia|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
-Adventista|Estudos|Cid Moreira|02 A Beleza da Criacao Divina|https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
-Adventista|Estudos|Cid Moreira|03 Interferencia na Criacao|https://www.youtube.com/watch?v=HudnzjHMsKM&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=2
-Adventista|Estudos|Cid Moreira|04 O Plano da Salvação|https://www.youtube.com/watch?v=Njp3mZklYIo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=9
-Adventista|Estudos|Cid Moreira|05 Fé, Arrependimento e Confissão|https://www.youtube.com/watch?v=KjK7OXzx4Ic&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=10
-Adventista|Estudos|Cid Moreira|06 Sinais da Vinda de Cristo|https://www.youtube.com/watch?v=3kOZFffzj8A&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=2
-Adventista|Estudos|Cid Moreira|07 A Volta de Cristo|https://www.youtube.com/watch?v=Qb2A8tkTZfQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=4
-Adventista|Estudos|Cid Moreira|08 O Milênio|https://www.youtube.com/watch?v=4w0EgbtUvSQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=5
-Adventista|Estudos|Cid Moreira|09 A Verdade sobre a Morte|https://www.youtube.com/watch?v=xI6VbDW60is&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
-Adventista|Estudos|Cid Moreira|10 A Nova Terra|https://www.youtube.com/watch?v=iXTvjRB1Kx0&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=11
-Adventista|Estudos|Cid Moreira|11 Os Seis Passos da Salvação|https://www.youtube.com/watch?v=IWz-e_NucMU&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=12
-Adventista|Estudos|Cid Moreira|12 A Verdade sobre o Juízo|https://www.youtube.com/watch?v=YCASBWMQWhE&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=13
-Adventista|Estudos|Cid Moreira|13 As Leis na Bíblia|https://www.youtube.com/watch?v=jRTZmhdrOJo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=14
-Adventista|Estudos|Cid Moreira|14 A Mudança dos Dez Mandamentos|https://www.youtube.com/watch?v=10mqGiulVY4&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=15
-Adventista|Estudos|Cid Moreira|15 A Origem da Guarda do Domingo|https://www.youtube.com/watch?v=1s6VXhRNoGk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=16
-Adventista|Estudos|Cid Moreira|16 O Mandamento Esquecido|https://www.youtube.com/watch?v=3lvmQ7j5f8g&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=17
-Adventista|Estudos|Cid Moreira|17 A Verdade sobre a Saúde|https://www.youtube.com/watch?v=pk8car_Tytk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=18
-Adventista|Estudos|Cid Moreira|18 O Dom de Profecia|https://www.youtube.com/watch?v=hFOB5WbKppc&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=19
-Adventista|Estudos|Cid Moreira|19 Dízimos e Ofertas|https://www.youtube.com/watch?v=W8smglbiLeU&list=PLF29DFCA769898BA7&index=18
-Adventista|Estudos|Cid Moreira|21 - A BÍBLIA SAGRADA|https://www.youtube.com/watch?v=8Oo20efu6AU&list=PL82647D600D1765C7&index=1
-Adventista|Estudos|Cid Moreira|22 - A BELEZA DA CRIAÇÃO|https://www.youtube.com/watch?v=lLqpqooZmpU&list=PL82647D600D1765C7&index=2
-Adventista|Estudos|Cid Moreira|23 - INTERFERÊNCIA NA CRIAÇÃO DIVINA|https://www.youtube.com/watch?v=1PCOjUjmoHM&list=PL82647D600D1765C7&index=3
-Adventista|Estudos|Cid Moreira|24 - O PLANO DA SALVAÇÃO|https://www.youtube.com/watch?v=_meZN4gtl7I&list=PL82647D600D1765C7&index=4
-Adventista|Estudos|Cid Moreira|25 - FÉ, ARREPENDIMENTO E CONFISSÃO|https://www.youtube.com/watch?v=bne4N8QWmR8&list=PL82647D600D1765C7&index=5
-Adventista|Estudos|Cid Moreira|26 - SINAIS DA VOLTA DE CRISTO|https://www.youtube.com/watch?v=p_HhyNGPFiQ&list=PL82647D600D1765C7&index=6
-Adventista|Estudos|Cid Moreira|27 - A VOLTA DE CRISTO|https://www.youtube.com/watch?v=SAQdV6kCh7c&list=PL82647D600D1765C7&index=7
-Adventista|Estudos|Cid Moreira|28 - O MILÊNIO|https://www.youtube.com/watch?v=MvC-nBCbCBE&list=PL82647D600D1765C7&index=8
-Adventista|Estudos|Cid Moreira|29 - A VERDADE SOBRE A MORTE|https://www.youtube.com/watch?v=6L3whcKBbIY&list=PL82647D600D1765C7&index=9
-Adventista|Estudos|Cid Moreira|30 - A NOVA TERRA|https://www.youtube.com/watch?v=uuKDzR6VR3A&list=PL82647D600D1765C7&index=10
-Adventista|Estudos|Cid Moreira|31 - OS SEIS PASSOS DA SALVAÇÃO|https://www.youtube.com/watch?v=NgvNd3Yh9mk&list=PL82647D600D1765C7&index=11
-Adventista|Estudos|Cid Moreira|32 - A VERDADE SOBRE O JUÍZO|https://www.youtube.com/watch?v=h-GTeNbhlro&list=PL82647D600D1765C7&index=12
-Adventista|Estudos|Cid Moreira|33 - AS LEIS NA BÍBLIA|https://www.youtube.com/watch?v=b84p3vbvGws&list=PL82647D600D1765C7&index=13
-Adventista|Estudos|Cid Moreira|34 - A MUDANÇA DOS DEZ MANDAMENTOS|https://www.youtube.com/watch?v=m34k6yEgFoc&list=PL82647D600D1765C7&index=14
-Adventista|Estudos|Cid Moreira|35 - A ORIGEM DA GUARDA DO DOMINGO|https://www.youtube.com/watch?v=5kWA4j_iFDQ&list=PL82647D600D1765C7&index=15
-Adventista|Estudos|Cid Moreira|36 - O MANDAMENTO ESQUECIDO|https://www.youtube.com/watch?v=YotkrLFQRKA&list=PL82647D600D1765C7&index=16
-Adventista|Estudos|Cid Moreira|37 - A VERDADE SOBRE A SAÚDE|https://www.youtube.com/watch?v=FuqsC0DGg8s&list=PL82647D600D1765C7&index=17
-Adventista|Estudos|Cid Moreira|38 - O DOM DE PROFECIA|https://www.youtube.com/watch?v=8e_fkZdmphQ&list=PL82647D600D1765C7&index=18
-Adventista|Estudos|Cid Moreira|39 - DÍZIMOS E OFERTAS|https://www.youtube.com/watch?v=HVxRiNe0yyU&list=PL82647D600D1765C7&index=19
-Adventista|Estudos|Cid Moreira|40 - IDENTIFICANDO A IGREJA VERDADEIRA|https://www.youtube.com/watch?v=NL8dSCkqtSo&list=PL82647D600D1765C7&index=20
-Adventista|Estudos|Cid Moreira|41 - O BATISMO|https://www.youtube.com/watch?v=D02bFb_c_Fw&list=PL82647D600D1765C7&index=21
+Adventista|Estudos|Cid Moreira|01. A Bíblia|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
+Adventista|Estudos|Cid Moreira|02. A Beleza da Criacao Divina|https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
+Adventista|Estudos|Cid Moreira|03. Interferencia na Criacao|https://www.youtube.com/watch?v=HudnzjHMsKM&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=2
+Adventista|Estudos|Cid Moreira|04. O Plano da Salvação|https://www.youtube.com/watch?v=Njp3mZklYIo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=9
+Adventista|Estudos|Cid Moreira|05. Fé, Arrependimento e Confissão|https://www.youtube.com/watch?v=KjK7OXzx4Ic&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=10
+Adventista|Estudos|Cid Moreira|06. Sinais da Vinda de Cristo|https://www.youtube.com/watch?v=3kOZFffzj8A&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=2
+Adventista|Estudos|Cid Moreira|07. A Volta de Cristo|https://www.youtube.com/watch?v=Qb2A8tkTZfQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=4
+Adventista|Estudos|Cid Moreira|08. O Milênio|https://www.youtube.com/watch?v=4w0EgbtUvSQ&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=5
+Adventista|Estudos|Cid Moreira|09. A Verdade sobre a Morte|https://www.youtube.com/watch?v=xI6VbDW60is&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
+Adventista|Estudos|Cid Moreira|10. A Nova Terra|https://www.youtube.com/watch?v=iXTvjRB1Kx0&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=11
+Adventista|Estudos|Cid Moreira|11. Os Seis Passos da Salvação|https://www.youtube.com/watch?v=IWz-e_NucMU&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=12
+Adventista|Estudos|Cid Moreira|12. A Verdade sobre o Juízo|https://www.youtube.com/watch?v=YCASBWMQWhE&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=13
+Adventista|Estudos|Cid Moreira|13. As Leis na Bíblia|https://www.youtube.com/watch?v=jRTZmhdrOJo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=14
+Adventista|Estudos|Cid Moreira|14. A Mudança dos Dez Mandamentos|https://www.youtube.com/watch?v=10mqGiulVY4&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=15
+Adventista|Estudos|Cid Moreira|15. A Origem da Guarda do Domingo|https://www.youtube.com/watch?v=1s6VXhRNoGk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=16
+Adventista|Estudos|Cid Moreira|16. O Mandamento Esquecido|https://www.youtube.com/watch?v=3lvmQ7j5f8g&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=17
+Adventista|Estudos|Cid Moreira|17. A Verdade sobre a Saúde|https://www.youtube.com/watch?v=pk8car_Tytk&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=18
+Adventista|Estudos|Cid Moreira|18. O Dom de Profecia|https://www.youtube.com/watch?v=hFOB5WbKppc&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=19
+Adventista|Estudos|Cid Moreira|19. Dízimos e Ofertas|https://www.youtube.com/watch?v=W8smglbiLeU&list=PLF29DFCA769898BA7&index=18
+Adventista|Estudos|Cid Moreira|21. A BÍBLIA SAGRADA|https://www.youtube.com/watch?v=8Oo20efu6AU&list=PL82647D600D1765C7&index=1
+Adventista|Estudos|Cid Moreira|22. A BELEZA DA CRIAÇÃO|https://www.youtube.com/watch?v=lLqpqooZmpU&list=PL82647D600D1765C7&index=2
+Adventista|Estudos|Cid Moreira|23. INTERFERÊNCIA NA CRIAÇÃO DIVINA|https://www.youtube.com/watch?v=1PCOjUjmoHM&list=PL82647D600D1765C7&index=3
+Adventista|Estudos|Cid Moreira|24. O PLANO DA SALVAÇÃO|https://www.youtube.com/watch?v=_meZN4gtl7I&list=PL82647D600D1765C7&index=4
+Adventista|Estudos|Cid Moreira|25. FÉ, ARREPENDIMENTO E CONFISSÃO|https://www.youtube.com/watch?v=bne4N8QWmR8&list=PL82647D600D1765C7&index=5
+Adventista|Estudos|Cid Moreira|26. SINAIS DA VOLTA DE CRISTO|https://www.youtube.com/watch?v=p_HhyNGPFiQ&list=PL82647D600D1765C7&index=6
+Adventista|Estudos|Cid Moreira|27. A VOLTA DE CRISTO|https://www.youtube.com/watch?v=SAQdV6kCh7c&list=PL82647D600D1765C7&index=7
+Adventista|Estudos|Cid Moreira|28. O MILÊNIO|https://www.youtube.com/watch?v=MvC-nBCbCBE&list=PL82647D600D1765C7&index=8
+Adventista|Estudos|Cid Moreira|29. A VERDADE SOBRE A MORTE|https://www.youtube.com/watch?v=6L3whcKBbIY&list=PL82647D600D1765C7&index=9
+Adventista|Estudos|Cid Moreira|30. A NOVA TERRA|https://www.youtube.com/watch?v=uuKDzR6VR3A&list=PL82647D600D1765C7&index=10
+Adventista|Estudos|Cid Moreira|31. OS SEIS PASSOS DA SALVAÇÃO|https://www.youtube.com/watch?v=NgvNd3Yh9mk&list=PL82647D600D1765C7&index=11
+Adventista|Estudos|Cid Moreira|32. A VERDADE SOBRE O JUÍZO|https://www.youtube.com/watch?v=h-GTeNbhlro&list=PL82647D600D1765C7&index=12
+Adventista|Estudos|Cid Moreira|33. AS LEIS NA BÍBLIA|https://www.youtube.com/watch?v=b84p3vbvGws&list=PL82647D600D1765C7&index=13
+Adventista|Estudos|Cid Moreira|34. A MUDANÇA DOS DEZ MANDAMENTOS|https://www.youtube.com/watch?v=m34k6yEgFoc&list=PL82647D600D1765C7&index=14
+Adventista|Estudos|Cid Moreira|35. A ORIGEM DA GUARDA DO DOMINGO|https://www.youtube.com/watch?v=5kWA4j_iFDQ&list=PL82647D600D1765C7&index=15
+Adventista|Estudos|Cid Moreira|36. O MANDAMENTO ESQUECIDO|https://www.youtube.com/watch?v=YotkrLFQRKA&list=PL82647D600D1765C7&index=16
+Adventista|Estudos|Cid Moreira|37. A VERDADE SOBRE A SAÚDE|https://www.youtube.com/watch?v=FuqsC0DGg8s&list=PL82647D600D1765C7&index=17
+Adventista|Estudos|Cid Moreira|38. O DOM DE PROFECIA|https://www.youtube.com/watch?v=8e_fkZdmphQ&list=PL82647D600D1765C7&index=18
+Adventista|Estudos|Cid Moreira|39. DÍZIMOS E OFERTAS|https://www.youtube.com/watch?v=HVxRiNe0yyU&list=PL82647D600D1765C7&index=19
+Adventista|Estudos|Cid Moreira|40. IDENTIFICANDO A IGREJA VERDADEIRA|https://www.youtube.com/watch?v=NL8dSCkqtSo&list=PL82647D600D1765C7&index=20
+Adventista|Estudos|Cid Moreira|41. O BATISMO|https://www.youtube.com/watch?v=D02bFb_c_Fw&list=PL82647D600D1765C7&index=21
 Adventista|Estudos|Cid Moreira||https://www.youtube.com/watch?v=CyjMv6jtzGY&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=3
 #Adventista|Filmes|aaaa|aaaa|
 Adventista|Filmes|Até O Último Mínuto|Parte 1|https://www.youtube.com/watch?v=jkxhYJThirw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=64
@@ -95,7 +95,7 @@ Adventista|Filmes|Até O Último Mínuto|Parte 2|https://www.youtube.com/watch?v
 Adventista|Filmes|Até O Último Mínuto|Parte 3|https://www.youtube.com/watch?v=IpILlj_tDSw&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=43
 Adventista|Filmes|Até O Último Mínuto|Parte 4|https://www.youtube.com/watch?v=KNgwqG_Fy8M&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=16
 Adventista|Filmes|Comédia|Trocando as Benção|https://www.youtube.com/watch?v=EhK5TNjNIeo&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=11
-Adventista|Filmes|Completos|-10 A Vida Não é Um JOgo|https://www.youtube.com/watch?v=sYWtCr6kHcI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=70
+Adventista|Filmes|Completos|-10 A Vida Não é Um Jogo|https://www.youtube.com/watch?v=sYWtCr6kHcI&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=70
 Adventista|Filmes|Completos|3G's E O Misterioso Sr.Walter|https://www.youtube.com/watch?v=2SFBbFH2zG8&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=58
 Adventista|Filmes|Completos|A Esperança Não Morre|https://www.youtube.com/watch?v=1Ey0fTBy6ZU&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=52
 Adventista|Filmes|Completos|A Esperança Para o Oeste 1|https://www.youtube.com/watch?v=828PFpdDsWM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=83
@@ -168,12 +168,12 @@ Adventista|Filmes|O Retorno|Parte 1|https://www.youtube.com/watch?v=u-sKhk6V8NI&
 Adventista|Filmes|O Retorno|Parte 2|https://www.youtube.com/watch?v=sY8q9N6ow34&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=28
 Adventista|Filmes|O Retorno|Parte 3|https://www.youtube.com/watch?v=99nb8g661fM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=27
 Adventista|Filmes|Romântico Cristão|Amor Entre Estantes|https://www.youtube.com/watch?v=2QSV5CFk_nA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=5
-Adventista|Filmes|Tropa do Lenço|1 Temporada|https://www.youtube.com/watch?v=oAozrBxEq-Y&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=57
-Adventista|Filmes|Tropa do Lenço|2.1 Temporada|https://www.youtube.com/watch?v=zFhbeLH6668&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=38
-Adventista|Filmes|Tropa do Lenço|2.2 Temporada|https://www.youtube.com/watch?v=ueqmf8DANnA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=39
-Adventista|Filmes|Tropa do Lenço|4 Temporada|https://www.youtube.com/watch?v=jVyX5BB9PMM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=9
-Adventista|Filmes|Você Não Sabe|1 Temporada|https://www.youtube.com/watch?v=BZewnrFQ6yQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=60
-Adventista|Filmes|Você Não Sabe|2 Temporada|https://www.youtube.com/watch?v=e7JBABl_kKs&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=61
+Adventista|Filmes|Tropa do Lenço|01. Temporada|https://www.youtube.com/watch?v=oAozrBxEq-Y&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=57
+Adventista|Filmes|Tropa do Lenço|02.1. Temporada|https://www.youtube.com/watch?v=zFhbeLH6668&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=38
+Adventista|Filmes|Tropa do Lenço|02.2. Temporada|https://www.youtube.com/watch?v=ueqmf8DANnA&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=39
+Adventista|Filmes|Tropa do Lenço|04. Temporada|https://www.youtube.com/watch?v=jVyX5BB9PMM&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=9
+Adventista|Filmes|Você Não Sabe|01. Temporada|https://www.youtube.com/watch?v=BZewnrFQ6yQ&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=60
+Adventista|Filmes|Você Não Sabe|02. Temporada|https://www.youtube.com/watch?v=e7JBABl_kKs&list=PLg7vVjTMs6Z6MIyl9grfhbiypN_gboaQ1&index=61
 #Adventista|Music|aaaa|aaaa|
 Adventista|Music|Clips|Agnus Dei-Jandson Nolasco|https://www.youtube.com/watch?v=l_VUrsSaWNA&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=42
 Adventista|Music|Clips|Água Viva-Convicção Trio|https://www.youtube.com/watch?v=n9C09SGcfYQ&list=PLg7vVjTMs6Z6AdNof9aVhnfWsJTXIxy6-&index=43
@@ -240,74 +240,163 @@ Adventista|Music|Corinhos|O Senhor é Meu Abrigo|https://www.youtube.com/watch?v
 Adventista|Music|Corinhos|Renova-Me|https://www.youtube.com/watch?v=sCEfXG_M3lk&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA
 Adventista|Music|Corinhos|Vou Caminhando|https://www.youtube.com/watch?v=nH0S-CTNte8&list=PLg7vVjTMs6Z71rXnKsZLeWe_ZVFmy4GhA&index=5
 Adventista|Music|Evangelica|NovoTempo|https://streamradio.novotempo.com/CDN-RADIO-PT/smil:rntRioRJ.smil/chunklist_b64000_slpor.m3u8
+Adventista|Music|Kids-Arautos do Rei|01. Rapaz Davi|https://www.youtube.com/watch?v=c-MOb8qzaD8&list=PLBCBA6779790C9C71&index=1
+Adventista|Music|Kids-Arautos do Rei|02. Canção do Sono|https://www.youtube.com/watch?v=UtuEf7FpnXo&list=PLBCBA6779790C9C71&index=2
+Adventista|Music|Kids-Arautos do Rei|03. Cristo Ama as Crianças|https://www.youtube.com/watch?v=o3caYGxiUbc&list=PLBCBA6779790C9C71&index=3
+Adventista|Music|Kids-Arautos do Rei|04. Em Sua Mão|https://www.youtube.com/watch?v=YRVocgT9nLc&list=PLBCBA6779790C9C71&index=4
+Adventista|Music|Kids-Arautos do Rei|05. Seja O Coração Alegre|https://www.youtube.com/watch?v=_WqmiS8VBR8&list=PLBCBA6779790C9C71&index=5
+Adventista|Music|Kids-Arautos do Rei|07. Estrelinhas que Piscam|https://www.youtube.com/watch?v=Ltj8opjDtJg&list=PLBCBA6779790C9C71&index=6
+Adventista|Music|Kids-Arautos do Rei|08. O Relógio|https://www.youtube.com/watch?v=KMKPbnjS-PA&list=PLBCBA6779790C9C71&index=7
+#REF!
+Adventista|Music|Kids-Arautos do Rei|09. Sabes Quantas Criancinhas|https://www.youtube.com/watch?v=qb0wV3N-bhU&list=PLBCBA6779790C9C71&index=9
+Adventista|Music|Kids-Arautos do Rei|10. Louvai-O|https://www.youtube.com/watch?v=_6Nm461uwDs&list=PLBCBA6779790C9C71&index=10
+Adventista|Music|Kids-Arautos do Rei|11. Belas Mãozinhas|https://www.youtube.com/watch?v=e8RA8oh3IAg&list=PLBCBA6779790C9C71&index=11
+Adventista|Music|Kids-Arautos do Rei|12. Os Muros de Jericó|https://www.youtube.com/watch?v=fQEsM6s4AzE&list=PLBCBA6779790C9C71&index=12
+Adventista|Music|Kids-Arautos do Rei|13. O Sétimo é Pra Cristo|https://www.youtube.com/watch?v=9gmQqnTIvPk&list=PLBCBA6779790C9C71&index=13
+Adventista|Music|Kids-Arautos do Rei|14. Amor nos Faz Contentes|https://www.youtube.com/watch?v=VuwCl08BqFg&list=PLBCBA6779790C9C71&index=14
+Adventista|Music|Kids-Arautos do Rei|15. Prece Norueguesa|https://www.youtube.com/watch?v=OSCKpY68Z6Q&list=PLBCBA6779790C9C71&index=15
+Adventista|Music|Kids-Arautos do Rei||
+Adventista|Pr Alejandro Bullón|Está Escrito|01. Milênio, Paz ou Destrução|https://www.youtube.com/watch?v=pK5mck_9X0A&list=PL3B73B461C680554F
+Adventista|Pr Alejandro Bullón|Está Escrito|02. Apocalipse, Mistéio ou Revelação|https://www.youtube.com/watch?v=hm90KZrqjKo&list=PL3B73B461C680554F&index=2
+Adventista|Pr Alejandro Bullón|Está Escrito|03. O Início do Conflito Cósmico|https://www.youtube.com/watch?v=GaSqCKmgJBM&list=PL3B73B461C680554F&index=3
+Adventista|Pr Alejandro Bullón|Está Escrito|04. A Mulher Vestida de Luz P1|https://www.youtube.com/watch?v=5mwnBrU4GDg&list=PL3B73B461C680554F&index=4
+Adventista|Pr Alejandro Bullón|Está Escrito|05. A Mulher Vestida de Luz P2|https://www.youtube.com/watch?v=y1xCr4Y_apQ&list=PL3B73B461C680554F&index=5
+Adventista|Pr Alejandro Bullón|Está Escrito|06. A Guerra do Bem Contra o Mal|https://www.youtube.com/watch?v=IXFEZZrHRNM&list=PL3B73B461C680554F&index=6
+Adventista|Pr Alejandro Bullón|Está Escrito|07. O Julgamento da Humanidade P1|https://www.youtube.com/watch?v=743nOKviSIQ&list=PL3B73B461C680554F&index=7
+Adventista|Pr Alejandro Bullón|Está Escrito|08. O Julgamento da Humanidade P2|https://www.youtube.com/watch?v=3itDpjoz35M&list=PL3B73B461C680554F&index=8
+Adventista|Pr Alejandro Bullón|Está Escrito|09. Os 4 Cavaleiros do Apocalipse P1|https://www.youtube.com/watch?v=OOhB7i_4jbg&list=PL3B73B461C680554F&index=9
+Adventista|Pr Alejandro Bullón|Está Escrito|10. Os 4 Cavaleiros do Apocalipse P2|https://www.youtube.com/watch?v=1gOTyyOPqYM&list=PL3B73B461C680554F&index=10
+Adventista|Pr Alejandro Bullón|Está Escrito|11. O Anticriso e a Nova Era P1|https://www.youtube.com/watch?v=IR8mU3N5Okw&list=PL3B73B461C680554F&index=11
+Adventista|Pr Alejandro Bullón|Está Escrito|12. O Anticriso e a Nova Era P2|https://www.youtube.com/watch?v=Tas98F9Imh0&list=PL3B73B461C680554F&index=12
+Adventista|Pr Alejandro Bullón|Está Escrito|13. Para Onde Vão os Que Morrem P1|https://www.youtube.com/watch?v=YfmaKElzors&list=PL3B73B461C680554F&index=13
+Adventista|Pr Alejandro Bullón|Está Escrito|13. Para Onde Vão os Que Morrem P2|https://www.youtube.com/watch?v=SvNhk1rD330&list=PL3B73B461C680554F&index=14
+Adventista|Pr Alejandro Bullón|Está Escrito||
+Adventista|Pr Alejandro Bullón|Está Escrito||
+Adventista|Pr Alejandro Bullón|Está Escrito||
+Adventista|Pr Alejandro Bullón|Está Escrito||
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|01. As Escrituras|https://www.youtube.com/watch?v=FSXBBQER5Vw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=1
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|01. O Juízo|https://www.youtube.com/watch?v=s6AOBpxWoYg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=11
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|02. A Lei|https://www.youtube.com/watch?v=iic8UReIx0Y&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=12
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|02. A Salvação|https://www.youtube.com/watch?v=DjdC57uAVLI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=2
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|03. A Santificação|https://www.youtube.com/watch?v=SwAmRHfsXXg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=3
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|03. O Sábado|https://www.youtube.com/watch?v=GELukSjFIxQ&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=13
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|04. A Igreja|https://www.youtube.com/watch?v=niMC7mP42AI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=14
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|04. O Espírito Santo|https://www.youtube.com/watch?v=FV3an2TdwxE&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=4
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|05. A Oração|https://www.youtube.com/watch?v=gRjxtWX2LYw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=5
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|05. Os Profetas|https://www.youtube.com/watch?v=i1Bk3lu4pY4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=15
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|06. O Batismo|https://www.youtube.com/watch?v=a8g7_gbI3Zw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=16
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|06. O Perdão|https://www.youtube.com/watch?v=yPsc8apqzQ0&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=6
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|07. Cuidado Com o Corpo|https://www.youtube.com/watch?v=uwQHrgNjymo&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=17
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|07. O Dinheiro|https://www.youtube.com/watch?v=WNcBP-jPDlw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=7
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|08. Os Ritos e as Tradições|https://www.youtube.com/watch?v=8ypdVYeN0UA&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=18
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|08. Sua Volta|https://www.youtube.com/watch?v=rjWBSHxXVnc&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=8
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|09. A Morte|https://www.youtube.com/watch?v=LC_EFT82a_U&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=9
+Adventista|Pr Arilton Oliveira|Ensino de Jesus|10. A Ressurreição|https://www.youtube.com/watch?v=YZQR2ITG-x4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=10
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|01. Apocalipse a Resposta|https://www.youtube.com/watch?v=ochnhWTr-gc&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|02. Como Entender as Profecias|https://www.youtube.com/watch?v=S3Yj9G9si5s&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=2
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|03. As Colunas da Verdade|https://www.youtube.com/watch?v=kBuBTi1BUD0&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=3
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|04. As 4 Bestas do Livro de Daniel|https://www.youtube.com/watch?v=3YkGeehLliI&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=4
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|05. As Estratégia do Inimigo|https://www.youtube.com/watch?v=ntEsRmP4VYA&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=5
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|06. As Meretrizes|https://www.youtube.com/watch?v=qeIwBT5sKDQ&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=6
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|07. O Anticristo|https://www.youtube.com/watch?v=UTjEZOuhzMQ&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=7
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|08. Primeira Verdade|https://www.youtube.com/watch?v=H2_tCP9snFw&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=8
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|09. Segunda Verdade|https://www.youtube.com/watch?v=E_0yJknTPJE&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=9
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|10. Terceira Verdade|https://www.youtube.com/watch?v=7uIbRiW68cs&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=10
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|11. Quarta Verdade|https://www.youtube.com/watch?v=JiFWWqixBPI&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=11
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|12. Quinta Verdade|https://www.youtube.com/watch?v=N7_2MKoWch0&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=12
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|13. Restauração da Verdade|https://www.youtube.com/watch?v=RJ1-j9fog5Q&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=13
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|14. A Igreja Verdadeira|https://www.youtube.com/watch?v=3PAbEfFdk4M&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=14
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|15. O Selo de Deus|https://www.youtube.com/watch?v=Z5bPZ8Ykz_s&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=15
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|16. Restauração do Santuário|https://www.youtube.com/watch?v=oMC0yRTMv0o&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=16
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|17. O Juizo Final|https://www.youtube.com/watch?v=rWgZ1KPBdLQ&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=17
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|18. O Diagrama do Juizo|https://www.youtube.com/watch?v=4Wo1blx_aTQ&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=18
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|19. Os Livros dos Juizo|https://www.youtube.com/watch?v=tCEQBBIkPZ8&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=19
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|20. O Fechamento da Porta da Graça|https://www.youtube.com/watch?v=VZabEKP2-ZY&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=20
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|21. As Sete Pragas|https://www.youtube.com/watch?v=HH-y6siDyHQ&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=21
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|22. A Lei e a Graça|https://www.youtube.com/watch?v=ZXMldo9Y4iE&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=22
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|23. A Primeira Besta|https://www.youtube.com/watch?v=ybe31Y4ciAM&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=23
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|24. A Segunda Besta|https://www.youtube.com/watch?v=kdPTZ6QDw8k&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=24
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|25. A Imagem da Besta|https://www.youtube.com/watch?v=0tjxh_1qNe4&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=25
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|26. O Verdadeiro e o Falso Profeta|https://www.youtube.com/watch?v=yl20ncZyW9k&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=26
+Adventista|Pr Luis Gonçalves|Apocalipse a Resposta|27. O Batismo|https://www.youtube.com/watch?v=YOiMmKufwo8&list=PLym2OX8t_LkFCHNcS3jbN_UXVDPLUbz9L&index=27
+Adventista|Pr Luis Gonçalves|O Grande Conflito|01. O livro que Revela Tudo|https://www.youtube.com/watch?v=1-Vyhldre7I&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=1
+Adventista|Pr Luis Gonçalves|O Grande Conflito|02. Os Símbolos das Profecias|https://www.youtube.com/watch?v=yCK70y3wnGQ&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=2
+Adventista|Pr Luis Gonçalves|O Grande Conflito|03. As Colunas da Verdade|https://www.youtube.com/watch?v=Of6n7sni_dE&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=3
+Adventista|Pr Luis Gonçalves|O Grande Conflito|04. A Estratégia do Inimigo|https://www.youtube.com/watch?v=zKQw3-BCcO4&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=4
+Adventista|Pr Luis Gonçalves|O Grande Conflito|05. Deus e o Conflito|https://www.youtube.com/watch?v=rZPzNrwWwio&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=5
+Adventista|Pr Luis Gonçalves|O Grande Conflito|06. Jesus e o Grande Conflito|https://www.youtube.com/watch?v=szl5NlMLHNA&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=6
+Adventista|Pr Luis Gonçalves|O Grande Conflito|07. O Espírito Santo e o Conflito|https://www.youtube.com/watch?v=lJ0IR-SZ_A0&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=7
+Adventista|Pr Luis Gonçalves|O Grande Conflito|08. A Biblia Sagrada e o Grande Conflito|https://www.youtube.com/watch?v=XtvEYrK4ExY&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=8
+Adventista|Pr Luis Gonçalves|O Grande Conflito|09. A Lei e O Grande Conflito|https://www.youtube.com/watch?v=fqIw6_Aesn0&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=9
+Adventista|Pr Luis Gonçalves|O Grande Conflito|10. A Restauração da Verdade|https://www.youtube.com/watch?v=MM2D17bmKYk&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=10
+Adventista|Pr Luis Gonçalves|O Grande Conflito|11. O Selo de Deus e o Conflito|https://www.youtube.com/watch?v=8V_h0B4-XYM&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=11
+Adventista|Pr Luis Gonçalves|O Grande Conflito|12. O Santuário e o Conflito|https://www.youtube.com/watch?v=0p7xkjM7-fE&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=12
+Adventista|Pr Luis Gonçalves|O Grande Conflito|13. O Juízo Final|https://www.youtube.com/watch?v=VKwjae7r9xU&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=13
+Adventista|Pr Luis Gonçalves|O Grande Conflito|14. Os Livros do Juizo|https://www.youtube.com/watch?v=NaVws4oBfis&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=14
+Adventista|Pr Luis Gonçalves|O Grande Conflito|15. O Fechamento da Porta da Graça|https://www.youtube.com/watch?v=VWW7RUFSKOk&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=15
+Adventista|Pr Luis Gonçalves|O Grande Conflito|16. O Segredo da|https://www.youtube.com/watch?v=nHVu9tBs4PA&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=16
+Adventista|Pr Luis Gonçalves|O Grande Conflito|17. Decisão|https://www.youtube.com/watch?v=QI_qxjOtTmE&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=17
+Adventista|Pr Luis Gonçalves|O Grande Conflito|18. O Fim do Grande Conflito|https://www.youtube.com/watch?v=f7feFKZuMrY&list=PLym2OX8t_LkG7SO1emaWtmV8U5woGryyU&index=18
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|01. Um Presente de Deus|https://www.youtube.com/watch?v=myQQVUNJVDA&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=1
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|02. Pensando em Você|https://www.youtube.com/watch?v=FnqVUCIuPok&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=2
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|03. O Valor de Um Nome|https://www.youtube.com/watch?v=__QpV-Pu3Ok&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=3
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|04. O Dia da Alegria|https://www.youtube.com/watch?v=SzP4sqbYuDg&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=4
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|05. Viva Mais Feliz|https://www.youtube.com/watch?v=344hp7uIX0w&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=5
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|06. Diga sim à Vida|https://www.youtube.com/watch?v=zahBTMrjk3I&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=6
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|07. Verdade Inconveniente|https://www.youtube.com/watch?v=wzl3lOObyiE&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=7
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|08. Propriedade Alheia|https://www.youtube.com/watch?v=kR0sVpvfF-4&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=8
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|09. Não Tropece na Língua|https://www.youtube.com/watch?v=E0P6R2nazhY&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=9
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|10. O Pecado Antes do Pecado|https://www.youtube.com/watch?v=iWvbtOxsUyc&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=10
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|11. A Lei de Deus|https://www.youtube.com/watch?v=wD7aRkdENTg&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=11
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|12. Verdadeira ou Falsa|https://www.youtube.com/watch?v=agHDK92M_d4&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=12
+Adventista|Pr Luis Gonçalves|Os 10 Mandamentos|13. O Selo de Deus|https://www.youtube.com/watch?v=PieTLqaL6a8&list=PLym2OX8t_LkGALr5_URojFHEKPMdt-FJ_&index=13
 #Adventista|Rodrigo Silva|aaaa|aaaa|
 Adventista|Rodrigo Silva|Daniel|70 Semanas de Daniel|https://www.youtube.com/watch?v=ZV0Zg-u3fAg&list=PLJR4Z_jtOSP8&index=2
 Adventista|Rodrigo Silva|Daniel|Inteligência Artificial|https://www.youtube.com/watch?v=-kTPHwgnq_s&list=PLJR4Z_jtOSP8&index=3
 Adventista|Rodrigo Silva|Daniel|O Sonho de Nabucodonosor|https://www.youtube.com/watch?v=tDWfCSIlTuM&list=TLGGwcr35-USVkAyMTEwMjAyNg
 Adventista|Rodrigo Silva|Daniel|O Tempo do Fim|https://www.youtube.com/watch?v=899_Vs7zqJE&list=PLJR4Z_jtOSP8&index=4
-Adventista|Serie|8 Remédio Naturais|1. Alimentação|https://www.youtube.com/watch?v=J897KfohUVc&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF
-Adventista|Serie|8 Remédio Naturais|2. Água|https://www.youtube.com/watch?v=KBMEo0heCKk&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=2
-Adventista|Serie|8 Remédio Naturais|3. Ar Puro|https://www.youtube.com/watch?v=YuSCO0mZ33M&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=3
-Adventista|Serie|8 Remédio Naturais|4. Luz Solar|https://www.youtube.com/watch?v=OX8jTAzIi-8&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=4
-Adventista|Serie|8 Remédio Naturais|5. Exercícios Físicos|https://www.youtube.com/watch?v=rUIrqs2iENA&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=5
-Adventista|Serie|8 Remédio Naturais|6. Sono|https://www.youtube.com/watch?v=cQxSjJKkarQ&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=6
-Adventista|Serie|8 Remédio Naturais|7. Temperança|https://www.youtube.com/watch?v=BuLZMYL1tXI&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=7
-Adventista|Serie|8 Remédio Naturais|8. Confiança em Deus|https://www.youtube.com/watch?v=QzKiQ807m_Y&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=8
+Adventista|Serie|8 Remédio Naturais|01. Alimentação|https://www.youtube.com/watch?v=J897KfohUVc&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF
+Adventista|Serie|8 Remédio Naturais|02. Água|https://www.youtube.com/watch?v=KBMEo0heCKk&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=2
+Adventista|Serie|8 Remédio Naturais|03. Ar Puro|https://www.youtube.com/watch?v=YuSCO0mZ33M&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=3
+Adventista|Serie|8 Remédio Naturais|04. Luz Solar|https://www.youtube.com/watch?v=OX8jTAzIi-8&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=4
+Adventista|Serie|8 Remédio Naturais|05. Exercícios Físicos|https://www.youtube.com/watch?v=rUIrqs2iENA&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=5
+Adventista|Serie|8 Remédio Naturais|06. Sono|https://www.youtube.com/watch?v=cQxSjJKkarQ&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=6
+Adventista|Serie|8 Remédio Naturais|07. Temperança|https://www.youtube.com/watch?v=BuLZMYL1tXI&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=7
+Adventista|Serie|8 Remédio Naturais|08. Confiança em Deus|https://www.youtube.com/watch?v=QzKiQ807m_Y&list=PLym2OX8t_LkEx3yQS2vBXS8_b4itDm6TF&index=8
 #Adventista|Serie|aaaa|aaaa|
-Adventista|Serie|Ensino de Jesus|1. As Escrituras|https://www.youtube.com/watch?v=FSXBBQER5Vw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=1
-Adventista|Serie|Ensino de Jesus|10. A Ressurreição|https://www.youtube.com/watch?v=YZQR2ITG-x4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=10
-Adventista|Serie|Ensino de Jesus|11. O Juízo|https://www.youtube.com/watch?v=s6AOBpxWoYg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=11
-Adventista|Serie|Ensino de Jesus|12. A Lei|https://www.youtube.com/watch?v=iic8UReIx0Y&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=12
-Adventista|Serie|Ensino de Jesus|13. O Sábado|https://www.youtube.com/watch?v=GELukSjFIxQ&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=13
-Adventista|Serie|Ensino de Jesus|14. A Igreja|https://www.youtube.com/watch?v=niMC7mP42AI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=14
-Adventista|Serie|Ensino de Jesus|15. Os Profetas|https://www.youtube.com/watch?v=i1Bk3lu4pY4&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=15
-Adventista|Serie|Ensino de Jesus|16. O Batismo|https://www.youtube.com/watch?v=a8g7_gbI3Zw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=16
-Adventista|Serie|Ensino de Jesus|17. Cuidado Com o Corpo|https://www.youtube.com/watch?v=uwQHrgNjymo&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=17
-Adventista|Serie|Ensino de Jesus|18. Os Ritos e as Tradições|https://www.youtube.com/watch?v=8ypdVYeN0UA&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=18
-Adventista|Serie|Ensino de Jesus|2. A Salvação|https://www.youtube.com/watch?v=DjdC57uAVLI&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=2
-Adventista|Serie|Ensino de Jesus|3. A Santificação|https://www.youtube.com/watch?v=SwAmRHfsXXg&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=3
-Adventista|Serie|Ensino de Jesus|4. O Espírito Santo|https://www.youtube.com/watch?v=FV3an2TdwxE&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=4
-Adventista|Serie|Ensino de Jesus|5. A Oração|https://www.youtube.com/watch?v=gRjxtWX2LYw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=5
-Adventista|Serie|Ensino de Jesus|6. O Perdão|https://www.youtube.com/watch?v=yPsc8apqzQ0&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=6
-Adventista|Serie|Ensino de Jesus|7. O Dinheiro|https://www.youtube.com/watch?v=WNcBP-jPDlw&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=7
-Adventista|Serie|Ensino de Jesus|8. Sua Volta|https://www.youtube.com/watch?v=rjWBSHxXVnc&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=8
-Adventista|Serie|Ensino de Jesus|9. A Morte|https://www.youtube.com/watch?v=LC_EFT82a_U&list=PLym2OX8t_LkGQqwJiAKipTml4L4T7mUdB&index=9
-Adventista|Serie|Ensino de Jesus||
-Adventista|Serie|Ensino de Jesus||
-Adventista|Serie|Ensino de Jesus||
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|1. Juicio Investigador |https://www.youtube.com/watch?v=y9viJHldpUM&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|01. Juicio Investigador |https://www.youtube.com/watch?v=y9viJHldpUM&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|02. Una Profecia Asombrosa|https://www.youtube.com/watch?v=8XWmv4prUWE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=2
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|03. Salvación en el Santuario|https://www.youtube.com/watch?v=67FCaR2azBc&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=3
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|04. Los Mensaje de los Tres Angeles |https://www.youtube.com/watch?v=wDMwmi5CpcE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=4
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|05. Como en los Dias de Noe|https://www.youtube.com/watch?v=UQPEUbwHIYQ&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=5
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|06. La Verdadera Iglesia |https://www.youtube.com/watch?v=rixnjIDX-Xo&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=6
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|07. A Donde Van Los Muertos |https://www.youtube.com/watch?v=UfFC4sZv6Zs&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=7
+Adventista|Serie|Espanhol-Pr. Esteban Bohr|08. El Mandamiento mas Olvidado|https://www.youtube.com/watch?v=RkSW7khxikA&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=8
 Adventista|Serie|Espanhol-Pr. Esteban Bohr|10. Cristo Viene|https://www.youtube.com/watch?v=51GLSz69dfc&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=9
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|2. Una Profecia Asombrosa|https://www.youtube.com/watch?v=8XWmv4prUWE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=2
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|3. Salvación en el Santuario|https://www.youtube.com/watch?v=67FCaR2azBc&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=3
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|4. Los Mensaje de los Tres Angeles |https://www.youtube.com/watch?v=wDMwmi5CpcE&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=4
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|5. Como en los Dias de Noe|https://www.youtube.com/watch?v=UQPEUbwHIYQ&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=5
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|6. La Verdadera Iglesia |https://www.youtube.com/watch?v=rixnjIDX-Xo&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=6
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|7. A Donde Van Los Muertos |https://www.youtube.com/watch?v=UfFC4sZv6Zs&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=7
-Adventista|Serie|Espanhol-Pr. Esteban Bohr|8. El Mandamiento mas Olvidado|https://www.youtube.com/watch?v=RkSW7khxikA&list=PLym2OX8t_LkFSi23hHf2q2W7IoGNSzVwC&index=8
-Adventista|Serie|Historia da Igreja|1. O Clamor da Meia Noite|https://www.youtube.com/watch?v=sy8GLDe9SPU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=1
-Adventista|Serie|Historia da Igreja|2. O Chamado de Ellen G.White|https://www.youtube.com/watch?v=g7rokCPowoI&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=2
-Adventista|Serie|Historia da Igreja|3. A Vida de Ellen G.White|https://www.youtube.com/watch?v=Z5aaqibEdjk&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=3
-Adventista|Serie|Historia da Igreja|4. Os Adventistas do 7 Dia|https://www.youtube.com/watch?v=REOQAQ3U2MA&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=4
-Adventista|Serie|Historia da Igreja|5. Uma História de Fé|https://www.youtube.com/watch?v=k2EES6qfOAw&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=5
-Adventista|Serie|Historia da Igreja|6. Visão de Ellen G.White|https://www.youtube.com/watch?v=Uyge3ZE0gjs&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=6
-Adventista|Serie|Historia da Igreja|7. História da Fé|https://www.youtube.com/watch?v=MiUkPxd3HIU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=7
-Adventista|Serie|Historia da Igreja|8. IASD Córrego do Manteiga|https://www.youtube.com/watch?v=7b-cSqItCog&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=8
-Adventista|Serie|Pr.Dilson Bezerra|1 - O Conflito Final-Remanescente|https://www.youtube.com/watch?v=0UNXkaB1M3E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=1
-Adventista|Serie|Pr.Dilson Bezerra|2 - O Conflito Final-Apocalipse|https://www.youtube.com/watch?v=PZTc3QfIg6E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=2
-Adventista|Serie|Pr.Dilson Bezerra|3 - O Conflito Final-Primeiro Anjo|https://www.youtube.com/watch?v=RA5tS1J7Hmw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=3
-Adventista|Serie|Pr.Dilson Bezerra|4 - O Conflito Final-Segundo Anjo|https://www.youtube.com/watch?v=gy2bjOQdoYg&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=4
-Adventista|Serie|Pr.Dilson Bezerra|5 - O Conflito Final-Terceiro Anjo|https://www.youtube.com/watch?v=nb5RwHXzmiM&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=5
-Adventista|Serie|Pr.Dilson Bezerra|6 - O Conflito Final-Visão do Trono|https://www.youtube.com/watch?v=omISXLWLzQI&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=6
-Adventista|Serie|Pr.Dilson Bezerra|7 - O Conflito Final-Cântico da Vitória|https://www.youtube.com/watch?v=5k9mQ_3RC5k&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=7
-Adventista|Serie|Pr.Dilson Bezerra|8 - O Conflito Final-Última Noite|https://www.youtube.com/watch?v=B0MWdX1jlDw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=8
-Adventista|Serie|Pr.Henry Feyerabend|1. O melhor Negócio|https://www.youtube.com/watch?v=aNlS6ZKbmVU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=1
-Adventista|Serie|Pr.Henry Feyerabend|2. Conheça o Espírito Santo|https://www.youtube.com/watch?v=yWoMoOvYRYU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=2
-Adventista|Serie|Pr.Henry Feyerabend|3. O Folego do Onipotente|https://www.youtube.com/watch?v=wEoDs2Fr174&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=3
-Adventista|Serie|Pr.Henry Feyerabend|4. Cheios do Espírito Santo|https://www.youtube.com/watch?v=jy2piRy-e2A&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=4
-Adventista|Serie|Pr.Henry Feyerabend|5. Uma Voz Suave e Delicada|https://www.youtube.com/watch?v=C69aDwk0fjY&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=5
-Adventista|Serie|Pr.Henry Feyerabend|6. O Ponto Sem Retorno|https://www.youtube.com/watch?v=BhuYvGq6IKM&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=6
-Adventista|Serie|Pr.Henry Feyerabend|7. Uma Harpa Aeolina|https://www.youtube.com/watch?v=FwX4JZ_Vu5Y&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=7
-Adventista|Serie|Pr.Henry Feyerabend|8. Bom Humor Saudades|https://www.youtube.com/watch?v=OhwKe11GU-c&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=8
+Adventista|Serie|Historia da Igreja|01. O Clamor da Meia Noite|https://www.youtube.com/watch?v=sy8GLDe9SPU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=1
+Adventista|Serie|Historia da Igreja|02. O Chamado de Ellen G.White|https://www.youtube.com/watch?v=g7rokCPowoI&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=2
+Adventista|Serie|Historia da Igreja|03. A Vida de Ellen G.White|https://www.youtube.com/watch?v=Z5aaqibEdjk&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=3
+Adventista|Serie|Historia da Igreja|04. Os Adventistas do 7 Dia|https://www.youtube.com/watch?v=REOQAQ3U2MA&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=4
+Adventista|Serie|Historia da Igreja|05. Uma História de Fé|https://www.youtube.com/watch?v=k2EES6qfOAw&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=5
+Adventista|Serie|Historia da Igreja|06. Visão de Ellen G.White|https://www.youtube.com/watch?v=Uyge3ZE0gjs&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=6
+Adventista|Serie|Historia da Igreja|07. História da Fé|https://www.youtube.com/watch?v=MiUkPxd3HIU&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=7
+Adventista|Serie|Historia da Igreja|08. IASD Córrego do Manteiga|https://www.youtube.com/watch?v=7b-cSqItCog&list=PLym2OX8t_LkHwxgyQrfl3sRZeAr8I7IfX&index=8
+Adventista|Serie|Pr.Dilson Bezerra|01. O Conflito Final-Remanescente|https://www.youtube.com/watch?v=0UNXkaB1M3E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=1
+Adventista|Serie|Pr.Dilson Bezerra|02. O Conflito Final-Apocalipse|https://www.youtube.com/watch?v=PZTc3QfIg6E&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=2
+Adventista|Serie|Pr.Dilson Bezerra|03. O Conflito Final-Primeiro Anjo|https://www.youtube.com/watch?v=RA5tS1J7Hmw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=3
+Adventista|Serie|Pr.Dilson Bezerra|04. O Conflito Final-Segundo Anjo|https://www.youtube.com/watch?v=gy2bjOQdoYg&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=4
+Adventista|Serie|Pr.Dilson Bezerra|05. O Conflito Final-Terceiro Anjo|https://www.youtube.com/watch?v=nb5RwHXzmiM&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=5
+Adventista|Serie|Pr.Dilson Bezerra|06. O Conflito Final-Visão do Trono|https://www.youtube.com/watch?v=omISXLWLzQI&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=6
+Adventista|Serie|Pr.Dilson Bezerra|07. O Conflito Final-Cântico da Vitória|https://www.youtube.com/watch?v=5k9mQ_3RC5k&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=7
+Adventista|Serie|Pr.Dilson Bezerra|08. O Conflito Final-Última Noite|https://www.youtube.com/watch?v=B0MWdX1jlDw&list=PLym2OX8t_LkGs2x_4xgYJ2oGoqcYV3gMo&index=8
+Adventista|Serie|Pr.Henry Feyerabend|01. O melhor Negócio|https://www.youtube.com/watch?v=aNlS6ZKbmVU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=1
+Adventista|Serie|Pr.Henry Feyerabend|02. Conheça o Espírito Santo|https://www.youtube.com/watch?v=yWoMoOvYRYU&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=2
+Adventista|Serie|Pr.Henry Feyerabend|03. O Folego do Onipotente|https://www.youtube.com/watch?v=wEoDs2Fr174&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=3
+Adventista|Serie|Pr.Henry Feyerabend|04. Cheios do Espírito Santo|https://www.youtube.com/watch?v=jy2piRy-e2A&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=4
+Adventista|Serie|Pr.Henry Feyerabend|05. Uma Voz Suave e Delicada|https://www.youtube.com/watch?v=C69aDwk0fjY&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=5
+Adventista|Serie|Pr.Henry Feyerabend|06. O Ponto Sem Retorno|https://www.youtube.com/watch?v=BhuYvGq6IKM&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=6
+Adventista|Serie|Pr.Henry Feyerabend|07. Uma Harpa Aeolina|https://www.youtube.com/watch?v=FwX4JZ_Vu5Y&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=7
+Adventista|Serie|Pr.Henry Feyerabend|08. Bom Humor Saudades|https://www.youtube.com/watch?v=OhwKe11GU-c&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=8
 #AoVivo|Normal|Agro|aaaa|
 AoVivo|Normal|Agro|Canal do Criador|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
 AoVivo|Normal|Agro|Canal Rural|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
@@ -343,20 +432,20 @@ AoVivo|Normal|Cultura|TVE RS 2|https://streaming.procergs.com.br:8443/tve/stve/p
 AoVivo|Normal|Cultura|Unisul TV|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
 #AoVivo|Normal|Notícias|aaaa|
 AoVivo|Normal|Notícias|BandJornal|https://www.youtube.com/watch?v=2gRTiQYxhOg
-AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=GDrGd5lPias
+AoVivo|Normal|Notícias|BandNews|https://www.youtube.com/watch?v=3LeJzRf2EZA
 AoVivo|Normal|Notícias|Brasil Urgente|https://www.youtube.com/watch?v=S7QhwTqy8gc
-AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=-ZhGLe_62c8
+AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=qQkckzJF_bU
 AoVivo|Normal|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Normal|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Normal|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=5y3f_k_j6gI
+AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=psg1xAHg3TA
 AoVivo|Normal|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Normal|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Normal|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=C-ECqgt5r_U
-AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=wfTmjxQW4ko
+AoVivo|Normal|Notícias|zJovem Pan|https://www.youtube.com/watch?v=lPzFI7fE_9Y
+AoVivo|Normal|Notícias|zRecord News|https://www.youtube.com/watch?v=LjkhXwkW-XM
 AoVivo|Normal|Notícias|zRS News|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=8Q5nDh9e3Fc
+AoVivo|Normal|Notícias|zSBT News|https://www.youtube.com/watch?v=rSaDdoONlIw
 AoVivo|Normal|Notícias|zTCM 10|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 #AoVivo|Normal|Público|aaaa|
 AoVivo|Normal|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
@@ -555,7 +644,7 @@ Music|AoVivo|Normal|TV Café|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3
 Music|Radios|Catolica|AcordeVerde|https://hts03.brascast.com:9144/live
 Music|Radios|Catolica|AmericaFM|https://everest.radionanet.com:9110/stream
 Music|Radios|Catolica|Amparo|https://s37.maxcast.com.br:8938/live
-Music|Radios|Catolica|AnunciaçãoFM 87.7|https://servidor22.brlogic.com:7172/live
+Music|Radios|Catolica|AnunciaçãoFM 807.7|https://servidor22.brlogic.com:7172/live
 Music|Radios|Catolica|Arca Aliança Blumenau-100.1 FM|https://stm01.virtualcast.com.br:8438/arcaaliancablumenau
 Music|Radios|Catolica|Bom Jesus|https://centova11.ipstm.net:20036/stream
 Music|Radios|Catolica|Brasil Campinas|https://centova2.svdns.com.br:20030/stream
