@@ -668,17 +668,52 @@ function criarPlayer(){
     if(geracao!==geracaoPlayer||!area.contains(container))return;
     ytPlayerApi=new YT.Player(container.id,{
       width:"100%",height:"100%",videoId:item.id,
-      playerVars:{autoplay:1,playsinline:1,rel:0,enablejsapi:1,origin:location.origin,cc_load_policy:0},
+      playerVars:{
+        autoplay:1,
+        playsinline:1,
+        rel:0,
+        enablejsapi:1,
+        origin:location.origin,
+        // Não carregar legendas automaticamente
+        cc_load_policy:0,
+        // Evita selecionar uma faixa de legenda automaticamente
+        cc_lang_pref:""
+      },
       events:{
         onReady:event=>{
           status.textContent="Player do YouTube carregado.";
-          // Tenta manter as legendas do YouTube desativadas por padrão.
-          try{event.target.unloadModule("captions");}catch(e){}
-          event.target.playVideo();
-        },
+          // Tenta desativar completamente o módulo de legendas
+          try{
+            event.target.unloadModule("captions");
+          }catch(e){}
+      // Repete a tentativa após o YouTube terminar de inicializar
+    setTimeout(()=>{
+      try{
+        event.target.unloadModule("captions");
+      }catch(e){}
+    },500);
+  setTimeout(()=>{
+    try{
+      event.target.unloadModule("captions");
+    }catch(e){}
+  },1500);
+  event.target.playVideo();
+},
         onStateChange:event=>{
           if(event.data===YT.PlayerState.PLAYING){
             status.textContent="Reproduzindo: "+item.titulo;
+
+            // Reforça a desativação das legendas depois
+            // que o vídeo realmente começou.
+            try{
+              event.target.unloadModule("captions");
+            }catch(e){}
+
+            setTimeout(()=>{
+              try{
+                event.target.unloadModule("captions");
+              }catch(e){}
+            },300);
           }
 
           // Avança apenas quando termina um vídeo gravado do YouTube.
