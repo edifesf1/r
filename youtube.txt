@@ -438,7 +438,6 @@ AoVivo|Normal|Notícias|CNN Brasil|https://www.youtube.com/watch?v=46rEacpPAvU
 AoVivo|Normal|Notícias|Jovem Pan|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo|Normal|Notícias|Jovem Pan-TvFronteira|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo|Normal|Notícias|Record News|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-AoVivo|Normal|Notícias|Revista Oeste|https://www.youtube.com/watch?v=L-SVgmT6wUQ
 AoVivo|Normal|Notícias|SBT News|https://sbtNews.maissbt.com/3.m3u8
 AoVivo|Normal|Notícias|Veja +|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo|Normal|Notícias|zJ3News TV|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
@@ -452,15 +451,13 @@ AoVivo|Normal|Público|TV Almg|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo|Normal|Público|TV Câmara|https://stream3.camara.gov.br/tv1/manifest.m3u8
 #AoVivo|Religioso|Catolico|aaaa|
 AoVivo|Religioso|Catolico|Pai Eterno|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
-AoVivo|Religioso|Catolico|Rede Vida|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Religioso|Catolico|Rede Vida 2|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo|Religioso|Catolico|Santuário de São Miguel|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Religioso|Catolico|Seculo 21|https://www.youtube.com/watch?v=P14PCCuhmXY
 AoVivo|Religioso|Catolico|Seculo 21 2|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo|Religioso|Catolico|TV Aparecida 2|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 AoVivo|Religioso|Catolico|TV Canção Nova|https://www.youtube.com/watch?v=rFH6A49OI-8
 AoVivo|Religioso|Catolico|TV Canção Nova pt|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
-AoVivo|Religioso|Catolico|Tv Evangelizar|https://www.youtube.com/watch?v=LfyqS2nBSgo
+AoVivo|Religioso|Catolico|Tv Evangelizar|https://www.youtube.com/watch?v=vINern7dvQM
 AoVivo|Religioso|Catolico|Tv Evangelizar 2|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
 AoVivo|Religioso|Catolico|TV Horizonte|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
 AoVivo|Religioso|Catolico|TV Imaculada Conceição|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
@@ -620,7 +617,6 @@ Filmes|Religioso|Normal|Um Pouco de Fé|https://www.youtube.com/watch?v=4hw97bPX
 Filmes|Religioso|Normal|Uma Chance Para Viver|https://www.youtube.com/watch?v=S9lMeTXNGRs&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=6
 Filmes|Religioso|Normal|Uma História de Fé e Coragem|https://www.youtube.com/watch?v=7oTtTHgSGog&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=3
 #Kids|AoVivo|aaaa|aaaa|
-Kids|AoVivo|Canais|3 Palavrinhas|https://www.youtube.com/watch?v=P14PCCuhmXY
 Kids|AoVivo|Canais|Fox Kids|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
 Kids|AoVivo|Canais|Gospel Cartoon|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 Kids|AoVivo|Canais|Kuriakos Kids|https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
