@@ -893,9 +893,11 @@ async function carregarLista(){
       else if(/^https?:\/\/player\.restream\.io\//i.test(url))tipo="restream";
       else if(/^https?:\/\//i.test(url))tipo="audio";
 
-      if(tipo==="hls"||tipo==="audio"||tipo==="restream")
+      if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch")
         return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
+
+      
     }).filter(Boolean);
     // "Pesquisa" fica sempre como primeira opção; os temas vêm depois em ordem alfabética.
     const temas = [...new Set(todosVideos.map(v => v.tema).filter(Boolean))]
