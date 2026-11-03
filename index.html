@@ -575,7 +575,46 @@ function criarPlayer(){
   if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
   area.replaceChildren();player=null;
+// Player oficial incorporado da Twitch.
+if(item.tipo==="twitch"){
+  const iframe=document.createElement("iframe");
 
+  const endereco=new URL(item.url);
+  const canal=endereco.searchParams.get("channel");
+
+  // A Twitch exige o domínio real do projeto.
+  const parent=location.hostname;
+
+  const twitchUrl=new URL("https://player.twitch.tv/");
+
+  twitchUrl.searchParams.set("channel",canal);
+  twitchUrl.searchParams.set("parent",parent);
+  twitchUrl.searchParams.set("autoplay","true");
+  twitchUrl.searchParams.set("muted","false");
+
+  iframe.title=item.titulo||"Player Twitch";
+  iframe.src=twitchUrl.toString();
+  iframe.allow="autoplay; fullscreen; picture-in-picture";
+  iframe.allowFullscreen=true;
+  iframe.referrerPolicy="strict-origin-when-cross-origin";
+
+  iframe.style.cssText=
+    "display:block;width:100%;height:100%;border:0;background:#000;";
+
+  iframe.addEventListener("load",()=>{
+    if(geracao===geracaoPlayer){
+      status.textContent="Player Twitch carregado: "+item.titulo;
+    }
+  });
+
+  area.appendChild(iframe);
+  player=iframe;
+
+  status.textContent="Carregando transmissão da Twitch…";
+  return;
+}
+
+  
   // Player incorporado da Restream: utiliza o próprio player oficial dentro do projeto.
   if(item.tipo==="restream"){
     const iframe=document.createElement("iframe");
@@ -850,6 +889,7 @@ async function carregarLista(){
       let tipo="desconhecido";
       if(/\.m3u8(?:$|[?#])/i.test(url))tipo="hls";
       else if(id)tipo="youtube";
+      else if(/^https?:\/\/player\.twitch\.tv\//i.test(url))tipo="twitch";
       else if(/^https?:\/\/player\.restream\.io\//i.test(url))tipo="restream";
       else if(/^https?:\/\//i.test(url))tipo="audio";
 
