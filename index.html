@@ -586,11 +586,12 @@ if(item.tipo==="twitch"){
   const parent=location.hostname;
 
   const twitchUrl=new URL("https://player.twitch.tv/");
-
+  
   twitchUrl.searchParams.set("channel",canal);
   twitchUrl.searchParams.set("parent",parent);
   twitchUrl.searchParams.set("autoplay","true");
   twitchUrl.searchParams.set("muted","false");
+  twitchUrl.searchParams.set("controls","false");
 
   iframe.title=item.titulo||"Player Twitch";
   iframe.src=twitchUrl.toString();
