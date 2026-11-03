@@ -1,4 +1,5 @@
 teste|Live|Notícias|Cidadania TV|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
+teste|Live|Notícias|Canal Restream	|https://player.restream.io/?token=545d65304d464807a794bb1a66513b84
 Adventista	|AoVivo	|Evangelico	|SUMtv Latino	|https://www.youtube.com/watch?v=BKblvq9QQBU
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo BR	|https://www.youtube.com/watch?v=l2_O7pDT0Fg
