@@ -550,7 +550,7 @@ AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cyp
 AoVivo	|Normal	|Notícias	|BandJornal Y	|https://www.youtube.com/@bandjornalismo/live
 AoVivo	|Normal	|Notícias	|BandNewsRadio Y	|https://www.youtube.com/radiobandnewsfm/live
 AoVivo	|Normal	|Notícias	|Brasil Urgente Y	|https://www.youtube.com/brasilurgente/live
-AoVivo	|Normal	|Notícias	|CNN Brasil	|https://www.youtube.com/@CNNbrasil/live
+AoVivo	|Normal	|Notícias	|CNN Brasil Y	|https://www.youtube.com/@CNNbrasil/live
 AoVivo	|Normal	|Notícias	|Jovem Pan	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo	|Normal	|Notícias	|Jovem Pan-TvFronteira	|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo	|Normal	|Notícias	|JovemPan - Cidade Verde	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
@@ -558,12 +558,12 @@ AoVivo	|Normal	|Notícias	|Record News	|https://rnw-rn.otteravision.com/rnw/rn/r
 AoVivo	|Normal	|Notícias	|Record News	|https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 AoVivo	|Normal	|Notícias	|SBT News	|https://sbtNews.maissbt.com/3.m3u8
 AoVivo	|Normal	|Notícias	|Veja +	|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-AoVivo	|Normal	|Notícias	|zJ3News TV	|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo	|Normal	|Notícias	|zJovem Pan	|https://www.youtube.com/@jovempannews/live
-AoVivo	|Normal	|Notícias	|zRecord News	|https://www.youtube.com/@recordnews/live
-AoVivo	|Normal	|Notícias	|zRS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo	|Normal	|Notícias	|zSBT News	|https://www.youtube.com/@sbtnews/live
-AoVivo	|Normal	|Notícias	|zTCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
+AoVivo	|Normal	|Notícias	|J3News TV	|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+AoVivo	|Normal	|Notícias	|Jovem Pan Y	|https://www.youtube.com/@jovempannews/live
+AoVivo	|Normal	|Notícias	|Record News Y	|https://www.youtube.com/@recordnews/live
+AoVivo	|Normal	|Notícias	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
+AoVivo	|Normal	|Notícias	|SBT News Y	|https://www.youtube.com/@sbtnews/live
+AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
@@ -584,8 +584,8 @@ AoVivo	|Normal	|Sports	|TVL News	|https://cdn-luzilandi-10589.ciclano.io:1443/lu
 AoVivo	|Normal	|Sports	|UFC ByPass	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
 AoVivo	|Religioso	|Catolico	|Pai Eterno	|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|Rede Vida 2	|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo	|Religioso	|Catolico	|Seculo 21 1	|https://www.youtube.com/@RedeSeculo21/live
-AoVivo	|Religioso	|Catolico	|Seculo 21 2	|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
+AoVivo	|Religioso	|Catolico	|Seculo 21 Y	|https://www.youtube.com/@RedeSeculo21/live
+AoVivo	|Religioso	|Catolico	|Seculo 21	|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Alternativa	|https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Aparecida 2	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Brusque	|https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/rodrigotvbrusque.com.br/playlist.m3u8
