@@ -1,11 +1,11 @@
 teste|Live|Notícias|Cidadania TV|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
 teste|Live|Notícias|Canal Restream	|https://player.restream.io/?token=545d65304d464807a794bb1a66513b84
-Adventista	|AoVivo	|Evangelico	|SUMtv Latino Y	|https://www.youtube.com/@SUMtvLatino/live
+Adventista	|AoVivo	|Evangelico	|Y_SUMtv Latino	|https://www.youtube.com/@SUMtvLatino/live
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-Adventista	|AoVivo	|Evangelico	|TV Novo Tempo BR Y	|https://www.youtube.com/@novotempo/live
-Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES Y	|https://www.youtube.com/@nuevotiempotv/live
+Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo BR	|https://www.youtube.com/@novotempo/live
+Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo ES	|https://www.youtube.com/@nuevotiempotv/live
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
-Adventista	|AoVivo	|Evangelico	|TV Novo Tempo PT Y	|https://www.youtube.com/@NovoTempoPortugal/live
+Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo PT	|https://www.youtube.com/@NovoTempoPortugal/live
 Adventista	|Documentarios	|A Criação	|A Terra é Testemunha	|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
 Adventista	|Documentarios	|Animações	|A Última Crise Na Terra	|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
 Adventista	|Documentarios	|Animações	|Ellen White-Infância e Chamado	|https://www.youtube.com/watch?v=ix1yqZE2xBo&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=5
@@ -537,8 +537,8 @@ AoVivo	|Normal	|Filmes	|Runtime Romance	|https://run-ro-br.otteravision.com/run/
 AoVivo	|Normal	|Filmes	|SonyOne	|https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|SonyOne Emoções	|https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Soul TV	|https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
-AoVivo	|Normal	|Filmes	|Spark TV Luz y Amor	|https://candlelightmedia-sparklightlove-3-br.plex.wurl.tv/playlist.m3u8
-AoVivo	|Normal	|Filmes	|Spark TV Luz y Amor Plex	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6623c114ed4918437ed56ebc.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=SyeVyVGKymr-tE2Q-YsZ&auto=0
+AoVivo	|Normal	|Filmes	|Spark TV Luz e Amor	|https://candlelightmedia-sparklightlove-3-br.plex.wurl.tv/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Spark TV Luz e Amor Plex	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6623c114ed4918437ed56ebc.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=SyeVyVGKymr-tE2Q-YsZ&auto=0
 AoVivo	|Normal	|Filmes	|TV Channel Network	|https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8
 AoVivo	|Normal	|Filmes	|TV CLUBE WEB	|https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1900104917_240.m3u8
 AoVivo	|Normal	|Filmes	|TV Difusao	|https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
@@ -547,10 +547,10 @@ AoVivo	|Normal	|Filmes	|TV Series	|https://stmv1.srvif.com/tvserie/tvserie/playl
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
-AoVivo	|Normal	|Notícias	|BandJornal Y	|https://www.youtube.com/@bandjornalismo/live
-AoVivo	|Normal	|Notícias	|BandNewsRadio Y	|https://www.youtube.com/@radiobandnewsfm/live
-AoVivo	|Normal	|Notícias	|Brasil Urgente Y	|https://www.youtube.com/@brasilurgente/live
-AoVivo	|Normal	|Notícias	|CNN Brasil Y	|https://www.youtube.com/@CNNbrasil/live
+AoVivo	|Normal	|Notícias	|Y_BandJornal	|https://www.youtube.com/@bandjornalismo/live
+AoVivo	|Normal	|Notícias	|Y_BandNewsRadio	|https://www.youtube.com/@radiobandnewsfm/live
+AoVivo	|Normal	|Notícias	|Y_Brasil Urgente	|https://www.youtube.com/@brasilurgente/live
+AoVivo	|Normal	|Notícias	|Y_CNN Brasil	|https://www.youtube.com/@CNNbrasil/live
 AoVivo	|Normal	|Notícias	|Jovem Pan	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo	|Normal	|Notícias	|Jovem Pan-TvFronteira	|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo	|Normal	|Notícias	|JovemPan - Cidade Verde	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
@@ -559,10 +559,10 @@ AoVivo	|Normal	|Notícias	|Record News	|https://run-rnw-rn.otteravision.com/rnw/
 AoVivo	|Normal	|Notícias	|SBT News	|https://sbtNews.maissbt.com/3.m3u8
 AoVivo	|Normal	|Notícias	|Veja +	|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo	|Normal	|Notícias	|J3News TV	|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-AoVivo	|Normal	|Notícias	|Jovem Pan Y	|https://www.youtube.com/@jovempannews/live
-AoVivo	|Normal	|Notícias	|Record News Y	|https://www.youtube.com/@recordnews/live
+AoVivo	|Normal	|Notícias	|Y_Jovem Pan	|https://www.youtube.com/@jovempannews/live
+AoVivo	|Normal	|Notícias	|Y_Record News	|https://www.youtube.com/@recordnews/live
 AoVivo	|Normal	|Notícias	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
-AoVivo	|Normal	|Notícias	|SBT News Y	|https://www.youtube.com/@sbtnews/live
+AoVivo	|Normal	|Notícias	|Y_SBT News	|https://www.youtube.com/@sbtnews/live
 AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
@@ -584,7 +584,7 @@ AoVivo	|Normal	|Sports	|TVL News	|https://cdn-luzilandi-10589.ciclano.io:1443/lu
 AoVivo	|Normal	|Sports	|UFC ByPass	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
 AoVivo	|Religioso	|Catolico	|Pai Eterno	|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|Rede Vida 2	|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo	|Religioso	|Catolico	|Seculo 21 Y	|https://www.youtube.com/@RedeSeculo21/live
+AoVivo	|Religioso	|Catolico	|Y_Seculo 21	|https://www.youtube.com/@RedeSeculo21/live
 AoVivo	|Religioso	|Catolico	|Seculo 21	|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Alternativa	|https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Aparecida 2	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
