@@ -1,10 +1,7 @@
-teste|Live|Notícias|Cidadania TV|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
-teste|Live|Notícias|Canal Restream	|https://player.restream.io/?token=545d65304d464807a794bb1a66513b84
-Adventista	|AoVivo	|Evangelico	|Y_SUMtv Latino	|https://www.youtube.com/@SUMtvLatino/live
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
-Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo BR	|https://www.youtube.com/@novotempo/live
-Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo ES	|https://www.youtube.com/@nuevotiempotv/live
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
+Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
+Adventista	|AoVivo	|Evangelico	|Y_SUMtv Latino	|https://www.youtube.com/@SUMtvLatino/live
 Adventista	|AoVivo	|Evangelico	|Y_TV Novo Tempo PT	|https://www.youtube.com/@NovoTempoPortugal/live
 Adventista	|Documentarios	|A Criação	|A Terra é Testemunha	|https://www.youtube.com/watch?v=q9oMZ2Jmz9s&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=5
 Adventista	|Documentarios	|Animações	|A Última Crise Na Terra	|https://www.youtube.com/watch?v=eDIJzRqBQSk&list=PLg7vVjTMs6Z6fuiGSGSXrZQWJoxlOgDzd&index=1
@@ -387,42 +384,39 @@ Adventista	|Serie	|Pr.Henry Feyerabend	|05. Uma Voz Suave e Delicada	|https://ww
 Adventista	|Serie	|Pr.Henry Feyerabend	|06. O Ponto Sem Retorno	|https://www.youtube.com/watch?v=BhuYvGq6IKM&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=6
 Adventista	|Serie	|Pr.Henry Feyerabend	|07. Uma Harpa Aeolina	|https://www.youtube.com/watch?v=FwX4JZ_Vu5Y&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=7
 Adventista	|Serie	|Pr.Henry Feyerabend	|08. Bom Humor Saudades	|https://www.youtube.com/watch?v=OhwKe11GU-c&list=PLym2OX8t_LkHuAYyT4dky73osMLsAWI-f&index=8
-AoVivo	|Normal	|Agro	|Canal do Criador	|https://isaocorp.cloudecast.com/rural-canal-do-criador/tracks-v1a1/mono.m3u8
-AoVivo	|Normal	|Agro	|Canal Rural	|https://stream01.canalrural.com.br/crur/cr2/chunklist_w243276524.m3u8
+AoVivo	|Normal	|Agro	|Agro Canal	|https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8
+AoVivo	|Normal	|Agro	|Canal do Boi	|https://aovivo3.equipea.com.br:5443/aovivort/streams/FGPjVZA1EidEnBCn5502382962900440.m3u8
+AoVivo	|Normal	|Agro	|Canal do Criador	|https://isaocorp.cloudecast.com/rural-canal-criador/index.m3u8
+AoVivo	|Normal	|Agro	|Canal Rural	|https://isaocorp.cloudecast.com/canalrural/index.m3u8
 AoVivo	|Normal	|Agro	|TV Coop	|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
 AoVivo	|Normal	|Agro	|Vivax TV	|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 AoVivo	|Normal	|Canais	|Band Bahia	|https://hqf6tcxuhk.singularcdn.net.br/live/0196ff1e-8bbc-76d9-bcda-cfe58c2b0be6/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4OTEzMCwibmJmIjoxNzkxNDg5MTMwLCJleHAiOjE3OTQwODExMzAsInVyaV9zdWIiOiIvMDE5NmZmMWUtOGJiYy03NmQ5LWJjZGEtY2ZlNThjMmIwYmU2LyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.8d3KtqxoIukaUg8Ws3xNnT1OYECYF1BK6XfJ7y03Uxc&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
 AoVivo	|Normal	|Canais	|Band PA - RVATV	|https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
 AoVivo	|Normal	|Canais	|Globo SPTV	|https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record - TV Tropical	|https://video07.logicahost.com.br/portaltropicalrn/portaltropicalrn/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record Vila Real MT 2	|https://5a2b083e9f360.streamlock.net/tvmt/tvmt.sdp/chunklist_w546848282.m3u8
-AoVivo	|Normal	|Canais	|Recorde - TV Conquista	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+AoVivo	|Normal	|Canais	|MasterChef	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record MT 1	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record SICTV  RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record TV Conquista	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 AoVivo	|Normal	|Canais	|Rede TV ES	|https://stream.esemrede.com.br/live/redetves.m3u8
-AoVivo	|Normal	|Canais	|Rede TV RO - SGC	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/chunklist_w1798829609.m3u8
+AoVivo	|Normal	|Canais	|Rede TV RO	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/playlist.m3u8
 AoVivo	|Normal	|Canais	|Reviva	|https://stmv.webtvninjas.com.br/webtvni1/webtvni1/playlist.m3u8
 AoVivo	|Normal	|Canais	|SBT	|https://d1jvs4svzaqp8n.cloudfront.net/channel_720.m3u8
 AoVivo	|Normal	|Canais	|SBT Interior 2	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 AoVivo	|Normal	|Canais	|SBT Nacional	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
-AoVivo	|Normal	|Canais	|SICTV (Rede Record RO)	|https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8?token=10625035048351615000
-AoVivo	|Normal	|Culinária	|MasterChef	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
 AoVivo	|Normal	|Culinária	|Receitas Fast	|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal Educação	|https://canaleducacao-stream.ebc.com.br/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal FDR	|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
 AoVivo	|Normal	|Cultura	|Canal Gov	|https://canalgov-stream.ebc.com.br/index.m3u8
-AoVivo	|Normal	|Cultura	|Cultura Fast	|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
-AoVivo	|Normal	|Cultura	|Cultura PR 1	|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 AoVivo	|Normal	|Cultura	|D+ TV	|https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-AoVivo	|Normal	|Cultura	|Educativa MS	|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
+AoVivo	|Normal	|Cultura	|MasterTV	|https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
 AoVivo	|Normal	|Cultura	|Nature Time	|https://amg01576-amg01576c12-plex-us-11251.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
 AoVivo	|Normal	|Cultura	|PUC TV	|https://stmv5.samcast.com.br/puctvgoias/puctvgoias/playlist.m3u8
-AoVivo	|Normal	|Cultura	|Rede Brasil	|https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
-AoVivo	|Normal	|Cultura	|Rede Brasil 2	|https://redebrasil.nuvemplay.live/hls/stream.m3u8
+AoVivo	|Normal	|Cultura	|Rede Brasil	|https://redebrasil.nuvemplay.live/hls/stream.m3u8
 AoVivo	|Normal	|Cultura	|Rede Minas	|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15327/playlist/playlist.m3u8
-AoVivo	|Normal	|Cultura	|REDE MINAS 3	|https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+AoVivo	|Normal	|Cultura	|Rede Minas 3	|https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 AoVivo	|Normal	|Cultura	|Rede Mundo	|https://video04.logicahost.com.br/redemundotv/redemundotv/chunklist_w50322081.m3u8
 AoVivo	|Normal	|Cultura	|Rede NGT	|https://isaocorp.cloudecast.com/ngt/index.m3u8
-AoVivo	|Normal	|Cultura	|Santa Cecilia TV	|https://video11.logicahost.com.br/unisantaapp/unisantaapp/playlist.m3u8
-AoVivo	|Normal	|Cultura	|SescTV	|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
+AoVivo	|Normal	|Cultura	|Santa Cecilia TV	|https://60d88f8ce1206.streamlock.net/2063/2063/playlist.m3u8
 AoVivo	|Normal	|Cultura	|SescTV	|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
 AoVivo	|Normal	|Cultura	|Sobrevivi	|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
 AoVivo	|Normal	|Cultura	|Tela Brasil	|https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8
@@ -430,58 +424,67 @@ AoVivo	|Normal	|Cultura	|TV Aberta SP	|https://br5093.streamingdevideo.com.br/tv
 AoVivo	|Normal	|Cultura	|TV Brasil	|https://tvbrasil-stream.ebc.com.br/index.m3u8
 AoVivo	|Normal	|Cultura	|TV Brasil Central	|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
 AoVivo	|Normal	|Cultura	|TV Brasil Internacional	|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
-AoVivo	|Normal	|Cultura	|TV Brasil Plan	|https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Cultura	|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura + News	|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura Fast	|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura PR 1	|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Life America	|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
-AoVivo	|Normal	|Cultura	|TV Mais News	|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Marajoara	|https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Nova Nordeste PE	|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
-AoVivo	|Normal	|Cultura	|TV Poços	|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV UFOP	|https://app.tvufop.com.br/hls/tvufop.m3u8
 AoVivo	|Normal	|Cultura	|TV+Pet	|https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
-AoVivo	|Normal	|Cultura	|TVE RS 2	|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
-AoVivo	|Normal	|Cultura	|Unisul TV	|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
 AoVivo	|Normal	|Entretenimento	|7 TVs	|https://stmv1.samcast.com.br/beatpapo/beatpapo/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Araruna TV	|https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Assim é Portugal	|https://cdn-origin.smartplay.pe/soultv-assimeportugal/tracks-v1a1/mono.ts.m3u8
-AoVivo	|Normal	|Entretenimento	|BDC TV (TV Á Crítica)	|https://video01.brascast.com/bdctv/bdctv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|BlitsTV	|https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|BS-TV	|https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Canal Metropolitano	|https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|Caravana Play	|https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Chroma TV	|https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|COM Brasil	|https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Conecta Mais TV	|https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
 AoVivo	|Normal	|Entretenimento	|Diário Do Sertão	|https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/chunklist_w1706220398.m3u8
 AoVivo	|Normal	|Entretenimento	|ElyTV	|https://stmv1.srvsite.com/ely/ely/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Esp TV Carioca Inter	|https://video03.logicahost.com.br/cariocainternacional1/cariocainternacional1/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Infiltrados	|https://pb-rgoucsi31222d.akamaized.net/60DaysIn.m3u8
 AoVivo	|Normal	|Entretenimento	|ISTV	|https://video10.logicahost.com.br/redeistv/redeistv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Já Viu Tv	|https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Loading	|https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Love Nature	|https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 AoVivo	|Normal	|Entretenimento	|Lucas TV	|https://stmv1.srvif.com/lucastv/lucastv/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Malhação	|https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f46d6f4717bc41758662e8c6700c1d68/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|MasperTV	|https://tv02.zas.media:1936/masper/masper/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|MasterTV	|https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|MBC Brasil TV	|https://cdn.mbcbrasil.tv.br/mbc_web/index.m3u8?cookieCheck=1
+AoVivo	|Normal	|Entretenimento	|MBC	|https://cdn.mbcbrasil.tv.br/mbc_web/index.m3u8
+AoVivo	|Normal	|Entretenimento	|NEW Rondônia	|https://video01.logicahost.com.br/newsrondonia/newsrondonia/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|NGT	|https://v2.cloudecast.com/redengt/tracks-v1a1/mono.m3u8
 AoVivo	|Normal	|Entretenimento	|O Dia TV	|https://6836041ea1117.streamlock.net/tvodia/tvodia/chunklist_w171190789.m3u8
 AoVivo	|Normal	|Entretenimento	|ORTV	|https://tv.ortv.com.br/hls/stream.m3u8
 AoVivo	|Normal	|Entretenimento	|Osório News	|https://stmv2.srvsh.com.br/0003/0003/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Pantanal MS	|https://59d39900ebfb8.streamlock.net/tvpantanalms/tvpantanalms/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Petlovers TV	|https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|PlayTV	|https://isaocorp.cloudecast.com/playtv/index.m3u8
 AoVivo	|Normal	|Entretenimento	|RBTV	|https://redebrasileira.nuvemplay.live/hls/stream.m3u8
+AoVivo	|Normal	|Entretenimento	|Rede Familia	|https://tv03.zas.media:1936/rftv/rftv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Rede Meio Norte 1	|https://maystreaming.cloudecast.com/redemeio/index.m3u8
-AoVivo	|Normal	|Entretenimento	|Rede Meio Norte 2	|https://isaocorp.cloudecast.com/redemeio/index.m3u8
 AoVivo	|Normal	|Entretenimento	|Rede QDM	|https://stmv1.transmissaodigital.com/redeqdm/redeqdm/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Rede TV Pampa	|https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|RS Play	|https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|RS Play	|https://video05.logicahost.com.br/rsnews/rsnews/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|SBT Aratu	|https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Seven TV	|https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Acritica	|https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Acritica BDC	|https://video01.brascast.com/bdctv/bdctv/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Aldeia	|https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Antena 10	|https://srt01.logicahost.com.br/a10mais/index.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Atual	|https://video10.logicahost.com.br/tvatual/tvatual/chunklist_w1768133446.m3u8
 AoVivo	|Normal	|Entretenimento	|TV BRICS	|https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|TV Carioca Inter	|https://video03.logicahost.com.br/cariocainternacional1/cariocainternacional1/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Cidade Brasil	|https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Cidade Oeste	https://video07.logicahost.com.br/tvcidadeoeste/tvcidadeoeste/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV COM Maceio	|https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV COM Santos	|https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Cultura	|https://player-tvcultura.stream.uol.com.br/live/tvcultura_lsd.m3u8?vhost=player-tvcultura.stream.uol.com.br
 AoVivo	|Normal	|Entretenimento	|TV Diário Macapá	|https://video02.logicahost.com.br/tvdiario/tvdiario/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV do Povo RO	|https://video11.logicahost.com.br/tvdopovo/tvdopovo/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Estado	|https://video01.brascast.com/82b92cec/82b92cec/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Gazeta	|https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Geral	|https://video05.logicahost.com.br/tvgeral/tvgeral/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Goitacá	|https://video01.brascast.com/david7639/david7639/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV J.SID	|https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV LatinaSat	|https://www.latinasat.com.br/hls/live/stream/index.m3u8
@@ -491,25 +494,27 @@ AoVivo	|Normal	|Entretenimento	|TV Mais Brasil	|https://stmv8.samcast.com.br/tvm
 AoVivo	|Normal	|Entretenimento	|TV Manchete	|https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Master	|https://a.cdni.live/tvmaster/tvmaster/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV MON	|https://video10.logicahost.com.br/tvmon/tvmon/chunklist_w1167397805.m3u8
+AoVivo	|Normal	|Entretenimento	|TV News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w1966712260.m3u8
 AoVivo	|Normal	|Entretenimento	|TV ONE	|https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Pantanal MS	|https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Paraná Turismo	|https://aovivo.paranaeducativa.pr.gov.br/hls/tve.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Petrópolis	|https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Rio Madeira	|https://stmv1.srvif.com/tvriomadeira/tvriomadeira/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Sao Raimundo	|https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Sertão Petrolina	|https://video07.logicahost.com.br/sertaopetrolina/sertaopetrolina/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|TV Sul	|https://5a57bda70564a.streamlock.net/tvrsul/tvrsul.sdp/chunklist_w1988926540.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Verdes Campos	|https://a.cdni.live/redeverdes2288/redeverdes2288/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Video News	|https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Web Sul Bahia	|https://a.cdni.live/radiomultimidia/radiomultimidia/chunklist_w544165624.m3u8
 AoVivo	|Normal	|Entretenimento	|TVC Pará	|https://srt01.logicahost.com.br/tvcbelem/tracks-v1/index.fmp4.m3u8
-AoVivo	|Normal	|Entretenimento	|TVCOM Maceio	|https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|TVCOM Santos	|https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|TV-Geral	|https://video05.logicahost.com.br/tvgeral/tvgeral/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TVitapê	|https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
-AoVivo	|Normal	|Entretenimento	|TVR Sul	|https://5a57bda70564a.streamlock.net/tvrsul/tvrsul.sdp/chunklist_w1988926540.m3u8
 AoVivo	|Normal	|Entretenimento	|Uma TV	|https://umatv.nuvemplay.live/hls/stream.m3u8
 AoVivo	|Normal	|Entretenimento	|Vintage	|https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|Web Tv Alternativa RO	|https://video04.logicahost.com.br/webtvalternativa/webtvalternativa/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Western Bound Brasil	|https://ime-wbpo.otteravision.com/ime/wbpo/wbpo1080p.m3u8
 AoVivo	|Normal	|Filmes	|Anime TV	|https://stmv2.painelvideocast.com.br/animetv/animetv/chunklist_w2094162159.m3u8
 AoVivo	|Normal	|Filmes	|AWTV-filmes	|https://awtv.nuvemplay.live/hls/stream.m3u8
+AoVivo	|Normal	|Filmes	|BS TV	|https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Channel 1	|https://stmv2.painelvideocast.com.br/movies1/movies1/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Cindie Lite	|https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
 AoVivo	|Normal	|Filmes	|Cine Brasil TV	|https://stmv2.painelvideocast.com.br/cinebrasil/cinebrasil/playlist.m3u8
@@ -519,26 +524,38 @@ AoVivo	|Normal	|Filmes	|CinePIX	|https://stream.ads.ottera.tv/playlist.m3u8?netw
 AoVivo	|Normal	|Filmes	|Classico do Cinema 1	|https://live20.bozztv.com/giatvplayout7/giatv-208272/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Classico do Cinema 2	|https://stmv2.painelvideocast.com.br/multicanais/multicanais/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Classique TV	|https://stmv1.srvif.com/classique/classique/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Filmelier	|https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/Sofa_Digital/Filmelier_TV_BR/Filmelier_TV.m3u8
 AoVivo	|Normal	|Filmes	|FilmRise	|https://d3rciv7av2te5a.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/master.m3u8?ads.xumo_channelId=88889320
 AoVivo	|Normal	|Filmes	|Grjngo	|https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Mega One Tv	|https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Moviesphere	|https://amg00353-amg00353c29-plex-us-3205.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg00353-lionsgatetvfast-moviespherebrazil-plexus/playlist.m3u8
 AoVivo	|Normal	|Filmes	|MyTime Movie Network	|https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Nation	|https://d1si3n1st4nkgb.cloudfront.net/10000/88876018/hls/master.m3u8?ads.xumo_channelId=88876018
 AoVivo	|Normal	|Filmes	|NBX Pipoca	|https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Nova Barreiros	|https://stmv1.srvif.com/novabarreiros/novabarreiros/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Nova Juarez	|https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Novelissima	|https://cis-no-samsung.otteravision.com/cis/no/no_h265.m3u8
 AoVivo	|Normal	|Filmes	|Rede Clouding	|https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Rookie Blue	|https://amg00353-amg00353c63-samsung-br-8947.playouts.now.amagi.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Runtime	|https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
 AoVivo	|Normal	|Filmes	|Runtime Ação	|https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Ação	|https://run-rt-ra-lgchannels.otteravision.com/run/rt_ra/rt_ra_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Comedia	|https://run-rc-br-lgchannels.otteravision.com/run/rc_br/rc_br_720.m3u8
 AoVivo	|Normal	|Filmes	|Runtime Comédia	|https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
 AoVivo	|Normal	|Filmes	|Runtime Crime	|https://run-cr-br.otteravision.com/run/cr_br/cr_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Crime	|https://run-cr-br-lgchannels.otteravision.com/run/cr_br/cr_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Espanto	|https://run-th-br-lgchannels.otteravision.com/run/th_br/th_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Familia	|https://run-rufb-lgchannels.otteravision.com/run/rufb/rufb_720.m3u8
 AoVivo	|Normal	|Filmes	|Runtime Família	|https://run-rufb.otteravision.com/run/rufb/rufb_720.m3u8
 AoVivo	|Normal	|Filmes	|Runtime Romance	|https://run-ro-br.otteravision.com/run/ro_br/ro_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Sato+	|https://sto-sat-samsung.otteravision.com/sto/sat/sat.m3u8
 AoVivo	|Normal	|Filmes	|SonyOne	|https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|SonyOne Emoções	|https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Soul TV	|https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
+AoVivo	|Normal	|Filmes	|Spark TV	|https://d25usgadhphvwi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sr15nxkp06uk9/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Spark TV Luz e Amor	|https://candlelightmedia-sparklightlove-3-br.plex.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Spark TV Luz e Amor Plex	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6623c114ed4918437ed56ebc.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=SyeVyVGKymr-tE2Q-YsZ&auto=0
+AoVivo	|Normal	|Filmes	|The Walking Dead	|https://amg01822-amc-amg01822c1-lg-br-8375.playouts.now.amagi.tv/playlist/amg01822-amcnetworkslatinamericallcfast-thewalkingdeadbyamcbr-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
 AoVivo	|Normal	|Filmes	|TV Channel Network	|https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8
 AoVivo	|Normal	|Filmes	|TV CLUBE WEB	|https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1900104917_240.m3u8
 AoVivo	|Normal	|Filmes	|TV Difusao	|https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
@@ -547,44 +564,58 @@ AoVivo	|Normal	|Filmes	|TV Series	|https://stmv1.srvif.com/tvserie/tvserie/playl
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
-AoVivo	|Normal	|Notícias	|Y_BandJornal	|https://www.youtube.com/@bandjornalismo/live
-AoVivo	|Normal	|Notícias	|Y_BandNewsRadio	|https://www.youtube.com/@radiobandnewsfm/live
-AoVivo	|Normal	|Notícias	|Y_Brasil Urgente	|https://www.youtube.com/@brasilurgente/live
-AoVivo	|Normal	|Notícias	|Y_CNN Brasil	|https://www.youtube.com/@CNNbrasil/live
+AoVivo	|Normal	|Notícias	|J3News TV	|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 AoVivo	|Normal	|Notícias	|Jovem Pan	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+AoVivo	|Normal	|Notícias	|Jovem Pan	|https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f68ff6447c134b8e9cf8bed47083d48a/playlist.m3u8
 AoVivo	|Normal	|Notícias	|Jovem Pan-TvFronteira	|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
 AoVivo	|Normal	|Notícias	|JovemPan - Cidade Verde	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 AoVivo	|Normal	|Notícias	|Record News	|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 AoVivo	|Normal	|Notícias	|Record News	|https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
+AoVivo	|Normal	|Notícias	|Record NEWS	|https://rnw-rn-tcl-roku-syndication.otteravision.com/rnw/rn/rnw_rn.m3u8
+AoVivo	|Normal	|Notícias	|Record News -Cristal	|https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
+AoVivo	|Normal	|Notícias	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo	|Normal	|Notícias	|SBT News	|https://sbtNews.maissbt.com/3.m3u8
+AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo	|Normal	|Notícias	|Veja +	|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-AoVivo	|Normal	|Notícias	|J3News TV	|https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+AoVivo	|Normal	|Notícias	|Y_BandJornal	|https://www.youtube.com/@bandjornalismo/live
+AoVivo	|Normal	|Notícias	|Y_BandNewsRadio	|https://www.youtube.com/@radiobandnewsfm/live
+AoVivo	|Normal	|Notícias	|Y_Brasil Urgente	|https://www.youtube.com/@brasilurgente/live
+AoVivo	|Normal	|Notícias	|Y_CNN Brasil	|https://www.youtube.com/@CNNbrasil/live
 AoVivo	|Normal	|Notícias	|Y_Jovem Pan	|https://www.youtube.com/@jovempannews/live
 AoVivo	|Normal	|Notícias	|Y_Record News	|https://www.youtube.com/@recordnews/live
-AoVivo	|Normal	|Notícias	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo	|Normal	|Notícias	|Y_SBT News	|https://www.youtube.com/@sbtnews/live
-AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
-AoVivo	|Normal	|Sports	|Canal GOAT	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
+AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
+AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
+AoVivo	|Normal	|Sports	|Esp Real Madrid	|https://stream2.cinerama.uz/1263/tracks-v1a1/mono.m3u8
+AoVivo	|Normal	|Sports	|Esp RedBull	|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 AoVivo	|Normal	|Sports	|FIFA+ Portuguese English	|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 AoVivo	|Normal	|Sports	|Ge Fast	|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+AoVivo	|Normal	|Sports	|NSPorts	|https://www.youtube.com/@NSports/live
 AoVivo	|Normal	|Sports	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w451977208.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 1	|https://video07.logicahost.com.br/rssports01/rssports01/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 2	|https://video03.logicahost.com.br/rssports2/rssports2/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 3	|https://video03.logicahost.com.br/rssports3/rssports3/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 4	|https://video03.logicahost.com.br/rssports4/rssports4/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 5	|https://video03.logicahost.com.br/rssports5/rssports5/playlist.m3u8
+AoVivo	|Normal	|Sports	|RS Play	|https://video05.logicahost.com.br/rsnews/rsnews/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS SERIES	|https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS TV	|https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
 AoVivo	|Normal	|Sports	|SFT Combat	|https://hrm-sftc.otteravision.com/hrm/sftc/sftc_720p_high.m3u8
 AoVivo	|Normal	|Sports	|TVL News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w346284232.m3u8
+AoVivo	|Normal	|Sports	|UFC	|https://pb-drwvokx73qpxg.akamaized.net/playlist.m3u8
 AoVivo	|Normal	|Sports	|UFC ByPass	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
+AoVivo	|Normal	|Sports	|Voz do Esporte	|https://www.youtube.com/@VozdoEsporte/live
+AoVivo	|Normal	|Sports	|Xsports	|https://pb-r54iiecsw1gj5.akamaized.net/XSports.m3u8
+AoVivo	|Normal	|Sports	|Y_Esp Teletrece	|https://www.youtube.com/@T13_cl/live
+AoVivo	|Normal	|Sports	|Y_Esp TN en vivo	|https://www.youtube.com/@todonoticias/live
+AoVivo	|Normal	|Sports	|Y_Euronews pt	|https://www.youtube.com/@euronewspt/live
 AoVivo	|Religioso	|Catolico	|Pai Eterno	|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|Rede Vida 2	|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
-AoVivo	|Religioso	|Catolico	|Y_Seculo 21	|https://www.youtube.com/@RedeSeculo21/live
 AoVivo	|Religioso	|Catolico	|Seculo 21	|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Alternativa	|https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Aparecida 2	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
@@ -601,6 +632,7 @@ AoVivo	|Religioso	|Catolico	|TV Padre Cicero	|https://video01.logicahost.com.br/
 AoVivo	|Religioso	|Catolico	|TVCI	|https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
 AoVivo	|Religioso	|Catolico	|Vatican Media	|https://www.youtube.com/watch?v=8vjkbyEq4Sg
 AoVivo	|Religioso	|Catolico	|Web tv	|https://stmv2.samcast.com.br/radiopentecostes/radiopentecostes/playlist.m3u8
+AoVivo	|Religioso	|Catolico	|Y_Seculo 21	|https://www.youtube.com/@RedeSeculo21/live
 AoVivo	|Religioso	|Evangelico	|ADB TV	|https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Bem Mais TV	|https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Boas Novas	|https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
@@ -662,6 +694,7 @@ AoVivo	|Religioso	|Filmes	|Gospel Caartoon	|https://stmv1.srvif.com/gospelcartoo
 AoVivo	|Religioso	|Filmes	|Gospel Movie TV	|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo	|Religioso	|Filmes	|Gospel Movies	|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo	|Religioso	|Filmes	|Kuriakos Cine	|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+AoVivo	|Religioso	|Filmes	|The Chosen	|https://amg00353-amg00353c88-lg-br-11648.playouts.now.amagi.tv/ts-us-e2-n1/playlist/amg00353-lionsgatetvfast-thechosenportuguesecc-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.coppa=[COPPA]
 Filmes	|Canais	|HistoriasdaBiblia.oficial	|A Bíblia Do Início ao Fim	|https://www.youtube.com/watch?v=hZ7zIMfpV7k&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=14
 Filmes	|Canais	|HistoriasdaBiblia.oficial	|Apocalipse 1	|https://www.youtube.com/watch?v=8HCxPS9qqbg&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=15
 Filmes	|Canais	|HistoriasdaBiblia.oficial	|Apocalipse 2	|https://www.youtube.com/watch?v=ohT5saH5HuM&list=PLhClldtNMCa59D0ai6eEnsNLbWDXQyKwM&index=21
@@ -761,16 +794,20 @@ Filmes	|Religioso	|Normal	|Um Lugar para Recomeçar	|https://www.youtube.com/wat
 Filmes	|Religioso	|Normal	|Um Pouco de Fé	|https://www.youtube.com/watch?v=4hw97bPXCJI&list=PLgIx0cN5Lhzg7wk6diFF6oLfWavHeN5nL
 Filmes	|Religioso	|Normal	|Uma Chance Para Viver	|https://www.youtube.com/watch?v=S9lMeTXNGRs&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=6
 Filmes	|Religioso	|Normal	|Uma História de Fé e Coragem	|https://www.youtube.com/watch?v=7oTtTHgSGog&list=PL5xv1tZ7V83-WpbcTn3f7uACpMSHK8NOX&index=3
-Kids	|AoVivo	|Canais	|Fox Kids	|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
-Kids	|AoVivo	|Canais	|Gospel Cartoon	|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-Kids	|AoVivo	|Canais	|Kuriakos Kids	|https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
-Kids	|AoVivo	|Canais	|Ministério Infantil	|https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
-Kids	|AoVivo	|Canais	|Nickelodeon	|https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
-Kids	|AoVivo	|Canais	|NickOnline	|https://x1colegal.com/hls/stream.m3u8
-Kids	|AoVivo	|Canais	|Otaku Sign	|https://stmv1.srvif.com/anime/anime/playlist.m3u8
-Kids	|AoVivo	|Canais	|Retrô Cartoon	|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
-Kids	|AoVivo	|Canais	|TV Aracati	|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
-Kids	|AoVivo	|Canais	|Xtreme TV	|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
+Kids	|AoVivo	|Normal	|Caravana Play	|https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/playlist.m3u8
+Kids	|AoVivo	|Normal	|Desenhos	|https://d1si3n1st4nkgb.cloudfront.net/10000/88876020/hls/master.m3u8?ads.xumo_channelId=88876020
+Kids	|AoVivo	|Normal	|Fox Kids	|https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8
+Kids	|AoVivo	|Normal	|Gospel Cartoon	|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+Kids	|AoVivo	|Normal	|Kuriakos Kids	|https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+Kids	|AoVivo	|Normal	|Leo e Lully	|https://77cdn-global.phiztv.com/live/187702a5-c40d-4c3a-986f-1b3abfbaef69/tracks-v2a1/mono.ts.m3u8
+Kids	|AoVivo	|Normal	|Ministério Infantil	|https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
+Kids	|AoVivo	|Normal	|Nickelodeon	|https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+Kids	|AoVivo	|Normal	|NickOnline	|https://x1colegal.com/hls/stream.m3u8
+Kids	|AoVivo	|Normal	|Otaku Sign	|https://stmv1.srvif.com/anime/anime/playlist.m3u8
+Kids	|AoVivo	|Normal	|Retrô Cartoon	|https://stmv1.video.brstream.com.br/retrotv/retrotv/playlist.m3u8
+Kids	|AoVivo	|Normal	|TV Aracati	|https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8
+Kids	|AoVivo	|Normal	|Xtreme TV	|https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
+Kids	|AoVivo	|Normal	|Y_Bluey	|https://www.youtube.com/@blueyportuguesbrasil-canal/live
 Kids	|Filmes	|Religioso	|Os Milagres de Jesus	|https://www.youtube.com/watch?v=DLqRnxcju1s
 Music	|AoVivo	|Evangelico	|Country Gospel	|https://www.youtube.com/watch?v=rWs1GRF8eyo
 Music	|AoVivo	|Evangelico	|Fonte de Adoração	|https://www.youtube.com/watch?v=VB43nHtEkNg
@@ -798,7 +835,7 @@ Music	|Radios	|Catolica	|Bom Jesus	|https://centova11.ipstm.net:20036/stream
 Music	|Radios	|Catolica	|Brasil Campinas	|https://centova2.svdns.com.br:20030/stream
 Music	|Radios	|Catolica	|BrasilStream	|https://9735.brasilstream.com.br/stream?1745341191933
 Music	|Radios	|Catolica	|Canção Nova	|https://streaming.fox.srv.br:8116/stream
-Music	|Radios	|Catolica	|Catedral	|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
+Music	|Radios	|Catolica	|Canção Nova	|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
 Music	|Radios	|Catolica	|Catolica	|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
 Music	|Radios	|Catolica	|Coração FM	|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
 Music	|Radios	|Catolica	|Evangelizar Music	|https://8239.brasilstream.com.br/stream
@@ -816,4 +853,3 @@ Music	|Radios	|Normal	|Rádio Clube Fm	|https://clubefm1.brasilstream.com.br/hls
 Music	|Radios	|Normal	|Radio Montanhesa	|https://qfm.sistemasgerais.com.br/hlsm/index.m3u8
 Music	|Radios	|Normal	|TikTok Radio	|https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 Music	|Radios	|Normal	|Wording	|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w2110040520.m3u8
-				
