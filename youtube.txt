@@ -549,9 +549,7 @@ AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/iso
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
 AoVivo	|Normal	|Notícias	|BandJornal Y	|https://www.youtube.com/@bandjornalismo/live
 AoVivo	|Normal	|Notícias	|BandNewsRadio Y	|https://www.youtube.com/radiobandnewsfm/live
-https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC.aac?dist=radios.com.br
 AoVivo	|Normal	|Notícias	|Brasil Urgente Y	|https://www.youtube.com/brasilurgente/live
-https://str1.streamhostpg.com.br:8124/stream
 AoVivo	|Normal	|Notícias	|CNN Brasil	|https://www.youtube.com/@CNNbrasil/live
 AoVivo	|Normal	|Notícias	|Jovem Pan	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo	|Normal	|Notícias	|Jovem Pan-TvFronteira	|https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
