@@ -761,6 +761,19 @@ if(item.tipo==="twitch"){
   if(item.tipo==="frame"||item.tipo==="iframe"){
     const iframe=document.createElement("iframe");
     iframe.title=item.titulo||"Player externo";
+    
+//adicionei tenta dar play antes
+    let url=item.url;
+    
+    try{
+      const endereco=new URL(url);
+      if(endereco.hostname==="rdcanais.org"){
+        endereco.searchParams.set("autoplay","1");
+      }
+      url=endereco.toString();
+    }catch(e){}
+
+    //fim
     iframe.src=item.url;
     iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
     iframe.allowFullscreen=true;
