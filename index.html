@@ -808,7 +808,7 @@ if(item.tipo==="twitch"){
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;
-    videoEl.controls=false;
+    videoEl.controls=true;
     videoEl.autoplay=true;
     videoEl.playsInline=true;
     videoEl.preload="auto";
@@ -816,24 +816,7 @@ if(item.tipo==="twitch"){
     videoEl.setAttribute("playsinline","");
     videoEl.setAttribute("webkit-playsinline","");
     // Controles próprios: evita o símbolo de pausa nativo preso na tela.
-videoEl.addEventListener("click",()=>{
-  if(videoEl.paused){
-    videoEl.play().catch(e=>console.warn("Não foi possível iniciar:",e));
-  }else{
-    videoEl.pause();
-  }
-});
 
-videoEl.addEventListener("keydown",e=>{
-  if(e.key==="Enter"||e.key===" "){
-    e.preventDefault();
-    if(videoEl.paused){
-      videoEl.play().catch(err=>console.warn(err));
-    }else{
-      videoEl.pause();
-    }
-  }
-});
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
 
     area.appendChild(videoEl);
