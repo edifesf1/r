@@ -774,6 +774,11 @@ if(item.tipo==="twitch"){
   endereco.searchParams.set("autoplay","1");
   endereco.searchParams.set("mute","0");
 }
+      
+  // EmbedTV: tentativa de autoplay
+  if(endereco.hostname.endsWith(".embedtv.cc")){
+    endereco.searchParams.set("autoplay","1");
+  }
       url=endereco.toString();
     }catch(e){}
 
