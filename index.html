@@ -716,6 +716,11 @@ if(item.tipo==="twitch"){
   iframe.src=twitchUrl.toString();
   iframe.allow="autoplay; fullscreen; picture-in-picture";
   iframe.allowFullscreen=true;
+  // Libera interação e controles somente para EmbedTV
+if(new URL(url).hostname.endsWith(".embedtv.cc")){
+  iframe.setAttribute("controls","controls");
+  iframe.tabIndex=0;
+}
   iframe.referrerPolicy="strict-origin-when-cross-origin";
 
   iframe.style.cssText=
