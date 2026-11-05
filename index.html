@@ -767,9 +767,13 @@ if(item.tipo==="twitch"){
     
     try{
       const endereco=new URL(url);
-      if(endereco.hostname==="rdcanais.org"){
-        endereco.searchParams.set("autoplay","1");
-      }
+      if(
+  endereco.hostname==="rdcanais.org" ||
+  endereco.hostname==="www.rdcanais.org"
+){
+  endereco.searchParams.set("autoplay","1");
+  endereco.searchParams.set("mute","0");
+}
       url=endereco.toString();
     }catch(e){}
 
@@ -784,11 +788,24 @@ if(item.tipo==="twitch"){
     area.appendChild(iframe);
     player=iframe;
     status.textContent="Carregando player externo: "+item.titulo;
-    iframe.addEventListener("load",()=>{
-      if(geracao===geracaoPlayer){
-        status.textContent="Player externo carregado: "+item.titulo;
-      }
-    });
+iframe.addEventListener("load",()=>{
+  if(geracao!==geracaoPlayer)return;
+
+  status.textContent="Player externo carregado: "+item.titulo;
+
+  if(
+    iframe.src.includes("rdcanais.org")
+  ){
+    setTimeout(()=>{
+      if(geracao!==geracaoPlayer)return;
+
+      try{
+        iframe.focus();
+        console.log("Tentativa de inicialização automática RDCanais.");
+      }catch(e){}
+    },2000);
+  }
+});
     iframe.addEventListener("error",()=>{
       if(geracao===geracaoPlayer){
         status.textContent="Não foi possível carregar o player externo.";
