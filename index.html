@@ -806,9 +806,10 @@ iframe.addEventListener("load",()=>{
       if(geracao!==geracaoPlayer)return;
 
       try{
-        // menuA1 fica na tarja superior e recebe o foco sem abrir a lista.
-        menuA1.focus({preventScroll:true});
-        console.log("Foco devolvido à tarja superior após carregar o RDCanais.");
+        // O foco retorna ao botão 6 (seta para avançar) na tarja vermelha.
+        // O vídeo continua reproduzindo dentro do iframe.
+        botaoProximoCanal.focus({preventScroll:true});
+        console.log("Foco devolvido ao botão de avançar da tarja vermelha após carregar o RDCanais.");
       }catch(e){
         try{botaoTarja.focus({preventScroll:true});}catch(e2){}
       }
