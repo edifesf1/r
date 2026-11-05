@@ -595,7 +595,13 @@ AoVivo	|Normal	|Sports	|BandSports 1	|https://nphd.online/tv/bandsports
 AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
 AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
-AoVivo	|Normal	|Sports	|Caze TV 2	|https://nphd.online/tv/caze2
+AoVivo	|Normal	|Sports	|Caze TV 1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
+AoVivo	|Normal	|Sports	|Caze TV 1.1	|https://nphd.online/tv/caze1
+AoVivo	|Normal	|Sports	|Caze TV 1.2	|https://rdcanais.org/cazetv
+AoVivo	|Normal	|Sports	|Caze TV 2.1	|https://nphd.online/tv/caze2
+AoVivo	|Normal	|Sports	|Caze TV 2.1	|https://rdcanais.org/cazetv2
+AoVivo	|Normal	|Sports	|Caze TV 3.1	|https://nphd.online/tv/caze3
+AoVivo	|Normal	|Sports	|Caze TV 3.2	|https://rdcanais.org/cazetv3
 AoVivo	|Normal	|Sports	|Esp Real Madrid	|https://stream2.cinerama.uz/1263/tracks-v1a1/mono.m3u8
 AoVivo	|Normal	|Sports	|Esp RedBull	|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
