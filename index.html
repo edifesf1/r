@@ -799,17 +799,20 @@ iframe.addEventListener("load",()=>{
 
   status.textContent="Player externo carregado: "+item.titulo;
 
-  if(
-    iframe.src.includes("rdcanais.org")
-  ){
+  // No RDCanais, não mantenha o foco dentro do iframe.
+  // O vídeo continua no player; o foco retorna à tarja vermelha.
+  if(iframe.src.includes("rdcanais.org")){
     setTimeout(()=>{
       if(geracao!==geracaoPlayer)return;
 
       try{
-        iframe.focus();
-        console.log("Tentativa de inicialização automática RDCanais.");
-      }catch(e){}
-    },500);//aqui é o foco do frame
+        // menuA1 fica na tarja superior e recebe o foco sem abrir a lista.
+        menuA1.focus({preventScroll:true});
+        console.log("Foco devolvido à tarja superior após carregar o RDCanais.");
+      }catch(e){
+        try{botaoTarja.focus({preventScroll:true});}catch(e2){}
+      }
+    },500);
   }
 });
     iframe.addEventListener("error",()=>{
