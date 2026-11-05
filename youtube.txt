@@ -587,6 +587,8 @@ AoVivo	|Normal	|Notícias	|Y_SBT News	|https://www.youtube.com/@sbtnews/live
 AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
+AoVivo	|Normal	|Sports	|BandSports 1	|https://nphd.online/tv/bandsports
+AoVivo	|Normal	|Sports	|BandSports 2	|https://d8d4c4538c8a50274814f556ad06f300.embedtv.cc/bandsports
 AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
 AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
