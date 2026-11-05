@@ -808,6 +808,7 @@ if(item.tipo==="twitch"){
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;
+    videoEl.controls=false;
     videoEl.autoplay=true;
     videoEl.playsInline=true;
     videoEl.preload="auto";
