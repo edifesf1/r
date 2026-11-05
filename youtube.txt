@@ -589,7 +589,7 @@ AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
 AoVivo	|Normal	|Sports	|BandSports 1	|https://nphd.online/tv/bandsports
 AoVivo	|Normal	|Sports	|BandSports 2	|https://d8d4c4538c8a50274814f556ad06f300.embedtv.cc/bandsports
-AoVivo	|Normal	|Sports	|BandSports 3	|https://www.google.com/url?sa=t&amp;esrc=s&amp;source=web&amp;query=redecanais&amp;q=%68%74%74%70%73%3A%2F%2F%2564%256E%2573%2E%2563%2561%256D%2565%2572%2561%2F%3F%2564%256E%2573%3D%2F%2570%256C%2561%2579%2565%2572%2533%2F%2563%2568%2E%2570%2568%2570%3F%2563%2561%256E%2561%256C%3D%2562%2561%256E%2564%2573%2570%256F%2572%2574%2573&amp;sa=D&amp;ved=2ahUKEwjz_4TB_5DoAhUfxzgGHaLWCLMQFjAEegQIBRAB&amp;usg=AOvVaw0tQzLTWCS7Dd0u4NZi2OPy
+AoVivo	|Normal	|Sports	|BandSports 3	|https://beyond.spalla.io/player/?live=019a797e-eeb8-7eda-9518-132403ccb160/u0026muted=1/u0026autoplay=1
 AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
 AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
