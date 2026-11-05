@@ -710,7 +710,7 @@ if(item.tipo==="twitch"){
   twitchUrl.searchParams.set("parent",parent);
   twitchUrl.searchParams.set("autoplay","true");
   twitchUrl.searchParams.set("muted","false");
-  twitchUrl.searchParams.set("controls","false");
+  twitchUrl.searchParams.set("controls","true");
 
   iframe.title=item.titulo||"Player Twitch";
   iframe.src=twitchUrl.toString();
@@ -756,40 +756,18 @@ if(item.tipo==="twitch"){
     return;
   }
 
-  // Players externos NPHd e EmbedTV: abrir a página do player dentro do iframe.
-  if(item.tipo==="frame"){
+  // Player externo universal: permite interação direta com o player do próprio site.
+  // O YouTube continua sendo tratado separadamente pela API oficial abaixo.
+  if(item.tipo==="frame"||item.tipo==="iframe"){
     const iframe=document.createElement("iframe");
     iframe.title=item.titulo||"Player externo";
     iframe.src=item.url;
-    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media";
+    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
     iframe.allowFullscreen=true;
     iframe.referrerPolicy="strict-origin-when-cross-origin";
-    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;";
-    area.appendChild(iframe);
-    player=iframe;
-    status.textContent="Carregando player externo: "+item.titulo;
-    iframe.addEventListener("load",()=>{
-      if(geracao===geracaoPlayer){
-        status.textContent="Player externo carregado: "+item.titulo;
-      }
-    });
-    iframe.addEventListener("error",()=>{
-      if(geracao===geracaoPlayer){
-        status.textContent="Não foi possível carregar o player externo.";
-      }
-    });
-    return;
-  }
-
-  // Players externos NPHd e EmbedTV: abrir a página do player dentro do iframe.
-  if(item.tipo==="frame"){
-    const iframe=document.createElement("iframe");
-    iframe.title=item.titulo||"Player externo";
-    iframe.src=item.url;
-    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media";
-    iframe.allowFullscreen=true;
-    iframe.referrerPolicy="strict-origin-when-cross-origin";
-    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;";
+    iframe.setAttribute("allowtransparency","true");
+    iframe.tabIndex=0;
+    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;pointer-events:auto;";
     area.appendChild(iframe);
     player=iframe;
     status.textContent="Carregando player externo: "+item.titulo;
@@ -1066,7 +1044,12 @@ async function carregarLista(){
         
       else if(/^https?:\/\/(?:www\.)?nphd\.online\//i.test(url) ||
               /^https?:\/\/(?:[a-z0-9-]+\.)?embedtv\.cc\//i.test(url))tipo="frame";
-      else if(/^https?:\/\//i.test(url))tipo="audio";
+      // Mantém fluxos diretos de áudio; qualquer outra página HTTP/HTTPS
+      // é tratada como player externo em iframe, com interação liberada.
+      else if(/^https?:\/\//i.test(url) &&
+              (/(?:\.mp3|\.aac|\.m4a|\.ogg|\.opus|\.wav|\.flac|\.m3u|\.pls)(?:$|[?#])/i.test(url) ||
+               /\/stream(?:\/|$|[?#])/i.test(new URL(url).pathname+new URL(url).search)))tipo="audio";
+      else if(/^https?:\/\//i.test(url))tipo="iframe";
 
       if(tipo==="youtube-channel"){
   return {
@@ -1076,7 +1059,7 @@ async function carregarLista(){
   };
 }
 
-if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame")
+if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame"||tipo==="iframe")
   return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
 
