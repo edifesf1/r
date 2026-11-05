@@ -1,3 +1,7 @@
+Aba	|teste	|teste	|BandSports 1	|https://rdcanais.org/band
+Aba	|teste	|teste	|BandSports 2	|https://beyond.spalla.io/player/?live=019a797e-eeb8-7eda-9518-132403ccb160
+Aba	|teste	|teste	|BandSports 3	|https://f484afae8b3118431fee6ddf4a313da6.embedtv.cc/bandsports
+
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
@@ -588,8 +592,6 @@ AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
 AoVivo	|Normal	|Sports	|BandSports 1	|https://nphd.online/tv/bandsports
-AoVivo	|Normal	|Sports	|BandSports 2	|https://rdcanais.org/band
-AoVivo	|Normal	|Sports	|BandSports 4	|https://beyond.spalla.io/player/?live=019a797e-eeb8-7eda-9518-132403ccb160
 AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
 AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
