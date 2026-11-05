@@ -756,6 +756,56 @@ if(item.tipo==="twitch"){
     return;
   }
 
+  // Players externos NPHd e EmbedTV: abrir a página do player dentro do iframe.
+  if(item.tipo==="frame"){
+    const iframe=document.createElement("iframe");
+    iframe.title=item.titulo||"Player externo";
+    iframe.src=item.url;
+    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media";
+    iframe.allowFullscreen=true;
+    iframe.referrerPolicy="strict-origin-when-cross-origin";
+    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;";
+    area.appendChild(iframe);
+    player=iframe;
+    status.textContent="Carregando player externo: "+item.titulo;
+    iframe.addEventListener("load",()=>{
+      if(geracao===geracaoPlayer){
+        status.textContent="Player externo carregado: "+item.titulo;
+      }
+    });
+    iframe.addEventListener("error",()=>{
+      if(geracao===geracaoPlayer){
+        status.textContent="Não foi possível carregar o player externo.";
+      }
+    });
+    return;
+  }
+
+  // Players externos NPHd e EmbedTV: abrir a página do player dentro do iframe.
+  if(item.tipo==="frame"){
+    const iframe=document.createElement("iframe");
+    iframe.title=item.titulo||"Player externo";
+    iframe.src=item.url;
+    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media";
+    iframe.allowFullscreen=true;
+    iframe.referrerPolicy="strict-origin-when-cross-origin";
+    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;";
+    area.appendChild(iframe);
+    player=iframe;
+    status.textContent="Carregando player externo: "+item.titulo;
+    iframe.addEventListener("load",()=>{
+      if(geracao===geracaoPlayer){
+        status.textContent="Player externo carregado: "+item.titulo;
+      }
+    });
+    iframe.addEventListener("error",()=>{
+      if(geracao===geracaoPlayer){
+        status.textContent="Não foi possível carregar o player externo.";
+      }
+    });
+    return;
+  }
+
   // Fluxos de rádio/áudio diretos (por exemplo, URLs /stream sem extensão).
   if(item.tipo==="audio"){
     const audioEl=document.createElement("audio");
@@ -1014,6 +1064,8 @@ async function carregarLista(){
         //adicionei linha abaixo
       else if(extrairHandleCanal(url))tipo="youtube-channel";
         
+      else if(/^https?:\/\/(?:www\.)?nphd\.online\//i.test(url) ||
+              /^https?:\/\/(?:[a-z0-9-]+\.)?embedtv\.cc\//i.test(url))tipo="frame";
       else if(/^https?:\/\//i.test(url))tipo="audio";
 
       if(tipo==="youtube-channel"){
@@ -1024,7 +1076,7 @@ async function carregarLista(){
   };
 }
 
-if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch")
+if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame")
   return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
 
