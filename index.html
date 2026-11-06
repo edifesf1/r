@@ -826,6 +826,17 @@ if(item.tipo==="twitch"){
       let bloqueioAtivo=false;
       let temporizadorBloqueio=null;
 
+      // O botão de próximo canal pode estar desabilitado quando há apenas
+      // um canal. O botão da tarja permanece disponível e é o destino seguro.
+      function voltarParaTarja(){
+        try{
+          botaoTarja.focus({preventScroll:true});
+          status.textContent="Foco voltou para a tarja vermelha. Use a seta para baixo para retornar ao RDCanais.";
+        }catch(e){
+          console.warn("Não foi possível devolver o foco à tarja:",e);
+        }
+      }
+
       function ativarBloqueioRDCanais(){
         if(bloqueioAtivo || geracao!==geracaoPlayer)return;
         bloqueioAtivo=true;
@@ -843,15 +854,20 @@ if(item.tipo==="twitch"){
         temporizadorBloqueio=setTimeout(ativarBloqueioRDCanais,2500);
       });
 
-      // Depois que o bloqueio estiver ativo, clicar/OK sobre o player
-      // devolve o foco à tarja vermelha, em vez de deixar o usuário preso no frame.
+      // Depois que o bloqueio estiver ativo, clicar sobre o player
+      // devolve o foco ao botão sempre disponível da tarja vermelha.
+      bloqueio.addEventListener("pointerdown",e=>{
+        // Garante que o toque/clique seja tratado pela página principal,
+        // mesmo quando o iframe remoto já recebeu foco anteriormente.
+        e.preventDefault();
+        e.stopPropagation();
+        if(bloqueioAtivo)voltarParaTarja();
+      });
+
       bloqueio.addEventListener("click",e=>{
         e.preventDefault();
         e.stopPropagation();
-        if(bloqueioAtivo){
-          botaoProximoCanal.focus({preventScroll:true});
-          status.textContent="Foco voltou para a tarja. Use a seta para baixo para retornar ao RDCanais.";
-        }
+        if(bloqueioAtivo)voltarParaTarja();
       });
 
       // Com a camada focada, impede comandos internos. Seta para cima, OK/Enter
@@ -863,8 +879,7 @@ if(item.tipo==="twitch"){
         e.stopPropagation();
 
         if(bloqueioAtivo && ["ArrowUp","Enter"," "].includes(e.key)){
-          botaoProximoCanal.focus({preventScroll:true});
-          status.textContent="Foco voltou para a tarja. Use a seta para baixo para retornar ao RDCanais.";
+          voltarParaTarja();
         }
       });
 
