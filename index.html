@@ -186,7 +186,7 @@ botaoTarja.addEventListener("click", alternarTarja);
 document.addEventListener("keydown", function(e){
   const iframe = document.querySelector("#player iframe");
 
-  if(!iframe || !iframe.src.includes("rdcanais.org")) return;
+  if(!iframe || !/(^|\.)rdcanais\.org$/i.test(new URL(iframe.src).hostname) && !/(^|\.)redecanais\.by$/i.test(new URL(iframe.src).hostname)) return;
 
   // Seta para baixo: entra no frame quando o foco está na tarja.
   if(e.key === "ArrowDown" && tarja.contains(document.activeElement)){
@@ -783,12 +783,12 @@ if(item.tipo==="twitch"){
     try{
       const endereco=new URL(url);
       ehRDCanais=
-        endereco.hostname==="rdcanais.org" ||
-        endereco.hostname==="www.rdcanais.org";
+        /(^|\.)rdcanais\.org$/i.test(endereco.hostname) ||
+        /(^|\.)redecanais\.by$/i.test(endereco.hostname);
 
       if(ehRDCanais){
-        // autoplay=1 na URL funciona como marcador para NÃO colocar a
-        // camada de bloqueio. Assim o usuário pode clicar no player para iniciar.
+        // Para RDCanais e RedeCanais, autoplay=1 funciona como marcador para NÃO
+        // colocar a camada de bloqueio. Assim o usuário pode clicar para iniciar.
         // Sem esse parâmetro, mantém o bloqueio usado nos players automáticos.
         liberarCliqueRDCanais=endereco.searchParams.get("autoplay")==="1";
         endereco.searchParams.set("mute","0");
@@ -863,7 +863,7 @@ if(item.tipo==="twitch"){
       area.appendChild(iframe);
       player=iframe;
       if(ehRDCanais && liberarCliqueRDCanais){
-        console.log("RDCanais em modo clique: bloqueio interno desativado por autoplay=1.");
+        console.log("Player RDCanais/RedeCanais em modo clique: bloqueio desativado por autoplay=1.");
       }
     }
 
