@@ -778,6 +778,7 @@ if(item.tipo==="twitch"){
 
     let url=item.url;
     let ehRDCanais=false;
+    let liberarCliqueRDCanais=false;
 
     try{
       const endereco=new URL(url);
@@ -786,7 +787,10 @@ if(item.tipo==="twitch"){
         endereco.hostname==="www.rdcanais.org";
 
       if(ehRDCanais){
-        endereco.searchParams.set("autoplay","1");
+        // autoplay=1 na URL funciona como marcador para NÃO colocar a
+        // camada de bloqueio. Assim o usuário pode clicar no player para iniciar.
+        // Sem esse parâmetro, mantém o bloqueio usado nos players automáticos.
+        liberarCliqueRDCanais=endereco.searchParams.get("autoplay")==="1";
         endereco.searchParams.set("mute","0");
       }
 
@@ -805,9 +809,9 @@ if(item.tipo==="twitch"){
     iframe.tabIndex=0;
     iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;pointer-events:auto;";
 
-    if(ehRDCanais){
+    if(ehRDCanais && !liberarCliqueRDCanais){
       // O iframe fica dentro de uma área própria para que a camada não alcance
-      // nenhum outro player do projeto.
+      // nenhum outro player do projeto. Este modo é usado quando NÃO há autoplay=1.
       const moldura=document.createElement("div");
       moldura.style.cssText="position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#000;";
 
@@ -888,9 +892,13 @@ if(item.tipo==="twitch"){
       area.appendChild(moldura);
       player=iframe;
     }else{
-      // Comportamento original dos demais players externos: interação liberada.
+      // Sem bloqueio: inclui os outros players e o RDCanais marcado com
+      // ?autoplay=1, que precisa receber o clique do usuário para iniciar.
       area.appendChild(iframe);
       player=iframe;
+      if(ehRDCanais && liberarCliqueRDCanais){
+        console.log("RDCanais em modo clique: bloqueio interno desativado por autoplay=1.");
+      }
     }
 
     status.textContent="Carregando player externo: "+item.titulo;
