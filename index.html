@@ -232,6 +232,7 @@ let hlsInstance = null;
 let ytPlayerApi = null;
 let geracaoPlayer = 0;
 let ytApiPromise = null;
+  let temporizadorPlayerExterno = null;
   //inicio que adicionei 1
 const YOUTUBE_API_KEY = "AIzaSyB_ts7jN-KEIAJnfDjc3yi_J2DcPbRceW0";
 
@@ -605,11 +606,153 @@ menuC3.addEventListener("change",()=>{
 menuD4.addEventListener("change",aplicarFiltros);
 
 function limparPlayerPesquisa(){
+  limparTemporizadorPlayerExterno();
   geracaoPlayer++;
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
   if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
   document.getElementById("player").replaceChildren();
   player=null;
+}
+
+function limparTemporizadorPlayerExterno(){
+  if(temporizadorPlayerExterno !== null){
+    clearTimeout(temporizadorPlayerExterno);
+    temporizadorPlayerExterno = null;
+  }
+}
+
+// Verifica se a URL original contém autoplay=1.
+function temAutoplayLiberado(url){
+  try{
+    return new URL(url, location.href)
+      .searchParams.get("autoplay") === "1";
+  }catch(e){
+    return /(?:[?&])autoplay=1(?:&|#|$)/i.test(String(url));
+  }
+}
+
+// Função única para criar e controlar todos os players externos.
+function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
+
+  const area = document.getElementById("player");
+  const iframe = document.createElement("iframe");
+
+  const liberarClique = temAutoplayLiberado(urlOriginal);
+
+  iframe.title = item.titulo || "Player externo";
+  iframe.src = urlFinal;
+  iframe.allow = "autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
+  iframe.allowFullscreen = true;
+  iframe.referrerPolicy = "strict-origin-when-cross-origin";
+  iframe.setAttribute("allowtransparency", "true");
+  iframe.tabIndex = 0;
+
+  iframe.style.cssText =
+    "display:block;width:100%;height:100%;border:0;background:#000;";
+
+  // Se não houver autoplay=1, cria a camada de bloqueio.
+  if(!liberarClique){
+
+    const moldura = document.createElement("div");
+
+    moldura.style.cssText =
+      "position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#000;";
+
+    const bloqueio = document.createElement("div");
+
+    bloqueio.setAttribute("aria-label","Controles internos bloqueados");
+    bloqueio.setAttribute("role","presentation");
+
+    bloqueio.style.cssText = [
+      "position:absolute",
+      "inset:0",
+      "z-index:5",
+      "background:transparent",
+      "pointer-events:none",
+      "outline:none",
+      "cursor:default"
+    ].join(";");
+
+    let bloqueioAtivo = false;
+
+    function iniciarContagem(){
+
+      if(
+        bloqueioAtivo ||
+        temporizadorPlayerExterno !== null
+      ) return;
+
+      temporizadorPlayerExterno = setTimeout(()=>{
+
+        temporizadorPlayerExterno = null;
+
+        // Ignora temporizadores de players que já foram substituídos.
+        if(
+          geracao !== geracaoPlayer ||
+          !area.contains(moldura)
+        ) return;
+
+        bloqueioAtivo = true;
+
+        bloqueio.style.pointerEvents = "auto";
+
+        try{
+          iframe.blur();
+        }catch(e){}
+
+        status.textContent =
+          "Player externo iniciado. Navegação interna bloqueada.";
+
+        console.log(
+          "Bloqueio do player externo ativado:",
+          item.titulo
+        );
+
+      },2500);
+    }
+
+    // Inicia a contagem quando o iframe recebe foco ou clique.
+    iframe.addEventListener("focus", iniciarContagem);
+    iframe.addEventListener("pointerdown", iniciarContagem);
+
+    moldura.appendChild(iframe);
+    moldura.appendChild(bloqueio);
+
+    area.appendChild(moldura);
+
+  }else{
+
+    // autoplay=1 mantém a interação liberada.
+    area.appendChild(iframe);
+
+    console.log(
+      "Interação liberada para player externo:",
+      item.titulo
+    );
+  }
+
+  player = iframe;
+
+  status.textContent = "Carregando player externo: " + item.titulo;
+
+  iframe.addEventListener("load",()=>{
+
+    if(geracao !== geracaoPlayer) return;
+
+    status.textContent =
+      "Player externo carregado: " + item.titulo;
+
+  });
+
+  iframe.addEventListener("error",()=>{
+
+    if(geracao !== geracaoPlayer) return;
+
+    status.textContent =
+      "Não foi possível carregar o player externo.";
+
+  });
+
 }
 
 function ativarPesquisa(ativar) {
@@ -699,6 +842,7 @@ function extrairId(valor){
 function criarPlayer(){
   if(!videos.length)return;
   const item=videos[selecionado];if(!item)return;
+  limparTemporizadorPlayerExterno();
   const area=document.getElementById("player"),geracao=++geracaoPlayer;
   if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
   if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
@@ -732,188 +876,89 @@ if(item.tipo==="youtube-channel"){
 
   return;
 }
-// Player oficial incorporado da Twitch.
-if(item.tipo==="twitch"){
-  const iframe=document.createElement("iframe");
-
-  const endereco=new URL(item.url);
-  const canal=endereco.searchParams.get("channel");
-
-  // A Twitch exige o domínio real do projeto.
-  const parent=location.hostname;
-
-  const twitchUrl=new URL("https://player.twitch.tv/");
   
-  twitchUrl.searchParams.set("channel",canal);
-  twitchUrl.searchParams.set("parent",parent);
-  twitchUrl.searchParams.set("autoplay","true");
-  twitchUrl.searchParams.set("muted","false");
-  twitchUrl.searchParams.set("controls","true");
+  // PLAYER EXTERNO UNIFICADO
+  // Twitch, Restream, NPHd, EmbedTV, RDCanais,
+  // RedeCanais e demais páginas externas.
 
-  iframe.title=item.titulo||"Player Twitch";
-  iframe.src=twitchUrl.toString();
-  iframe.allow="autoplay; fullscreen; picture-in-picture";
-  iframe.allowFullscreen=true;
+  if(
+    item.tipo==="twitch" ||
+    item.tipo==="restream" ||
+    item.tipo==="frame" ||
+    item.tipo==="iframe"
+  ){
 
-  iframe.referrerPolicy="strict-origin-when-cross-origin";
+    let url = String(item.url || "")
+      .trim()
+      .replace(/\\&/g,"&");
 
-  iframe.style.cssText=
-    "display:block;width:100%;height:100%;border:0;background:#000;";
-
-  iframe.addEventListener("load",()=>{
-    if(geracao===geracaoPlayer){
-      status.textContent="Player Twitch carregado: "+item.titulo;
-    }
-  });
-
-  area.appendChild(iframe);
-  player=iframe;
-
-  status.textContent="Carregando transmissão da Twitch…";
-  return;
-}
-
-  
-  // Player incorporado da Restream: utiliza o próprio player oficial dentro do projeto.
-  if(item.tipo==="restream"){
-    const iframe=document.createElement("iframe");
-    iframe.title=item.titulo||"Player Restream";
-    iframe.src=item.url;
-    iframe.allow="autoplay; fullscreen; encrypted-media; picture-in-picture";
-    iframe.allowFullscreen=true;
-    iframe.referrerPolicy="strict-origin-when-cross-origin";
-    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;";
-    iframe.addEventListener("load",()=>{
-      if(geracao===geracaoPlayer)status.textContent="Player Restream carregado: "+item.titulo;
-    });
-    iframe.addEventListener("error",()=>{
-      if(geracao===geracaoPlayer)status.textContent="Não foi possível carregar o player da Restream.";
-    });
-    area.appendChild(iframe);
-    player=iframe;
-    status.textContent="Carregando transmissão da Restream…";
-    return;
-  }
-
-  // Player externo universal. O bloqueio de controles é aplicado SOMENTE ao RDCanais.
-  // Outros iframes continuam com interação normal.
-  if(item.tipo==="frame"||item.tipo==="iframe"){
-    const iframe=document.createElement("iframe");
-    iframe.title=item.titulo||"Player externo";
-
-    // Normaliza URLs copiadas de textos que possam trazer \& no lugar de &.
-    let url=String(item.url||"").trim().replace(/\\&/g,"&");
-    let ehRDCanais=false;
-    let liberarCliqueRDCanais=false;
+    const urlOriginal = url;
 
     try{
-      const endereco=new URL(url);
-      ehRDCanais=
-        /(^|\.)rdcanais\.org$/i.test(endereco.hostname) ||
-        /(^|\.)redecanais\.by$/i.test(endereco.hostname);
 
-      if(ehRDCanais){
-        // Para RDCanais e RedeCanais, autoplay=1 funciona como marcador para NÃO
-        // colocar a camada de bloqueio. Assim o usuário pode clicar para iniciar.
-        // Sem esse parâmetro, mantém o bloqueio usado nos players automáticos.
-        // Aceita o parâmetro em qualquer posição da query, inclusive quando a URL
-        // foi copiada com o separador \& escapado.
-        liberarCliqueRDCanais=
-          endereco.searchParams.get("autoplay")==="1" ||
-          /(?:[?&])autoplay=1(?:&|#|$)/i.test(endereco.href);
-        endereco.searchParams.set("mute","0");
+      const endereco = new URL(url);
+
+      // Configuração especial da Twitch.
+      if(item.tipo==="twitch"){
+
+        const canal = endereco.searchParams.get("channel");
+
+        if(!canal){
+          throw new Error("O endereço da Twitch não contém o nome do canal.");
+        }
+
+        const twitchUrl = new URL("https://player.twitch.tv/");
+
+        twitchUrl.searchParams.set("channel",canal);
+        twitchUrl.searchParams.set("parent",location.hostname);
+        twitchUrl.searchParams.set("autoplay","true");
+        twitchUrl.searchParams.set("muted","false");
+        twitchUrl.searchParams.set("controls","true");
+
+        url = twitchUrl.toString();
+
       }
 
-      // EmbedTV: tentativa de autoplay
-      if(endereco.hostname.endsWith(".embedtv.cc")){
+      // Configuração especial do EmbedTV.
+      // O marcador de liberação continua sendo verificado
+      // na URL original da playlist, não nesta URL modificada.
+      else if(
+        endereco.hostname === "embedtv.cc" ||
+        endereco.hostname.endsWith(".embedtv.cc")
+      ){
+
         endereco.searchParams.set("autoplay","1");
-      }
-      url=endereco.toString();
-    }catch(e){}
+        url = endereco.toString();
 
-    iframe.src=url;
-    iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
-    iframe.allowFullscreen=true;
-    iframe.referrerPolicy="strict-origin-when-cross-origin";
-    iframe.setAttribute("allowtransparency","true");
-    iframe.tabIndex=0;
-    iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;pointer-events:auto;";
-
-    if(ehRDCanais && !liberarCliqueRDCanais){
-      // O iframe fica dentro de uma área própria para que a camada não alcance
-      // nenhum outro player do projeto. Este modo é usado quando NÃO há autoplay=1.
-      const moldura=document.createElement("div");
-      moldura.style.cssText="position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#000;";
-
-      const bloqueio=document.createElement("div");
-      bloqueio.setAttribute("aria-label","Bloqueio dos controles internos do RDCanais");
-      bloqueio.setAttribute("role","button");
-      bloqueio.setAttribute("tabindex","-1");
-      bloqueio.title="Controles internos do RDCanais bloqueados";
-      bloqueio.textContent="";
-      bloqueio.style.cssText=[
-        "position:absolute","inset:0","z-index:5",
-        "background:transparent","pointer-events:none",
-        "outline:none","cursor:default"
-      ].join(";");
-
-      let bloqueioAtivo=false;
-      let temporizadorBloqueio=null;
-
-      // O bloqueio não deve devolver nem prender automaticamente o foco na tarja.
-
-      function ativarBloqueioRDCanais(){
-        if(bloqueioAtivo || geracao!==geracaoPlayer)return;
-        bloqueioAtivo=true;
-        bloqueio.style.pointerEvents="auto";
-        bloqueio.tabIndex=-1;
-        // Libera o foco do iframe sem direcioná-lo automaticamente à tarja.
-        try{iframe.blur();}catch(e){}
-        status.textContent="RDCanais iniciado. Navegação interna bloqueada.";
-        console.log("Bloqueio dos controles internos do RDCanais ativado.");
       }
 
-      // O primeiro foco/clique no iframe continua chegando ao player para
-      // permitir iniciar a transmissão. Depois de 2,5 s, bloqueia novos cliques.
-      iframe.addEventListener("focus",()=>{
-        if(bloqueioAtivo || temporizadorBloqueio)return;
-        temporizadorBloqueio=setTimeout(ativarBloqueioRDCanais,2500);
-      });
+      // Restream e os demais players usam o endereço original.
+      else{
 
-      // A camada transparente bloqueia novos cliques nos controles internos,
-      // mas não captura o teclado nem força o retorno do foco à tarja.
+        url = endereco.toString();
 
-      moldura.appendChild(iframe);
-      moldura.appendChild(bloqueio);
-      area.appendChild(moldura);
-      player=iframe;
-    }else{
-      // Sem bloqueio: inclui os outros players e o RDCanais marcado com
-      // ?autoplay=1, que precisa receber o clique do usuário para iniciar.
-      area.appendChild(iframe);
-      player=iframe;
-      if(ehRDCanais && liberarCliqueRDCanais){
-        console.log("Player RDCanais/RedeCanais em modo clique: bloqueio desativado por autoplay=1.");
       }
+
+    }catch(erro){
+
+      status.textContent =
+        "Endereço externo inválido: " + erro.message;
+
+      console.error("Erro no player externo:",erro);
+
+      return;
     }
 
-    status.textContent="Carregando player externo: "+item.titulo;
+    criarIframeExterno(
+      item,
+      geracao,
+      url,
+      urlOriginal
+    );
 
-    iframe.addEventListener("load",()=>{
-      if(geracao!==geracaoPlayer)return;
-
-      status.textContent="Player externo carregado: "+item.titulo;
-
-
-    });
-
-    iframe.addEventListener("error",()=>{
-      if(geracao===geracaoPlayer){
-        status.textContent="Não foi possível carregar o player externo.";
-      }
-    });
     return;
   }
+
 
   // Fluxos de rádio/áudio diretos (por exemplo, URLs /stream sem extensão).
   if(item.tipo==="audio"){
