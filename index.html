@@ -770,33 +770,33 @@ if(item.tipo==="twitch"){
     return;
   }
 
-  // Player externo universal: permite interação direta com o player do próprio site.
-  // O YouTube continua sendo tratado separadamente pela API oficial abaixo.
+  // Player externo universal. O bloqueio de controles é aplicado SOMENTE ao RDCanais.
+  // Outros iframes continuam com interação normal.
   if(item.tipo==="frame"||item.tipo==="iframe"){
     const iframe=document.createElement("iframe");
     iframe.title=item.titulo||"Player externo";
-    
-//adicionei tenta dar play antes
+
     let url=item.url;
-    
+    let ehRDCanais=false;
+
     try{
       const endereco=new URL(url);
-      if(
-  endereco.hostname==="rdcanais.org" ||
-  endereco.hostname==="www.rdcanais.org"
-){
-  endereco.searchParams.set("autoplay","1");
-  endereco.searchParams.set("mute","0");
-}
-      
-  // EmbedTV: tentativa de autoplay
-  if(endereco.hostname.endsWith(".embedtv.cc")){
-    endereco.searchParams.set("autoplay","1");
-  }
+      ehRDCanais=
+        endereco.hostname==="rdcanais.org" ||
+        endereco.hostname==="www.rdcanais.org";
+
+      if(ehRDCanais){
+        endereco.searchParams.set("autoplay","1");
+        endereco.searchParams.set("mute","0");
+      }
+
+      // EmbedTV: tentativa de autoplay
+      if(endereco.hostname.endsWith(".embedtv.cc")){
+        endereco.searchParams.set("autoplay","1");
+      }
       url=endereco.toString();
     }catch(e){}
 
-    //fim
     iframe.src=url;
     iframe.allow="autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
     iframe.allowFullscreen=true;
@@ -804,31 +804,93 @@ if(item.tipo==="twitch"){
     iframe.setAttribute("allowtransparency","true");
     iframe.tabIndex=0;
     iframe.style.cssText="display:block;width:100%;height:100%;border:0;background:#000;pointer-events:auto;";
-    area.appendChild(iframe);
-    player=iframe;
+
+    if(ehRDCanais){
+      // O iframe fica dentro de uma área própria para que a camada não alcance
+      // nenhum outro player do projeto.
+      const moldura=document.createElement("div");
+      moldura.style.cssText="position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#000;";
+
+      const bloqueio=document.createElement("div");
+      bloqueio.setAttribute("aria-label","Bloqueio dos controles internos do RDCanais");
+      bloqueio.setAttribute("role","button");
+      bloqueio.setAttribute("tabindex","-1");
+      bloqueio.title="Controles internos do RDCanais bloqueados";
+      bloqueio.textContent="";
+      bloqueio.style.cssText=[
+        "position:absolute","inset:0","z-index:5",
+        "background:transparent","pointer-events:none",
+        "outline:none","cursor:default"
+      ].join(";");
+
+      let bloqueioAtivo=false;
+      let temporizadorBloqueio=null;
+
+      function ativarBloqueioRDCanais(){
+        if(bloqueioAtivo || geracao!==geracaoPlayer)return;
+        bloqueioAtivo=true;
+        bloqueio.style.pointerEvents="auto";
+        bloqueio.tabIndex=0;
+        bloqueio.focus({preventScroll:true});
+        status.textContent="RDCanais iniciado. Navegação interna bloqueada.";
+        console.log("Bloqueio dos controles internos do RDCanais ativado.");
+      }
+
+      // O primeiro foco/clique no iframe continua chegando ao player para
+      // permitir iniciar a transmissão. Depois de 2,5 s, bloqueia novos cliques.
+      iframe.addEventListener("focus",()=>{
+        if(bloqueioAtivo || temporizadorBloqueio)return;
+        temporizadorBloqueio=setTimeout(ativarBloqueioRDCanais,2500);
+      });
+
+      // Se o usuário clicar novamente durante a janela inicial, mantém a
+      // oportunidade de iniciar a transmissão; o bloqueio entra ao fim do prazo.
+      bloqueio.addEventListener("click",e=>{
+        if(!bloqueioAtivo){
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      });
+
+      // Com a camada focada, impede comandos comuns de navegação por teclado.
+      bloqueio.addEventListener("keydown",e=>{
+        if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter"," ","PageUp","PageDown","Home","End"].includes(e.key)){
+          e.preventDefault();
+          e.stopPropagation();
+        }
+      });
+
+      moldura.appendChild(iframe);
+      moldura.appendChild(bloqueio);
+      area.appendChild(moldura);
+      player=iframe;
+    }else{
+      // Comportamento original dos demais players externos: interação liberada.
+      area.appendChild(iframe);
+      player=iframe;
+    }
+
     status.textContent="Carregando player externo: "+item.titulo;
 
-    //inicio
-iframe.addEventListener("load",()=>{
-  if(geracao!==geracaoPlayer)return;
-
-  status.textContent="Player externo carregado: "+item.titulo;
-
-  if(iframe.src.includes("rdcanais.org")){
-    setTimeout(()=>{
+    iframe.addEventListener("load",()=>{
       if(geracao!==geracaoPlayer)return;
 
-      try{
-        // Mantém o foco na tarja após carregar o RDCanais.
-        botaoProximoCanal.focus({preventScroll:true});
-        console.log("Foco mantido na tarja vermelha.");
-      }catch(e){
-        console.warn("Não foi possível posicionar o foco:",e);
+      status.textContent="Player externo carregado: "+item.titulo;
+
+      if(ehRDCanais){
+        setTimeout(()=>{
+          if(geracao!==geracaoPlayer)return;
+          try{
+            // Mantém o foco na tarja até o usuário entrar no iframe.
+            botaoProximoCanal.focus({preventScroll:true});
+            console.log("RDCanais pronto: primeiro clique no player inicia a transmissão.");
+          }catch(e){
+            console.warn("Não foi possível posicionar o foco:",e);
+          }
+        },700);
       }
-    },700);
-  }
-});
-    //termino
+    });
+
     iframe.addEventListener("error",()=>{
       if(geracao===geracaoPlayer){
         status.textContent="Não foi possível carregar o player externo.";
