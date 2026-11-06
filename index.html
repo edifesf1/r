@@ -843,20 +843,28 @@ if(item.tipo==="twitch"){
         temporizadorBloqueio=setTimeout(ativarBloqueioRDCanais,2500);
       });
 
-      // Se o usuário clicar novamente durante a janela inicial, mantém a
-      // oportunidade de iniciar a transmissão; o bloqueio entra ao fim do prazo.
+      // Depois que o bloqueio estiver ativo, clicar/OK sobre o player
+      // devolve o foco à tarja vermelha, em vez de deixar o usuário preso no frame.
       bloqueio.addEventListener("click",e=>{
-        if(!bloqueioAtivo){
-          e.preventDefault();
-          e.stopPropagation();
+        e.preventDefault();
+        e.stopPropagation();
+        if(bloqueioAtivo){
+          botaoProximoCanal.focus({preventScroll:true});
+          status.textContent="Foco voltou para a tarja. Use a seta para baixo para retornar ao RDCanais.";
         }
       });
 
-      // Com a camada focada, impede comandos comuns de navegação por teclado.
+      // Com a camada focada, impede comandos internos. Seta para cima, OK/Enter
+      // ou Espaço retornam o foco à tarja vermelha.
       bloqueio.addEventListener("keydown",e=>{
-        if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter"," ","PageUp","PageDown","Home","End"].includes(e.key)){
-          e.preventDefault();
-          e.stopPropagation();
+        const teclasBloqueadas=["ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter"," ","PageUp","PageDown","Home","End"];
+        if(!teclasBloqueadas.includes(e.key))return;
+        e.preventDefault();
+        e.stopPropagation();
+
+        if(bloqueioAtivo && ["ArrowUp","Enter"," "].includes(e.key)){
+          botaoProximoCanal.focus({preventScroll:true});
+          status.textContent="Foco voltou para a tarja. Use a seta para baixo para retornar ao RDCanais.";
         }
       });
 
