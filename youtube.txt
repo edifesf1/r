@@ -1,4 +1,4 @@
-Aba	|teste	|teste	|BandSports 1	|https://rdcanais.org/band
+Aba	|teste	|teste	|BandSports 1	|https://rdcanais.org/band?autoplay=1
 Aba	|teste	|teste	|BandSports 2	|https://beyond.spalla.io/player/?live=019a797e-eeb8-7eda-9518-132403ccb160
 Aba	|teste	|teste	|BandSports 3	|https://www.tvonlinehd.api.br/player.html?id=~BAQGAwkfBwENCw
 Aba	|teste	|teste	|Caze TV 1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
