@@ -830,23 +830,15 @@ if(item.tipo==="twitch"){
       let bloqueioAtivo=false;
       let temporizadorBloqueio=null;
 
-      // O botão de próximo canal pode estar desabilitado quando há apenas
-      // um canal. O botão da tarja permanece disponível e é o destino seguro.
-      function voltarParaTarja(){
-        try{
-          botaoTarja.focus({preventScroll:true});
-          status.textContent="Foco voltou para a tarja vermelha. Use a seta para baixo para retornar ao RDCanais.";
-        }catch(e){
-          console.warn("Não foi possível devolver o foco à tarja:",e);
-        }
-      }
+      // O bloqueio não deve devolver nem prender automaticamente o foco na tarja.
 
       function ativarBloqueioRDCanais(){
         if(bloqueioAtivo || geracao!==geracaoPlayer)return;
         bloqueioAtivo=true;
         bloqueio.style.pointerEvents="auto";
-        bloqueio.tabIndex=0;
-        bloqueio.focus({preventScroll:true});
+        bloqueio.tabIndex=-1;
+        // Libera o foco do iframe sem direcioná-lo automaticamente à tarja.
+        try{iframe.blur();}catch(e){}
         status.textContent="RDCanais iniciado. Navegação interna bloqueada.";
         console.log("Bloqueio dos controles internos do RDCanais ativado.");
       }
@@ -858,34 +850,8 @@ if(item.tipo==="twitch"){
         temporizadorBloqueio=setTimeout(ativarBloqueioRDCanais,2500);
       });
 
-      // Depois que o bloqueio estiver ativo, clicar sobre o player
-      // devolve o foco ao botão sempre disponível da tarja vermelha.
-      bloqueio.addEventListener("pointerdown",e=>{
-        // Garante que o toque/clique seja tratado pela página principal,
-        // mesmo quando o iframe remoto já recebeu foco anteriormente.
-        e.preventDefault();
-        e.stopPropagation();
-        if(bloqueioAtivo)voltarParaTarja();
-      });
-
-      bloqueio.addEventListener("click",e=>{
-        e.preventDefault();
-        e.stopPropagation();
-        if(bloqueioAtivo)voltarParaTarja();
-      });
-
-      // Com a camada focada, impede comandos internos. Seta para cima, OK/Enter
-      // ou Espaço retornam o foco à tarja vermelha.
-      bloqueio.addEventListener("keydown",e=>{
-        const teclasBloqueadas=["ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Enter"," ","PageUp","PageDown","Home","End"];
-        if(!teclasBloqueadas.includes(e.key))return;
-        e.preventDefault();
-        e.stopPropagation();
-
-        if(bloqueioAtivo && ["ArrowUp","Enter"," "].includes(e.key)){
-          voltarParaTarja();
-        }
-      });
+      // A camada transparente bloqueia novos cliques nos controles internos,
+      // mas não captura o teclado nem força o retorno do foco à tarja.
 
       moldura.appendChild(iframe);
       moldura.appendChild(bloqueio);
@@ -908,18 +874,7 @@ if(item.tipo==="twitch"){
 
       status.textContent="Player externo carregado: "+item.titulo;
 
-      if(ehRDCanais){
-        setTimeout(()=>{
-          if(geracao!==geracaoPlayer)return;
-          try{
-            // Mantém o foco na tarja até o usuário entrar no iframe.
-            botaoProximoCanal.focus({preventScroll:true});
-            console.log("RDCanais pronto: primeiro clique no player inicia a transmissão.");
-          }catch(e){
-            console.warn("Não foi possível posicionar o foco:",e);
-          }
-        },700);
-      }
+
     });
 
     iframe.addEventListener("error",()=>{
