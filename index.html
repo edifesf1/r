@@ -794,28 +794,33 @@ if(item.tipo==="twitch"){
     area.appendChild(iframe);
     player=iframe;
     status.textContent="Carregando player externo: "+item.titulo;
+
+    //inicio
 iframe.addEventListener("load",()=>{
   if(geracao!==geracaoPlayer)return;
 
   status.textContent="Player externo carregado: "+item.titulo;
 
-  // No RDCanais, não mantenha o foco dentro do iframe.
-  // O vídeo continua no player; o foco retorna à tarja vermelha.
-  if(iframe.src.includes("rdcanais.org")){
+  const ehRDCanais =
+    iframe.src.includes("rdcanais.org");
+
+  if(ehRDCanais){
     setTimeout(()=>{
       if(geracao!==geracaoPlayer)return;
 
       try{
-        // O foco retorna ao botão 6 (seta para avançar) na tarja vermelha.
-        // O vídeo continua reproduzindo dentro do iframe.
-        botaoProximoCanal.focus({preventScroll:true});
-        console.log("Foco devolvido ao botão de avançar da tarja vermelha após carregar o RDCanais.");
+        // Coloca o foco no player para permitir Play
+        // quando o início automático não funcionar.
+        iframe.focus({preventScroll:true});
+
+        console.log("Foco direcionado ao player RDCanais.");
       }catch(e){
-        try{botaoTarja.focus({preventScroll:true});}catch(e2){}
+        console.warn("Não foi possível focar o RDCanais:",e);
       }
-    },500);
+    },700);
   }
 });
+    //termino
     iframe.addEventListener("error",()=>{
       if(geracao===geracaoPlayer){
         status.textContent="Não foi possível carregar o player externo.";
