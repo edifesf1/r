@@ -182,18 +182,43 @@ function alternarTarja(){
 }
 botaoTarja.addEventListener("click", alternarTarja);
 //inicio
-// Navegação entre a tarja vermelha e o player RDCanais.
+// Navegação entre a tarja vermelha e os players RDCanais/RedeCanais.
 document.addEventListener("keydown", function(e){
+
   const iframe = document.querySelector("#player iframe");
+  if(!iframe) return;
 
-  if(!iframe || !/(^|\.)rdcanais\.org$/i.test(new URL(iframe.src).hostname) && !/(^|\.)redecanais\.by$/i.test(new URL(iframe.src).hostname)) return;
+  let dominio = "";
 
-  // Seta para baixo: entra no frame quando o foco está na tarja.
-  if(e.key === "ArrowDown" && tarja.contains(document.activeElement)){
-    e.preventDefault();
-    iframe.focus({preventScroll:true});
+  try {
+    dominio = new URL(iframe.src).hostname.toLowerCase();
+  } catch(err) {
+    return;
   }
-});
+
+  const playerEspecial =
+    dominio === "rdcanais.org" ||
+    dominio.endsWith(".rdcanais.org") ||
+    dominio === "redecanais.by" ||
+    dominio.endsWith(".redecanais.by");
+
+  if(!playerEspecial) return;
+
+  // Seta para baixo: transfere o foco da tarja para o player.
+  if(e.key === "ArrowDown" && tarja.contains(document.activeElement)){
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    iframe.setAttribute("tabindex", "0");
+
+    setTimeout(()=>{
+      iframe.focus({preventScroll:true});
+    }, 50);
+
+  }
+
+}, true);
   //fim
 // URL do servidor responsável exclusivamente pelo controle de sessões.
 const URL_SESSOES = "https://script.google.com/macros/s/AKfycbyjEMCft9Z-84Owpfukv4ROvVv3w2Ax4QsyPvULPuk424Ej8Liz8AU5xmQnoLSDMl2b/exec";
