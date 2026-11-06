@@ -4,6 +4,8 @@ Aba	|teste	|teste	|BandSports 3	|https://www.tvonlinehd.api.br/player.html?id=~B
 Aba	|teste	|teste	|Caze TV 1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
 Aba	|teste	|teste	|Caze TV 1.1	|https://nphd.online/tv/caze1
 Aba	|teste	|teste	|Caze TV 1.2	|https://rdcanais.org/cazetv
+Aba	|teste	|teste	|discoverykidsla	|https://player.twitch.tv/?autoplay=true&channel=discoverykidsla&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
+Aba	|teste	|teste	|cidadaniatv	|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
 
 
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
