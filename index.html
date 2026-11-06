@@ -776,7 +776,8 @@ if(item.tipo==="twitch"){
     const iframe=document.createElement("iframe");
     iframe.title=item.titulo||"Player externo";
 
-    let url=item.url;
+    // Normaliza URLs copiadas de textos que possam trazer \& no lugar de &.
+    let url=String(item.url||"").trim().replace(/\\&/g,"&");
     let ehRDCanais=false;
     let liberarCliqueRDCanais=false;
 
@@ -790,7 +791,11 @@ if(item.tipo==="twitch"){
         // Para RDCanais e RedeCanais, autoplay=1 funciona como marcador para NÃO
         // colocar a camada de bloqueio. Assim o usuário pode clicar para iniciar.
         // Sem esse parâmetro, mantém o bloqueio usado nos players automáticos.
-        liberarCliqueRDCanais=endereco.searchParams.get("autoplay")==="1";
+        // Aceita o parâmetro em qualquer posição da query, inclusive quando a URL
+        // foi copiada com o separador \& escapado.
+        liberarCliqueRDCanais=
+          endereco.searchParams.get("autoplay")==="1" ||
+          /(?:[?&])autoplay=1(?:&|#|$)/i.test(endereco.href);
         endereco.searchParams.set("mute","0");
       }
 
