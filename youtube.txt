@@ -7,7 +7,6 @@ Aba	|teste	|teste	|Caze TV 1.1	|https://nphd.online/tv/caze1
 Aba	|teste	|teste	|Caze TV 1.2	|https://rdcanais.org/cazetv
 Aba	|teste	|teste	|discoverykidsla	|https://player.twitch.tv/?autoplay=true&channel=discoverykidsla&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
 Aba	|teste	|teste	|cidadaniatv	|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
-Aba	|teste	|teste	|Futura	|https://rdcanais.org/futura
 
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
