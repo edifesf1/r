@@ -9,6 +9,7 @@ Aba	|teste	|teste	|discoverykidsla	|https://player.twitch.tv/?autoplay=true&chan
 Aba	|teste	|teste	|cidadaniatv	|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
 Aba	|teste	|teste	|globo  |https://livestream.st/live/secure/hxBZCQhDwXCb6Xztm9-v0kOauqE1eMNi4dqSUkMjjQ0/1794045003/de13edee6a0c9566/discoveryworld/tracks-v1a1/mono.m3u8
 
+
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
@@ -401,20 +402,26 @@ AoVivo	|Normal	|Agro	|Canal do Criador	|https://isaocorp.cloudecast.com/rural-ca
 AoVivo	|Normal	|Agro	|Canal Rural	|https://isaocorp.cloudecast.com/canalrural/index.m3u8
 AoVivo	|Normal	|Agro	|TV Coop	|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
 AoVivo	|Normal	|Agro	|Vivax TV	|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
-AoVivo	|Normal	|Canais	|Band Bahia	|https://hqf6tcxuhk.singularcdn.net.br/live/0196ff1e-8bbc-76d9-bcda-cfe58c2b0be6/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4OTEzMCwibmJmIjoxNzkxNDg5MTMwLCJleHAiOjE3OTQwODExMzAsInVyaV9zdWIiOiIvMDE5NmZmMWUtOGJiYy03NmQ5LWJjZGEtY2ZlNThjMmIwYmU2LyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.8d3KtqxoIukaUg8Ws3xNnT1OYECYF1BK6XfJ7y03Uxc&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
-AoVivo	|Normal	|Canais	|Band PA - RVATV	|https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
+AoVivo	|Normal	|Canais	|Aparecida 1.1	|https://rdcanais.org/aparecida
+AoVivo	|Normal	|Canais	|Aparecida 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/aparecida.m3u8
+AoVivo	|Normal	|Canais	|Band 1.1	|https://hqf6tcxuhk.singularcdn.net.br/live/0196ff1e-8bbc-76d9-bcda-cfe58c2b0be6/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4OTEzMCwibmJmIjoxNzkxNDg5MTMwLCJleHAiOjE3OTQwODExMzAsInVyaV9zdWIiOiIvMDE5NmZmMWUtOGJiYy03NmQ5LWJjZGEtY2ZlNThjMmIwYmU2LyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.8d3KtqxoIukaUg8Ws3xNnT1OYECYF1BK6XfJ7y03Uxc&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
+AoVivo	|Normal	|Canais	|Band 1.2	|https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
+AoVivo	|Normal	|Canais	|Globo 1.1	|https://rdcanais.org/globo
+AoVivo	|Normal	|Canais	|Globo 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globosp.m3u8
+AoVivo	|Normal	|Canais	|Globo 1.3	|https://nphd.online/tv/globosp
 AoVivo	|Normal	|Canais	|Globo SPTV	|https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-AoVivo	|Normal	|Canais	|MasterChef	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record MT 1	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record SICTV  RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record TV Conquista	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
-AoVivo	|Normal	|Canais	|Rede TV ES	|https://stream.esemrede.com.br/live/redetves.m3u8
-AoVivo	|Normal	|Canais	|Rede TV RO	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record 1.1	|https://rdcanais.org/band
+AoVivo	|Normal	|Canais	|Record 1.2 RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record 1.3	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+AoVivo	|Normal	|Canais	|Rede 1.1	|https://stream.esemrede.com.br/live/redetves.m3u8
+AoVivo	|Normal	|Canais	|Rede 1.2 RO	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/playlist.m3u8
+AoVivo	|Normal	|Canais	|Redetv 1.3	|https://nphd.online/tv/redetv
 AoVivo	|Normal	|Canais	|Reviva	|https://stmv.webtvninjas.com.br/webtvni1/webtvni1/playlist.m3u8
-AoVivo	|Normal	|Canais	|SBT	|https://d1jvs4svzaqp8n.cloudfront.net/channel_720.m3u8
-AoVivo	|Normal	|Canais	|SBT Interior 2	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
-AoVivo	|Normal	|Canais	|SBT Nacional	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
-AoVivo	|Normal	|Culinária	|Receitas Fast	|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
+AoVivo	|Normal	|Canais	|SBT 1.1	|https://d1jvs4svzaqp8n.cloudfront.net/channel_720.m3u8
+AoVivo	|Normal	|Canais	|SBT 1.2	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
+AoVivo	|Normal	|Canais	|SBT 1.3	|https://nphd.online/tv/sbt
+AoVivo	|Normal	|Culinaria	|MasterChef	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
+AoVivo	|Normal	|Culinaria	|Receitas Fast	|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal Educação	|https://canaleducacao-stream.ebc.com.br/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal FDR	|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
 AoVivo	|Normal	|Cultura	|Canal Gov	|https://canalgov-stream.ebc.com.br/index.m3u8
@@ -432,18 +439,35 @@ AoVivo	|Normal	|Cultura	|SescTV	|https://cloudflare.cdn.spalla.io/live/0195ede1-
 AoVivo	|Normal	|Cultura	|Sobrevivi	|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
 AoVivo	|Normal	|Cultura	|Tela Brasil	|https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Aberta SP	|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/chunklist_w1066622811.m3u8
-AoVivo	|Normal	|Cultura	|TV Brasil	|https://tvbrasil-stream.ebc.com.br/index.m3u8
-AoVivo	|Normal	|Cultura	|TV Brasil Central	|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
-AoVivo	|Normal	|Cultura	|TV Brasil Internacional	|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
-AoVivo	|Normal	|Cultura	|TV Cultura	|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-AoVivo	|Normal	|Cultura	|TV Cultura + News	|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
-AoVivo	|Normal	|Cultura	|TV Cultura Fast	|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
-AoVivo	|Normal	|Cultura	|TV Cultura PR 1	|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
+AoVivo	|Normal	|Cultura	|TV Brasil 1.1	|https://tvbrasil-stream.ebc.com.br/index.m3u8
+AoVivo	|Normal	|Cultura	|TV Brasil 1.2	|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
+AoVivo	|Normal	|Cultura	|TV Brasil 1.3	|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura 1.1	|https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura 1.2	|https://video05.logicahost.com.br/tvmais01/tvmais01/playlist.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura 1.3	|https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
+AoVivo	|Normal	|Cultura	|TV Cultura 1.4	|https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Life America	|https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
 AoVivo	|Normal	|Cultura	|TV Marajoara	|https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Nova Nordeste PE	|https://stream.ecast.com.br/nova-tv/index.fmp4.m3u8
 AoVivo	|Normal	|Cultura	|TV UFOP	|https://app.tvufop.com.br/hls/tvufop.m3u8
 AoVivo	|Normal	|Cultura	|TV+Pet	|https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
+AoVivo	|Normal	|Documentarios	|AnimalPlanet 1.1	|https://rdcanais.org/animalplanet
+AoVivo	|Normal	|Documentarios	|AnimalPlanet 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/animalplanet.m3u8
+AoVivo	|Normal	|Documentarios	|AnimalPlanet 1.3	|https://nphd.online/tv/animalplanet
+AoVivo	|Normal	|Documentarios	|DiscoveryChannel 1.1	|https://rdcanais.org/discoverychannel
+AoVivo	|Normal	|Documentarios	|DiscoveryChannel 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/discoverychannel.m3u8
+AoVivo	|Normal	|Documentarios	|DiscoveryChannel 1.3	|https://nphd.online/tv/discoverychannel
+AoVivo	|Normal	|Documentarios	|DiscoveryScience 1.1	|https://rdcanais.org/discoveryscience
+AoVivo	|Normal	|Documentarios	|DiscoveryScience 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/discoveryscience.m3u8
+AoVivo	|Normal	|Documentarios	|DiscoveryScience 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/5acf57037efadc7b39b449d53829b5c5/playlist.m3u8
+AoVivo	|Normal	|Documentarios	|DiscoveryTheater 1.1	|https://rdcanais.org/discoverytheater
+AoVivo	|Normal	|Documentarios	|DiscoveryTheater 1.2	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/4866106e68908bbe6c895db1c70e171e/playlist.m3u8
+AoVivo	|Normal	|Documentarios	|DiscoveryTheater 1.3	|https://livestream.st/live/secure/AF6nK5RLF1Sy_6QEs6v0J3amPR5FaFFOVG0zoBoU_FA/1794040945/de13edee6a0c9566/discoverytheater/index.m3u8
+AoVivo	|Normal	|Documentarios	|DiscoveryTurbo 1.1	|https://rdcanais.org/discoveryturbo
+AoVivo	|Normal	|Documentarios	|DiscoveryWorld 1.1	|https://rdcanais.org/discoveryworld
+AoVivo	|Normal	|Documentarios	|Futura 1.1	|https://rdcanais.org/futura
+AoVivo	|Normal	|Documentarios	|History 1.1	|https://rdcanais.org/history
+AoVivo	|Normal	|Documentarios	|History 1.2	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/d5b278cd78f94a7ef4cdbe855b785e69/playlist.m3u8
 AoVivo	|Normal	|Documentarios	|Infiltrados	|https://pb-rgoucsi31222d.akamaized.net/60DaysIn.m3u8
 AoVivo	|Normal	|Documentarios	|Love Nature	|https://d1si3n1st4nkgb.cloudfront.net/10000/88876007/hls/master.m3u8?ads.xumo_channelId=88876007
 AoVivo	|Normal	|Entretenimento	|7 TVs	|https://stmv1.samcast.com.br/beatpapo/beatpapo/playlist.m3u8
@@ -614,21 +638,21 @@ AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8
 AoVivo	|Normal	|Sports	|FIFA+ Portuguese English	|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 AoVivo	|Normal	|Sports	|Ge Fast	|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
 AoVivo	|Normal	|Sports	|NSPorts	|https://www.youtube.com/@NSports/live
-AoVivo	|Normal	|Sports	|pfc1.1  |https://nphd.online/tv/premiere
-AoVivo	|Normal	|Sports	|pfc1.2  |https://rdcanais.org/premiereclubes
-AoVivo	|Normal	|Sports	|pfc2.1  |https://nphd.online/tv/premiere2
-AoVivo	|Normal	|Sports	|pfc2.2  |https://rdcanais.org/premiere2
-AoVivo	|Normal	|Sports	|pfc3.1  |https://nphd.online/tv/premiere3
-AoVivo	|Normal	|Sports	|pfc3.2  |https://rdcanais.org/premiere3
-AoVivo	|Normal	|Sports	|pfc4.1  |https://nphd.online/tv/premiere4
-AoVivo	|Normal	|Sports	|pfc4.2  |https://rdcanais.org/premiere4
-AoVivo	|Normal	|Sports	|pfc5.1  |https://nphd.online/tv/premiere5
-AoVivo	|Normal	|Sports	|pfc5.2  |https://rdcanais.org/premiere5
-AoVivo	|Normal	|Sports	|pfc6.1  |https://nphd.online/tv/premiere6
-AoVivo	|Normal	|Sports	|pfc6.2  |https://rdcanais.org/premiere6
-AoVivo	|Normal	|Sports	|pfc7.1  |https://nphd.online/tv/premiere7
-AoVivo	|Normal	|Sports	|pfc7.2  |https://rdcanais.org/premiere7
-AoVivo	|Normal	|Sports	|pfc8.1  |https://rdcanais.org/premiere8
+AoVivo	|Normal	|Sports	|pfc1.1  |https://nphd.online/tv/premiere	
+AoVivo	|Normal	|Sports	|pfc1.2  |https://rdcanais.org/premiereclubes	
+AoVivo	|Normal	|Sports	|pfc2.1  |https://nphd.online/tv/premiere2	
+AoVivo	|Normal	|Sports	|pfc2.2  |https://rdcanais.org/premiere2	
+AoVivo	|Normal	|Sports	|pfc3.1  |https://nphd.online/tv/premiere3	
+AoVivo	|Normal	|Sports	|pfc3.2  |https://rdcanais.org/premiere3	
+AoVivo	|Normal	|Sports	|pfc4.1  |https://nphd.online/tv/premiere4	
+AoVivo	|Normal	|Sports	|pfc4.2  |https://rdcanais.org/premiere4	
+AoVivo	|Normal	|Sports	|pfc5.1  |https://nphd.online/tv/premiere5	
+AoVivo	|Normal	|Sports	|pfc5.2  |https://rdcanais.org/premiere5	
+AoVivo	|Normal	|Sports	|pfc6.1  |https://nphd.online/tv/premiere6	
+AoVivo	|Normal	|Sports	|pfc6.2  |https://rdcanais.org/premiere6	
+AoVivo	|Normal	|Sports	|pfc7.1  |https://nphd.online/tv/premiere7	
+AoVivo	|Normal	|Sports	|pfc7.2  |https://rdcanais.org/premiere7	
+AoVivo	|Normal	|Sports	|pfc8.1  |https://rdcanais.org/premiere8	
 AoVivo	|Normal	|Sports	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w451977208.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 1	|https://video07.logicahost.com.br/rssports01/rssports01/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 2	|https://video03.logicahost.com.br/rssports2/rssports2/playlist.m3u8
@@ -647,11 +671,11 @@ AoVivo	|Normal	|Sports	|Xsports	|https://pb-r54iiecsw1gj5.akamaized.net/XSports.
 AoVivo	|Normal	|Sports	|Y_Esp Teletrece	|https://www.youtube.com/@T13_cl/live
 AoVivo	|Normal	|Sports	|Y_Esp TN en vivo	|https://www.youtube.com/@todonoticias/live
 AoVivo	|Normal	|Sports	|Y_Euronews pt	|https://www.youtube.com/@euronewspt/live
+AoVivo	|Religioso	|Catolico	|Aparecida 1.3	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 AoVivo	|Religioso	|Catolico	|Pai Eterno	|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|Rede Vida 2	|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
 AoVivo	|Religioso	|Catolico	|Seculo 21	|https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Alternativa	|https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
-AoVivo	|Religioso	|Catolico	|TV Aparecida 2	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Brusque	|https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/rodrigotvbrusque.com.br/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Canção Nova	|https://www.youtube.com/watch?v=rFH6A49OI-8
 AoVivo	|Religioso	|Catolico	|TV Canção Nova pt	|https://5c643ed5107b7.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
@@ -886,3 +910,13 @@ Music	|Radios	|Normal	|Rádio Clube Fm	|https://clubefm1.brasilstream.com.br/hls
 Music	|Radios	|Normal	|Radio Montanhesa	|https://qfm.sistemasgerais.com.br/hlsm/index.m3u8
 Music	|Radios	|Normal	|TikTok Radio	|https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 Music	|Radios	|Normal	|Wording	|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w2110040520.m3u8
+	|Normal	|Documentarios	|DiscoveryTurbo 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/discoveryturbo.m3u8
+	|Normal	|Documentarios	|DiscoveryTurbo 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/4b7ffeeaa554d1e9153b5a31dd93c5d3/playlist.m3u8
+	|Normal	|Documentarios	|DiscoveryWorld 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/discoveryworld.m3u8
+	|Normal	|Documentarios	|DiscoveryWorld 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/f0e4d7dfcd1b4106eb04aeeaddfed40c/playlist.m3u8
+	|Normal	|Documentarios	|Futura 1.2	|https://tv.unisc.br/hls/test.m3u8
+	|Normal	|Documentarios	|Futura 1.2	|https://bx-tv.com/proxy.php?url=http%3A%2F%2F186.219.52.187%2Ffutura%2Findex.m3u8
+	|Normal	|Documentarios	|History 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/history.m3u8
+	|Normal	|Documentarios	|History 2.1	|https://rdcanais.org/history2
+	|Normal	|Documentarios	|History 2.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/history2.m3u8
+	|Normal	|Documentarios	|History 2.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/156cdf513fffebf02d525900e5934c7a/playlist.m3u8
