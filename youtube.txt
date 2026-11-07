@@ -651,7 +651,7 @@ AoVivo	|Normal	|Sports	|ESPN 6.1	|https://nphd.online/tv/espn6
 AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 AoVivo	|Normal	|Sports	|FIFA+ Portuguese English	|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 AoVivo	|Normal	|Sports	|Ge Fast	|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
-AoVivo	|Normal	|Sports	|NSPorts 1.1	|https://rdcanais.org/nsports
+AoVivo	|Normal	|Sports	|NSPorts 1.1	|https://rdcanais.org/nsports?autoplay=1
 AoVivo	|Normal	|Sports	|NSPorts 1.2	|https://www.youtube.com/@NSports/live
 AoVivo	|Normal	|Sports	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w451977208.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 1	|https://video07.logicahost.com.br/rssports01/rssports01/playlist.m3u8
