@@ -1,13 +1,4 @@
-﻿Aba	|teste	|teste	|Band 1	|https://rdcanais.org/band?autoplay=1
-Aba	|teste	|teste	|ESPN 2	|https://redecanais.by/player3/ch.php?canal=espn&autoplay=1
-Aba	|teste	|teste	|BandSports 2	|https://embedcanaisdetv.xyz/e/index.php?canal=bandsports
-Aba	|teste	|teste	|BandSports 3	|https://www.tvonlinehd.api.br/player.html?id=~BAQGAwkfBwENCw
-Aba	|teste	|teste	|Caze TV 1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
-Aba	|teste	|teste	|Caze TV 1.1	|https://nphd.online/tv/caze1
-Aba	|teste	|teste	|Caze TV 1.2	|https://rdcanais.org/cazetv
-Aba	|teste	|teste	|discoverykidsla	|https://player.twitch.tv/?autoplay=true&channel=discoverykidsla&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
-Aba	|teste	|teste	|cidadaniatv	|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
-Aba	|teste	|teste	|globo  |https://livestream.st/live/secure/hxBZCQhDwXCb6Xztm9-v0kOauqE1eMNi4dqSUkMjjQ0/1794045003/de13edee6a0c9566/discoveryworld/tracks-v1a1/mono.m3u8	
+﻿Aba	|teste	|teste	|BAND	|https://embedcanaisdetv.xyz/e/index.php?canal=bandsports
 Aba	|teste	|teste	|Caze TV 1.2	|https://rdcanais.org/cazetv
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
@@ -636,9 +627,9 @@ AoVivo	|Normal	|Sports	|BandSports 1.2	|https://nphd.online/tv/bandsports
 AoVivo	|Normal	|Sports	|BandSports 1.3	|https://rdcanais.org/bandsports
 AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
 AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
-AoVivo	|Normal	|Sports	|Caze TV 1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
-AoVivo	|Normal	|Sports	|Caze TV 1.1	|https://nphd.online/tv/caze1
-AoVivo	|Normal	|Sports	|Caze TV 1.2	|https://rdcanais.org/cazetv
+AoVivo	|Normal	|Sports	|Caze TV 1.1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
+AoVivo	|Normal	|Sports	|Caze TV 1.2	|https://nphd.online/tv/caze1
+AoVivo	|Normal	|Sports	|Caze TV 1.3	|https://rdcanais.org/cazetv
 AoVivo	|Normal	|Sports	|Caze TV 2.1	|https://nphd.online/tv/caze2
 AoVivo	|Normal	|Sports	|Caze TV 2.2	|https://rdcanais.org/cazetv2
 AoVivo	|Normal	|Sports	|Caze TV 3.1	|https://nphd.online/tv/caze3
@@ -660,7 +651,8 @@ AoVivo	|Normal	|Sports	|ESPN 6.1	|https://nphd.online/tv/espn6
 AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 AoVivo	|Normal	|Sports	|FIFA+ Portuguese English	|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 AoVivo	|Normal	|Sports	|Ge Fast	|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
-AoVivo	|Normal	|Sports	|NSPorts	|https://www.youtube.com/@NSports/live
+AoVivo	|Normal	|Sports	|NSPorts 1.1	|https://rdcanais.org/nsports
+AoVivo	|Normal	|Sports	|NSPorts 1.2	|https://www.youtube.com/@NSports/live
 AoVivo	|Normal	|Sports	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w451977208.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 1	|https://video07.logicahost.com.br/rssports01/rssports01/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 2	|https://video03.logicahost.com.br/rssports2/rssports2/playlist.m3u8
@@ -671,11 +663,22 @@ AoVivo	|Normal	|Sports	|RS Play	|https://video05.logicahost.com.br/rsnews/rsnews
 AoVivo	|Normal	|Sports	|RS SERIES	|https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS TV	|https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
 AoVivo	|Normal	|Sports	|SFT Combat	|https://hrm-sftc.otteravision.com/hrm/sftc/sftc_720p_high.m3u8
+AoVivo	|Normal	|Sports	|SporTV 1.1	|https://nphd.online/tv/sportv
+AoVivo	|Normal	|Sports	|SporTV 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sportv.m3u8
+AoVivo	|Normal	|Sports	|SporTV 1.3	|https://rdcanais.org/sportv
+AoVivo	|Normal	|Sports	|SporTV 2.1	|https://nphd.online/tv/sportv2
+AoVivo	|Normal	|Sports	|SporTV 2.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sportv2.m3u8
+AoVivo	|Normal	|Sports	|SporTV 2.3	|https://rdcanais.org/sportv2
+AoVivo	|Normal	|Sports	|SporTV 3.1	|https://nphd.online/tv/sportv3
+AoVivo	|Normal	|Sports	|SporTV 3.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sportv3.m3u8
+AoVivo	|Normal	|Sports	|SporTV 3.3	|https://rdcanais.org/sportv3
 AoVivo	|Normal	|Sports	|TVL News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w346284232.m3u8
 AoVivo	|Normal	|Sports	|UFC	|https://pb-drwvokx73qpxg.akamaized.net/playlist.m3u8
 AoVivo	|Normal	|Sports	|UFC ByPass	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
 AoVivo	|Normal	|Sports	|Voz do Esporte	|https://www.youtube.com/@VozdoEsporte/live
-AoVivo	|Normal	|Sports	|Xsports	|https://pb-r54iiecsw1gj5.akamaized.net/XSports.m3u8
+AoVivo	|Normal	|Sports	|Xsports 1.1	|https://pb-r54iiecsw1gj5.akamaized.net/XSports.m3u8
+AoVivo	|Normal	|Sports	|Xsports 1.2	|https://nphd.online/tv/xsports
+AoVivo	|Normal	|Sports	|Xsports 1.3	|https://rdcanais.org/xsports
 AoVivo	|Normal	|Sports	|Y_Esp Teletrece	|https://www.youtube.com/@T13_cl/live
 AoVivo	|Normal	|Sports	|Y_Esp TN en vivo	|https://www.youtube.com/@todonoticias/live
 AoVivo	|Normal	|Sports	|Y_Euronews pt	|https://www.youtube.com/@euronewspt/live
@@ -692,22 +695,40 @@ AoVivo	|Normal	|SportsPPV	|MAX 1.1	|https://nphd.online/tv/max1
 AoVivo	|Normal	|SportsPPV	|MAX 2.1	|https://nphd.online/tv/max2
 AoVivo	|Normal	|SportsPPV	|MAX 3.1	|https://nphd.online/tv/max3
 AoVivo	|Normal	|SportsPPV	|ParamountPlus 1.1	|https://nphd.online/tv/paramountplus
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 1.2	|https://rdcanais.org/paramountplus
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/paramountplus.m3u8
 AoVivo	|Normal	|SportsPPV	|ParamountPlus 2.1	|https://nphd.online/tv/paramountplus2
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 2.2	|https://rdcanais.org/paramountplus2
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 2.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/paramountplus2.m3u8
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 3.1	|https://nphd.online/tv/paramountplus3
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 3.2	|https://rdcanais.org/paramountplus3
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 3.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/paramountplus3.m3u8
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 4.1	|https://nphd.online/tv/paramountplus4
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 4.2	|https://rdcanais.org/paramountplus4
+AoVivo	|Normal	|SportsPPV	|ParamountPlus 4.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/paramountplus4.m3u8
 AoVivo	|Normal	|SportsPPV	|Premiere 1.1	|https://nphd.online/tv/premiere
-AoVivo	|Normal	|SportsPPV	|Premiere 1.2	|https://rdcanais.org/premiereclubes
+AoVivo	|Normal	|SportsPPV	|Premiere 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 1.3	|https://rdcanais.org/premiereclubes
 AoVivo	|Normal	|SportsPPV	|Premiere 2.1	|https://nphd.online/tv/premiere2
-AoVivo	|Normal	|SportsPPV	|Premiere 2.2	|https://rdcanais.org/premiere2
+AoVivo	|Normal	|SportsPPV	|Premiere 2.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere2.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 2.3	|https://rdcanais.org/premiere2
 AoVivo	|Normal	|SportsPPV	|Premiere 3.1	|https://nphd.online/tv/premiere3
-AoVivo	|Normal	|SportsPPV	|Premiere 3.2	|https://rdcanais.org/premiere3
+AoVivo	|Normal	|SportsPPV	|Premiere 3.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere3.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 3.3	|https://rdcanais.org/premiere3
 AoVivo	|Normal	|SportsPPV	|Premiere 4.1	|https://nphd.online/tv/premiere4
-AoVivo	|Normal	|SportsPPV	|Premiere 4.2	|https://rdcanais.org/premiere4
+AoVivo	|Normal	|SportsPPV	|Premiere 4.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere4.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 4.3	|https://rdcanais.org/premiere4
 AoVivo	|Normal	|SportsPPV	|Premiere 5.1	|https://nphd.online/tv/premiere5
-AoVivo	|Normal	|SportsPPV	|Premiere 5.2	|https://rdcanais.org/premiere5
+AoVivo	|Normal	|SportsPPV	|Premiere 5.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere5.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 5.3	|https://rdcanais.org/premiere5
 AoVivo	|Normal	|SportsPPV	|Premiere 6.1	|https://nphd.online/tv/premiere6
-AoVivo	|Normal	|SportsPPV	|Premiere 6.2	|https://rdcanais.org/premiere6
+AoVivo	|Normal	|SportsPPV	|Premiere 6.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere6.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 6.3	|https://rdcanais.org/premiere6
 AoVivo	|Normal	|SportsPPV	|Premiere 7.1	|https://nphd.online/tv/premiere7
-AoVivo	|Normal	|SportsPPV	|Premiere 7.2	|https://rdcanais.org/premiere7
-AoVivo	|Normal	|SportsPPV	|Premiere 8.2	|https://rdcanais.org/premiere8
+AoVivo	|Normal	|SportsPPV	|Premiere 7.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere7.m3u8
+AoVivo	|Normal	|SportsPPV	|Premiere 7.3	|https://rdcanais.org/premiere7
+AoVivo	|Normal	|SportsPPV	|Premiere 8.1	|https://rdcanais.org/premiere8
+AoVivo	|Normal	|SportsPPV	|Premiere 8.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/premiere8.m3u8
 AoVivo	|Normal	|SportsPPV	|PrimeVideo 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/primevideo.m3u8
 AoVivo	|Normal	|SportsPPV	|PrimeVideo 1.2	|https://nphd.online/tv/primevideo
 AoVivo	|Normal	|SportsPPV	|PrimeVideo 1.3	|https://rdcanais.org/primevideo
@@ -718,9 +739,13 @@ AoVivo	|Normal	|SportsPPV	|PrimeVideo 3.1	|https://a5a7158118e59ee590424b55bb9ae
 AoVivo	|Normal	|SportsPPV	|PrimeVideo 3.2	|https://nphd.online/tv/primevideo3
 AoVivo	|Normal	|SportsPPV	|PrimeVideo 3.3	|https://rdcanais.org/primevideo3
 AoVivo	|Normal	|SportsPPV	|SportyNet 0.1	|https://nphd.online/tv/sportynet
+AoVivo	|Normal	|SportsPPV	|SportyNet 0.2	|https://rdcanais.org/sportynet
 AoVivo	|Normal	|SportsPPV	|SportyNetPlus 1.1	|https://nphd.online/tv/sportynetplus1
+AoVivo	|Normal	|SportsPPV	|SportyNetPlus 1.2	|https://rdcanais.org/sportynetplus
 AoVivo	|Normal	|SportsPPV	|SportyNetPlus 2.1	|https://nphd.online/tv/sportynetplus2
+AoVivo	|Normal	|SportsPPV	|SportyNetPlus 2.2	|https://rdcanais.org/sportynetplus2
 AoVivo	|Normal	|SportsPPV	|SportyNetPlus 3.1	|https://nphd.online/tv/sportynetplus3
+AoVivo	|Normal	|SportsPPV	|SportyNetPlus 3.2	|https://rdcanais.org/sportynetplus3
 AoVivo	|Religioso	|Catolico	|Aparecida 1.3	|https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/chunklist.m3u8
 AoVivo	|Religioso	|Catolico	|Pai Eterno	|https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|Rede Vida 2	|https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
