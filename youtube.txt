@@ -7,7 +7,7 @@ Aba	|teste	|teste	|Caze TV 1.1	|https://nphd.online/tv/caze1
 Aba	|teste	|teste	|Caze TV 1.2	|https://rdcanais.org/cazetv
 Aba	|teste	|teste	|discoverykidsla	|https://player.twitch.tv/?autoplay=true&channel=discoverykidsla&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
 Aba	|teste	|teste	|cidadaniatv	|https://player.twitch.tv/?autoplay=true&channel=cidadaniatv&enableExtensions=true&muted=false&parent=tvcomunitaria.rio&quality=auto&volume=0.5
-Aba	|teste	|teste	|globo  |https://c52e11d87b05ee3a6b6acb07bf8e007b.embedtv.cc/globosp?user=edifesf@gmail.com&password=love1010
+Aba	|teste	|teste	|globo  |https://livestream.st/live/secure/hxBZCQhDwXCb6Xztm9-v0kOauqE1eMNi4dqSUkMjjQ0/1794045003/de13edee6a0c9566/discoveryworld/tracks-v1a1/mono.m3u8
 
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
