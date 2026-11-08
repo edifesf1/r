@@ -1,12 +1,7 @@
 
-Aba	|teste	|teste	|NSPorts 1.2	|https://rdcanais.org/nsports?autoplay=1&delay=1000&mude=1
-Aba	|teste	|teste	|NSPorts 1.3	|https://rdcanais.org/nsports?autoplay=1&delay=1000&mude=1&delay=1000
-Aba	|teste	|teste	|NSPorts 1.4	|https://rdcanais.org/nsports?autoplay=0&delay=1000&mude=0
-Aba	|teste	|teste	|NSPorts 1.5	|https://rdcanais.org/nsports?autoplay=0&delay=1000&mude=0&delay=1000
-Aba	|teste	|teste	|NSPorts 1.6	|https://rdcanais.org/nsports?autoplay=true&delay=1000&mude=true
-Aba	|teste	|teste	|NSPorts 1.7	|https://rdcanais.org/nsports?autoplay=true&delay=1000&mude=true&delay=1000
-Aba	|teste	|teste	|NSPorts 1.8	|https://rdcanais.org/nsports?autoplay=false&delay=1000&mude=false
-Aba	|teste	|teste	|NSPorts 1.9	|https://rdcanais.org/nsports?autoplay=false&delay=1000&mude=false&delay=1000
+Aba	|teste	|teste	|NSPorts 1.2	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mude=0&volume=90
+Aba	|teste	|teste	|NSPorts 1.3	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mude=0&delay=1000
+Aba	|teste	|teste	|NSPorts 1.4	|https://rdcanais.org/nsports?autoplay=false&volume=90&delay=1000&mude=false&volume=90&delay=1000
 Aba	|teste	|teste	|zCaze TV 1.2	|https://rdcanais.org/cazetv
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
