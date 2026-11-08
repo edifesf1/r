@@ -1,7 +1,7 @@
 
-Aba	|teste	|teste	|NSPorts 1.2	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mude=0&volume=90
-Aba	|teste	|teste	|NSPorts 1.3	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mude=0&delay=1000
-Aba	|teste	|teste	|NSPorts 1.4	|https://rdcanais.org/nsports?autoplay=false&volume=90&delay=1000&mude=false&volume=90&delay=1000
+Aba	|teste	|teste	|NSPorts 1.2	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mute=0&volume=90
+Aba	|teste	|teste	|NSPorts 1.3	|https://rdcanais.org/nsports?autoplay=0&volume=90&delay=1000&mute=0&delay=1000
+Aba	|teste	|teste	|NSPorts 1.4	|https://rdcanais.org/nsports?autoplay=false&volume=90&delay=1000&mute=false&volume=90&delay=1000
 Aba	|teste	|teste	|zCaze TV 1.2	|https://rdcanais.org/cazetv
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
