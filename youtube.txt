@@ -608,12 +608,13 @@ AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9ae
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
 AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globonews.m3u8
 AoVivo	|Normal	|Notícias	|GloboNews 1.2	|https://rdcanais.org/globonews
-AoVivo	|Normal	|Notícias	|JovemPan 1.1	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
-AoVivo	|Normal	|Notícias	|JovemPan 1.2	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+AoVivo	|Normal	|Notícias	|JovemPan 1.1	  |https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+AoVivo	|Normal	|Notícias	|JovemPan 1.2	  |https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+AoVivo	|Normal	|Notícias	|JovemPan 1.3	  |https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f68ff6447c134b8e9cf8bed47083d48a/playlist.m3u8	
 AoVivo	|Normal	|Notícias	|Record News 1.1	|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 AoVivo	|Normal	|Notícias	|Record News 1.2	|https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
 AoVivo	|Normal	|Notícias	|SBT News 1.1	|https://sbtNews.maissbt.com/3.m3u8
-AoVivo	|Normal	|Notícias	|SBT News 1.2	||https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
+AoVivo	|Normal	|Notícias	|SBT News 1.2	|https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
 AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
 AoVivo	|Normal	|Notícias	|Veja +	|https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 AoVivo	|Normal	|Notícias	|Y_BandJornal	|https://www.youtube.com/@bandjornalismo/live
