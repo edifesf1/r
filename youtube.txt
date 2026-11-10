@@ -602,6 +602,7 @@ AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
 AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://rdcanais.org/bandnews
+AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/playlist.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/cnnbrasil.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
 AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://rdcanais.org/globonews
