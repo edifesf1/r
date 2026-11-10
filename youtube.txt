@@ -402,7 +402,8 @@ AoVivo	|Normal	|Canais	|Globo 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-
 AoVivo	|Normal	|Canais	|Globo 1.3	|https://nphd.online/tv/globosp
 AoVivo	|Normal	|Canais	|Globo SPTV	|https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 AoVivo	|Normal	|Canais	|Record 1.1	|https://rdcanais.org/record
-AoVivo	|Normal	|Canais	|Record 1.2 RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
+AoVivo	|Normal	|Canais	|Record 1.2 RO	|https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
+//AoVivo	|Normal	|Canais	|Record 1.2 RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
 AoVivo	|Normal	|Canais	|Record 1.3	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 AoVivo	|Normal	|Canais	|Rede 1.1	|https://stream.esemrede.com.br/live/redetves.m3u8
 AoVivo	|Normal	|Canais	|Rede 1.2 RO	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/playlist.m3u8
