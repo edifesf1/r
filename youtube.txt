@@ -500,6 +500,7 @@ AoVivo	|Normal	|Entretenimento	|Rede Meio Norte 1	|https://maystreaming.cloudeca
 AoVivo	|Normal	|Entretenimento	|Rede QDM	|https://stmv1.transmissaodigital.com/redeqdm/redeqdm/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Rede Tv O Dia TV	|https://6836041ea1117.streamlock.net/tvodia/tvodia/chunklist_w171190789.m3u8
 AoVivo	|Normal	|Entretenimento	|Rede TV Pampa	|https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
+AoVivo	|Normal	|Entretenimento	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|RS Play	|https://tv03.zas.media:1936/rsplay/rsplay/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|SBT Aratu	|https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Seven TV	|https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
@@ -601,17 +602,16 @@ AoVivo	|Normal	|Filmes	|TV Series	|https://stmv1.srvif.com/tvserie/tvserie/playl
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
-AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://rdcanais.org/bandnews
-AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/playlist.m3u8
+AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/playlist.m3u8
+AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://rdcanais.org/bandnews
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/cnnbrasil.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
-AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://rdcanais.org/globonews
-AoVivo	|Normal	|Notícias	|GloboNews 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globonews.m3u8
+AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globonews.m3u8
+AoVivo	|Normal	|Notícias	|GloboNews 1.2	|https://rdcanais.org/globonews
 AoVivo	|Normal	|Notícias	|JovemPan 1.1	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 AoVivo	|Normal	|Notícias	|JovemPan 1.2	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
 AoVivo	|Normal	|Notícias	|Record News 1.1	|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 AoVivo	|Normal	|Notícias	|Record News 1.2	|https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
-AoVivo	|Normal	|Notícias	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 AoVivo	|Normal	|Notícias	|SBT News 1.1	|https://sbtNews.maissbt.com/3.m3u8
 AoVivo	|Normal	|Notícias	|SBT News 1.2 Y	|https://www.youtube.com/@sbtnews/live
 AoVivo	|Normal	|Notícias	|TCM 10	|https://live.tcm10.com.br/tcm10hd/stream.m3u8
