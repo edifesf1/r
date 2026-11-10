@@ -876,7 +876,67 @@ if(item.tipo==="youtube-channel"){
 
   return;
 }
-  
+    // PLAYLIST M3U EXTERNA: CNN PORTUGAL
+  // Lê o arquivo do GitHub e extrai a URL HLS atualizada.
+
+  if(item.tipo==="m3u-ref" || item.urlM3uRef){
+
+    const urlArquivo = item.urlM3uRef || item.url;
+
+    status.textContent="Buscando endereço atualizado da CNN Portugal...";
+
+    fetch(urlArquivo+"?v="+Date.now(),{
+      cache:"no-store"
+    })
+    .then(resposta=>{
+      if(!resposta.ok){
+        throw new Error("HTTP "+resposta.status);
+      }
+      return resposta.text();
+    })
+    .then(texto=>{
+
+      if(geracao!==geracaoPlayer)return;
+
+      const enderecoHLS=texto
+        .replace(/^\uFEFF/,"")
+        .split(/\r?\n/)
+        .map(linha=>linha.trim())
+        .filter(linha=>linha && !linha.startsWith("#"))
+        .find(linha=>/^https:\/\/video-auth1\.iol\.pt\//i.test(linha));
+
+      if(!enderecoHLS){
+        throw new Error("Não encontrei a URL HLS da CNN no arquivo M3U.");
+      }
+
+      const urlValidada=new URL(enderecoHLS);
+
+      if(urlValidada.searchParams.get("wmsAuthSign")===null ||
+         !urlValidada.searchParams.get("wmsAuthSign")){
+        throw new Error("O arquivo M3U não contém um token de autenticação.");
+      }
+
+      item.urlM3uRef=urlArquivo;
+      item.url=urlValidada.toString();
+      item.tipo="hls";
+
+      console.log("URL HLS da CNN Portugal encontrada.");
+
+      criarPlayer();
+
+    })
+    .catch(erro=>{
+
+      if(geracao!==geracaoPlayer)return;
+
+      console.error("Erro ao carregar playlist da CNN:",erro);
+
+      status.textContent="Erro ao buscar CNN Portugal: "+erro.message;
+
+    });
+
+    return;
+  }
   // PLAYER EXTERNO UNIFICADO
   // Twitch, Restream, NPHd, EmbedTV, RDCanais,
   // RedeCanais e demais páginas externas.
@@ -1211,7 +1271,14 @@ async function carregarLista(){
       tema=tema||"Normal";categoria=categoria||"Filmes";classificacao=classificacao||"Geral";titulo=titulo||"Vídeo "+(indice+1);
       const id=extrairId(url);
       let tipo="desconhecido";
-      if(/\.m3u8(?:$|[?#])/i.test(url))tipo="hls";
+      if(
+  /raw\.githubusercontent\.com\/edifesf1\/r\/main\/cnn_portugal\.m3u8(?:$|[?#])/i.test(url)
+){
+  tipo="m3u-ref";
+}
+else if(/\.m3u8(?:$|[?#])/i.test(url)){
+  tipo="hls";
+}
       else if(id)tipo="youtube";
       else if(/^https?:\/\/player\.twitch\.tv\//i.test(url))tipo="twitch";
       else if(/^https?:\/\/player\.restream\.io\//i.test(url))tipo="restream";
@@ -1235,7 +1302,7 @@ async function carregarLista(){
   };
 }
 
-if(tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame"||tipo==="iframe")
+if(tipo==="m3u-ref"||tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame"||tipo==="iframe")
   return{tema,categoria,classificacao,titulo,id:null,url,tipo};
       return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
 
