@@ -395,13 +395,13 @@ AoVivo	|Normal	|Agro	|TV Coop	|https://stream01f.netpointcdn.com.br/tvcoopsc/aov
 AoVivo	|Normal	|Agro	|Vivax TV	|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 AoVivo	|Normal	|Canais	|Aparecida 1.1	|https://rdcanais.org/aparecida
 AoVivo	|Normal	|Canais	|Aparecida 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/aparecida.m3u8
-AoVivo	|Normal	|Canais	|Band 1.1	|https://hqf6tcxuhk.singularcdn.net.br/live/0196ff1e-8bbc-76d9-bcda-cfe58c2b0be6/s1/playlist_nova-a.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ4OTEzMCwibmJmIjoxNzkxNDg5MTMwLCJleHAiOjE3OTQwODExMzAsInVyaV9zdWIiOiIvMDE5NmZmMWUtOGJiYy03NmQ5LWJjZGEtY2ZlNThjMmIwYmU2LyIsInVpZCI6ImIyMWI4MmQwLTA5ZjctNDQ4Mi05ODI2LWI5NDA1N2NhZjBjNCIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.8d3KtqxoIukaUg8Ws3xNnT1OYECYF1BK6XfJ7y03Uxc&uid=b21b82d0-09f7-4482-9826-b94057caf0c4
-AoVivo	|Normal	|Canais	|Band 1.2	|https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
+AoVivo	|Normal	|Canais	|Band 1.1	|https://np.s25-cloudfront-net.lat/stream/d9aa84f92327b335ad2d0af274cad5e8/band.m3u8
+AoVivo	|Normal	|Canais	|Band 1.2	|https://np.s23-cloudfront-net.lat/temp/band.m3u8
 AoVivo	|Normal	|Canais	|Globo 1.1	|https://rdcanais.org/globo
 AoVivo	|Normal	|Canais	|Globo 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globosp.m3u8
 AoVivo	|Normal	|Canais	|Globo 1.3	|https://nphd.online/tv/globosp
 AoVivo	|Normal	|Canais	|Globo SPTV	|https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-AoVivo	|Normal	|Canais	|Record 1.1	|https://rdcanais.org/band
+AoVivo	|Normal	|Canais	|Record 1.1	|https://rdcanais.org/record
 AoVivo	|Normal	|Canais	|Record 1.2 RO	|https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8
 AoVivo	|Normal	|Canais	|Record 1.3	|https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 AoVivo	|Normal	|Canais	|Rede 1.1	|https://stream.esemrede.com.br/live/redetves.m3u8
@@ -602,8 +602,9 @@ AoVivo	|Normal	|Filmes	|TV Series	|https://stmv1.srvif.com/tvserie/tvserie/playl
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
-AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/playlist.m3u8
+AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/bandnews.m3u8
 AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://rdcanais.org/bandnews
+AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://np.s23-cloudfront-net.lat/temp/bandnews.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/cnnbrasil.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
 AoVivo	|Normal	|Notícias	|CNN Portugal 1.1	|https://raw.githubusercontent.com/edifesf1/r/main/cnn_portugal.m3u8
