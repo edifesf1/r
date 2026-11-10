@@ -1,2 +1,3 @@
 #EXTM3U
-# Arquivo inicial: será preenchido pelo workflow após obter token válido.
+#EXTINF:-1 tvg-name="CNN Portugal" group-title="Notícias",CNN Portugal
+https://video-auth1.iol.pt/live_cnn/live_cnn/edge_servers/cnn-720p/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTAvMjAyNiAyOjg6MzEgQU0maGFzaF92YWx1ZT1aUUZOVWlNeDFiT3BjNVFKTFRzbHRnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NWNhNWZhZGMtOTNjMi00ZTkzLThiZjEtZjc3NTNlYTM1NWE0
