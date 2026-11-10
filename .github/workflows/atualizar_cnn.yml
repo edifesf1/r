@@ -1,0 +1,42 @@
+name: Atualizar token CNN Portugal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-cnn-portugal
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Obter token e atualizar M3U
+        env:
+          IOL_USER_ID: ${{ secrets.IOL_USER_ID }}
+        run: python scripts/atualizar_cnn.py
+
+      - name: Salvar arquivo atualizado
+        run: |
+          if git diff --quiet -- cnn_portugal.m3u8; then
+            echo "Nenhuma alteração no arquivo."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cnn_portugal.m3u8
+          git commit -m "Atualiza token CNN Portugal"
+          git push
