@@ -606,6 +606,7 @@ AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://7ae83f3f44a4356a36ec9bbe6af7fa9
 AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://rdcanais.org/bandnews
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/cnnbrasil.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
+AoVivo	|Normal	|Notícias	|CNN Portugal 1.1	|https://raw.githubusercontent.com/edifesf1/Youtube_m3u8/main/cnn_portugal.m3u8
 AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globonews.m3u8
 AoVivo	|Normal	|Notícias	|GloboNews 1.2	|https://rdcanais.org/globonews
 AoVivo	|Normal	|Notícias	|JovemPan 1.1	  |https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
