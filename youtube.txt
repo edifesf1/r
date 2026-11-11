@@ -1,6 +1,6 @@
 
-Aba	|teste	|teste	|NSPorts 1.2	|https://origin-fast.b-cdn.net/NSPORTS/index.m3u8
-Aba	|teste	|teste	|zCaze TV 1.2	|https://rdcanais.org/cazetv
+Aba	|teste	|teste	|NSPorts 1.2	|https://rdcanais.net/embed/?id=globosp
+Aba	|teste	|teste	|zCaze TV 1.2	|https://rdcanais.net/embed/?id=combate
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
