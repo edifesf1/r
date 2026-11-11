@@ -992,3 +992,338 @@ Music	|Radios	|Normal	|Rádio Clube Fm	|https://clubefm1.brasilstream.com.br/hls
 Music	|Radios	|Normal	|Radio Montanhesa	|https://qfm.sistemasgerais.com.br/hlsm/index.m3u8
 Music	|Radios	|Normal	|TikTok Radio	|https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 Music	|Radios	|Normal	|Wording	|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w2110040520.m3u8
+
+
+zOutros	|Normal	|Canais	|24H-Chaves 1.1	|https://alerquina54100.embedtv.cc/24h-chaves
+zOutros	|Normal	|Canais	|24H-Chaves 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-chaves.m3u8
+zOutros	|Normal	|Canais	|24H-Dragonball 1.1	|https://alerquina54100.embedtv.cc/24h-dragonball
+zOutros	|Normal	|Canais	|24H-Dragonball 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-dragonball.m3u8
+zOutros	|Normal	|Canais	|24H-Friends 1.1	|https://alerquina54100.embedtv.cc/24h-friends
+zOutros	|Normal	|Canais	|24H-Friends 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-friends.m3u8
+zOutros	|Normal	|Canais	|24H-Naruto 1.1	|https://alerquina54100.embedtv.cc/24h-naruto
+zOutros	|Normal	|Canais	|24H-Naruto 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-naruto.m3u8
+zOutros	|Normal	|Canais	|24H-OdeiaChris 1.1	|https://alerquina54100.embedtv.cc/24h-odeiachris
+zOutros	|Normal	|Canais	|24H-OdeiaChris 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-odeiachris.m3u8
+zOutros	|Normal	|Canais	|24H-PicaPau 1.1	|https://alerquina54100.embedtv.cc/24h-picapau
+zOutros	|Normal	|Canais	|24H-PicaPau 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-picapau.m3u8
+zOutros	|Normal	|Canais	|24H-Simpsons 1.1	|https://alerquina54100.embedtv.cc/24h-simpsons
+zOutros	|Normal	|Canais	|24H-Simpsons 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-simpsons.m3u8
+zOutros	|Normal	|Canais	|A F.azenda5 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda5.m3u8
+zOutros	|Normal	|Canais	|A Fazenda 1.1	|https://alerquina54100.embedtv.cc/afazenda
+zOutros	|Normal	|Canais	|A Fazenda 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda.m3u8
+zOutros	|Normal	|Canais	|A Fazenda2 1.1	|https://alerquina54100.embedtv.cc/afazenda2
+zOutros	|Normal	|Canais	|A Fazenda2 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda2.m3u8
+zOutros	|Normal	|Canais	|A Fazenda3 1.1	|https://alerquina54100.embedtv.cc/afazenda3
+zOutros	|Normal	|Canais	|A Fazenda3 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda3.m3u8
+zOutros	|Normal	|Canais	|A Fazenda4 1.1	|https://alerquina54100.embedtv.cc/afazenda4
+zOutros	|Normal	|Canais	|A Fazenda4 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda4.m3u8
+zOutros	|Normal	|Canais	|A Fazenda5 1.1	|https://alerquina54100.embedtv.cc/afazenda5
+zOutros	|Normal	|Canais	|AdultSwim 1.1	|https://alerquina54100.embedtv.cc/adultswim
+zOutros	|Normal	|Canais	|AdultSwim 1.2	|https://np.s23-cloudfront-net.lat/temp/adultswim.m3u8
+zOutros	|Normal	|Canais	|AE 1.1	|https://alerquina54100.embedtv.cc/ae
+zOutros	|Normal	|Canais	|AE 1.2	|https://np.s23-cloudfront-net.lat/temp/ae.m3u8
+zOutros	|Normal	|Canais	|AMC 1.1	|https://alerquina54100.embedtv.cc/amc
+zOutros	|Normal	|Canais	|AMC 1.2	|https://np.s23-cloudfront-net.lat/temp/amc.m3u8
+zOutros	|Normal	|Canais	|AnimalPlanet 1.1	|https://alerquina54100.embedtv.cc/animalplanet
+zOutros	|Normal	|Canais	|AnimalPlanet 1.2	|https://np.s23-cloudfront-net.lat/temp/animalplanet.m3u8
+zOutros	|Normal	|Canais	|Aparecida 1.1	|https://alerquina54100.embedtv.cc/aparecida
+zOutros	|Normal	|Canais	|Aparecida 1.2	|https://np.s23-cloudfront-net.lat/temp/aparecida.m3u8
+zOutros	|Normal	|Canais	|AXN 1.1	|https://alerquina54100.embedtv.cc/axn
+zOutros	|Normal	|Canais	|AXN 1.2	|https://np.s23-cloudfront-net.lat/temp/axn.m3u8
+zOutros	|Normal	|Canais	|BAND 	|https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
+zOutros	|Normal	|Canais	|Band 1.2	|https://nphd.online/tv/band
+zOutros	|Normal	|Canais	|Band 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/band.m3u8
+zOutros	|Normal	|Canais	|BandNews 1.1	|https://alerquina54100.embedtv.cc/bandnews
+zOutros	|Normal	|Canais	|BandRJ 1.1	|https://alerquina54100.embedtv.cc/bandrj
+zOutros	|Normal	|Canais	|BandRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/bandrj.m3u8
+zOutros	|Normal	|Canais	|BandRJ 1.3	|https://hqf6tcxuhk.singularcdn.net.br/live/0194f211-4229-749f-a47e-58f819471024/s1/playlist-720p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ5MDY5OSwibmJmIjoxNzkxNDkwNjk5LCJleHAiOjE3OTQwODI2OTksInVyaV9zdWIiOiIvMDE5NGYyMTEtNDIyOS03NDlmLWE0N2UtNThmODE5NDcxMDI0LyIsInVpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.5g_n8NjJJJU8NDwyYRFtDoaQafdD0okEEnXeHZdczWc&uid=f83ead9e-d64f-46ea-a282-a35817ba54cb
+zOutros	|Normal	|Canais	|BandSP 1.1	|https://alerquina54100.embedtv.cc/bandsp
+zOutros	|Normal	|Canais	|BandSP 1.2	|https://np.s23-cloudfront-net.lat/temp/bandsp.m3u8
+zOutros	|Normal	|Canais	|BandSports 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/stream/6108aa964c2528567c2ea585464e88ee/playlist.m3u8
+zOutros	|Normal	|Canais	|BandSports 1.1	|https://alerquina54100.embedtv.cc/bandsports
+zOutros	|Normal	|Canais	|BandSports 1.2	|https://np.s23-cloudfront-net.lat/temp/bandsports.m3u8
+zOutros	|Normal	|Canais	|Canal Rural 1	|https://77cdn-global.phiztv.com/live/970006d4-5090-4011-b77c-d791ed994af4/tracks-v2a1/mono.ts.m3u8
+zOutros	|Normal	|Canais	|CancaoNova 1.1	|https://alerquina54100.embedtv.cc/cancaonova
+zOutros	|Normal	|Canais	|CancaoNova 1.2	|https://np.s23-cloudfront-net.lat/temp/cancaonova.m3u8
+zOutros	|Normal	|Canais	|Cartoonito 1.1	|https://alerquina54100.embedtv.cc/cartoonito
+zOutros	|Normal	|Canais	|Cartoonito 1.2	|https://np.s23-cloudfront-net.lat/temp/cartoonito.m3u8
+zOutros	|Normal	|Canais	|CartoonNetwork 1.1	|https://alerquina54100.embedtv.cc/cartoonnetwork
+zOutros	|Normal	|Canais	|CartoonNetwork 1.2	|https://np.s23-cloudfront-net.lat/temp/cartoonnetwork.m3u8
+zOutros	|Normal	|Canais	|Caze1 1.1	|https://alerquina54100.embedtv.cc/caze1
+zOutros	|Normal	|Canais	|Caze1 1.2	|https://np.s23-cloudfront-net.lat/temp/caze1.m3u8
+zOutros	|Normal	|Canais	|Caze2 1.1	|https://alerquina54100.embedtv.cc/caze2
+zOutros	|Normal	|Canais	|Caze2 1.2	|https://np.s23-cloudfront-net.lat/temp/caze2.m3u8
+zOutros	|Normal	|Canais	|Caze3 1.1	|https://alerquina54100.embedtv.cc/caze3
+zOutros	|Normal	|Canais	|Caze3 1.2	|https://np.s23-cloudfront-net.lat/temp/caze3.m3u8
+zOutros	|Normal	|Canais	|Cinemax 1.1	|https://alerquina54100.embedtv.cc/cinemax
+zOutros	|Normal	|Canais	|Cinemax 1.2	|https://np.s23-cloudfront-net.lat/temp/cinemax.m3u8
+zOutros	|Normal	|Canais	|CNNBrasil 1.1	|https://alerquina54100.embedtv.cc/cnnbrasil
+zOutros	|Normal	|Canais	|CNNBrasil 1.2	|https://np.s23-cloudfront-net.lat/temp/cnnbrasil.m3u8
+zOutros	|Normal	|Canais	|Combate 1.1	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/e75911f662b24258dda641651c1fa56d/playlist.m3u8
+zOutros	|Normal	|Canais	|Combate 1.1	|https://alerquina54100.embedtv.cc/combate
+zOutros	|Normal	|Canais	|Combate 1.2	|https://np.s23-cloudfront-net.lat/temp/combate.m3u8
+zOutros	|Normal	|Canais	|Cultura 1.1	|https://alerquina54100.embedtv.cc/cultura
+zOutros	|Normal	|Canais	|Cultura 1.2	|https://np.s23-cloudfront-net.lat/temp/cultura.m3u8
+zOutros	|Normal	|Canais	|DiscoveryChannel 1.1	|https://alerquina54100.embedtv.cc/discoverychannel
+zOutros	|Normal	|Canais	|DiscoveryChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverychannel.m3u8
+zOutros	|Normal	|Canais	|DiscoveryH&H 1.1	|https://alerquina54100.embedtv.cc/discoveryhh
+zOutros	|Normal	|Canais	|DiscoveryH&H 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryhh.m3u8
+zOutros	|Normal	|Canais	|DiscoveryID 1.1	|https://alerquina54100.embedtv.cc/discoveryid
+zOutros	|Normal	|Canais	|DiscoveryID 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryid.m3u8
+zOutros	|Normal	|Canais	|DiscoveryKids 1.1	|https://alerquina54100.embedtv.cc/discoverykids
+zOutros	|Normal	|Canais	|DiscoveryKids 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverykids.m3u8
+zOutros	|Normal	|Canais	|DiscoveryScience 1.1	|https://alerquina54100.embedtv.cc/discoveryscience
+zOutros	|Normal	|Canais	|DiscoveryScience 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryscience.m3u8
+zOutros	|Normal	|Canais	|DiscoveryTheather 1.1	|https://alerquina54100.embedtv.cc/discoverytheather
+zOutros	|Normal	|Canais	|DiscoveryTheather 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverytheather.m3u8
+zOutros	|Normal	|Canais	|DiscoveryTurbo 1.1	|https://alerquina54100.embedtv.cc/discoveryturbo
+zOutros	|Normal	|Canais	|DiscoveryTurbo 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryturbo.m3u8
+zOutros	|Normal	|Canais	|DiscoveryWorld 1.1	|https://alerquina54100.embedtv.cc/discoveryworld
+zOutros	|Normal	|Canais	|DiscoveryWorld 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryworld.m3u8
+zOutros	|Normal	|Canais	|DisneyPlus 1.1	|https://np.s25-cloudfront-net.lat/stream/21fac05dd3f41de3a8b1698fd50ebfe2/playlist.m3u8
+zOutros	|Normal	|Canais	|DisneyPlus1 1.1	|https://alerquina54100.embedtv.cc/disneyplus1
+zOutros	|Normal	|Canais	|DisneyPlus1 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus1.m3u8
+zOutros	|Normal	|Canais	|DisneyPlus2 1.1	|https://alerquina54100.embedtv.cc/disneyplus2
+zOutros	|Normal	|Canais	|DisneyPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus2.m3u8
+zOutros	|Normal	|Canais	|DisneyPlus3 1.1	|https://alerquina54100.embedtv.cc/disneyplus3
+zOutros	|Normal	|Canais	|DisneyPlus3 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus3.m3u8
+zOutros	|Normal	|Canais	|Espn 1.1	|https://alerquina54100.embedtv.cc/espn
+zOutros	|Normal	|Canais	|Espn 1.2	|https://np.s23-cloudfront-net.lat/temp/espn.m3u8
+zOutros	|Normal	|Canais	|Espn2 1.1	|https://alerquina54100.embedtv.cc/espn2
+zOutros	|Normal	|Canais	|Espn2 1.2	|https://np.s23-cloudfront-net.lat/temp/espn2.m3u8
+zOutros	|Normal	|Canais	|Espn3 1.1	|https://alerquina54100.embedtv.cc/espn3
+zOutros	|Normal	|Canais	|Espn3 1.2	|https://np.s23-cloudfront-net.lat/temp/espn3.m3u8
+zOutros	|Normal	|Canais	|Espn4 1.1	|https://alerquina54100.embedtv.cc/espn4
+zOutros	|Normal	|Canais	|Espn4 1.2	|https://np.s23-cloudfront-net.lat/temp/espn4.m3u8
+zOutros	|Normal	|Canais	|Espn5 1.1	|https://alerquina54100.embedtv.cc/espn5
+zOutros	|Normal	|Canais	|Espn5 1.2	|https://np.s23-cloudfront-net.lat/temp/espn5.m3u8
+zOutros	|Normal	|Canais	|Espn6 1.1	|https://alerquina54100.embedtv.cc/espn6
+zOutros	|Normal	|Canais	|Espn6 1.2	|https://np.s23-cloudfront-net.lat/temp/espn6.m3u8
+zOutros	|Normal	|Canais	|FoodNetwork 1.1	|https://alerquina54100.embedtv.cc/foodnetwork
+zOutros	|Normal	|Canais	|FoodNetwork 1.2	|https://np.s23-cloudfront-net.lat/temp/foodnetwork.m3u8
+zOutros	|Normal	|Canais	|GloboAM 1.1	|https://alerquina54100.embedtv.cc/globoam
+zOutros	|Normal	|Canais	|GloboAM 1.2	|https://np.s23-cloudfront-net.lat/temp/globoam.m3u8
+zOutros	|Normal	|Canais	|GloboCE 1.1	|https://alerquina54100.embedtv.cc/globoce
+zOutros	|Normal	|Canais	|GloboCE 1.2	|https://np.s23-cloudfront-net.lat/temp/globoce.m3u8
+zOutros	|Normal	|Canais	|GloboDF 1.1	|https://alerquina54100.embedtv.cc/globodf
+zOutros	|Normal	|Canais	|GloboDF 1.2	|https://np.s23-cloudfront-net.lat/temp/globodf.m3u8
+zOutros	|Normal	|Canais	|GloboES 1.1	|https://alerquina54100.embedtv.cc/globoes
+zOutros	|Normal	|Canais	|GloboES 1.2	|https://np.s23-cloudfront-net.lat/temp/globoes.m3u8
+zOutros	|Normal	|Canais	|GloboGO 1.1	|https://alerquina54100.embedtv.cc/globogo
+zOutros	|Normal	|Canais	|GloboGO 1.2	|https://np.s23-cloudfront-net.lat/temp/globogo.m3u8
+zOutros	|Normal	|Canais	|GloboMG 1.1	|https://alerquina54100.embedtv.cc/globomg
+zOutros	|Normal	|Canais	|GloboMG 1.2	|https://np.s23-cloudfront-net.lat/temp/globomg.m3u8
+zOutros	|Normal	|Canais	|GloboNews 1.1	|https://alerquina54100.embedtv.cc/globonews
+zOutros	|Normal	|Canais	|GloboNews 1.2	|https://np.s23-cloudfront-net.lat/temp/globonews.m3u8
+zOutros	|Normal	|Canais	|GloboNovelas 1.1	|https://alerquina54100.embedtv.cc/globonovelas
+zOutros	|Normal	|Canais	|GloboNovelas 1.2	|https://np.s23-cloudfront-net.lat/temp/globonovelas.m3u8
+zOutros	|Normal	|Canais	|GloboPB 1.1	|https://alerquina54100.embedtv.cc/globopb
+zOutros	|Normal	|Canais	|GloboPB 1.2	|https://np.s23-cloudfront-net.lat/temp/globopb.m3u8
+zOutros	|Normal	|Canais	|GloboPE 1.1	|https://alerquina54100.embedtv.cc/globope
+zOutros	|Normal	|Canais	|GloboPE 1.2	|https://np.s23-cloudfront-net.lat/temp/globope.m3u8
+zOutros	|Normal	|Canais	|GloboRJ 1.1	|https://alerquina54100.embedtv.cc/globorj
+zOutros	|Normal	|Canais	|GloboRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/globorj.m3u8
+zOutros	|Normal	|Canais	|GloboRS 1.1	|https://alerquina54100.embedtv.cc/globors
+zOutros	|Normal	|Canais	|GloboRS 1.2	|https://np.s23-cloudfront-net.lat/temp/globors.m3u8
+zOutros	|Normal	|Canais	|GloboSP 1.1	|https://alerquina54100.embedtv.cc/globosp
+zOutros	|Normal	|Canais	|GloboSP 1.2	|https://np.s23-cloudfront-net.lat/temp/globosp.m3u8
+zOutros	|Normal	|Canais	|Gloob 1.1	|https://alerquina54100.embedtv.cc/gloob
+zOutros	|Normal	|Canais	|Gloob 1.2	|https://np.s23-cloudfront-net.lat/temp/gloob.m3u8
+zOutros	|Normal	|Canais	|GNT 1.1	|https://alerquina54100.embedtv.cc/gnt
+zOutros	|Normal	|Canais	|GNT 1.2	|https://np.s23-cloudfront-net.lat/temp/gnt.m3u8
+zOutros	|Normal	|Canais	|HBO 1.1	|https://alerquina54100.embedtv.cc/hbo
+zOutros	|Normal	|Canais	|HBO 1.2	|https://np.s23-cloudfront-net.lat/temp/hbo.m3u8
+zOutros	|Normal	|Canais	|HBO2 1.1	|https://alerquina54100.embedtv.cc/hbo2
+zOutros	|Normal	|Canais	|HBO2 1.2	|https://np.s23-cloudfront-net.lat/temp/hbo2.m3u8
+zOutros	|Normal	|Canais	|HBOFamily 1.1	|https://alerquina54100.embedtv.cc/hbofamily
+zOutros	|Normal	|Canais	|HBOFamily 1.2	|https://np.s23-cloudfront-net.lat/temp/hbofamily.m3u8
+zOutros	|Normal	|Canais	|HBOMundi 1.1	|https://alerquina54100.embedtv.cc/hbomundi
+zOutros	|Normal	|Canais	|HBOMundi 1.2	|https://np.s23-cloudfront-net.lat/temp/hbomundi.m3u8
+zOutros	|Normal	|Canais	|HBOPlus 1.1	|https://alerquina54100.embedtv.cc/hboplus
+zOutros	|Normal	|Canais	|HBOPlus 1.2	|https://np.s23-cloudfront-net.lat/temp/hboplus.m3u8
+zOutros	|Normal	|Canais	|HBOPop 1.1	|https://alerquina54100.embedtv.cc/hbopop
+zOutros	|Normal	|Canais	|HBOPop 1.2	|https://np.s23-cloudfront-net.lat/temp/hbopop.m3u8
+zOutros	|Normal	|Canais	|HBOXtreme 1.1	|https://alerquina54100.embedtv.cc/hboxtreme
+zOutros	|Normal	|Canais	|HBOXtreme 1.2	|https://np.s23-cloudfront-net.lat/temp/hboxtreme.m3u8
+zOutros	|Normal	|Canais	|HGTV 1.1	|https://alerquina54100.embedtv.cc/hgtv
+zOutros	|Normal	|Canais	|HGTV 1.2	|https://np.s23-cloudfront-net.lat/temp/hgtv.m3u8
+zOutros	|Normal	|Canais	|History 1.1	|https://alerquina54100.embedtv.cc/history
+zOutros	|Normal	|Canais	|History2 1.2	|https://np.s23-cloudfront-net.lat/temp/history2.m3u8
+zOutros	|Normal	|Canais	|MasterChef 1.1	|https://alerquina54100.embedtv.cc/masterchef
+zOutros	|Normal	|Canais	|MasterChef 1.2	|https://np.s23-cloudfront-net.lat/temp/masterchef.m3u8
+zOutros	|Normal	|Canais	|Max1 1.1	|https://alerquina54100.embedtv.cc/max1
+zOutros	|Normal	|Canais	|Max1 1.2	|https://np.s23-cloudfront-net.lat/temp/max1.m3u8
+zOutros	|Normal	|Canais	|Max2 1.1	|https://alerquina54100.embedtv.cc/max2
+zOutros	|Normal	|Canais	|Max2 1.2	|https://np.s23-cloudfront-net.lat/temp/max2.m3u8
+zOutros	|Normal	|Canais	|Max3 1.1	|https://alerquina54100.embedtv.cc/max3
+zOutros	|Normal	|Canais	|Max3 1.2	|https://np.s23-cloudfront-net.lat/temp/max3.m3u8
+zOutros	|Normal	|Canais	|Megapix 1.1	|https://alerquina54100.embedtv.cc/megapix
+zOutros	|Normal	|Canais	|Megapix 1.2	|https://np.s23-cloudfront-net.lat/temp/megapix.m3u8
+zOutros	|Normal	|Canais	|Mtv 1.1	|https://alerquina54100.embedtv.cc/mtv
+zOutros	|Normal	|Canais	|Mtv 1.1	|https://np.s23-cloudfront-net.lat/temp/mtv.m3u8
+zOutros	|Normal	|Canais	|Mtv 1.2	|https://alerquina54100.embedtv.cc/mtv
+zOutros	|Normal	|Canais	|Mtv 1.2	|https://np.s23-cloudfront-net.lat/temp/mtv.m3u8
+zOutros	|Normal	|Canais	|Multishow 1.1	|https://alerquina54100.embedtv.cc/multishow
+zOutros	|Normal	|Canais	|Multishow 1.2	|https://np.s23-cloudfront-net.lat/temp/multishow.m3u8
+zOutros	|Normal	|Canais	|Off 1.1	|https://alerquina54100.embedtv.cc/off
+zOutros	|Normal	|Canais	|Off 1.2	|https://np.s23-cloudfront-net.lat/temp/off.m3u8
+zOutros	|Normal	|Canais	|ParamountPlus 1.1	|https://alerquina54100.embedtv.cc/paramountplus
+zOutros	|Normal	|Canais	|ParamountPlus 1.2	|https://np.s23-cloudfront-net.lat/temp/paramountplus.m3u8
+zOutros	|Normal	|Canais	|ParamountPlus2 1.1	|https://alerquina54100.embedtv.cc/paramountplus2
+zOutros	|Normal	|Canais	|ParamountPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/paramountplus2.m3u8
+zOutros	|Normal	|Canais	|Premiere 1.1	|https://alerquina54100.embedtv.cc/premiere
+zOutros	|Normal	|Canais	|Premiere 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere.m3u8
+zOutros	|Normal	|Canais	|Premiere2 1.1	|https://alerquina54100.embedtv.cc/premiere2
+zOutros	|Normal	|Canais	|Premiere2 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere2.m3u8
+zOutros	|Normal	|Canais	|Premiere3 1.1	|https://alerquina54100.embedtv.cc/premiere3
+zOutros	|Normal	|Canais	|Premiere3 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere3.m3u8
+zOutros	|Normal	|Canais	|Premiere4 1.1	|https://alerquina54100.embedtv.cc/premiere4
+zOutros	|Normal	|Canais	|Premiere4 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere4.m3u8
+zOutros	|Normal	|Canais	|Premiere5 1.1	|https://alerquina54100.embedtv.cc/premiere5
+zOutros	|Normal	|Canais	|Premiere5 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere5.m3u8
+zOutros	|Normal	|Canais	|Premiere6 1.1	|https://alerquina54100.embedtv.cc/premiere6
+zOutros	|Normal	|Canais	|Premiere6 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere6.m3u8
+zOutros	|Normal	|Canais	|Premiere7 1.1	|https://alerquina54100.embedtv.cc/premiere7
+zOutros	|Normal	|Canais	|Premiere7 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere7.m3u8
+zOutros	|Normal	|Canais	|Premiere8 1.1	|https://alerquina54100.embedtv.cc/premiere8
+zOutros	|Normal	|Canais	|Premiere8 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere8.m3u8
+zOutros	|Normal	|Canais	|Primevideo 1.1	|https://alerquina54100.embedtv.cc/primevideo
+zOutros	|Normal	|Canais	|Primevideo 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo.m3u8
+zOutros	|Normal	|Canais	|Primevideo2 1.1	|https://alerquina54100.embedtv.cc/primevideo2
+zOutros	|Normal	|Canais	|Primevideo2 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo2.m3u8
+zOutros	|Normal	|Canais	|Primevideo3 1.1	|https://alerquina54100.embedtv.cc/primevideo3
+zOutros	|Normal	|Canais	|Primevideo3 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo3.m3u8
+zOutros	|Normal	|Canais	|Primevideo4 1.1	|https://alerquina54100.embedtv.cc/primevideo4
+zOutros	|Normal	|Canais	|Primevideo4 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo4.m3u8
+zOutros	|Normal	|Canais	|Pt-Abola 1.1	|https://alerquina54100.embedtv.cc/pt-abola
+zOutros	|Normal	|Canais	|Pt-Abola 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-abola.m3u8
+zOutros	|Normal	|Canais	|Pt-Benficatv 1.1	|https://alerquina54100.embedtv.cc/pt-benficatv
+zOutros	|Normal	|Canais	|Pt-Benficatv 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-benficatv.m3u8
+zOutros	|Normal	|Canais	|Pt-Canal11 1.1	|https://alerquina54100.embedtv.cc/pt-canal11
+zOutros	|Normal	|Canais	|Pt-Canal11 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-canal11.m3u8
+zOutros	|Normal	|Canais	|Pt-Eleven1 1.1	|https://alerquina54100.embedtv.cc/pt-eleven1
+zOutros	|Normal	|Canais	|Pt-Eleven1 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven1.m3u8
+zOutros	|Normal	|Canais	|Pt-Eleven2 1.1	|https://alerquina54100.embedtv.cc/pt-eleven2
+zOutros	|Normal	|Canais	|Pt-Eleven2 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven2.m3u8
+zOutros	|Normal	|Canais	|Pt-Eleven3 1.1	|https://alerquina54100.embedtv.cc/pt-eleven3
+zOutros	|Normal	|Canais	|Pt-Eleven3 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven3.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv1 1.1	|https://alerquina54100.embedtv.cc/pt-sportv1
+zOutros	|Normal	|Canais	|Pt-Sportv1 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv1.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv2 1.1	|https://alerquina54100.embedtv.cc/pt-sportv2
+zOutros	|Normal	|Canais	|Pt-Sportv2 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv2.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv3 1.1	|https://alerquina54100.embedtv.cc/pt-sportv3
+zOutros	|Normal	|Canais	|Pt-Sportv3 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv3.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv4 1.1	|https://alerquina54100.embedtv.cc/pt-sportv4
+zOutros	|Normal	|Canais	|Pt-Sportv4 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv4.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv5 1.1	|https://alerquina54100.embedtv.cc/pt-sportv5
+zOutros	|Normal	|Canais	|Pt-Sportv5 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv5.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv6 1.1	|https://alerquina54100.embedtv.cc/pt-sportv6
+zOutros	|Normal	|Canais	|Pt-Sportv6 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv6.m3u8
+zOutros	|Normal	|Canais	|Pt-Sportv7 1.1	|https://alerquina54100.embedtv.cc/pt-sportv7
+zOutros	|Normal	|Canais	|Pt-Sportv7 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv7.m3u8
+zOutros	|Normal	|Canais	|Record 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/record.m3u8
+zOutros	|Normal	|Canais	|Record 1.3	|https://nphd.online/tv/record
+zOutros	|Normal	|Canais	|Record MT2 Vila Real	|https://5a2b083e9f360.streamlock.net/tvmt/tvmt.sdp/chunklist_w546848282.m3u8
+zOutros	|Normal	|Canais	|Record TV RO	|https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8?token=10625035048351615000
+zOutros	|Normal	|Canais	|Record TV Tropical	|https://video07.logicahost.com.br/portaltropicalrn/portaltropicalrn/playlist.m3u8
+zOutros	|Normal	|Canais	|RecordGO 1.1	|https://alerquina54100.embedtv.cc/recordgo
+zOutros	|Normal	|Canais	|RecordGO 1.2	|https://np.s23-cloudfront-net.lat/temp/recordgo.m3u8
+zOutros	|Normal	|Canais	|RecordMG 1.1	|https://alerquina54100.embedtv.cc/recordmg
+zOutros	|Normal	|Canais	|RecordMG 1.2	|https://np.s23-cloudfront-net.lat/temp/recordmg.m3u8
+zOutros	|Normal	|Canais	|RecordRJ 1.1	|https://alerquina54100.embedtv.cc/recordrj
+zOutros	|Normal	|Canais	|RecordRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/recordrj.m3u8
+zOutros	|Normal	|Canais	|RecordSP 1.1	|https://alerquina54100.embedtv.cc/recordsp
+zOutros	|Normal	|Canais	|RecordSP 1.2	|https://np.s23-cloudfront-net.lat/temp/recordsp.m3u8
+zOutros	|Normal	|Canais	|Rede Meio Norte 2	|https://isaocorp.cloudecast.com/redemeio/index.m3u8
+zOutros	|Normal	|Canais	|Rede TV +	|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
+zOutros	|Normal	|Canais	|Redetv 1.1	|https://rdcanais.org/redetv
+zOutros	|Normal	|Canais	|Redetv 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/redetv.m3u8
+zOutros	|Normal	|Canais	|RedeTV São Luís	|https://stmv1.srvif.com/tvsaoluis8/tvsaoluis8/playlist.m3u8
+zOutros	|Normal	|Canais	|RedeTV Tocantins	|https://5ad482a77183d.streamlock.net/administrativoredetvto.com.br/administrativoredetvto.com.br/playlist.m3u8
+zOutros	|Normal	|Canais	|Redevida 1.1	|https://alerquina54100.embedtv.cc/redevida
+zOutros	|Normal	|Canais	|Redevida 1.2	|https://np.s23-cloudfront-net.lat/temp/redevida.m3u8
+zOutros	|Normal	|Canais	|SaboreArte 1.1	|https://rdcanais.org/saborearte
+zOutros	|Normal	|Canais	|SaboreArte 1.2	|https://www.youtube.com/@canalsaborearte/live
+zOutros	|Normal	|Canais	|Santa Cecilia TV	|https://video11.logicahost.com.br/unisantaapp/unisantaapp/playlist.m3u8
+zOutros	|Normal	|Canais	|Sbt 1.1	|https://rdcanais.org/sbt
+zOutros	|Normal	|Canais	|Sbt 1.1	|https://aovivo.maissbt.com/channel_720.m3u8
+zOutros	|Normal	|Canais	|Sbt 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sbt.m3u8
+zOutros	|Normal	|Canais	|SBT News	|https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
+zOutros	|Normal	|Canais	|Sbt Tailândia	|https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
+zOutros	|Normal	|Canais	|SBT2	|https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+zOutros	|Normal	|Canais	|SBT3	|https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
+zOutros	|Normal	|Canais	|SbtRJ 1.1	|https://alerquina54100.embedtv.cc/sbtrj
+zOutros	|Normal	|Canais	|SbtRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/sbtrj.m3u8
+zOutros	|Normal	|Canais	|SbtSP 1.1	|https://alerquina54100.embedtv.cc/sbtsp
+zOutros	|Normal	|Canais	|Sbtsp 1.2	|https://np.s23-cloudfront-net.lat/temp/sbtsp.m3u8
+zOutros	|Normal	|Canais	|SonyChannel 1.1	|https://alerquina54100.embedtv.cc/sonychannel
+zOutros	|Normal	|Canais	|SonyChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/sonychannel.m3u8
+zOutros	|Normal	|Canais	|Space 1.1	|https://alerquina54100.embedtv.cc/space
+zOutros	|Normal	|Canais	|Space 1.2	|https://np.s23-cloudfront-net.lat/temp/space.m3u8
+zOutros	|Normal	|Canais	|Sportv 1.1	|https://alerquina54100.embedtv.cc/sportv
+zOutros	|Normal	|Canais	|Sportv 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv.m3u8
+zOutros	|Normal	|Canais	|Sportv2 1.1	|https://alerquina54100.embedtv.cc/sportv2
+zOutros	|Normal	|Canais	|Sportv2 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv2.m3u8
+zOutros	|Normal	|Canais	|Sportv3 1.1	|https://alerquina54100.embedtv.cc/sportv3
+zOutros	|Normal	|Canais	|Sportv3 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv3.m3u8
+zOutros	|Normal	|Canais	|Sportv4 1.1	|https://alerquina54100.embedtv.cc/sportv4
+zOutros	|Normal	|Canais	|Sportv4 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv4.m3u8
+zOutros	|Normal	|Canais	|SportyNet 1.1	|https://alerquina54100.embedtv.cc/sportynet
+zOutros	|Normal	|Canais	|SportyNet 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynet.m3u8
+zOutros	|Normal	|Canais	|SportyNetPlus1 1.1	|https://alerquina54100.embedtv.cc/sportynetplus1
+zOutros	|Normal	|Canais	|SportyNetPlus1 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus1.m3u8
+zOutros	|Normal	|Canais	|SportyNetPlus2 1.1	|https://alerquina54100.embedtv.cc/sportynetplus2
+zOutros	|Normal	|Canais	|SportyNetPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus2.m3u8
+zOutros	|Normal	|Canais	|SportyNetPlus3 1.1	|https://alerquina54100.embedtv.cc/sportynetplus3
+zOutros	|Normal	|Canais	|SportyNetPlus3 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus3.m3u8
+zOutros	|Normal	|Canais	|StarChannel 1.1	|https://alerquina54100.embedtv.cc/starchannel
+zOutros	|Normal	|Canais	|StarChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/starchannel.m3u8
+zOutros	|Normal	|Canais	|StudioUniversal 1.1	|https://alerquina54100.embedtv.cc/studiouniversal
+zOutros	|Normal	|Canais	|StudioUniversal 1.2	|https://np.s23-cloudfront-net.lat/temp/studiouniversal.m3u8
+zOutros	|Normal	|Canais	|STZ TV	|https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
+zOutros	|Normal	|Canais	|TCM 1.1	|https://alerquina54100.embedtv.cc/tcm
+zOutros	|Normal	|Canais	|TCM 1.2	|https://np.s23-cloudfront-net.lat/temp/tcm.m3u8
+zOutros	|Normal	|Canais	|TelecineAction 1.1	|https://alerquina54100.embedtv.cc/telecineaction
+zOutros	|Normal	|Canais	|TelecineAction 1.2	|https://np.s23-cloudfront-net.lat/temp/telecineaction.m3u8
+zOutros	|Normal	|Canais	|TelecineCult 1.1	|https://alerquina54100.embedtv.cc/telecinecult
+zOutros	|Normal	|Canais	|TelecineCult 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinecult.m3u8
+zOutros	|Normal	|Canais	|TelecineFun 1.1	|https://alerquina54100.embedtv.cc/telecinefun
+zOutros	|Normal	|Canais	|TelecineFun 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinefun.m3u8
+zOutros	|Normal	|Canais	|TelecinePipoca 1.1	|https://alerquina54100.embedtv.cc/telecinepipoca
+zOutros	|Normal	|Canais	|TelecinePipoca 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinepipoca.m3u8
+zOutros	|Normal	|Canais	|TelecinePremium 1.1	|https://alerquina54100.embedtv.cc/telecinepremium
+zOutros	|Normal	|Canais	|TelecinePremium 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinepremium.m3u8
+zOutros	|Normal	|Canais	|TelecineTouch 1.1	|https://alerquina54100.embedtv.cc/telecinetouch
+zOutros	|Normal	|Canais	|TelecineTouch 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinetouch.m3u8
+zOutros	|Normal	|Canais	|TLC 1.1	|https://alerquina54100.embedtv.cc/tlc
+zOutros	|Normal	|Canais	|TLC 1.2	|https://np.s23-cloudfront-net.lat/temp/tlc.m3u8
+zOutros	|Normal	|Canais	|TNT 1.1	|https://alerquina54100.embedtv.cc/tnt
+zOutros	|Normal	|Canais	|TNT 1.2	|https://np.s23-cloudfront-net.lat/temp/tnt.m3u8
+zOutros	|Normal	|Canais	|TNTNovelas 1.1	|https://alerquina54100.embedtv.cc/tntnovelas
+zOutros	|Normal	|Canais	|TNTNovelas 1.2	|https://np.s23-cloudfront-net.lat/temp/tntnovelas.m3u8
+zOutros	|Normal	|Canais	|TNTSeries 1.1	|https://alerquina54100.embedtv.cc/tntseries
+zOutros	|Normal	|Canais	|TNTSeries 1.2	|https://np.s23-cloudfront-net.lat/temp/tntseries.m3u8
+zOutros	|Normal	|Canais	|TV Aparecida	|https://amg01391-sbtinfast-amg01391c7-lg-br-9989.playouts.now.amagi.tv/playlist/amg01391-addigital-tvaparecida-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
+zOutros	|Normal	|Canais	|TV Brasil Educativa MS	|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
+zOutros	|Normal	|Canais	|TV Brasil Plan	|https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Brasil Poços	|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Brasil RS 2	|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Brasil Sim	|https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Cultura Unisul	|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+zOutros	|Normal	|Canais	|TV Guará Caxias	|https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Judaica	|https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8
+zOutros	|Normal	|Canais	|TvBrasil 1.1	|https://rdcanais.org/tvbrasil
+zOutros	|Normal	|Canais	|TvCultura 1.1	|https://rdcanais.org/tvcultura
+zOutros	|Normal	|Canais	|TvPaieterno 1.1	|https://alerquina54100.embedtv.cc/tvpaieterno
+zOutros	|Normal	|Canais	|TvPaieterno 1.2	|https://np.s23-cloudfront-net.lat/temp/tvpaieterno.m3u8
+zOutros	|Normal	|Canais	|UFCFightpass 1.1	|https://alerquina54100.embedtv.cc/ufcfightpass
+zOutros	|Normal	|Canais	|UFCFightpass 1.2	|https://np.s23-cloudfront-net.lat/temp/ufcfightpass.m3u8
+zOutros	|Normal	|Canais	|UniverSaltv 1.1	|https://alerquina54100.embedtv.cc/universaltv
+zOutros	|Normal	|Canais	|UniverSaltv 1.2	|https://np.s23-cloudfront-net.lat/temp/universaltv.m3u8
+zOutros	|Normal	|Canais	|WarnerChannel 1.1	|https://alerquina54100.embedtv.cc/warnerchannel
+zOutros	|Normal	|Canais	|WarnerChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/warnerchannel.m3u8
+zOutros	|Normal	|Canais	|Xsports 1.1	|https://alerquina54100.embedtv.cc/xsports
+zOutros	|Normal	|Canais	|Xsports 1.2	|https://np.s23-cloudfront-net.lat/temp/xsports.m3u8
+zOutros	|Normal	|Canais	|Y_SBT1	|https://www.youtube.com/@sbt/live
+zOutros	|Normal	|Canais	|Y_TV Novo Tempo BR	|https://www.youtube.com/@novotempo/live
+zOutros	|Normal	|Canais	|Y_TV Novo Tempo ES	|https://www.youtube.com/@nuevotiempotv/live
