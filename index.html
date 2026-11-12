@@ -650,6 +650,19 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
   } catch(e) {}
 
   iframe.title = item.titulo || "Player externo";
+
+  // No EmbedTV, restringe a abertura de novas abas/janelas.
+  // Scripts, formulários e reprodução continuam permitidos.
+  try {
+    const hostIframe = new URL(urlFinal, location.href).hostname.toLowerCase();
+    if (hostIframe === "embedtv.cc" || hostIframe.endsWith(".embedtv.cc")) {
+      iframe.setAttribute(
+        "sandbox",
+        "allow-scripts allow-same-origin allow-forms allow-presentation allow-pointer-lock"
+      );
+    }
+  } catch(e) {}
+
   iframe.src = urlFinal;
   iframe.allow = "autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
   iframe.allowFullscreen = true;
