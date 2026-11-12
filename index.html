@@ -200,7 +200,9 @@ document.addEventListener("keydown", function(e){
     dominio === "rdcanais.org" ||
     dominio.endsWith(".rdcanais.org") ||
     dominio === "redecanais.by" ||
-    dominio.endsWith(".redecanais.by");
+    dominio.endsWith(".redecanais.by") ||
+    dominio === "embedtv.cc" ||
+    dominio.endsWith(".embedtv.cc");
 
   if(!playerEspecial) return;
 
@@ -637,7 +639,15 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
   const area = document.getElementById("player");
   const iframe = document.createElement("iframe");
 
-  const liberarClique = temAutoplayLiberado(urlOriginal);
+  // EmbedTV recebe autoplay=1 na URL final e precisa manter
+  // o iframe acessível ao controle remoto e ao clique.
+  let liberarClique = temAutoplayLiberado(urlOriginal);
+  try {
+    const hostOriginal = new URL(urlOriginal, location.href).hostname.toLowerCase();
+    if (hostOriginal === "embedtv.cc" || hostOriginal.endsWith(".embedtv.cc")) {
+      liberarClique = true;
+    }
+  } catch(e) {}
 
   iframe.title = item.titulo || "Player externo";
   iframe.src = urlFinal;
