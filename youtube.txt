@@ -1,4 +1,5 @@
 
+Aba	|teste	|teste	|Globo0 |https://alerquina54100.embedtv.cc/globosp
 Aba	|teste	|teste	|Globo1 |https://alerquina54100.embedtv.cc/globosp?autoplay=1
 Aba	|teste	|teste	|Combate1 |https://alerquina54100.embedtv.cc/combate?autoplay=0
 Aba	|teste	|teste	|SportTV1 |https://alerquina54100.embedtv.cc/sportv?autoplay=true
