@@ -1,7 +1,10 @@
 
-Aba	|teste	|teste	|Globo |https://alerquina54100.embedtv.cc/globosp
-Aba	|teste	|teste	|Combate |https://alerquina54100.embedtv.cc/combate
-Aba	|teste	|teste	|SportTV |https://alerquina54100.embedtv.cc/sportv
+Aba	|teste	|teste	|Globo1 |https://alerquina54100.embedtv.cc/globosp?autoplay=1
+Aba	|teste	|teste	|Combate1 |https://alerquina54100.embedtv.cc/combate?autoplay=0
+Aba	|teste	|teste	|SportTV1 |https://alerquina54100.embedtv.cc/sportv?autoplay=true
+Aba	|teste	|teste	|Globo2 |https://alerquina54100.embedtv.cc/globosp?autoplay=false
+Aba	|teste	|teste	|Combate2 |https://alerquina54100.embedtv.cc/combate?delay=5000
+Aba	|teste	|teste	|SportTV2 |https://alerquina54100.embedtv.cc/sportv?autoplay=1&delay=5000
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
