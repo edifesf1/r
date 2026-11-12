@@ -693,23 +693,6 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
   iframe.setAttribute("allowtransparency", "true");
   iframe.tabIndex = 0;
 
-  // EmbedTV deve receber o foco assim que for identificado/criado.
-  // A tentativa é repetida após a inserção e após o carregamento,
-  // pois alguns aparelhos de TV demoram a ativar o iframe.
-  const ehEmbedTV = (() => {
-    try {
-      const host = new URL(urlFinal, location.href).hostname.toLowerCase();
-      return host === "embedtv.cc" || host.endsWith(".embedtv.cc");
-    } catch(e) {
-      return false;
-    }
-  })();
-
-  if (ehEmbedTV) {
-    iframe.setAttribute("autofocus", "autofocus");
-    iframe.setAttribute("tabindex", "0");
-  }
-
   iframe.style.cssText =
     "display:block;width:100%;height:100%;border:0;background:#000;";
 
@@ -796,59 +779,11 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
 
   player = iframe;
 
-  // Coloca o foco no próprio iframe do EmbedTV sem exigir que o usuário
-  // pressione BAIXO + OK. Faz tentativas curtas para aguardar a TV/iframe.
-  if (ehEmbedTV) {
-    let tentativasFoco = 0;
-    const focarEmbedTV = () => {
-      if (
-        !iframe.isConnected ||
-        player !== iframe ||
-        tentativasFoco >= 16
-      ) {
-        clearInterval(intervaloFocoEmbedTV);
-        return;
-      }
-
-      tentativasFoco++;
-      try {
-        iframe.focus({ preventScroll: true });
-      } catch(e) {
-        try { iframe.focus(); } catch(e2) {}
-      }
-    };
-
-    // A primeira tentativa acontece logo após inserir o iframe.
-    focarEmbedTV();
-    const intervaloFocoEmbedTV = setInterval(focarEmbedTV, 250);
-  }
-
   status.textContent = "Carregando player externo: " + item.titulo;
 
   iframe.addEventListener("load",()=>{
 
     if(geracao !== geracaoPlayer) return;
-
-    if (ehEmbedTV) {
-      let tentativasAposLoad = 0;
-      const intervaloAposLoad = setInterval(() => {
-        if (
-          !iframe.isConnected ||
-          player !== iframe ||
-          tentativasAposLoad >= 12
-        ) {
-          clearInterval(intervaloAposLoad);
-          return;
-        }
-
-        tentativasAposLoad++;
-        try {
-          iframe.focus({ preventScroll: true });
-        } catch(e) {
-          try { iframe.focus(); } catch(e2) {}
-        }
-      }, 250);
-    }
 
     status.textContent =
       "Player externo carregado: " + item.titulo;
