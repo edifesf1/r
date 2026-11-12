@@ -206,18 +206,41 @@ document.addEventListener("keydown", function(e){
 
   if(!playerEspecial) return;
 
-  // Seta para baixo: transfere o foco da tarja para o player.
-  if(e.key === "ArrowDown" && tarja.contains(document.activeElement)){
-
+  // Seta para baixo: força a entrada do foco no iframe do player.
+  // Repete a tentativa por um curto período para TVs/Fire Stick,
+  // nos quais o foco pode escapar durante a transição.
+  if(
+    e.key === "ArrowDown" &&
+    (tarja.contains(document.activeElement) || document.activeElement === document.body)
+  ){
     e.preventDefault();
     e.stopPropagation();
+    e.stopImmediatePropagation();
 
     iframe.setAttribute("tabindex", "0");
 
-    setTimeout(()=>{
-      iframe.focus({preventScroll:true});
-    }, 50);
+    const iframeAlvo = iframe;
+    const inicioFoco = Date.now();
 
+    function forcarFoco(){
+      if(
+        !iframeAlvo.isConnected ||
+        document.querySelector("#player iframe") !== iframeAlvo ||
+        Date.now() - inicioFoco > 1600
+      ){
+        clearInterval(repetirFoco);
+        return;
+      }
+
+      try{
+        iframeAlvo.focus({preventScroll:true});
+      }catch(err){
+        try{ iframeAlvo.focus(); }catch(e2){}
+      }
+    }
+
+    forcarFoco();
+    const repetirFoco = setInterval(forcarFoco, 120);
   }
 
 }, true);
