@@ -1,11 +1,4 @@
-
-Aba	|teste	|teste	|Globo0 |https://alerquina54100.embedtv.cc/globosp
-Aba	|teste	|teste	|Globo1 |https://alerquina54100.embedtv.cc/globosp?autoplay=1
-Aba	|teste	|teste	|Combate1 |https://alerquina54100.embedtv.cc/combate?autoplay=0
-Aba	|teste	|teste	|SportTV1 |https://alerquina54100.embedtv.cc/sportv?autoplay=true
-Aba	|teste	|teste	|Globo2 |https://alerquina54100.embedtv.cc/globosp?autoplay=false
-Aba	|teste	|teste	|Combate2 |https://alerquina54100.embedtv.cc/combate?delay=5000
-Aba	|teste	|teste	|SportTV2 |https://alerquina54100.embedtv.cc/sportv?autoplay=1&delay=5000
+				
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo	|https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|TV Novo Tempo ES	|https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 Adventista	|AoVivo	|Evangelico	|Y_Esp Tv Nicaragulive	|https://www.youtube.com/@TV45-NICARAGUA/live
@@ -53,8 +46,8 @@ Adventista	|Documentarios	|Ucrânia	|Na Fronteira Com A Paz	|https://www.youtube
 Adventista	|Documentarios	|Ucrânia	|Vidas Entre Páginas	|https://www.youtube.com/watch?v=q0H47Sh6IEo&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=7
 Adventista	|Documentarios	|Voluntários	|Missão Piauí	|https://www.youtube.com/watch?v=ug3W7sE5rQ4&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=18
 Adventista	|Documentarios	|Voluntários	|Voluntários Por Toda Terra	|https://www.youtube.com/watch?v=BE-tbE5NnWI&list=PLg7vVjTMs6Z5m2qM1VnW5lYVaONlbaiXg&index=14
-Adventista	|Estudos	|Cid Moreira	|	|https://www.youtube.com/watch?v=CyjMv6jtzGY&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=3
 Adventista	|Estudos	|Cid Moreira	|01. A Bíblia	|https://www.youtube.com/watch?v=o8y2dYccUX8&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=7
+Adventista	|Estudos	|Cid Moreira	|01. O Plano da Salvacao	|https://www.youtube.com/watch?v=CyjMv6jtzGY&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=3
 Adventista	|Estudos	|Cid Moreira	|02. A Beleza da Criacao Divina	|https://www.youtube.com/watch?v=S9cMPISk4Js&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7
 Adventista	|Estudos	|Cid Moreira	|03. Interferencia na Criacao	|https://www.youtube.com/watch?v=HudnzjHMsKM&list=PLzPPpYeP332KNyCMQJYbLFd-UnTLL7rf7&index=2
 Adventista	|Estudos	|Cid Moreira	|04. O Plano da Salvação	|https://www.youtube.com/watch?v=Njp3mZklYIo&list=PLHg4DURi1AhYwehk7FWSbWPQiaEvxcbPN&index=9
@@ -395,7 +388,7 @@ Adventista	|Serie	|Pr.Henry Feyerabend	|08. Bom Humor Saudades	|https://www.yout
 AoVivo	|Normal	|Agro	|Agro Canal	|https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8
 AoVivo	|Normal	|Agro	|Canal do Boi	|https://aovivo3.equipea.com.br:5443/aovivort/streams/FGPjVZA1EidEnBCn5502382962900440.m3u8
 AoVivo	|Normal	|Agro	|Canal do Criador	|https://isaocorp.cloudecast.com/rural-canal-criador/index.m3u8
-AoVivo	|Normal	|Agro	|Canal Rural	|https://isaocorp.cloudecast.com/canalrural/index.m3u8
+AoVivo	|Normal	|Agro	|Canal Rural 1.1	|https://isaocorp.cloudecast.com/canalrural/index.m3u8
 AoVivo	|Normal	|Agro	|TV Coop	|https://stream01f.netpointcdn.com.br/tvcoopsc/aovivo/chunklist.m3u8
 AoVivo	|Normal	|Agro	|Vivax TV	|https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 AoVivo	|Normal	|Canais	|Aparecida 1.1	|https://rdcanais.org/aparecida
@@ -420,7 +413,7 @@ AoVivo	|Normal	|Canais	|RO TV do Povo	|https://video11.logicahost.com.br/tvdopov
 AoVivo	|Normal	|Canais	|SBT 1.1	|https://d1jvs4svzaqp8n.cloudfront.net/channel_720.m3u8
 AoVivo	|Normal	|Canais	|SBT 1.2	|https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 AoVivo	|Normal	|Canais	|SBT 1.3	|https://nphd.online/tv/sbt
-AoVivo	|Normal	|Culinaria	|MasterChef	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
+AoVivo	|Normal	|Culinaria	|MasterChef 1.1	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/playlist.m3u8
 AoVivo	|Normal	|Culinaria	|Receitas Fast	|https://amg00716-globo-amg00716c3-tcl-br-9498.playouts.now.amagi.tv/1080p-cc/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal Educação	|https://canaleducacao-stream.ebc.com.br/index.m3u8
 AoVivo	|Normal	|Cultura	|Canal FDR	|https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
@@ -438,7 +431,7 @@ AoVivo	|Normal	|Cultura	|Santa Cecilia TV	|https://60d88f8ce1206.streamlock.net/
 AoVivo	|Normal	|Cultura	|SescTV	|https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTMyMTIwMiwibmJmIjoxNzkxMzIxMjAyLCJleHAiOjE3OTM5MTMyMDIsInVyaV9zdWIiOiIvMDE5NWVkZTEtYzIzYy03MDc4LThmMmEtMjVmOTgyYTlmYzkxLyIsInVpZCI6IjBlMDA5NmNhLTI1YmEtNDQ3OS04YzVjLTk3ZDQ4ZGY2NzNhMiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.-qHGW3F2NtWi0sk9-cHSpWfbESnuvpVydYUIaz_aVX8&uid=0e0096ca-25ba-4479-8c5c-97d48df673a2
 AoVivo	|Normal	|Cultura	|Sobrevivi	|https://amg00627-amg00627c75-amgplt0778.playout.now3.amagi.tv/1080p-por/index.m3u8
 AoVivo	|Normal	|Cultura	|Tela Brasil	|https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8
-AoVivo	|Normal	|Cultura	|TV Aberta SP	|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/chunklist_w1066622811.m3u8
+AoVivo	|Normal	|Cultura	|TV Aberta SP	|https://br5093.streamingdevideo.com.br/tvaberto/tvaberto/playlist.m3u8
 AoVivo	|Normal	|Cultura	|TV Brasil 1.1	|https://tvbrasil-stream.ebc.com.br/index.m3u8
 AoVivo	|Normal	|Cultura	|TV Brasil 1.2	|https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
 AoVivo	|Normal	|Cultura	|TV Brasil 1.3	|https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
@@ -470,8 +463,8 @@ AoVivo	|Normal	|Documentarios	|DiscoveryWorld 1.1	|https://a5a7158118e59ee590424
 AoVivo	|Normal	|Documentarios	|DiscoveryWorld 1.2	|https://rdcanais.org/discoveryworld
 AoVivo	|Normal	|Documentarios	|DiscoveryWorld 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/f0e4d7dfcd1b4106eb04aeeaddfed40c/playlist.m3u8
 AoVivo	|Normal	|Documentarios	|Futura 1.1	|https://tv.unisc.br/hls/test.m3u8
-AoVivo	|Normal	|Documentarios	|Futura 1.2	|https://rdcanais.org/futura
 AoVivo	|Normal	|Documentarios	|Futura 1.2	|https://bx-tv.com/proxy.php?url=http%3A%2F%2F186.219.52.187%2Ffutura%2Findex.m3u8
+AoVivo	|Normal	|Documentarios	|Futura 1.2	|https://rdcanais.org/futura
 AoVivo	|Normal	|Documentarios	|History 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/history.m3u8
 AoVivo	|Normal	|Documentarios	|History 1.2	|https://rdcanais.org/history
 AoVivo	|Normal	|Documentarios	|History 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/d5b278cd78f94a7ef4cdbe855b785e69/playlist.m3u8
@@ -524,11 +517,9 @@ AoVivo	|Normal	|Entretenimento	|TV Cidade Oeste	|https://video07.logicahost.com.
 AoVivo	|Normal	|Entretenimento	|TV COM Brasil	|https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV COM Maceio	|https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV COM Santos	|https://video01.logicahost.com.br/tvcomsantos/tvcomsantos/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|TV Cultura	|https://player-tvcultura.stream.uol.com.br/live/tvcultura_lsd.m3u8?vhost=player-tvcultura.stream.uol.com.br
 AoVivo	|Normal	|Entretenimento	|TV Diário Macapá	|https://video02.logicahost.com.br/tvdiario/tvdiario/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Estado	|https://video01.brascast.com/82b92cec/82b92cec/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Gazeta	|https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
-AoVivo	|Normal	|Entretenimento	|TV Geral	|https://video05.logicahost.com.br/tvgeral/tvgeral/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Goitacá	|https://video01.brascast.com/david7639/david7639/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV J.SID	|https://video05.logicahost.com.br/tvjsid/tvjsid/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV LatinaSat	|https://www.latinasat.com.br/hls/live/stream/index.m3u8
@@ -538,7 +529,7 @@ AoVivo	|Normal	|Entretenimento	|TV Mais Brasil	|https://stmv8.samcast.com.br/tvm
 AoVivo	|Normal	|Entretenimento	|TV Manchete	|https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Master	|https://a.cdni.live/tvmaster/tvmaster/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV MON	|https://video10.logicahost.com.br/tvmon/tvmon/chunklist_w1167397805.m3u8
-AoVivo	|Normal	|Entretenimento	|TV News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w1966712260.m3u8
+AoVivo	|Normal	|Entretenimento	|TV News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV ONE	|https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Pantanal MS	|https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|TV Paraná Turismo	|https://aovivo.paranaeducativa.pr.gov.br/hls/tve.m3u8
@@ -556,9 +547,10 @@ AoVivo	|Normal	|Entretenimento	|Uma TV	|https://umatv.nuvemplay.live/hls/stream.
 AoVivo	|Normal	|Entretenimento	|Vintage	|https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Web Tv Alternativa RO	|https://video04.logicahost.com.br/webtvalternativa/webtvalternativa/playlist.m3u8
 AoVivo	|Normal	|Entretenimento	|Western Bound Brasil	|https://ime-wbpo.otteravision.com/ime/wbpo/wbpo1080p.m3u8
-AoVivo	|Normal	|Filmes	|Anime TV	|https://stmv2.painelvideocast.com.br/animetv/animetv/chunklist_w2094162159.m3u8
+AoVivo	|Normal	|Filmes	|Anime TV	|https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|AWTV-filmes	|https://awtv.nuvemplay.live/hls/stream.m3u8
-AoVivo	|Normal	|Filmes	|BS TV	|https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
+AoVivo	|Normal	|Filmes	|BS TV 1.1	|https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
+AoVivo	|Normal	|Filmes	|BS TV 1.2	|https://br5093.streamingdevideo.com.br/bstv/bstv/chunklist_w614911970.m3u8
 AoVivo	|Normal	|Filmes	|Channel 1	|https://stmv2.painelvideocast.com.br/movies1/movies1/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Cindie Lite	|https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
 AoVivo	|Normal	|Filmes	|Cine Brasil TV	|https://stmv2.painelvideocast.com.br/cinebrasil/cinebrasil/playlist.m3u8
@@ -583,17 +575,19 @@ AoVivo	|Normal	|Filmes	|ORTVWEB	|https://tv.ortv.com.br/hls/stream.m3u8
 AoVivo	|Normal	|Filmes	|Osório News	|https://stmv2.srvsh.com.br/0003/0003/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Rede Clouding	|https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|Rookie Blue	|https://amg00353-amg00353c63-samsung-br-8947.playouts.now.amagi.tv/playlist.m3u8
-AoVivo	|Normal	|Filmes	|Runtime	|https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Ação	|https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Ação	|https://run-rt-ra-lgchannels.otteravision.com/run/rt_ra/rt_ra_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Comedia	|https://run-rc-br-lgchannels.otteravision.com/run/rc_br/rc_br_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Comédia	|https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Crime	|https://run-cr-br.otteravision.com/run/cr_br/cr_br_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Crime	|https://run-cr-br-lgchannels.otteravision.com/run/cr_br/cr_br_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Espanto	|https://run-th-br-lgchannels.otteravision.com/run/th_br/th_br_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Familia	|https://run-rufb-lgchannels.otteravision.com/run/rufb/rufb_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Família	|https://run-rufb.otteravision.com/run/rufb/rufb_720.m3u8
-AoVivo	|Normal	|Filmes	|Runtime Romance	|https://run-ro-br.otteravision.com/run/ro_br/ro_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime 1.1	|https://run-rt-br.otteravision.com/run/rt_br/rt_br_720p_high.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Ação 1.1	|https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Ação 1.2	|https://run-rt-ra-lgchannels.otteravision.com/run/rt_ra/rt_ra_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Comédia 1.1	|https://run-rc-br.otteravision.com/run/rc_br/rc_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Comedia 1.2	|https://run-rc-br-lgchannels.otteravision.com/run/rc_br/rc_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Crime 1.1	|https://run-cr-br.otteravision.com/run/cr_br/cr_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Crime 1.2	|https://run-cr-br-lgchannels.otteravision.com/run/cr_br/cr_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Espanto 1.1	|https://run-rt-ra.otteravision.com/run/th_br/th_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Espanto 1.2	|https://run-th-br-lgchannels.otteravision.com/run/th_br/th_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Família 1.1	|https://run-rufb.otteravision.com/run/rufb/rufb_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Familia 1.2	|https://run-rufb-lgchannels.otteravision.com/run/rufb/rufb_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Romance 1.1	|https://run-ro-br.otteravision.com/run/ro_br/ro_br_720.m3u8
+AoVivo	|Normal	|Filmes	|Runtime Romance 1.2	|https://run-ro-br.otteravision.com/run/ro_br/ro_br_720.m3u8
 AoVivo	|Normal	|Filmes	|Sato+	|https://sto-sat-samsung.otteravision.com/sto/sat/sat.m3u8
 AoVivo	|Normal	|Filmes	|SonyOne	|https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 AoVivo	|Normal	|Filmes	|SonyOne Emoções	|https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8
@@ -611,16 +605,16 @@ AoVivo	|Normal	|Filmes	|TV Sonata	|https://play.tvsonata.com.br/LiveApp/streams/
 AoVivo	|Normal	|Filmes	|TV Sonata	|https://video04.logicahost.com.br/isonata/isonata/chunklist_w2098373202.m3u8
 AoVivo	|Normal	|Filmes	|Viva Web	|https://video01.brascast.com/cypriano46326/cypriano46326/playlist.m3u8
 AoVivo	|Normal	|Notícias	|BandNews 1.1	|https://7ae83f3f44a4356a36ec9bbe6af7fa9b.s25-cloudfront-net.lat/stream/7f28941868c78080646491d729705f00/bandnews.m3u8
-AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://rdcanais.org/bandnews
 AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://np.s23-cloudfront-net.lat/temp/bandnews.m3u8
+AoVivo	|Normal	|Notícias	|BandNews 1.2	|https://rdcanais.org/bandnews
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/cnnbrasil.m3u8
 AoVivo	|Normal	|Notícias	|CNN Brasil 1.2	|https://rdcanais.org/cnnbrasil
 AoVivo	|Normal	|Notícias	|CNN Portugal 1.1	|https://raw.githubusercontent.com/edifesf1/r/main/cnn_portugal.m3u8
 AoVivo	|Normal	|Notícias	|GloboNews 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/globonews.m3u8
 AoVivo	|Normal	|Notícias	|GloboNews 1.2	|https://rdcanais.org/globonews
-AoVivo	|Normal	|Notícias	|JovemPan 1.1	  |https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
-AoVivo	|Normal	|Notícias	|JovemPan 1.2	  |https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
-AoVivo	|Normal	|Notícias	|JovemPan 1.3	  |https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f68ff6447c134b8e9cf8bed47083d48a/playlist.m3u8	
+AoVivo	|Normal	|Notícias	|JovemPan 1.1	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
+AoVivo	|Normal	|Notícias	|JovemPan 1.2	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+AoVivo	|Normal	|Notícias	|JovemPan 1.3	|https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/f68ff6447c134b8e9cf8bed47083d48a/playlist.m3u8
 AoVivo	|Normal	|Notícias	|Record News 1.1	|https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 AoVivo	|Normal	|Notícias	|Record News 1.2	|https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
 AoVivo	|Normal	|Notícias	|SBT News 1.1	|https://sbtNews.maissbt.com/3.m3u8
@@ -630,14 +624,13 @@ AoVivo	|Normal	|Notícias	|Veja +	|https://gpa-vja.otteravision.com/gpa/vja/vja.
 AoVivo	|Normal	|Notícias	|Y_BandJornal	|https://www.youtube.com/@bandjornalismo/live
 AoVivo	|Normal	|Notícias	|Y_BandNewsRadio	|https://www.youtube.com/@radiobandnewsfm/live
 AoVivo	|Normal	|Notícias	|Y_Brasil Urgente	|https://www.youtube.com/@brasilurgente/live
-AoVivo	|Normal	|Público	|TV Almg	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV ALMG	|https://streaming.almg.gov.br/live/tvalmg.m3u8
 AoVivo	|Normal	|Público	|TV Câmara	|https://stream3.camara.gov.br/tv1/manifest.m3u8
 AoVivo	|Normal	|Sports	|BandSports 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/bandsports.m3u8
 AoVivo	|Normal	|Sports	|BandSports 1.2	|https://nphd.online/tv/bandsports
 AoVivo	|Normal	|Sports	|BandSports 1.3	|https://rdcanais.org/bandsports
-AoVivo	|Normal	|Sports	|Canal GOAT 1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
-AoVivo	|Normal	|Sports	|Canal GOAT 2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
+AoVivo	|Normal	|Sports	|Canal GOAT 1.1	|https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8
+AoVivo	|Normal	|Sports	|Canal GOAT 1.2	|https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 AoVivo	|Normal	|Sports	|Caze TV 1.1	|https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8
 AoVivo	|Normal	|Sports	|Caze TV 1.2	|https://nphd.online/tv/caze1
 AoVivo	|Normal	|Sports	|Caze TV 1.3	|https://rdcanais.org/cazetv
@@ -645,26 +638,31 @@ AoVivo	|Normal	|Sports	|Caze TV 2.1	|https://nphd.online/tv/caze2
 AoVivo	|Normal	|Sports	|Caze TV 2.2	|https://rdcanais.org/cazetv2
 AoVivo	|Normal	|Sports	|Caze TV 3.1	|https://nphd.online/tv/caze3
 AoVivo	|Normal	|Sports	|Caze TV 3.2	|https://rdcanais.org/cazetv3
-AoVivo	|Normal	|Sports	|Combate 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/combate.m3u8
-AoVivo	|Normal	|Sports	|Combate 1.2	|https://nphd.online/tv/combate
-AoVivo	|Normal	|Sports	|Combate 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/stream/f0cff7ab87d40a8244fe020702021e70/playlist.m3u8
 AoVivo	|Normal	|Sports	|Esp Real Madrid	|https://stream2.cinerama.uz/1263/tracks-v1a1/mono.m3u8
 AoVivo	|Normal	|Sports	|Esp RedBull	|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 AoVivo	|Normal	|Sports	|ESPN 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn.m3u8
-AoVivo	|Normal	|Sports	|ESPN 1.2	|https://nphd.online/tv/espn
-AoVivo	|Normal	|Sports	|ESPN 1.3	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/c13085240c9060663eb659690099e7e9/playlist.m3u8
-AoVivo	|Normal	|Sports	|ESPN 1.4	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/stream/6debc1f09a55a7eb1f1acbe732d4e79e/playlist.m3u8
+AoVivo	|Normal	|Sports	|Espn 1.2	|https://np.s23-cloudfront-net.lat/temp/espn.m3u8
+AoVivo	|Normal	|Sports	|ESPN 1.3	|https://nphd.online/tv/espn
 AoVivo	|Normal	|Sports	|ESPN 2.1	|https://nphd.online/tv/espn2
+AoVivo	|Normal	|Sports	|ESPN 2.2	|https://np.s23-cloudfront-net.lat/temp/espn2.m3u8
+AoVivo	|Normal	|Sports	|ESPN 2.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn2.m3u8
 AoVivo	|Normal	|Sports	|ESPN 3.1	|https://nphd.online/tv/espn3
+AoVivo	|Normal	|Sports	|ESPN 3.2	|https://np.s23-cloudfront-net.lat/temp/espn3.m3u8
+AoVivo	|Normal	|Sports	|ESPN 3.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn3.m3u8
 AoVivo	|Normal	|Sports	|ESPN 4.1	|https://nphd.online/tv/espn4
+AoVivo	|Normal	|Sports	|ESPN 4.2	|https://np.s23-cloudfront-net.lat/temp/espn4.m3u8
+AoVivo	|Normal	|Sports	|ESPN 4.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn4.m3u8
 AoVivo	|Normal	|Sports	|ESPN 5.1	|https://nphd.online/tv/espn5
+AoVivo	|Normal	|Sports	|ESPN 5.2	|https://np.s23-cloudfront-net.lat/temp/espn5.m3u8
+AoVivo	|Normal	|Sports	|ESPN 5.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn5.m3u8
 AoVivo	|Normal	|Sports	|ESPN 6.1	|https://nphd.online/tv/espn6
+AoVivo	|Normal	|Sports	|ESPN 6.2	|https://np.s23-cloudfront-net.lat/temp/espn6.m3u8
+AoVivo	|Normal	|Sports	|ESPN 6.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/espn6.m3u8
 AoVivo	|Normal	|Sports	|FIFA+	|https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 AoVivo	|Normal	|Sports	|FIFA+ Portuguese English	|https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 AoVivo	|Normal	|Sports	|Ge Fast	|https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
 AoVivo	|Normal	|Sports	|NSPorts 1.1	|https://origin-fast.b-cdn.net/NSPORTS/index.m3u8
 AoVivo	|Normal	|Sports	|NSPorts 1.2	|https://www.youtube.com/@NSports/live
-AoVivo	|Normal	|Sports	|RS News	|https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w451977208.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 1	|https://video07.logicahost.com.br/rssports01/rssports01/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 2	|https://video03.logicahost.com.br/rssports2/rssports2/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS News Sports 3	|https://video03.logicahost.com.br/rssports3/rssports3/playlist.m3u8
@@ -673,7 +671,6 @@ AoVivo	|Normal	|Sports	|RS News Sports 5	|https://video03.logicahost.com.br/rssp
 AoVivo	|Normal	|Sports	|RS Play	|https://video05.logicahost.com.br/rsnews/rsnews/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS SERIES	|https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 AoVivo	|Normal	|Sports	|RS TV	|https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
-AoVivo	|Normal	|Sports	|SFT Combat	|https://hrm-sftc.otteravision.com/hrm/sftc/sftc_720p_high.m3u8
 AoVivo	|Normal	|Sports	|SporTV 1.1	|https://nphd.online/tv/sportv
 AoVivo	|Normal	|Sports	|SporTV 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sportv.m3u8
 AoVivo	|Normal	|Sports	|SporTV 1.3	|https://rdcanais.org/sportv
@@ -683,9 +680,12 @@ AoVivo	|Normal	|Sports	|SporTV 2.3	|https://rdcanais.org/sportv2
 AoVivo	|Normal	|Sports	|SporTV 3.1	|https://nphd.online/tv/sportv3
 AoVivo	|Normal	|Sports	|SporTV 3.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sportv3.m3u8
 AoVivo	|Normal	|Sports	|SporTV 3.3	|https://rdcanais.org/sportv3
-AoVivo	|Normal	|Sports	|TVL News	|https://cdn-luzilandi-10589.ciclano.io:1443/luzilandi-10589/luzilandi-10589/chunklist_w346284232.m3u8
 AoVivo	|Normal	|Sports	|UFC	|https://pb-drwvokx73qpxg.akamaized.net/playlist.m3u8
 AoVivo	|Normal	|Sports	|UFC ByPass	|https://epg.provider.plex.tv/library/parts/646546f35db8ada4c8edd7e5-6a1f3a9475210dddf5af4f33.m3u8?X-Plex-Session-Identifier=82pmobw1qv8hhiyt2lmp471v&X-Plex-Product=Plex%20Web&X-Plex-Version=4.162.1&X-Plex-Client-Identifier=sslh6zfey7h60ii9uujfxnko&X-Plex-Platform=Chrome&X-Plex-Platform-Version=109.0&X-Plex-Features=external-media%2Cindirect-media%2Chub-style-list&X-Plex-Model=standalone&X-Plex-Device=Windows&X-Plex-Device-Name=Chrome&X-Plex-Device-Screen-Resolution=1366x640%2C1366x768&X-Plex-Token=J4T_M-z3xjFHCDtKs_xr&X-Plex-Language=pt-BR&Accept-Language=pt-BR&X-Plex-Session-Id=be0a606f-2a6b-4ba1-8556-1ef2f0a892bf&X-Plex-Playback-Session-Id=508a59ed-8b87-45a8-8429-1406488eb60e
+AoVivo	|Normal	|Sports	|UFC Combate 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/combate.m3u8
+AoVivo	|Normal	|Sports	|UFC Combate 1.2	|https://np.s23-cloudfront-net.lat/temp/combate.m3u8
+AoVivo	|Normal	|Sports	|UFC Combate 1.3	|https://nphd.online/tv/combate
+AoVivo	|Normal	|Sports	|UFC SFT Combat	|https://hrm-sftc.otteravision.com/hrm/sftc/sftc_720p_high.m3u8
 AoVivo	|Normal	|Sports	|Voz do Esporte	|https://www.youtube.com/@VozdoEsporte/live
 AoVivo	|Normal	|Sports	|Xsports 1.1	|https://pb-r54iiecsw1gj5.akamaized.net/XSports.m3u8
 AoVivo	|Normal	|Sports	|Xsports 1.2	|https://nphd.online/tv/xsports
@@ -694,8 +694,7 @@ AoVivo	|Normal	|Sports	|Y_Esp Teletrece	|https://www.youtube.com/@T13_cl/live
 AoVivo	|Normal	|Sports	|Y_Esp TN en vivo	|https://www.youtube.com/@todonoticias/live
 AoVivo	|Normal	|Sports	|Y_Euronews pt	|https://www.youtube.com/@euronewspt/live
 AoVivo	|Normal	|SportsPPV	|DisneyPlus 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/disneyplus1.m3u8
-AoVivo	|Normal	|SportsPPV	|DisneyPlus 1.2	|https://nphd.online/tv/disneyplus1
-AoVivo	|Normal	|SportsPPV	|DisneyPlus 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/stream/d31d2bbaa0e3cb3f8645ab877cc7f08e/playlist.m3u8
+AoVivo	|Normal	|SportsPPV	|DisneyPlus 1.3	|https://nphd.online/tv/disneyplus1
 AoVivo	|Normal	|SportsPPV	|DisneyPlus 2.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/disneyplus2.m3u8
 AoVivo	|Normal	|SportsPPV	|DisneyPlus 2.2	|https://nphd.online/tv/disneyplus2
 AoVivo	|Normal	|SportsPPV	|DisneyPlus 2.3	|https://rdcanais.org/disneyplus2
@@ -769,7 +768,6 @@ AoVivo	|Religioso	|Catolico	|Tv Evangelizar	|https://www.youtube.com/watch?v=vIN
 AoVivo	|Religioso	|Catolico	|Tv Evangelizar 2	|https://df1.cdnsimba.com.br/bpk-tv/Df1_TVEVCTB2_HLS/hls/master.m3u8
 AoVivo	|Religioso	|Catolico	|TV Horizonte	|https://tvhorizonte.brasilstream.com.br/hls/tvhorizonte/index.m3u8
 AoVivo	|Religioso	|Catolico	|TV Imaculada Conceição	|https://video08.logicahost.com.br/redeimaculada/redeimaculada/playlist.m3u8
-AoVivo	|Religioso	|Catolico	|TV Judaica	|https://streaming.tvjudaica.com/main.m3u8
 AoVivo	|Religioso	|Catolico	|TV Metropole	|https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TV Padre Cicero	|https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
 AoVivo	|Religioso	|Catolico	|TVCI	|https://cpbr.appflux.com.br:2000/hls/tvcilive/tvcilive.m3u8
@@ -785,7 +783,6 @@ AoVivo	|Religioso	|Evangelico	|Despertar TV	|https://br.conectmy.com.br/Desperta
 AoVivo	|Religioso	|Evangelico	|Fonte TV	|https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 AoVivo	|Religioso	|Evangelico	|Fonte Viva Gospel	|https://stmv1.liveplushd.com.br/webtvfontevivagospel/webtvfontevivagospel/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Hope English	|https://cdn-us-dca.b-cdn.net/hcorg_33O0ldvawCD/s/jsl_0sUSK6VA7GT/master.m3u8
-AoVivo	|Religioso	|Evangelico	|Igreja Mundial	|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Igreja Online	|https://vz-68323952-633.b-cdn.net/77de4c9e-b8c2-487c-87f0-f333f267ac0f/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|IMPD TV	|https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|IURDTV	|https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/fdc85437d7631afb59fe3767dcc464dd/source/index.m3u8
@@ -795,7 +792,7 @@ AoVivo	|Religioso	|Evangelico	|NTV	|https://cdn.livespanel.com/nossatv/nossatv/p
 AoVivo	|Religioso	|Evangelico	|NTV2	|https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiIxZDkyYmIxMDAzNmYzNzQxYjUzODE3M2EzZmMyNDAxMSIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzkzNjgzNzM5LCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.JG2ax0TLslwE7GuvskCtXhjuYANW9vrdIVYaWk0CXeMtULynvES28d3esYGac7ZsMsO-h6ha1_Wrm07ZEHST_v100CLj0e7h9nxqjpLw2saAdy6-zxYzzF76hPR2RbiIEPUlaNwfdJjBX23AFda0FlxyTbtBm9TVRXcyGBWZfDYirU3rW8XzPOAr_mGXwR2vxVMX0zXvmsjHjAK7a829Szx_uUOvfLAEXq1U6lVwEQDxSEms60ABzWQX6880rWKm731t2iKvkN7OAqhwiJC_20v3vapHwBzpabjVBVmfHKlz7LdoqvBSQOcea01ESS0sxQlu-8gnZH_jdnmvieItdw/manifest/video.m3u8?CMCD=cid%3D%221793640537518%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22a87f5e95-3554-48b8-bd73-529c4ea8611b%22%2Csu
 AoVivo	|Religioso	|Evangelico	|Plena TV	|https://stmv7.voxtvhd.com.br/vitoriaplenatv/vitoriaplenatv/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Plenitude TV	|https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
-AoVivo	|Religioso	|Evangelico	|RBTI Movies	|https://tv.rbti.tv.br/rbti2/540p/index.m3u8
+AoVivo	|Religioso	|Evangelico	|RBTI Movies	|https://tv.rbti.tv.br/rbti1/index.m3u8
 AoVivo	|Religioso	|Evangelico	|Rede Alfa	|https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Rede Boas Novas	|https://cdn.live.br1.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/chunklist.m3u8
 AoVivo	|Religioso	|Evangelico	|Rede Gospel	|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
@@ -811,10 +808,10 @@ AoVivo	|Religioso	|Evangelico	|Tv Adorar Jesus	|https://stmv1.srvif.com/tvadoran
 AoVivo	|Religioso	|Evangelico	|TV Brasil Angola	|https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Tv Caatólica Filmes	|https://stmv2.painelvideocast.com.br/caloticatv/caloticatv/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Feliz	|https://video01.logicahost.com.br/tvfeliz/tvfeliz/playlist.m3u8
-AoVivo	|Religioso	|Evangelico	|TV Feliz	|https://video01.logicahost.com.br/tvfeliz/tvfeliz/chunklist_w1529613306.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Judaica	|https://streaming.tvjudaica.com/main.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Maanaim	|https://cpbr.appflux.com.br:2000/hls/maranatalive1/maranatalive1.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Mais Marica	|https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
+AoVivo	|Religioso	|Evangelico	|TV Maná 1	|https://w1.manasat.com/tvmana-1/smil:tvmana-1.smil/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Mana Brasil	|https://w1.manasat.com/tvmana-brasil/smil:tvmana-brasil.smil/chunklist_w463598116_b3048000_sleng.m3u8
 AoVivo	|Religioso	|Evangelico	|Tv Maná Moçambique	|https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Tv Maná PT	|https://w1.manasat.com/tvmana-2/smil:tvmana-2.smil/playlist.m3u8
@@ -826,15 +823,12 @@ AoVivo	|Religioso	|Evangelico	|TV Ouro Negro	|https://stmv1.srvstm.com/diegodeme
 AoVivo	|Religioso	|Evangelico	|TV PBC	|https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Reconcavo	|https://video04.logicahost.com.br/tvreconcavo/tvreconcavo/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Sepiol	|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/playlist.m3u8
-AoVivo	|Religioso	|Evangelico	|TV Sepiol	|https://5a57bda70564a.streamlock.net/tvsepiol/tvsepiol.sdp/chunklist_w541628865.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Sonora	|https://video01.brascast.com/xavier4499/xavier4499/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Templo	|https://644398c.ha.azioncdn.net/primary/tvtemplo_480p.sdp/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Tudo BH	|https://tv02.zas.media:1936/tvtudo/tvtudo/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV Universal	|https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|TV WTJ Minas	|https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
 AoVivo	|Religioso	|Evangelico	|Way TV	|https://live.wayone.cloud/waytv/waytv1/playlist.m3u8
-AoVivo	|Religioso	|Filmes	|Gospel Caartoon	|https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-AoVivo	|Religioso	|Filmes	|Gospel Movie TV	|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo	|Religioso	|Filmes	|Gospel Movies	|https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 AoVivo	|Religioso	|Filmes	|Kuriakos Cine	|https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 AoVivo	|Religioso	|Filmes	|The Chosen	|https://amg00353-amg00353c88-lg-br-11648.playouts.now.amagi.tv/ts-us-e2-n1/playlist/amg00353-lionsgatetvfast-thechosenportuguesecc-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.coppa=[COPPA]
@@ -968,7 +962,7 @@ Music	|AoVivo	|Normal	|Trace Brazuca 1	|https://cdn-uw2-prod.tsv2.amagi.tv/linea
 Music	|AoVivo	|Normal	|Trace Brazuca 2	|https://amg01131-tracetv-tracebrazuca-xiaomi-vvr19.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 Music	|AoVivo	|Normal	|TV Café	|https://srv5.zcast.com.br/tvcafe/tvcafe/playlist.m3u8
 Music	|AoVivo	|Normal	|TV Curuça	|https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8
-Music	|AoVivo	|Normal	|TVGeral	|https://video05.logicahost.com.br/tvgeral/tvgeral/chunklist_w1727045055.m3u8
+Music	|AoVivo	|Normal	|TV Geral	|https://video05.logicahost.com.br/tvgeral/tvgeral/playlist.m3u8
 Music	|Radios	|Catolica	|AcordeVerde	|https://hts03.brascast.com:9144/live
 Music	|Radios	|Catolica	|AmericaFM	|https://everest.radionanet.com:9110/stream
 Music	|Radios	|Catolica	|Amparo	|https://s37.maxcast.com.br:8938/live
@@ -977,8 +971,8 @@ Music	|Radios	|Catolica	|Arca Aliança Blumenau-100.1 FM	|https://stm01.virtualc
 Music	|Radios	|Catolica	|Bom Jesus	|https://centova11.ipstm.net:20036/stream
 Music	|Radios	|Catolica	|Brasil Campinas	|https://centova2.svdns.com.br:20030/stream
 Music	|Radios	|Catolica	|BrasilStream	|https://9735.brasilstream.com.br/stream?1745341191933
-Music	|Radios	|Catolica	|Canção Nova	|https://streaming.fox.srv.br:8116/stream
-Music	|Radios	|Catolica	|Canção Nova	|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
+Music	|Radios	|Catolica	|Canção Nova 1.1	|https://streaming.fox.srv.br:8116/stream
+Music	|Radios	|Catolica	|Canção Nova 1.2	|https://5a2b083e9f360.streamlock.net//catedral/catedral.stream/playlist.m3u8
 Music	|Radios	|Catolica	|Catolica	|https://stream.knbcdn.com.br/musica-catolica/playlist.m3u8
 Music	|Radios	|Catolica	|Coração FM	|https://5a57bda70564a.streamlock.net/coracaohd/coracaohd.stream/playlist.m3u8
 Music	|Radios	|Catolica	|Evangelizar Music	|https://8239.brasilstream.com.br/stream
@@ -996,338 +990,285 @@ Music	|Radios	|Normal	|Rádio Clube Fm	|https://clubefm1.brasilstream.com.br/hls
 Music	|Radios	|Normal	|Radio Montanhesa	|https://qfm.sistemasgerais.com.br/hlsm/index.m3u8
 Music	|Radios	|Normal	|TikTok Radio	|https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 Music	|Radios	|Normal	|Wording	|https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w2110040520.m3u8
-
-
-zOutros	|Normal	|Canais	|24H-Chaves 1.1	|https://alerquina54100.embedtv.cc/24h-chaves
 zOutros	|Normal	|Canais	|24H-Chaves 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-chaves.m3u8
-zOutros	|Normal	|Canais	|24H-Dragonball 1.1	|https://alerquina54100.embedtv.cc/24h-dragonball
 zOutros	|Normal	|Canais	|24H-Dragonball 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-dragonball.m3u8
-zOutros	|Normal	|Canais	|24H-Friends 1.1	|https://alerquina54100.embedtv.cc/24h-friends
 zOutros	|Normal	|Canais	|24H-Friends 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-friends.m3u8
-zOutros	|Normal	|Canais	|24H-Naruto 1.1	|https://alerquina54100.embedtv.cc/24h-naruto
 zOutros	|Normal	|Canais	|24H-Naruto 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-naruto.m3u8
-zOutros	|Normal	|Canais	|24H-OdeiaChris 1.1	|https://alerquina54100.embedtv.cc/24h-odeiachris
 zOutros	|Normal	|Canais	|24H-OdeiaChris 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-odeiachris.m3u8
-zOutros	|Normal	|Canais	|24H-PicaPau 1.1	|https://alerquina54100.embedtv.cc/24h-picapau
 zOutros	|Normal	|Canais	|24H-PicaPau 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-picapau.m3u8
-zOutros	|Normal	|Canais	|24H-Simpsons 1.1	|https://alerquina54100.embedtv.cc/24h-simpsons
 zOutros	|Normal	|Canais	|24H-Simpsons 1.2	|https://np.s23-cloudfront-net.lat/temp/24h-simpsons.m3u8
-zOutros	|Normal	|Canais	|A F.azenda5 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda5.m3u8
-zOutros	|Normal	|Canais	|A Fazenda 1.1	|https://alerquina54100.embedtv.cc/afazenda
+zOutros	|Normal	|Canais	|40 Graus TV	|https://40gtv-aovivo.nuvemplay.live/hls/stream.m3u8
+zOutros	|Normal	|Canais	|A F.azenda 5.2	|https://np.s23-cloudfront-net.lat/temp/afazenda5.m3u8
 zOutros	|Normal	|Canais	|A Fazenda 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda.m3u8
-zOutros	|Normal	|Canais	|A Fazenda2 1.1	|https://alerquina54100.embedtv.cc/afazenda2
-zOutros	|Normal	|Canais	|A Fazenda2 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda2.m3u8
-zOutros	|Normal	|Canais	|A Fazenda3 1.1	|https://alerquina54100.embedtv.cc/afazenda3
-zOutros	|Normal	|Canais	|A Fazenda3 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda3.m3u8
-zOutros	|Normal	|Canais	|A Fazenda4 1.1	|https://alerquina54100.embedtv.cc/afazenda4
-zOutros	|Normal	|Canais	|A Fazenda4 1.2	|https://np.s23-cloudfront-net.lat/temp/afazenda4.m3u8
-zOutros	|Normal	|Canais	|A Fazenda5 1.1	|https://alerquina54100.embedtv.cc/afazenda5
-zOutros	|Normal	|Canais	|AdultSwim 1.1	|https://alerquina54100.embedtv.cc/adultswim
+zOutros	|Normal	|Canais	|A Fazenda 2.2	|https://np.s23-cloudfront-net.lat/temp/afazenda2.m3u8
+zOutros	|Normal	|Canais	|A Fazenda 3.2	|https://np.s23-cloudfront-net.lat/temp/afazenda3.m3u8
+zOutros	|Normal	|Canais	|A Fazenda 4.2	|https://np.s23-cloudfront-net.lat/temp/afazenda4.m3u8
+zOutros	|Normal	|Canais	|ABC Brasil	|https://servidor2.vcrmedia.com.br/hls/canalabc_src.m3u8
+zOutros	|Normal	|Canais	|Adesso TV	|https://cdn.live.br1.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/chunklist.m3u8
+zOutros	|Normal	|Canais	|Adrenalina Pura TV	|https://amg00740-sofa-amg00740c7-tcl-us-7126.playouts.now.amagi.tv/1080p-cc/index.m3u8
 zOutros	|Normal	|Canais	|AdultSwim 1.2	|https://np.s23-cloudfront-net.lat/temp/adultswim.m3u8
-zOutros	|Normal	|Canais	|AE 1.1	|https://alerquina54100.embedtv.cc/ae
 zOutros	|Normal	|Canais	|AE 1.2	|https://np.s23-cloudfront-net.lat/temp/ae.m3u8
-zOutros	|Normal	|Canais	|AMC 1.1	|https://alerquina54100.embedtv.cc/amc
+zOutros	|Normal	|Canais	|ALMA GOSPEL TV	|https://almagospel.nuvemplay.live/hls/stream.m3u8
 zOutros	|Normal	|Canais	|AMC 1.2	|https://np.s23-cloudfront-net.lat/temp/amc.m3u8
-zOutros	|Normal	|Canais	|AnimalPlanet 1.1	|https://alerquina54100.embedtv.cc/animalplanet
-zOutros	|Normal	|Canais	|AnimalPlanet 1.2	|https://np.s23-cloudfront-net.lat/temp/animalplanet.m3u8
-zOutros	|Normal	|Canais	|Aparecida 1.1	|https://alerquina54100.embedtv.cc/aparecida
+zOutros	|Normal	|Canais	|AnimalPlanet 1.5	|https://np.s23-cloudfront-net.lat/temp/animalplanet.m3u8
 zOutros	|Normal	|Canais	|Aparecida 1.2	|https://np.s23-cloudfront-net.lat/temp/aparecida.m3u8
-zOutros	|Normal	|Canais	|AXN 1.1	|https://alerquina54100.embedtv.cc/axn
 zOutros	|Normal	|Canais	|AXN 1.2	|https://np.s23-cloudfront-net.lat/temp/axn.m3u8
+zOutros	|Normal	|Canais	|Band	|https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8
 zOutros	|Normal	|Canais	|BAND 	|https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/chunklist.m3u8
 zOutros	|Normal	|Canais	|Band 1.2	|https://nphd.online/tv/band
 zOutros	|Normal	|Canais	|Band 1.3	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/band.m3u8
-zOutros	|Normal	|Canais	|BandNews 1.1	|https://alerquina54100.embedtv.cc/bandnews
-zOutros	|Normal	|Canais	|BandRJ 1.1	|https://alerquina54100.embedtv.cc/bandrj
 zOutros	|Normal	|Canais	|BandRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/bandrj.m3u8
 zOutros	|Normal	|Canais	|BandRJ 1.3	|https://hqf6tcxuhk.singularcdn.net.br/live/0194f211-4229-749f-a47e-58f819471024/s1/playlist-720p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImlzcyI6IlNwYWxsYSIsImlhdCI6MTc5MTQ5MDY5OSwibmJmIjoxNzkxNDkwNjk5LCJleHAiOjE3OTQwODI2OTksInVyaV9zdWIiOiIvMDE5NGYyMTEtNDIyOS03NDlmLWE0N2UtNThmODE5NDcxMDI0LyIsInVpZCI6ImY4M2VhZDllLWQ2NGYtNDZlYS1hMjgyLWEzNTgxN2JhNTRjYiIsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsImRwciI6ZmFsc2V9.5g_n8NjJJJU8NDwyYRFtDoaQafdD0okEEnXeHZdczWc&uid=f83ead9e-d64f-46ea-a282-a35817ba54cb
-zOutros	|Normal	|Canais	|BandSP 1.1	|https://alerquina54100.embedtv.cc/bandsp
 zOutros	|Normal	|Canais	|BandSP 1.2	|https://np.s23-cloudfront-net.lat/temp/bandsp.m3u8
-zOutros	|Normal	|Canais	|BandSports 1.1	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/stream/6108aa964c2528567c2ea585464e88ee/playlist.m3u8
-zOutros	|Normal	|Canais	|BandSports 1.1	|https://alerquina54100.embedtv.cc/bandsports
-zOutros	|Normal	|Canais	|BandSports 1.2	|https://np.s23-cloudfront-net.lat/temp/bandsports.m3u8
-zOutros	|Normal	|Canais	|Canal Rural 1	|https://77cdn-global.phiztv.com/live/970006d4-5090-4011-b77c-d791ed994af4/tracks-v2a1/mono.ts.m3u8
-zOutros	|Normal	|Canais	|CancaoNova 1.1	|https://alerquina54100.embedtv.cc/cancaonova
+zOutros	|Normal	|Canais	|Barça TV	|https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/cb543e1e7b6c678e9dd43662cef340a3f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7356db80148b61299bce8c37683f03409a5e5afba358b1ebe35a4cd13ff3b71d55c77a46e19f43c8821da689865b9a5ed370f847ccc6f588d613d78ff3de986d935c83e5911ce3e25ba18b3b94c89b73309003502c7c66c7d35d7ad35efc2a7053edebc3ff44f216dc8026801a4ad3e03cfde542fc5809caa8a16ca5bfb5de504536e4c0542104a1e8b085b9415b2cba49c39bbf404ce39f277948895dd9372737da9d9953eca664a46e5d603fb84a98b97192bb7f30a4c810c73bbd28cfd5fd9b3c0d7d620b3db65cb79662e1e4bc12a7e31c3b554148acd5008ad69916076b41828f49c753358d9bdad3915e608a571254be34821b1d3a987d2c5df53df59f0b698b0d03917a68a80f7bd314bcf007dd93f6c94a7bb9d7cc47bf48eab601ddbf428a652e560fb6bd7d0a11022d9ebe285d704ac243e5c1c3ae225a57a2a49b8cb5395230301956039cf1a721cbfca7072956900368300e537df023d966d80c4c7a5eea16c1a30471c54b611aefa93b524d7fd4af958494ddde4ba575b19aaed94ef9fcfe0855669f0ae627872e54985d0c6be4daa6a4/53/1920x1080_5129264/index.m3u8
+zOutros	|Normal	|Canais	|Bem Melhor	|https://video01.logicahost.com.br/bemmelhor/bemmelhor/chunklist_w1111299609.m3u8
+zOutros	|Normal	|Canais	|Betelhost Sertanejo	|https://srv3.zcast.com.br/betelhostbr/betelhostbr/playlist.m3u8
+zOutros	|Normal	|Canais	|Brazil TV	|https://cbtvnow.com:5866/hls/livest2024_1080p/index.m3u8
+zOutros	|Normal	|Canais	|BRT TV	|https://cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp:LVW11668_wiJpjbMrks_all/chunklist_b5251072.m3u8
+zOutros	|Normal	|Canais	|Canal Rural 1.2	|https://77cdn-global.phiztv.com/live/970006d4-5090-4011-b77c-d791ed994af4/tracks-v2a1/mono.ts.m3u8
 zOutros	|Normal	|Canais	|CancaoNova 1.2	|https://np.s23-cloudfront-net.lat/temp/cancaonova.m3u8
-zOutros	|Normal	|Canais	|Cartoonito 1.1	|https://alerquina54100.embedtv.cc/cartoonito
 zOutros	|Normal	|Canais	|Cartoonito 1.2	|https://np.s23-cloudfront-net.lat/temp/cartoonito.m3u8
-zOutros	|Normal	|Canais	|CartoonNetwork 1.1	|https://alerquina54100.embedtv.cc/cartoonnetwork
 zOutros	|Normal	|Canais	|CartoonNetwork 1.2	|https://np.s23-cloudfront-net.lat/temp/cartoonnetwork.m3u8
-zOutros	|Normal	|Canais	|Caze1 1.1	|https://alerquina54100.embedtv.cc/caze1
 zOutros	|Normal	|Canais	|Caze1 1.2	|https://np.s23-cloudfront-net.lat/temp/caze1.m3u8
-zOutros	|Normal	|Canais	|Caze2 1.1	|https://alerquina54100.embedtv.cc/caze2
 zOutros	|Normal	|Canais	|Caze2 1.2	|https://np.s23-cloudfront-net.lat/temp/caze2.m3u8
-zOutros	|Normal	|Canais	|Caze3 1.1	|https://alerquina54100.embedtv.cc/caze3
 zOutros	|Normal	|Canais	|Caze3 1.2	|https://np.s23-cloudfront-net.lat/temp/caze3.m3u8
-zOutros	|Normal	|Canais	|Cinemax 1.1	|https://alerquina54100.embedtv.cc/cinemax
+zOutros	|Normal	|Canais	|Cine Trianon TV Faroeste	|https://amogonetworx-grjngo-1-eu.plex.wurl.tv/4300.m3u8
 zOutros	|Normal	|Canais	|Cinemax 1.2	|https://np.s23-cloudfront-net.lat/temp/cinemax.m3u8
-zOutros	|Normal	|Canais	|CNNBrasil 1.1	|https://alerquina54100.embedtv.cc/cnnbrasil
+zOutros	|Normal	|Canais	|Clouding TV	|https://video04.logicahost.com.br/cloudingtv/cloudingtv/chunklist_w1660153225.m3u8
 zOutros	|Normal	|Canais	|CNNBrasil 1.2	|https://np.s23-cloudfront-net.lat/temp/cnnbrasil.m3u8
-zOutros	|Normal	|Canais	|Combate 1.1	|https://dc32bc170e63d50c6a529b8ac5040db2.s25-cloudfront-net.lat/stream/e75911f662b24258dda641651c1fa56d/playlist.m3u8
-zOutros	|Normal	|Canais	|Combate 1.1	|https://alerquina54100.embedtv.cc/combate
-zOutros	|Normal	|Canais	|Combate 1.2	|https://np.s23-cloudfront-net.lat/temp/combate.m3u8
-zOutros	|Normal	|Canais	|Cultura 1.1	|https://alerquina54100.embedtv.cc/cultura
 zOutros	|Normal	|Canais	|Cultura 1.2	|https://np.s23-cloudfront-net.lat/temp/cultura.m3u8
-zOutros	|Normal	|Canais	|DiscoveryChannel 1.1	|https://alerquina54100.embedtv.cc/discoverychannel
 zOutros	|Normal	|Canais	|DiscoveryChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverychannel.m3u8
-zOutros	|Normal	|Canais	|DiscoveryH&H 1.1	|https://alerquina54100.embedtv.cc/discoveryhh
 zOutros	|Normal	|Canais	|DiscoveryH&H 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryhh.m3u8
-zOutros	|Normal	|Canais	|DiscoveryID 1.1	|https://alerquina54100.embedtv.cc/discoveryid
 zOutros	|Normal	|Canais	|DiscoveryID 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryid.m3u8
-zOutros	|Normal	|Canais	|DiscoveryKids 1.1	|https://alerquina54100.embedtv.cc/discoverykids
 zOutros	|Normal	|Canais	|DiscoveryKids 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverykids.m3u8
-zOutros	|Normal	|Canais	|DiscoveryScience 1.1	|https://alerquina54100.embedtv.cc/discoveryscience
 zOutros	|Normal	|Canais	|DiscoveryScience 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryscience.m3u8
-zOutros	|Normal	|Canais	|DiscoveryTheather 1.1	|https://alerquina54100.embedtv.cc/discoverytheather
 zOutros	|Normal	|Canais	|DiscoveryTheather 1.2	|https://np.s23-cloudfront-net.lat/temp/discoverytheather.m3u8
-zOutros	|Normal	|Canais	|DiscoveryTurbo 1.1	|https://alerquina54100.embedtv.cc/discoveryturbo
 zOutros	|Normal	|Canais	|DiscoveryTurbo 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryturbo.m3u8
-zOutros	|Normal	|Canais	|DiscoveryWorld 1.1	|https://alerquina54100.embedtv.cc/discoveryworld
 zOutros	|Normal	|Canais	|DiscoveryWorld 1.2	|https://np.s23-cloudfront-net.lat/temp/discoveryworld.m3u8
-zOutros	|Normal	|Canais	|DisneyPlus 1.1	|https://np.s25-cloudfront-net.lat/stream/21fac05dd3f41de3a8b1698fd50ebfe2/playlist.m3u8
-zOutros	|Normal	|Canais	|DisneyPlus1 1.1	|https://alerquina54100.embedtv.cc/disneyplus1
+zOutros	|Normal	|Canais	|DisneyPlus 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus1.m3u8
 zOutros	|Normal	|Canais	|DisneyPlus1 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus1.m3u8
-zOutros	|Normal	|Canais	|DisneyPlus2 1.1	|https://alerquina54100.embedtv.cc/disneyplus2
 zOutros	|Normal	|Canais	|DisneyPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus2.m3u8
-zOutros	|Normal	|Canais	|DisneyPlus3 1.1	|https://alerquina54100.embedtv.cc/disneyplus3
 zOutros	|Normal	|Canais	|DisneyPlus3 1.2	|https://np.s23-cloudfront-net.lat/temp/disneyplus3.m3u8
-zOutros	|Normal	|Canais	|Espn 1.1	|https://alerquina54100.embedtv.cc/espn
-zOutros	|Normal	|Canais	|Espn 1.2	|https://np.s23-cloudfront-net.lat/temp/espn.m3u8
-zOutros	|Normal	|Canais	|Espn2 1.1	|https://alerquina54100.embedtv.cc/espn2
+zOutros	|Normal	|Canais	|Drive Channel TV	|https://stmv1.voxplayer.com.br/drivechannel/drivechannel/chunklist_w330635911.m3u8
+zOutros	|Normal	|Canais	|Eng 3ABN Kids	|https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
 zOutros	|Normal	|Canais	|Espn2 1.2	|https://np.s23-cloudfront-net.lat/temp/espn2.m3u8
-zOutros	|Normal	|Canais	|Espn3 1.1	|https://alerquina54100.embedtv.cc/espn3
 zOutros	|Normal	|Canais	|Espn3 1.2	|https://np.s23-cloudfront-net.lat/temp/espn3.m3u8
-zOutros	|Normal	|Canais	|Espn4 1.1	|https://alerquina54100.embedtv.cc/espn4
 zOutros	|Normal	|Canais	|Espn4 1.2	|https://np.s23-cloudfront-net.lat/temp/espn4.m3u8
-zOutros	|Normal	|Canais	|Espn5 1.1	|https://alerquina54100.embedtv.cc/espn5
 zOutros	|Normal	|Canais	|Espn5 1.2	|https://np.s23-cloudfront-net.lat/temp/espn5.m3u8
-zOutros	|Normal	|Canais	|Espn6 1.1	|https://alerquina54100.embedtv.cc/espn6
 zOutros	|Normal	|Canais	|Espn6 1.2	|https://np.s23-cloudfront-net.lat/temp/espn6.m3u8
-zOutros	|Normal	|Canais	|FoodNetwork 1.1	|https://alerquina54100.embedtv.cc/foodnetwork
+zOutros	|Normal	|Canais	|Euronews PT	|https://598c4b93.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UGxleF9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/9fa58b85-bcd6-475b-b6d8-7af97c72cba6/5.m3u8
+zOutros	|Normal	|Canais	|Extrema Kids TV	|https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+zOutros	|Normal	|Canais	|Fama TV	|https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
+zOutros	|Normal	|Canais	|Fé TV	|https://player.castr.com/live_834ad9a0ae7611f0b539a32ce06e103f?autoplay=false&mute=true
+zOutros	|Normal	|Canais	|Filmelier TV	|https://amg00740-sofa-amg00740c8-tcl-us-7180.playouts.now.amagi.tv/playlist.m3u8
 zOutros	|Normal	|Canais	|FoodNetwork 1.2	|https://np.s23-cloudfront-net.lat/temp/foodnetwork.m3u8
-zOutros	|Normal	|Canais	|GloboAM 1.1	|https://alerquina54100.embedtv.cc/globoam
+zOutros	|Normal	|Canais	|FOX Kids	|https://video08.logicahost.com.br/kanucatv/kanucatv/chunklist_w412316835.m3u8
+zOutros	|Normal	|Canais	|FUEL TV Brasil	|https://amg01074-fueltv-fueltvbr-samsungbr-s1bib.amagi.tv/ts-us-w2-n2/playlist/amg01074-fueltv-fueltvbr-samsungbr/cb543e1e7b6c608d84c83f63cef043a4f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7353db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a0af1c56953145f5964798d61cb989dd0e834ad371f1099c93a68ace19d680937eaf06b0370f0a272c988220c0fbbad7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d0c5411af1204bcde34e6035b5e9a885e87747d5f7271088af114fa98c7d4b46c62de8233e349fb7ac7ee19342c6e673d7f3017749888fa94296bbd44fc971195ef19d9fd33877336f6e01108f5ea3d55eda26e248a9db1f2e66ea25c78778cb9cd0523c6300d3ce0e945b2cb0d58f8cc81d7be4545b0bb82e8900455bc53a3a28be6de1cc6825c9071a953938cc5d37ab4be8f779a6f095b6507bfdf5ef76d243a3f506dbfd07e94a395a09bcbb6c7c4d5e72ddeb295c65288d15aa8384b1373a01eaf6dff78f066b507744044caee6e03fcadb91674d58911d7612017a7da10dd86dd0175a407f996cb4823d34d4566f7d9ce85534776595dabe9288d0de36dc52daccef363c345f77c75d202269d6f6c019ca31457a754a934d0367b8145156e585c386c8d13f2efde562f0d6727dc792f71e352c7de8bd01c2222a45df/111/1920x1080_4716800/index.m3u8
+zOutros	|Normal	|Canais	|Geekdot	|https://stream.ichibansys.com:3764/hybrid/play.m3u8
 zOutros	|Normal	|Canais	|GloboAM 1.2	|https://np.s23-cloudfront-net.lat/temp/globoam.m3u8
-zOutros	|Normal	|Canais	|GloboCE 1.1	|https://alerquina54100.embedtv.cc/globoce
 zOutros	|Normal	|Canais	|GloboCE 1.2	|https://np.s23-cloudfront-net.lat/temp/globoce.m3u8
-zOutros	|Normal	|Canais	|GloboDF 1.1	|https://alerquina54100.embedtv.cc/globodf
 zOutros	|Normal	|Canais	|GloboDF 1.2	|https://np.s23-cloudfront-net.lat/temp/globodf.m3u8
-zOutros	|Normal	|Canais	|GloboES 1.1	|https://alerquina54100.embedtv.cc/globoes
 zOutros	|Normal	|Canais	|GloboES 1.2	|https://np.s23-cloudfront-net.lat/temp/globoes.m3u8
-zOutros	|Normal	|Canais	|GloboGO 1.1	|https://alerquina54100.embedtv.cc/globogo
 zOutros	|Normal	|Canais	|GloboGO 1.2	|https://np.s23-cloudfront-net.lat/temp/globogo.m3u8
-zOutros	|Normal	|Canais	|GloboMG 1.1	|https://alerquina54100.embedtv.cc/globomg
 zOutros	|Normal	|Canais	|GloboMG 1.2	|https://np.s23-cloudfront-net.lat/temp/globomg.m3u8
-zOutros	|Normal	|Canais	|GloboNews 1.1	|https://alerquina54100.embedtv.cc/globonews
 zOutros	|Normal	|Canais	|GloboNews 1.2	|https://np.s23-cloudfront-net.lat/temp/globonews.m3u8
-zOutros	|Normal	|Canais	|GloboNovelas 1.1	|https://alerquina54100.embedtv.cc/globonovelas
 zOutros	|Normal	|Canais	|GloboNovelas 1.2	|https://np.s23-cloudfront-net.lat/temp/globonovelas.m3u8
-zOutros	|Normal	|Canais	|GloboPB 1.1	|https://alerquina54100.embedtv.cc/globopb
 zOutros	|Normal	|Canais	|GloboPB 1.2	|https://np.s23-cloudfront-net.lat/temp/globopb.m3u8
-zOutros	|Normal	|Canais	|GloboPE 1.1	|https://alerquina54100.embedtv.cc/globope
 zOutros	|Normal	|Canais	|GloboPE 1.2	|https://np.s23-cloudfront-net.lat/temp/globope.m3u8
-zOutros	|Normal	|Canais	|GloboRJ 1.1	|https://alerquina54100.embedtv.cc/globorj
 zOutros	|Normal	|Canais	|GloboRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/globorj.m3u8
-zOutros	|Normal	|Canais	|GloboRS 1.1	|https://alerquina54100.embedtv.cc/globors
 zOutros	|Normal	|Canais	|GloboRS 1.2	|https://np.s23-cloudfront-net.lat/temp/globors.m3u8
-zOutros	|Normal	|Canais	|GloboSP 1.1	|https://alerquina54100.embedtv.cc/globosp
 zOutros	|Normal	|Canais	|GloboSP 1.2	|https://np.s23-cloudfront-net.lat/temp/globosp.m3u8
-zOutros	|Normal	|Canais	|Gloob 1.1	|https://alerquina54100.embedtv.cc/gloob
 zOutros	|Normal	|Canais	|Gloob 1.2	|https://np.s23-cloudfront-net.lat/temp/gloob.m3u8
-zOutros	|Normal	|Canais	|GNT 1.1	|https://alerquina54100.embedtv.cc/gnt
 zOutros	|Normal	|Canais	|GNT 1.2	|https://np.s23-cloudfront-net.lat/temp/gnt.m3u8
-zOutros	|Normal	|Canais	|HBO 1.1	|https://alerquina54100.embedtv.cc/hbo
+zOutros	|Normal	|Canais	|Hardcore Pawn	|https://amg00627-amg00627c47-plex-international-8092.playouts.now.amagi.tv/1080p-cc-por/index.m3u8
 zOutros	|Normal	|Canais	|HBO 1.2	|https://np.s23-cloudfront-net.lat/temp/hbo.m3u8
-zOutros	|Normal	|Canais	|HBO2 1.1	|https://alerquina54100.embedtv.cc/hbo2
 zOutros	|Normal	|Canais	|HBO2 1.2	|https://np.s23-cloudfront-net.lat/temp/hbo2.m3u8
-zOutros	|Normal	|Canais	|HBOFamily 1.1	|https://alerquina54100.embedtv.cc/hbofamily
 zOutros	|Normal	|Canais	|HBOFamily 1.2	|https://np.s23-cloudfront-net.lat/temp/hbofamily.m3u8
-zOutros	|Normal	|Canais	|HBOMundi 1.1	|https://alerquina54100.embedtv.cc/hbomundi
 zOutros	|Normal	|Canais	|HBOMundi 1.2	|https://np.s23-cloudfront-net.lat/temp/hbomundi.m3u8
-zOutros	|Normal	|Canais	|HBOPlus 1.1	|https://alerquina54100.embedtv.cc/hboplus
 zOutros	|Normal	|Canais	|HBOPlus 1.2	|https://np.s23-cloudfront-net.lat/temp/hboplus.m3u8
-zOutros	|Normal	|Canais	|HBOPop 1.1	|https://alerquina54100.embedtv.cc/hbopop
 zOutros	|Normal	|Canais	|HBOPop 1.2	|https://np.s23-cloudfront-net.lat/temp/hbopop.m3u8
-zOutros	|Normal	|Canais	|HBOXtreme 1.1	|https://alerquina54100.embedtv.cc/hboxtreme
 zOutros	|Normal	|Canais	|HBOXtreme 1.2	|https://np.s23-cloudfront-net.lat/temp/hboxtreme.m3u8
-zOutros	|Normal	|Canais	|HGTV 1.1	|https://alerquina54100.embedtv.cc/hgtv
 zOutros	|Normal	|Canais	|HGTV 1.2	|https://np.s23-cloudfront-net.lat/temp/hgtv.m3u8
-zOutros	|Normal	|Canais	|History 1.1	|https://alerquina54100.embedtv.cc/history
 zOutros	|Normal	|Canais	|History2 1.2	|https://np.s23-cloudfront-net.lat/temp/history2.m3u8
-zOutros	|Normal	|Canais	|MasterChef 1.1	|https://alerquina54100.embedtv.cc/masterchef
+zOutros	|Normal	|Canais	|IETV	|https://stmv2.painelvideocast.com.br/7976/7976/playlist.m3u8
+zOutros	|Normal	|Canais	|JETSONS TV	|https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8
+zOutros	|Normal	|Canais	|Kiss TV	|https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131_output_0.m3u8
+zOutros	|Normal	|Canais	|Master Chef 1.2	|https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/cb543d167c6c618784cb3760cef342a0f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7352db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a1af1c56953145f59647c0dd4ebdd4d20883448e7fa7099c93a68ace42d381c77efc02b036510f7a2fc98528cbfbb5d7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d1c52c03f0204bcef7f8a228e0d5a19ff73a71c90e6a7e5bbc011eaac66e1174c86298122a2d9cf28173eea645c7e673d5e62e7559b158362bb90a43b810f4f8fc9ba8aec6bf9d083f4209079454a19b22e828d24798cf062d5377e3ccf048e989c3573c6e4ec9d5108453538ed28587d019288a4e2f1ab930970b5e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe36342612c930bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df957953468f03683006657dfc33df67db0f5e136e984ea1cb2740c5577163b6dd703733419fcba38e94d9cc50c716fec6fe2b20285665a9496b036ad4b3cd14bd0f42707e52971c262499024949fe9ad9effad13a9b7c05109ca8a6054b0f3f8d3f8d662d6d5d57dc5c82626e/145/1920x1080_6046040/index.m3u8
 zOutros	|Normal	|Canais	|MasterChef 1.2	|https://np.s23-cloudfront-net.lat/temp/masterchef.m3u8
-zOutros	|Normal	|Canais	|Max1 1.1	|https://alerquina54100.embedtv.cc/max1
+zOutros	|Normal	|Canais	|MAVTV BRASIL	|https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist1080.m3u8
 zOutros	|Normal	|Canais	|Max1 1.2	|https://np.s23-cloudfront-net.lat/temp/max1.m3u8
-zOutros	|Normal	|Canais	|Max2 1.1	|https://alerquina54100.embedtv.cc/max2
 zOutros	|Normal	|Canais	|Max2 1.2	|https://np.s23-cloudfront-net.lat/temp/max2.m3u8
-zOutros	|Normal	|Canais	|Max3 1.1	|https://alerquina54100.embedtv.cc/max3
 zOutros	|Normal	|Canais	|Max3 1.2	|https://np.s23-cloudfront-net.lat/temp/max3.m3u8
-zOutros	|Normal	|Canais	|Megapix 1.1	|https://alerquina54100.embedtv.cc/megapix
 zOutros	|Normal	|Canais	|Megapix 1.2	|https://np.s23-cloudfront-net.lat/temp/megapix.m3u8
-zOutros	|Normal	|Canais	|Mtv 1.1	|https://alerquina54100.embedtv.cc/mtv
+zOutros	|Normal	|Canais	|MIAMI VICE	|https://video05.logicahost.com.br/miamivice/miamivice/chunklist_w782102961.m3u8
+zOutros	|Normal	|Canais	|Mr Bean	|https://amg00627-banijay-amg00627c35-plex-us-4257.playouts.now.amagi.tv/1080p-cc-pt/index.m3u8
 zOutros	|Normal	|Canais	|Mtv 1.1	|https://np.s23-cloudfront-net.lat/temp/mtv.m3u8
-zOutros	|Normal	|Canais	|Mtv 1.2	|https://alerquina54100.embedtv.cc/mtv
 zOutros	|Normal	|Canais	|Mtv 1.2	|https://np.s23-cloudfront-net.lat/temp/mtv.m3u8
-zOutros	|Normal	|Canais	|Multishow 1.1	|https://alerquina54100.embedtv.cc/multishow
 zOutros	|Normal	|Canais	|Multishow 1.2	|https://np.s23-cloudfront-net.lat/temp/multishow.m3u8
-zOutros	|Normal	|Canais	|Off 1.1	|https://alerquina54100.embedtv.cc/off
+zOutros	|Normal	|Canais	|NBX TV Kids	|https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8?hls_ctx=51401p08
+zOutros	|Normal	|Canais	|NickOnline	|https://x1colegal.com/hls/0/stream.m3u8
 zOutros	|Normal	|Canais	|Off 1.2	|https://np.s23-cloudfront-net.lat/temp/off.m3u8
-zOutros	|Normal	|Canais	|ParamountPlus 1.1	|https://alerquina54100.embedtv.cc/paramountplus
+zOutros	|Normal	|Canais	|OS DETETIVES	|https://video11.logicahost.com.br/detetives/detetives/chunklist_w711519238.m3u8
 zOutros	|Normal	|Canais	|ParamountPlus 1.2	|https://np.s23-cloudfront-net.lat/temp/paramountplus.m3u8
-zOutros	|Normal	|Canais	|ParamountPlus2 1.1	|https://alerquina54100.embedtv.cc/paramountplus2
 zOutros	|Normal	|Canais	|ParamountPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/paramountplus2.m3u8
-zOutros	|Normal	|Canais	|Premiere 1.1	|https://alerquina54100.embedtv.cc/premiere
+zOutros	|Normal	|Canais	|Porto Canal	|https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/chunklist_b1996000_slen.m3u8
 zOutros	|Normal	|Canais	|Premiere 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere.m3u8
-zOutros	|Normal	|Canais	|Premiere2 1.1	|https://alerquina54100.embedtv.cc/premiere2
 zOutros	|Normal	|Canais	|Premiere2 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere2.m3u8
-zOutros	|Normal	|Canais	|Premiere3 1.1	|https://alerquina54100.embedtv.cc/premiere3
 zOutros	|Normal	|Canais	|Premiere3 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere3.m3u8
-zOutros	|Normal	|Canais	|Premiere4 1.1	|https://alerquina54100.embedtv.cc/premiere4
 zOutros	|Normal	|Canais	|Premiere4 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere4.m3u8
-zOutros	|Normal	|Canais	|Premiere5 1.1	|https://alerquina54100.embedtv.cc/premiere5
 zOutros	|Normal	|Canais	|Premiere5 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere5.m3u8
-zOutros	|Normal	|Canais	|Premiere6 1.1	|https://alerquina54100.embedtv.cc/premiere6
 zOutros	|Normal	|Canais	|Premiere6 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere6.m3u8
-zOutros	|Normal	|Canais	|Premiere7 1.1	|https://alerquina54100.embedtv.cc/premiere7
 zOutros	|Normal	|Canais	|Premiere7 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere7.m3u8
-zOutros	|Normal	|Canais	|Premiere8 1.1	|https://alerquina54100.embedtv.cc/premiere8
 zOutros	|Normal	|Canais	|Premiere8 1.2	|https://np.s23-cloudfront-net.lat/temp/premiere8.m3u8
-zOutros	|Normal	|Canais	|Primevideo 1.1	|https://alerquina54100.embedtv.cc/primevideo
 zOutros	|Normal	|Canais	|Primevideo 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo.m3u8
-zOutros	|Normal	|Canais	|Primevideo2 1.1	|https://alerquina54100.embedtv.cc/primevideo2
 zOutros	|Normal	|Canais	|Primevideo2 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo2.m3u8
-zOutros	|Normal	|Canais	|Primevideo3 1.1	|https://alerquina54100.embedtv.cc/primevideo3
 zOutros	|Normal	|Canais	|Primevideo3 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo3.m3u8
-zOutros	|Normal	|Canais	|Primevideo4 1.1	|https://alerquina54100.embedtv.cc/primevideo4
 zOutros	|Normal	|Canais	|Primevideo4 1.2	|https://np.s23-cloudfront-net.lat/temp/primevideo4.m3u8
-zOutros	|Normal	|Canais	|Pt-Abola 1.1	|https://alerquina54100.embedtv.cc/pt-abola
 zOutros	|Normal	|Canais	|Pt-Abola 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-abola.m3u8
-zOutros	|Normal	|Canais	|Pt-Benficatv 1.1	|https://alerquina54100.embedtv.cc/pt-benficatv
 zOutros	|Normal	|Canais	|Pt-Benficatv 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-benficatv.m3u8
-zOutros	|Normal	|Canais	|Pt-Canal11 1.1	|https://alerquina54100.embedtv.cc/pt-canal11
 zOutros	|Normal	|Canais	|Pt-Canal11 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-canal11.m3u8
-zOutros	|Normal	|Canais	|Pt-Eleven1 1.1	|https://alerquina54100.embedtv.cc/pt-eleven1
 zOutros	|Normal	|Canais	|Pt-Eleven1 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven1.m3u8
-zOutros	|Normal	|Canais	|Pt-Eleven2 1.1	|https://alerquina54100.embedtv.cc/pt-eleven2
 zOutros	|Normal	|Canais	|Pt-Eleven2 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven2.m3u8
-zOutros	|Normal	|Canais	|Pt-Eleven3 1.1	|https://alerquina54100.embedtv.cc/pt-eleven3
 zOutros	|Normal	|Canais	|Pt-Eleven3 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-eleven3.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv1 1.1	|https://alerquina54100.embedtv.cc/pt-sportv1
 zOutros	|Normal	|Canais	|Pt-Sportv1 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv1.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv2 1.1	|https://alerquina54100.embedtv.cc/pt-sportv2
 zOutros	|Normal	|Canais	|Pt-Sportv2 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv2.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv3 1.1	|https://alerquina54100.embedtv.cc/pt-sportv3
 zOutros	|Normal	|Canais	|Pt-Sportv3 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv3.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv4 1.1	|https://alerquina54100.embedtv.cc/pt-sportv4
 zOutros	|Normal	|Canais	|Pt-Sportv4 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv4.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv5 1.1	|https://alerquina54100.embedtv.cc/pt-sportv5
 zOutros	|Normal	|Canais	|Pt-Sportv5 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv5.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv6 1.1	|https://alerquina54100.embedtv.cc/pt-sportv6
 zOutros	|Normal	|Canais	|Pt-Sportv6 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv6.m3u8
-zOutros	|Normal	|Canais	|Pt-Sportv7 1.1	|https://alerquina54100.embedtv.cc/pt-sportv7
 zOutros	|Normal	|Canais	|Pt-Sportv7 1.2	|https://np.s23-cloudfront-net.lat/temp/pt-sportv7.m3u8
+zOutros	|Normal	|Canais	|RACER BRASIL	|https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist1080.m3u8
+zOutros	|Normal	|Canais	|Radio Esportes Brasília	|https://a.cdni.live/radioesporte/radioesporte/chunklist_w1141159919.m3u8
+zOutros	|Normal	|Canais	|Real Madrid TV	|https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
 zOutros	|Normal	|Canais	|Record 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/record.m3u8
 zOutros	|Normal	|Canais	|Record 1.3	|https://nphd.online/tv/record
 zOutros	|Normal	|Canais	|Record MT2 Vila Real	|https://5a2b083e9f360.streamlock.net/tvmt/tvmt.sdp/chunklist_w546848282.m3u8
-zOutros	|Normal	|Canais	|Record TV RO	|https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8?token=10625035048351615000
+zOutros	|Normal	|Canais	|Record News 1.4	|https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 zOutros	|Normal	|Canais	|Record TV Tropical	|https://video07.logicahost.com.br/portaltropicalrn/portaltropicalrn/playlist.m3u8
-zOutros	|Normal	|Canais	|RecordGO 1.1	|https://alerquina54100.embedtv.cc/recordgo
 zOutros	|Normal	|Canais	|RecordGO 1.2	|https://np.s23-cloudfront-net.lat/temp/recordgo.m3u8
-zOutros	|Normal	|Canais	|RecordMG 1.1	|https://alerquina54100.embedtv.cc/recordmg
 zOutros	|Normal	|Canais	|RecordMG 1.2	|https://np.s23-cloudfront-net.lat/temp/recordmg.m3u8
-zOutros	|Normal	|Canais	|RecordRJ 1.1	|https://alerquina54100.embedtv.cc/recordrj
 zOutros	|Normal	|Canais	|RecordRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/recordrj.m3u8
-zOutros	|Normal	|Canais	|RecordSP 1.1	|https://alerquina54100.embedtv.cc/recordsp
 zOutros	|Normal	|Canais	|RecordSP 1.2	|https://np.s23-cloudfront-net.lat/temp/recordsp.m3u8
+zOutros	|Normal	|Canais	|Red Bull TV	|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 zOutros	|Normal	|Canais	|Rede Meio Norte 2	|https://isaocorp.cloudecast.com/redemeio/index.m3u8
+zOutros	|Normal	|Canais	|Rede MultTV	|https://stmv7.samcast.com.br/redemulttv/redemulttv/playlist.m3u8
 zOutros	|Normal	|Canais	|Rede TV +	|https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
+zOutros	|Normal	|Canais	|Rede UTV	|https://utvsite.acessaradios.com.br/utvsite/_definst_/utvsite.stream/chunklist_w443950907.m3u8
 zOutros	|Normal	|Canais	|Redetv 1.1	|https://rdcanais.org/redetv
 zOutros	|Normal	|Canais	|Redetv 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/redetv.m3u8
 zOutros	|Normal	|Canais	|RedeTV São Luís	|https://stmv1.srvif.com/tvsaoluis8/tvsaoluis8/playlist.m3u8
 zOutros	|Normal	|Canais	|RedeTV Tocantins	|https://5ad482a77183d.streamlock.net/administrativoredetvto.com.br/administrativoredetvto.com.br/playlist.m3u8
-zOutros	|Normal	|Canais	|Redevida 1.1	|https://alerquina54100.embedtv.cc/redevida
 zOutros	|Normal	|Canais	|Redevida 1.2	|https://np.s23-cloudfront-net.lat/temp/redevida.m3u8
+zOutros	|Normal	|Canais	|Reisen Clube TV	|https://pop.uniquetv.com.br/hls/reisenclubetv.m3u8
+zOutros	|Normal	|Canais	|Retro Music 	|https://newstream.mediawork.cz/retrotv/smil:retrotv_new.smil/chunklist_w844622932_b3256000.m3u8
+zOutros	|Normal	|Canais	|Ribeirão Web News	|https://aovivo.ribeiraowebnews.com.br/hls/play.m3u8
+zOutros	|Normal	|Canais	|ROCK TV	|https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb_output_0.m3u8
+zOutros	|Normal	|Canais	|RS Sports News 2	|https://video07.logicahost.com.br/rssports02/rssports02/playlist.m3u8
+zOutros	|Normal	|Canais	|RS Sports News 3	|https://video07.logicahost.com.br/rssports03/rssports03/playlist.m3u8
+zOutros	|Normal	|Canais	|RS Sports News 4	|https://video07.logicahost.com.br/rssports04/rssports04/playlist.m3u8
 zOutros	|Normal	|Canais	|SaboreArte 1.1	|https://rdcanais.org/saborearte
 zOutros	|Normal	|Canais	|SaboreArte 1.2	|https://www.youtube.com/@canalsaborearte/live
 zOutros	|Normal	|Canais	|Santa Cecilia TV	|https://video11.logicahost.com.br/unisantaapp/unisantaapp/playlist.m3u8
-zOutros	|Normal	|Canais	|Sbt 1.1	|https://rdcanais.org/sbt
+zOutros	|Normal	|Canais	|SBC Kids	|https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
+zOutros	|Normal	|Canais	|SBC Studios	|https://video01.brascast.com/tv411747/tv411747/playlist.m3u8?hls_ctx=d9829o73
 zOutros	|Normal	|Canais	|Sbt 1.1	|https://aovivo.maissbt.com/channel_720.m3u8
+zOutros	|Normal	|Canais	|Sbt 1.1	|https://rdcanais.org/sbt
 zOutros	|Normal	|Canais	|Sbt 1.2	|https://a5a7158118e59ee590424b55bb9aed17.s25-cloudfront-net.lat/rafael/sbt.m3u8
 zOutros	|Normal	|Canais	|SBT News	|https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
-zOutros	|Normal	|Canais	|Sbt Tailândia	|https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
 zOutros	|Normal	|Canais	|SBT2	|https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
 zOutros	|Normal	|Canais	|SBT3	|https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
-zOutros	|Normal	|Canais	|SbtRJ 1.1	|https://alerquina54100.embedtv.cc/sbtrj
 zOutros	|Normal	|Canais	|SbtRJ 1.2	|https://np.s23-cloudfront-net.lat/temp/sbtrj.m3u8
-zOutros	|Normal	|Canais	|SbtSP 1.1	|https://alerquina54100.embedtv.cc/sbtsp
 zOutros	|Normal	|Canais	|Sbtsp 1.2	|https://np.s23-cloudfront-net.lat/temp/sbtsp.m3u8
-zOutros	|Normal	|Canais	|SonyChannel 1.1	|https://alerquina54100.embedtv.cc/sonychannel
+zOutros	|Normal	|Canais	|Sertão TV	|https://stmv8.samcast.com.br/tvsertaonet/tvsertaonet/playlist.m3u8
+zOutros	|Normal	|Canais	|Sessão Trash	|https://amg00711-zylo-amg00711c12-plex-us-8636.playouts.now.amagi.tv/playlist1080p.m3u8
+zOutros	|Normal	|Canais	|SGC Tv - Rede TV Rondônia	|https://5b33b873179a2.streamlock.net:1443/canal17/livestream/chunklist_w1037467311.m3u8
+zOutros	|Normal	|Canais	|Sony One Shark Tank	|https://spt-sonyonesharktankbrasil-1-br.samsung.wurl.tv/3000.m3u8
 zOutros	|Normal	|Canais	|SonyChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/sonychannel.m3u8
-zOutros	|Normal	|Canais	|Space 1.1	|https://alerquina54100.embedtv.cc/space
 zOutros	|Normal	|Canais	|Space 1.2	|https://np.s23-cloudfront-net.lat/temp/space.m3u8
-zOutros	|Normal	|Canais	|Sportv 1.1	|https://alerquina54100.embedtv.cc/sportv
 zOutros	|Normal	|Canais	|Sportv 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv.m3u8
-zOutros	|Normal	|Canais	|Sportv2 1.1	|https://alerquina54100.embedtv.cc/sportv2
 zOutros	|Normal	|Canais	|Sportv2 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv2.m3u8
-zOutros	|Normal	|Canais	|Sportv3 1.1	|https://alerquina54100.embedtv.cc/sportv3
 zOutros	|Normal	|Canais	|Sportv3 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv3.m3u8
-zOutros	|Normal	|Canais	|Sportv4 1.1	|https://alerquina54100.embedtv.cc/sportv4
 zOutros	|Normal	|Canais	|Sportv4 1.2	|https://np.s23-cloudfront-net.lat/temp/sportv4.m3u8
-zOutros	|Normal	|Canais	|SportyNet 1.1	|https://alerquina54100.embedtv.cc/sportynet
 zOutros	|Normal	|Canais	|SportyNet 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynet.m3u8
-zOutros	|Normal	|Canais	|SportyNetPlus1 1.1	|https://alerquina54100.embedtv.cc/sportynetplus1
 zOutros	|Normal	|Canais	|SportyNetPlus1 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus1.m3u8
-zOutros	|Normal	|Canais	|SportyNetPlus2 1.1	|https://alerquina54100.embedtv.cc/sportynetplus2
 zOutros	|Normal	|Canais	|SportyNetPlus2 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus2.m3u8
-zOutros	|Normal	|Canais	|SportyNetPlus3 1.1	|https://alerquina54100.embedtv.cc/sportynetplus3
 zOutros	|Normal	|Canais	|SportyNetPlus3 1.2	|https://np.s23-cloudfront-net.lat/temp/sportynetplus3.m3u8
-zOutros	|Normal	|Canais	|StarChannel 1.1	|https://alerquina54100.embedtv.cc/starchannel
 zOutros	|Normal	|Canais	|StarChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/starchannel.m3u8
-zOutros	|Normal	|Canais	|StudioUniversal 1.1	|https://alerquina54100.embedtv.cc/studiouniversal
 zOutros	|Normal	|Canais	|StudioUniversal 1.2	|https://np.s23-cloudfront-net.lat/temp/studiouniversal.m3u8
 zOutros	|Normal	|Canais	|STZ TV	|https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
-zOutros	|Normal	|Canais	|TCM 1.1	|https://alerquina54100.embedtv.cc/tcm
+zOutros	|Normal	|Canais	|Tastemade Brasil	|https://amg00047-tastemade-amg00047c5-plex-us-2273.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg00047-tastemadefast-tastemadeportuguesept16intl-plexus/cb543d167c6c618784cb3760cef342a0f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7352db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a1af1c56953145f596139c874eea81870e83448e7fa7099c93a68ace18808f957efb55b5635f0e2424c8827892fbb5d7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d1c52c03f0204bcef7f8a228e0d5a19ff73a71c90e6a7e5bbc011eaac66e1174c86298122a2d9cf28173eea645c7e673d5e62e7559b158362bb90a43b810f4f8fc9ba8aec6bf9d083f4209079454a19b22e828d24798cf062d5377e3ccf048e989c3573c6e4ec9d5108453538ed28587d019288a4e2f1ab930970b5e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe36342612c930bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df957953468f03683006657dfc33df67db0f5e136e984ea1cb2740c5577163b6dd703733419fcba38e94d9cc50c716fec6fe2b20285665a9496b036ad4b3cd14bd0f42707e52971c262499024949fe9ad9effbd5362efded0ff2d0725dcdb6b302ca36076251b4bdd9abcb96/58/1920x1080_6046040/index.m3u8
 zOutros	|Normal	|Canais	|TCM 1.2	|https://np.s23-cloudfront-net.lat/temp/tcm.m3u8
-zOutros	|Normal	|Canais	|TelecineAction 1.1	|https://alerquina54100.embedtv.cc/telecineaction
 zOutros	|Normal	|Canais	|TelecineAction 1.2	|https://np.s23-cloudfront-net.lat/temp/telecineaction.m3u8
-zOutros	|Normal	|Canais	|TelecineCult 1.1	|https://alerquina54100.embedtv.cc/telecinecult
 zOutros	|Normal	|Canais	|TelecineCult 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinecult.m3u8
-zOutros	|Normal	|Canais	|TelecineFun 1.1	|https://alerquina54100.embedtv.cc/telecinefun
 zOutros	|Normal	|Canais	|TelecineFun 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinefun.m3u8
-zOutros	|Normal	|Canais	|TelecinePipoca 1.1	|https://alerquina54100.embedtv.cc/telecinepipoca
 zOutros	|Normal	|Canais	|TelecinePipoca 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinepipoca.m3u8
-zOutros	|Normal	|Canais	|TelecinePremium 1.1	|https://alerquina54100.embedtv.cc/telecinepremium
 zOutros	|Normal	|Canais	|TelecinePremium 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinepremium.m3u8
-zOutros	|Normal	|Canais	|TelecineTouch 1.1	|https://alerquina54100.embedtv.cc/telecinetouch
 zOutros	|Normal	|Canais	|TelecineTouch 1.2	|https://np.s23-cloudfront-net.lat/temp/telecinetouch.m3u8
-zOutros	|Normal	|Canais	|TLC 1.1	|https://alerquina54100.embedtv.cc/tlc
+zOutros	|Normal	|Canais	|That's 80s	|https://lightning-now80s-rakuten.amagi.tv/playlist1080p.m3u8
+zOutros	|Normal	|Canais	|That's 90s00s	|https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightning-now90s00s-rakutengb/cb573e1e7b6c608d84c83f60cef24282967b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a8744cc59e0a957f39e8fc8b307b24455a9c5a43e6a64ed6abb64244dd6ebfb102488b2f57f387169d8719bb858046cf12d07eec159cc4f196da11878f8c36af5fb0350c59727ecbd62da12e3cdcabf2e3842f1052243c67a4c5b1ec4f268f4b3124929df89e15319753eb5fec5338ae14900fa53d8f79a30aa69b3ec8577e6c23335083d15a7332acedaf99b9415b2cba49c39bbf404ce39f277948895dd9372737da9aa171d49445c6e671c2dc036c70de7d9c9094e523964cde88487292e054d24c634366160b855ceda96cd416ed79bdc21c1bfb2c2eb0b75ade8fd552312d1ac8d01e9c2412b7df8494cc4e15fe204a0aa630821b3265c2623827a535afce752ca8361a89300afe5a1e8956b3ed7fa2e988b346739ef6f36fd323afb903d9f3428e683f520dfab20f57574370d5a137586237930bb49d9aa1440806ede5c4b195006f496a4112298fe5a821cedc8e7953468f0354151e7a209f0ad266c81309517ebb79fd984925d5487157a9cd5670536f84c7a28e81c2b82d9876d0ddf22a203d4d19d31601216b93fbcd6ef4364f716d4ec2684046ae0c4e4dfa9fabb2c0600f2649f81e5e61895498b2fcb695878dec4c16c650fd/79/1920x1080_4716800/index.m3u8
 zOutros	|Normal	|Canais	|TLC 1.2	|https://np.s23-cloudfront-net.lat/temp/tlc.m3u8
-zOutros	|Normal	|Canais	|TNT 1.1	|https://alerquina54100.embedtv.cc/tnt
 zOutros	|Normal	|Canais	|TNT 1.2	|https://np.s23-cloudfront-net.lat/temp/tnt.m3u8
-zOutros	|Normal	|Canais	|TNTNovelas 1.1	|https://alerquina54100.embedtv.cc/tntnovelas
 zOutros	|Normal	|Canais	|TNTNovelas 1.2	|https://np.s23-cloudfront-net.lat/temp/tntnovelas.m3u8
-zOutros	|Normal	|Canais	|TNTSeries 1.1	|https://alerquina54100.embedtv.cc/tntseries
 zOutros	|Normal	|Canais	|TNTSeries 1.2	|https://np.s23-cloudfront-net.lat/temp/tntseries.m3u8
+zOutros	|Normal	|Canais	|TOP MIX TV GOSPEL	|https://video01.logicahost.com.br/topmixtvgospel01/topmixtvgospel01/playlist.m3u8
+zOutros	|Normal	|Canais	|TV AGRO É NOSSO	|https://video01.logicahost.com.br/agronosso/agronosso/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Alpha	|https://video05.logicahost.com.br/tvalpha/tvalpha/chunklist_w233935857.m3u8
 zOutros	|Normal	|Canais	|TV Aparecida	|https://amg01391-sbtinfast-amg01391c7-lg-br-9989.playouts.now.amagi.tv/playlist/amg01391-addigital-tvaparecida-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]
+zOutros	|Normal	|Canais	|TV Apóstolos	|https://video04.logicahost.com.br/tvapostolos/tvapostolos/chunklist_w1072270158.m3u8
+zOutros	|Normal	|Canais	|TV Avivando Nações	|https://video04.logicahost.com.br/tvavivandonacoes/tvavivandonacoes/chunklist_w2092081966.m3u8
 zOutros	|Normal	|Canais	|TV Brasil Educativa MS	|https://stream01.digilab.com.br/fertel/live/chunks.m3u8
 zOutros	|Normal	|Canais	|TV Brasil Plan	|https://live.cdn.upx.com/723b/myStream.sdp/playlist.m3u8
 zOutros	|Normal	|Canais	|TV Brasil Poços	|https://video01.logicahost.com.br/tvpocos/tvpocos/playlist.m3u8
 zOutros	|Normal	|Canais	|TV Brasil RS 2	|https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 zOutros	|Normal	|Canais	|TV Brasil Sim	|https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+zOutros	|Normal	|Canais	|Tv cidade verde Cuiabá	|https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
+zOutros	|Normal	|Canais	|TV Clube RN	|https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1987074211.m3u8
+zOutros	|Normal	|Canais	|TV CNB NEWS	|https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/chunklist_w2052209439.m3u8
+zOutros	|Normal	|Canais	|TV CONEXÃO CELESTIAL	|https://stmv7.voxtvhd.com.br/tvconexaocelestial/tvconexaocelestial/playlist.m3u8
 zOutros	|Normal	|Canais	|TV Cultura Unisul	|https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
+zOutros	|Normal	|Canais	|TV da Cidade Joinville – SC	|https://cdn.live.br1.jmvstream.com/w/LVW-8855/LVW8855_u7a7C4Oa4F/chunklist.m3u8
+zOutros	|Normal	|Canais	|TV ExpllosãoFM	|https://stmv1.liveplushd.com.br/tvexplosaofm/tvexplosaofm/chunklist_w1007241353.m3u8
+zOutros	|Normal	|Canais	|TV Gaúcha	|https://stmv3.voxtvhd.com.br/tvgaucha/tvgaucha/playlist.m3u8
+zOutros	|Normal	|Canais	|TV GIDEÕES	|https://tv01.zas.media:1936/gideoes/gideoes/chunklist_w1082476036.m3u8
+zOutros	|Normal	|Canais	|TV GOSPEL EXODUS DE SALVADOR	|https://stmv7.samcast.com.br/tvexodus/tvexodus/playlist.m3u8
+zOutros	|Normal	|Canais	|Tv Gramado Net	|https://isaocorp.cloudecast.com/tvgramado/tracks-v1/index.m3u8
 zOutros	|Normal	|Canais	|TV Guará Caxias	|https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
+zOutros	|Normal	|Canais	|TV História	|https://video10.logicahost.com.br/tvhistoria/tvhistoria/chunklist_w770728565.m3u8
+zOutros	|Normal	|Canais	|TV HORTOLÂNDIA	|https://s1.tvr.ovh/video83070/video83070/chunklist_w608215173.m3u8
+zOutros	|Normal	|Canais	|TV Itapetinga (ES)	|https://stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Jovem Pan News Ao Vivo	|https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8
 zOutros	|Normal	|Canais	|TV Judaica	|https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8
+zOutros	|Normal	|Canais	|TV MARCHETI	|https://stmv1.samcast.com.br/junior4319/junior4319/playlist.m3u8
+zOutros	|Normal	|Canais	|TV MAX	|https://video09.logicahost.com.br/tvmax/tvmax/chunklist_w427239309.m3u8
+zOutros	|Normal	|Canais	|TV MONTANHA	|https://stmv1.srvif.com/tvmontana/tvmontana/playlist.m3u8
+zOutros	|Normal	|Canais	|TV Ponto de Encontro	|https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
+zOutros	|Normal	|Canais	|Tv Rádio Litoral	|https://video08.logicahost.com.br/tvradiolitoral/tvradiolitoral/chunklist_w1391490466.m3u8
+zOutros	|Normal	|Canais	|TV Rede Gospel Ao Vivo	|https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/chunklist.m3u8
+zOutros	|Normal	|Canais	|TV Rio Madeira	|https://video10.logicahost.com.br/canaanews/canaanews/chunklist_w248715909.m3u8
+zOutros	|Normal	|Canais	|TV Rio Preto	|https://video02.logicahost.com.br/tvriopreto/tvriopreto/chunklist_w32033332.m3u8
+zOutros	|Normal	|Canais	|TV Rock	|https://video03.logicahost.com.br/tvrockhd/tvrockhd/chunklist_w267766466.m3u8
+zOutros	|Normal	|Canais	|Tv Santa	|https://video04.logicahost.com.br/tvsanta/tvsanta/main_stream.m3u8
+zOutros	|Normal	|Canais	|TV SUPER GOSPEL	|https://stmv6.voxtvhd.com.br/22240/22240/playlist.m3u8
+zOutros	|Normal	|Canais	|TV TVR	|https://stmv1.voxtvhd.com.br/4430/4430/playlist.m3u8
+zOutros	|Normal	|Canais	|Tv Unisantos ao vivo	|https://live.cdn.upx.com/7550/myStream.sdp/playlist.m3u8
 zOutros	|Normal	|Canais	|TvBrasil 1.1	|https://rdcanais.org/tvbrasil
 zOutros	|Normal	|Canais	|TvCultura 1.1	|https://rdcanais.org/tvcultura
-zOutros	|Normal	|Canais	|TvPaieterno 1.1	|https://alerquina54100.embedtv.cc/tvpaieterno
+zOutros	|Normal	|Canais	|TVM Moçambicana	|https://stream.tvm.co.mz/hls/tvmi/playlist.m3u8
 zOutros	|Normal	|Canais	|TvPaieterno 1.2	|https://np.s23-cloudfront-net.lat/temp/tvpaieterno.m3u8
-zOutros	|Normal	|Canais	|UFCFightpass 1.1	|https://alerquina54100.embedtv.cc/ufcfightpass
 zOutros	|Normal	|Canais	|UFCFightpass 1.2	|https://np.s23-cloudfront-net.lat/temp/ufcfightpass.m3u8
-zOutros	|Normal	|Canais	|UniverSaltv 1.1	|https://alerquina54100.embedtv.cc/universaltv
+zOutros	|Normal	|Canais	|Unique Sports 1	|https://pop2.uniquetv.com.br/hls/uniquesports1.m3u8
+zOutros	|Normal	|Canais	|Unique Sports 2	|https://pop2.uniquetv.com.br/hls/uniquesports2.m3u8
+zOutros	|Normal	|Canais	|Unique Sports 3	|https://pop2.uniquetv.com.br/hls/uniquesports3.m3u8
 zOutros	|Normal	|Canais	|UniverSaltv 1.2	|https://np.s23-cloudfront-net.lat/temp/universaltv.m3u8
-zOutros	|Normal	|Canais	|WarnerChannel 1.1	|https://alerquina54100.embedtv.cc/warnerchannel
+zOutros	|Normal	|Canais	|VoxTV	|https://stmv1.samcast.com.br/voxtv/voxtv/playlist.m3u8
+zOutros	|Normal	|Canais	|VRT Channel	|https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
 zOutros	|Normal	|Canais	|WarnerChannel 1.2	|https://np.s23-cloudfront-net.lat/temp/warnerchannel.m3u8
-zOutros	|Normal	|Canais	|Xsports 1.1	|https://alerquina54100.embedtv.cc/xsports
+zOutros	|Normal	|Canais	|WEB JESUS CRISTO PARA AS NAÇÕES	|https://stmv4.liveplushd.com.br/robertomaciel/robertomaciel/chunklist_w338675785.m3u8
+zOutros	|Normal	|Canais	|WILDEARTH	|https://wildearth-ono.amagi.tv/ts-us-w2-n1/playlist/amg01290-wildearth-oando/cb573e1e7b6c608d84c83f60cef24282967b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a8744cc59e0a957f39e8fc8b307b24455a9c5a43e6a64ed6abb64244dd6ebfb102488b2f57f38b45c1821fee89d346cf4a8e25ec159cc4f196da468a838c36f801e1315f0b242fcad329a12e3cdcabf2e3842f1052243c67a4c5b1ec4f268f4b3124929df89e15319753eb5fec5338ae14900fa53d8f79a30aa69b3ec8577e6c23335083d15a7332acedaf99b9415b2cba49c39bbf404ce39f277948895dd9372737da9aa171d49445c6e671c2dc036c70de7d9c9094e523964cde88487292e054d24c634366160b855ceda96cd416ed79bdc21c1bfb2c2eb0b75ade8fd552312d1ac8d01e9c2412b7df8494cc4e15fe204a0aa630821b3265c2623827a535afce752ca8361a89300afe5a1e8956b3ed7fa2e988b346739ef6f36fd323afb903d9f3428e683f520dfab20f57574370d5a137586237930bb49d9aa1440806ede5c4b195006f496a4112298fe5a821cedc8e7953468f0354151e7a209f0ad266c81309517ebb79fd984925d5487157a9cd5670536f84c7a28e81c2b82d9876d0ddf22a203d4d19d31601216b93fbcd6ef4364f716d4ec2684046ae0c4e4dfa9fa8b179e1b65e0ed0cc6051d40a5b89d00e656adefc04e928be/4/1920x1080_4716800/index.m3u8
 zOutros	|Normal	|Canais	|Xsports 1.2	|https://np.s23-cloudfront-net.lat/temp/xsports.m3u8
 zOutros	|Normal	|Canais	|Y_SBT1	|https://www.youtube.com/@sbt/live
 zOutros	|Normal	|Canais	|Y_TV Novo Tempo BR	|https://www.youtube.com/@novotempo/live
 zOutros	|Normal	|Canais	|Y_TV Novo Tempo ES	|https://www.youtube.com/@nuevotiempotv/live
+zOutros	|Normal	|Canais	|Yeeaah	|https://srv5.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
+zOutros	|Normal	|Canais	|ZOOM MUSIC	|https://stmv5.samcast.com.br/zoommusic/zoommusic/playlist.m3u8
+zOutros	|Normal	|Sports	|UFC Combate 1.4	|https://rdcanais.org/combate
