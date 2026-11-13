@@ -532,18 +532,57 @@ async function carregarLogins(){
     erroLogin.textContent="Não foi possível carregar os logins. Verifique se LOGINS-200.txt está publicado no GitHub.";
   }
 }
-async function validarLoginSalvo(){
-  const salvo=localStorage.getItem("youtubeIptvLogin");
-  if(salvo&&LOGINS_VALIDOS.includes(salvo)){
-    const ok=await liberarAcesso(salvo);
-    if(!ok && erroLogin.textContent.includes("já está em uso")) localStorage.removeItem("youtubeIptvLogin");
-  } else {localStorage.removeItem("youtubeIptvLogin");exibirLogin("Digite seu login de acesso para continuar.");}
+
+
+async function validarLoginSalvo() {
+  const salvo = localStorage.getItem("youtubeIptvLogin");
+
+  // Se não existe login salvo, solicita o acesso.
+  if (!salvo) {
+    exibirLogin("Digite seu login de acesso para continuar.");
+    return false;
+  }
+
+  try {
+    // O Apps Script verifica se o login ainda existe
+    // e se pertence a este dispositivo.
+    const ok = await liberarAcesso(salvo);
+
+    if (!ok) {
+      exibirLogin(
+        erroLogin.textContent ||
+        "Login inválido ou acesso não autorizado."
+      );
+      return false;
+    }
+
+    return true;
+
+  } catch (erro) {
+    console.error("Erro ao validar login salvo:", erro);
+    exibirLogin(
+      "Não foi possível verificar seu acesso. Tente novamente."
+    );
+    return false;
+  }
 }
-document.getElementById("caixaLogin").addEventListener("submit",async e=>{
-  e.preventDefault();const login=campoLogin.value.trim().toUpperCase();
-  if(!LOGINS_VALIDOS.includes(login)){erroLogin.textContent="Login inválido. Confira o código e tente novamente.";campoLogin.select();return;}
+
+  
+
+document.getElementById("caixaLogin").addEventListener("submit", async e => {
+  e.preventDefault();
+
+  const login = campoLogin.value.trim().toUpperCase();
+
+  if (!/^[A-Z0-9]{6}$/.test(login)) {
+    erroLogin.textContent = "Digite um login válido de 6 caracteres.";
+    campoLogin.select();
+    return;
+  }
+
   await liberarAcesso(login);
 });
+
 
 
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
