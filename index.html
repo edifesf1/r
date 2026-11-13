@@ -421,17 +421,63 @@ function iniciarHeartbeat(login){
     }catch(e){console.warn("Falha temporária ao renovar sessão:",e);}
   },30000);
 }
+
 async function liberarAcesso(login){
-  botaoEntrar.disabled=true;erroLogin.textContent="Verificando dispositivo...";
+  botaoEntrar.disabled=true;
+  erroLogin.textContent="Verificando dispositivo...";
+
   try{
+    // Primeiro, verifica se o login pode utilizar este dispositivo.
     const resposta=await chamarControleSessao("claim",login);
-    if(!resposta.ok){localStorage.removeItem("youtubeIptvLogin");erroLogin.textContent=resposta.message||"Acesso negado.";return false;}
-    document.body.classList.remove("bloqueado");telaLogin.style.display="none";
-    localStorage.setItem("youtubeIptvLogin",login);ativarTelaCheia();iniciarHeartbeat(login);return true;
+
+    if(!resposta.ok){
+      localStorage.removeItem("youtubeIptvLogin");
+      erroLogin.textContent=resposta.message||"Acesso negado.";
+      return false;
+    }
+
+    // Somente depois da autorização solicita a lista privada.
+    erroLogin.textContent="Acesso autorizado. Carregando lista privada...";
+
+    const listaCarregada=await carregarLista(login);
+
+    if(!listaCarregada){
+      // Se a lista falhar, libera a sessão para não prender o login.
+      try{
+        await chamarControleSessao("release",login);
+      }catch(e){
+        console.warn("Não foi possível liberar a sessão:",e);
+      }
+
+      localStorage.removeItem("youtubeIptvLogin");
+      document.body.classList.add("bloqueado");
+      telaLogin.style.display="flex";
+
+      return false;
+    }
+
+    // Libera o player somente depois que a lista foi carregada.
+    document.body.classList.remove("bloqueado");
+    telaLogin.style.display="none";
+
+    localStorage.setItem("youtubeIptvLogin",login);
+
+    ativarTelaCheia();
+    iniciarHeartbeat(login);
+
+    return true;
+
   }catch(e){
-    console.error(e);erroLogin.textContent="Não foi possível verificar o login no servidor. Confira a implantação do Apps Script.";return false;
-  }finally{botaoEntrar.disabled=false;}
+    console.error(e);
+    erroLogin.textContent=
+      "Não foi possível verificar o login ou carregar a lista privada. Confira o Apps Script.";
+    return false;
+
+  }finally{
+    botaoEntrar.disabled=false;
+  }
 }
+
 document.addEventListener("click",()=>{if(!document.fullscreenElement)ativarTelaCheia();});
 document.addEventListener("touchend",()=>{if(!document.fullscreenElement)ativarTelaCheia();},{passive:true});
 
@@ -1299,11 +1345,22 @@ videoEl.addEventListener("keydown",e=>{
   });
 }
 
-async function carregarLista(){
+async function carregarLista(login){
   try{
-    const resposta=await fetch("./youtube.txt?v="+Date.now(),{cache:"no-store"});
-    if(!resposta.ok)throw new Error("HTTP "+resposta.status);
-    const texto=await resposta.text();
+    // Solicita a lista privada ao Apps Script.
+    const resposta=await chamarControleSessao("lista",login);
+
+    if(!resposta || !resposta.ok){
+      throw new Error(
+        resposta?.message || "O servidor não autorizou o acesso à lista."
+      );
+    }
+
+    const texto=String(resposta.texto || "");
+
+    if(!texto.trim()){
+      throw new Error("A lista privada está vazia.");
+    }    
     todosVideos=texto.split(/\r?\n/).map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map((linha,indice)=>{
       const partes=linha.split("|").map(p=>p.trim());
       let tema,categoria,classificacao,titulo,url;
@@ -1372,12 +1429,24 @@ if(tipo==="m3u-ref"||tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="tw
     });
     menuA1.value = "";
     limparAbaixo(1);
-    aplicarFiltros();
-  }catch(erro){console.error(erro);status.textContent="Erro ao ler youtube.txt. Verifique se o arquivo está publicado no GitHub Pages.";}
-}
+        aplicarFiltros();
 
+    console.log("Lista privada carregada:",todosVideos.length,"itens.");
+
+    return true;
+
+  }catch(erro){
+    console.error("Erro ao carregar lista privada:",erro);
+
+    status.textContent="Erro ao carregar a lista privada.";
+
+    erroLogin.textContent=
+      "Não foi possível carregar a lista. Verifique o Apps Script e o arquivo do Google Drive.";
+
+    return false;
+  }
+}
 carregarLogins();
-carregarLista();
 </script>
 </body>
 </html>
