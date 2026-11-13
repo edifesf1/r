@@ -1435,7 +1435,7 @@ if(tipo==="m3u-ref"||tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="tw
 
     return true;
 
-  }}catch(erro){
+  }catch(erro){
   console.error("ERRO AO CARREGAR LISTA PRIVADA:", erro);
   erroLogin.textContent="Erro na lista: " + (erro.message || erro);
   return false;
