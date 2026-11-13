@@ -252,6 +252,8 @@ let heartbeatTimer = null;
 let LOGINS_VALIDOS = [];
 let todosVideos = [];
 let videos = [];
+let loginAtual = "";
+let carregamentoAba = 0;
 let player = null;
 let hlsInstance = null;
 let ytPlayerApi = null;
@@ -394,19 +396,56 @@ function obterDeviceId(){
   if(!id){id="dev_"+Array.from(crypto.getRandomValues(new Uint8Array(18))).map(n=>n.toString(16).padStart(2,"0")).join("");localStorage.setItem(DEVICE_KEY,id);}
   return id;
 }
-function chamarControleSessao(action,login){
-  return new Promise((resolve,reject)=>{
-    if(!URL_SESSOES || URL_SESSOES.includes("COLE_AQUI")){reject(new Error("Falta configurar a URL do Apps Script de sessões."));return;}
-    const callback="edifesfCb_"+Date.now()+"_"+Math.floor(Math.random()*1000000);
-    const script=document.createElement("script");
-    const timeout=setTimeout(()=>{limpar();reject(new Error("O servidor de sessões não respondeu."));},12000);
-    function limpar(){clearTimeout(timeout);delete window[callback];script.remove();}
-    window[callback]=(data)=>{limpar();resolve(data);};
-    script.onerror=()=>{limpar();reject(new Error("Não foi possível acessar o servidor de sessões."));};
-    const params=new URLSearchParams({action,login,device:obterDeviceId(),callback,_:String(Date.now())});
-    script.src=URL_SESSOES+"?"+params.toString();document.head.appendChild(script);
+
+  
+function chamarControleSessao(action, login, extras = {}) {
+  return new Promise((resolve, reject) => {
+    if (!URL_SESSOES || URL_SESSOES.includes("COLE_AQUI")) {
+      reject(new Error("Falta configurar a URL do Apps Script."));
+      return;
+    }
+
+    const callback = "edifesfCb_" + Date.now() + "_" +
+      Math.floor(Math.random() * 1000000);
+
+    const script = document.createElement("script");
+
+    const timeout = setTimeout(() => {
+      limpar();
+      reject(new Error("O servidor de sessões não respondeu."));
+    }, 12000);
+
+    function limpar() {
+      clearTimeout(timeout);
+      delete window[callback];
+      script.remove();
+    }
+
+    window[callback] = (data) => {
+      limpar();
+      resolve(data);
+    };
+
+    script.onerror = () => {
+      limpar();
+      reject(new Error("Não foi possível acessar o Apps Script."));
+    };
+
+    const params = new URLSearchParams({
+      action,
+      login,
+      device: obterDeviceId(),
+      ...extras,
+      callback,
+      _: String(Date.now())
+    });
+
+    script.src = URL_SESSOES + "?" + params.toString();
+    document.head.appendChild(script);
   });
 }
+
+  
 function pararHeartbeat(){if(heartbeatTimer){clearInterval(heartbeatTimer);heartbeatTimer=null;}}
 function exibirLogin(mensagem){
   pararHeartbeat();document.body.classList.add("bloqueado");telaLogin.style.display="flex";
@@ -637,8 +676,11 @@ function aplicarFiltros(){
   status.textContent=`${videos.length} vídeo(s).`;
   if(episodio||!player)criarPlayer();
 }
-menuA1.addEventListener("change",()=>{
-  limparAbaixo(1);const tema=menuA1.value;
+  menuA1.addEventListener("change", async () => {
+  limparAbaixo(1);
+
+  const tema = menuA1.value;
+
   if (tema === "Pesquisa") {
     ativarPesquisa(true);
     videos = [];
@@ -647,10 +689,20 @@ menuA1.addEventListener("change",()=>{
     return;
   }
 
+  if (!tema) {
+    todosVideos = [];
+    videos = [];
+    limparPlayerPesquisa();
+    atualizarBotoesNavegacao();
+    return;
+  }
+
   ativarPesquisa(false);
-  if(tema){preencherSelect(menuB2,todosVideos.filter(v=>v.tema===tema).map(v=>v.categoria));mostrarGrupo("B2",true);}
-  aplicarFiltros();
+
+  // Carrega somente a aba escolhida no menu A1.
+  await carregarAba(loginAtual, tema);
 });
+  
 menuB2.addEventListener("change",()=>{
   limparAbaixo(2);const tema=menuA1.value,categoria=menuB2.value;
   if(tema&&categoria){preencherSelect(menuC3,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria).map(v=>v.classificacao));mostrarGrupo("C3",true);}
@@ -1345,102 +1397,162 @@ videoEl.addEventListener("keydown",e=>{
   });
 }
 
-async function carregarLista(login){
-  try{
-    // Solicita a lista privada ao Apps Script.
-    const resposta=await chamarControleSessao("lista",login);
+async function carregarLista(login) {
+  try {
+    loginAtual = login;
 
-    if(!resposta || !resposta.ok){
-      throw new Error(
-        resposta?.message || "O servidor não autorizou o acesso à lista."
-      );
+    // Consulta os nomes das abas da planilha.
+    const resposta = await chamarControleSessao("abas", login);
+
+    if (!resposta || !resposta.ok || !Array.isArray(resposta.abas)) {
+      throw new Error(resposta?.message || "Não foi possível consultar as abas.");
     }
 
-    const texto=String(resposta.texto || "");
+    const abas = resposta.abas;
 
-    if(!texto.trim()){
-      throw new Error("A lista privada está vazia.");
-    }    
-    todosVideos=texto.split(/\r?\n/).map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map((linha,indice)=>{
-      const partes=linha.split("|").map(p=>p.trim());
-      let tema,categoria,classificacao,titulo,url;
-      if(partes.length>=5){[tema,categoria,classificacao,titulo]=partes;url=partes.slice(4).join("|").trim();}
-      else if(partes.length>=3){
-        const temaAntigo=partes[0]||"Geral";titulo=partes[1]||"Vídeo "+(indice+1);url=partes.slice(2).join("|").trim();
-        tema=/bíblic|preg|igreja|relig|estudo/i.test(temaAntigo+" "+titulo)?"religioso":"normal";
-        categoria=/live|ao vivo|rádio|radio|notícia|cnn|jovem pan|record news|sbt news/i.test(titulo+" "+url)?"live":"filmes";
-        classificacao=temaAntigo;
-      }else if(partes.length===2){titulo=partes[0]||"Vídeo "+(indice+1);url=partes[1];tema="normal";categoria="filmes";classificacao="Geral";}
-      else{titulo="Vídeo "+(indice+1);url=partes[0];tema="normal";categoria="filmes";classificacao="Geral";}
-      tema=tema||"Normal";categoria=categoria||"Filmes";classificacao=classificacao||"Geral";titulo=titulo||"Vídeo "+(indice+1);
-      const id=extrairId(url);
-      let tipo="desconhecido";
-      if(
-  /raw\.githubusercontent\.com\/edifesf1\/r\/main\/cnn_portugal\.m3u8(?:$|[?#])/i.test(url)
-){
-  tipo="m3u-ref";
-}
-else if(/\.m3u8(?:$|[?#])/i.test(url)){
-  tipo="hls";
-}
-      else if(id)tipo="youtube";
-      else if(/^https?:\/\/player\.twitch\.tv\//i.test(url))tipo="twitch";
-      else if(/^https?:\/\/player\.restream\.io\//i.test(url))tipo="restream";
-        //adicionei linha abaixo
-      else if(extrairHandleCanal(url))tipo="youtube-channel";
-        
-      else if(/^https?:\/\/(?:www\.)?nphd\.online\//i.test(url) ||
-              /^https?:\/\/(?:[a-z0-9-]+\.)?embedtv\.cc\//i.test(url))tipo="frame";
-      // Mantém fluxos diretos de áudio; qualquer outra página HTTP/HTTPS
-      // é tratada como player externo em iframe, com interação liberada.
-      else if(/^https?:\/\//i.test(url) &&
-              (/(?:\.mp3|\.aac|\.m4a|\.ogg|\.opus|\.wav|\.flac|\.m3u|\.pls)(?:$|[?#])/i.test(url) ||
-               /\/stream(?:\/|$|[?#])/i.test(new URL(url).pathname+new URL(url).search)))tipo="audio";
-      else if(/^https?:\/\//i.test(url))tipo="iframe";
+    if (!abas.length) {
+      throw new Error("Nenhuma aba encontrada na planilha.");
+    }
 
-      if(tipo==="youtube-channel"){
-  return {
-    tema,categoria,classificacao,titulo,
-    id:null,url,tipo,
-    handle:extrairHandleCanal(url)
-  };
-}
-
-if(tipo==="m3u-ref"||tipo==="hls"||tipo==="audio"||tipo==="restream"||tipo==="twitch"||tipo==="frame"||tipo==="iframe")
-  return{tema,categoria,classificacao,titulo,id:null,url,tipo};
-      return id?{tema,categoria,classificacao,titulo,id,url,tipo}:null;
-
-      
-    }).filter(Boolean);
-    // "Pesquisa" fica sempre como primeira opção; os temas vêm depois em ordem alfabética.
-    const temas = [...new Set(todosVideos.map(v => v.tema).filter(Boolean))]
-      .filter(tema => tema !== "Pesquisa")
-      .sort((a, b) => a.localeCompare(b, "pt-BR"));
+    // Mantém a opção Pesquisa e acrescenta todas as abas.
     menuA1.replaceChildren();
+
     const opcaoPesquisa = document.createElement("option");
     opcaoPesquisa.value = "Pesquisa";
     opcaoPesquisa.textContent = "Pesquisa";
     menuA1.appendChild(opcaoPesquisa);
-    temas.forEach(tema => {
+
+    abas.forEach(aba => {
       const opcao = document.createElement("option");
-      opcao.value = tema;
-      opcao.textContent = tema;
+      opcao.value = aba;
+      opcao.textContent = aba;
       menuA1.appendChild(opcao);
     });
-    menuA1.value = "";
-    limparAbaixo(1);
-        aplicarFiltros();
 
-    console.log("Lista privada carregada:",todosVideos.length,"itens.");
+    // Abre inicialmente a primeira aba da planilha.
+    menuA1.value = abas[0];
+
+    const carregou = await carregarAba(login, abas[0]);
+
+    return carregou;
+
+  } catch (erro) {
+    console.error("ERRO AO CARREGAR PLANILHA:", erro);
+    erroLogin.textContent = "Erro na planilha: " + erro.message;
+    return false;
+  }
+}
+
+
+async function carregarAba(login, nomeAba) {
+  const numeroCarregamento = ++carregamentoAba;
+
+  try {
+    status.textContent = "Carregando aba: " + nomeAba + "...";
+
+    // Solicita somente os registros da aba selecionada.
+    const resposta = await chamarControleSessao(
+      "dados",
+      login,
+      { aba: nomeAba }
+    );
+
+    // Ignora respostas antigas caso o usuário tenha trocado de aba.
+    if (
+      numeroCarregamento !== carregamentoAba ||
+      menuA1.value !== nomeAba
+    ) {
+      return true;
+    }
+
+    if (!resposta || !resposta.ok || !Array.isArray(resposta.registros)) {
+      throw new Error(resposta?.message || "Não foi possível carregar esta aba.");
+    }
+
+    const registros = resposta.registros;
+
+    todosVideos = registros.map((registro, indice) => {
+      const tema = nomeAba;
+      const categoria = String(registro.categoria || "").trim();
+      const classificacao = String(registro.classificacao || "").trim();
+      const titulo = String(registro.nome || "").trim();
+      const url = String(registro.url || "").trim();
+
+      if (!url) return null;
+
+      const id = extrairId(url);
+      let tipo = "desconhecido";
+
+      if (/raw\.githubusercontent\.com\/edifesf1\/r\/main\/cnn_portugal\.m3u8(?:$|[?#])/i.test(url)) {
+        tipo = "m3u-ref";
+      } else if (/\.m3u8(?:$|[?#])/i.test(url)) {
+        tipo = "hls";
+      } else if (id) {
+        tipo = "youtube";
+      } else if (/^https?:\/\/player\.twitch\.tv\//i.test(url)) {
+        tipo = "twitch";
+      } else if (/^https?:\/\/player\.restream\.io\//i.test(url)) {
+        tipo = "restream";
+      } else if (extrairHandleCanal(url)) {
+        tipo = "youtube-channel";
+      } else if (
+        /^https?:\/\/(?:www\.)?nphd\.online\//i.test(url) ||
+        /^https?:\/\/(?:[a-z0-9-]+\.)?embedtv\.cc\//i.test(url)
+      ) {
+        tipo = "frame";
+      } else if (/^https?:\/\//i.test(url) &&
+        (/(?:\.mp3|\.aac|\.m4a|\.ogg|\.opus|\.wav|\.flac|\.m3u|\.pls)(?:$|[?#])/i.test(url) ||
+        /\/stream(?:\/|$|[?#])/i.test(new URL(url).pathname + new URL(url).search))) {
+        tipo = "audio";
+      } else if (/^https?:\/\//i.test(url)) {
+        tipo = "iframe";
+      }
+
+      return {
+        tema,
+        categoria,
+        classificacao,
+        titulo: titulo || "Vídeo " + (indice + 1),
+        id: id || null,
+        url,
+        tipo,
+        handle: tipo === "youtube-channel" ? extrairHandleCanal(url) : null
+      };
+    }).filter(Boolean);
+
+    if (numeroCarregamento !== carregamentoAba) {
+      return true;
+    }
+
+    // Atualiza os filtros usando somente os dados desta aba.
+    limparAbaixo(1);
+    ativarPesquisa(false);
+    aplicarFiltros();
+
+    console.log(
+      "Aba carregada:",
+      nomeAba,
+      "| Registros:",
+      todosVideos.length
+    );
+
+    status.textContent = todosVideos.length
+      ? todosVideos.length + " conteúdos carregados."
+      : "Esta aba ainda não possui conteúdos.";
 
     return true;
 
-  }catch(erro){
-  console.error("ERRO AO CARREGAR LISTA PRIVADA:", erro);
-  erroLogin.textContent="Erro na lista: " + (erro.message || erro);
-  return false;
+  } catch (erro) {
+    if (numeroCarregamento === carregamentoAba) {
+      console.error("ERRO AO CARREGAR ABA:", erro);
+      status.textContent = "Erro ao carregar " + nomeAba + ": " + erro.message;
+    }
+
+    return false;
+  }
 }
-}
+
+  
 carregarLogins();
 </script>
 </body>
