@@ -674,13 +674,21 @@ function aplicarFiltros(){
 
   // Atualiza D4 com todos os conteúdos encontrados.
   if(!modoPesquisa && tema && categoria && classificacao){
-    preencherSelect(
-      menuD4,
-      videos.map(v=>v.titulo)
-    );
-    mostrarGrupo("D4",videos.length>0);
-  }
+   
+    
+const episodioAnterior = menuD4.value;
 
+preencherSelect(
+  menuD4,
+  videos.map(v=>v.titulo)
+);
+
+// Mantém selecionado o canal escolhido, se ele ainda existir.
+if(episodioAnterior && videos.some(v=>v.titulo===episodioAnterior)){
+  menuD4.value = episodioAnterior;
+}
+
+mostrarGrupo("D4",videos.length>0);
   const episodio=menuD4.value;
 
   lista.replaceChildren();
