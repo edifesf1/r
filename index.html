@@ -544,12 +544,7 @@ document.getElementById("caixaLogin").addEventListener("submit",async e=>{
   if(!LOGINS_VALIDOS.includes(login)){erroLogin.textContent="Login inválido. Confira o código e tente novamente.";campoLogin.select();return;}
   await liberarAcesso(login);
 });
-window.addEventListener("beforeunload",()=>{
-  const login=localStorage.getItem("youtubeIptvLogin");
-  if(login && URL_SESSOES && !URL_SESSOES.includes("COLE_AQUI")){
-    const img=new Image();img.src=URL_SESSOES+"?action=release&login="+encodeURIComponent(login)+"&device="+encodeURIComponent(obterDeviceId())+"&_="+Date.now();
-  }
-});
+
 
 function atualizarBotoesNavegacao(){botaoCanalAnterior.disabled=botaoProximoCanal.disabled=videos.length<=1;}
 
