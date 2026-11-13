@@ -665,30 +665,30 @@ function aplicarFiltros(){
   const categoria=menuB2.value;
   const classificacao=menuC3.value;
 
-  // Filtra os registros da seleção atual.
   videos=todosVideos.filter(v=>
     (!tema||v.tema===tema)&&
     (!categoria||v.categoria===categoria)&&
     (!classificacao||v.classificacao===classificacao)
   );
 
-  // Atualiza D4 com todos os conteúdos encontrados.
+  // Atualiza o D4 sem perder o canal selecionado.
   if(!modoPesquisa && tema && categoria && classificacao){
-   
-    
-const episodioAnterior = menuD4.value;
 
-preencherSelect(
-  menuD4,
-  videos.map(v=>v.titulo)
-);
+    const episodioAnterior=menuD4.value;
 
-// Mantém selecionado o canal escolhido, se ele ainda existir.
-if(episodioAnterior && videos.some(v=>v.titulo===episodioAnterior)){
-  menuD4.value = episodioAnterior;
-}
+    preencherSelect(
+      menuD4,
+      videos.map(v=>v.titulo)
+    );
 
-mostrarGrupo("D4",videos.length>0);
+    if(episodioAnterior && videos.some(v=>v.titulo===episodioAnterior)){
+      menuD4.value=episodioAnterior;
+    }
+
+    mostrarGrupo("D4",videos.length>0);
+  }
+
+  // A partir daqui, continua a atualização normal do player.
   const episodio=menuD4.value;
 
   lista.replaceChildren();
@@ -710,17 +710,21 @@ mostrarGrupo("D4",videos.length>0);
 
   if(!videos.length){
     atualizarBotoesNavegacao();
-    status.textContent=tema?"Nenhum vídeo nesta seleção.":"Selecione os menus acima.";
+    status.textContent=tema
+      ?"Nenhum vídeo nesta seleção."
+      :"Selecione os menus acima.";
     return;
   }
 
   videos.forEach((video,index)=>{
     const botao=document.createElement("button");
     botao.textContent=`${index+1}. ${video.titulo}`;
+
     botao.addEventListener("click",()=>{
       selecionado=index;
       criarPlayer();
     });
+
     lista.appendChild(botao);
   });
 
@@ -732,6 +736,7 @@ mostrarGrupo("D4",videos.length>0);
 
   atualizarBotoesNavegacao();
   status.textContent=`${videos.length} vídeo(s).`;
+
   criarPlayer();
 }
 
