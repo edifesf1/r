@@ -1524,11 +1524,27 @@ async function carregarAba(login, nomeAba) {
       return true;
     }
 
-    // Atualiza os filtros usando somente os dados desta aba.
-    limparAbaixo(1);
-    ativarPesquisa(false);
-    aplicarFiltros();
+// Atualiza os filtros usando somente os dados desta aba.
+limparAbaixo(1);
+ativarPesquisa(false);
 
+// Preenche e mostra o menu B2 com as categorias da aba.
+preencherSelect(
+  menuB2,
+  todosVideos.map(video => video.categoria)
+);
+
+// Mostra B2 somente quando existem categorias.
+mostrarGrupo(
+  "B2",
+  todosVideos.some(video => video.categoria)
+);
+
+// C3 e D4 continuam escondidos até o usuário escolher uma categoria.
+mostrarGrupo("C3", false);
+mostrarGrupo("D4", false);
+
+aplicarFiltros();
     console.log(
       "Aba carregada:",
       nomeAba,
