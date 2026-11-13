@@ -657,25 +657,79 @@ function limparAbaixo(nivel){
   if(nivel<=2){menuC3.value="";mostrarGrupo("C3",false);}
   if(nivel<=3){menuD4.value="";mostrarGrupo("D4",false);}
 }
+
+  
+
 function aplicarFiltros(){
-  const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value,episodio=menuD4.value;
-  videos=todosVideos.filter(v=>(!tema||v.tema===tema)&&(!categoria||v.categoria===categoria)&&(!classificacao||v.classificacao===classificacao));
+  const tema=menuA1.value;
+  const categoria=menuB2.value;
+  const classificacao=menuC3.value;
+
+  // Filtra os registros da seleção atual.
+  videos=todosVideos.filter(v=>
+    (!tema||v.tema===tema)&&
+    (!categoria||v.categoria===categoria)&&
+    (!classificacao||v.classificacao===classificacao)
+  );
+
+  // Atualiza D4 com todos os conteúdos encontrados.
+  if(!modoPesquisa && tema && categoria && classificacao){
+    preencherSelect(
+      menuD4,
+      videos.map(v=>v.titulo)
+    );
+    mostrarGrupo("D4",videos.length>0);
+  }
+
+  const episodio=menuD4.value;
+
   lista.replaceChildren();
+
   const area=document.getElementById("player");
-  if(hlsInstance){try{hlsInstance.destroy();}catch(e){}hlsInstance=null;}
-  if(ytPlayerApi){try{ytPlayerApi.destroy();}catch(e){}ytPlayerApi=null;}
-  area.replaceChildren();player=null;
-  if(!videos.length){atualizarBotoesNavegacao();status.textContent=tema?"Nenhum vídeo nesta seleção.":"Selecione os menus acima.";return;}
+
+  if(hlsInstance){
+    try{hlsInstance.destroy();}catch(e){}
+    hlsInstance=null;
+  }
+
+  if(ytPlayerApi){
+    try{ytPlayerApi.destroy();}catch(e){}
+    ytPlayerApi=null;
+  }
+
+  area.replaceChildren();
+  player=null;
+
+  if(!videos.length){
+    atualizarBotoesNavegacao();
+    status.textContent=tema?"Nenhum vídeo nesta seleção.":"Selecione os menus acima.";
+    return;
+  }
+
   videos.forEach((video,index)=>{
-    const botao=document.createElement("button");botao.textContent=`${index+1}. ${video.titulo}`;
-    botao.addEventListener("click",()=>{selecionado=index;criarPlayer();});lista.appendChild(botao);
+    const botao=document.createElement("button");
+    botao.textContent=`${index+1}. ${video.titulo}`;
+    botao.addEventListener("click",()=>{
+      selecionado=index;
+      criarPlayer();
+    });
+    lista.appendChild(botao);
   });
-  selecionado=episodio?videos.findIndex(v=>v.titulo===episodio):0;
+
+  selecionado=episodio
+    ?videos.findIndex(v=>v.titulo===episodio)
+    :0;
+
   if(selecionado<0)selecionado=0;
+
   atualizarBotoesNavegacao();
   status.textContent=`${videos.length} vídeo(s).`;
-  if(episodio||!player)criarPlayer();
+  criarPlayer();
 }
+
+
+
+  
   menuA1.addEventListener("change", async () => {
   limparAbaixo(1);
 
@@ -708,6 +762,9 @@ menuB2.addEventListener("change",()=>{
   if(tema&&categoria){preencherSelect(menuC3,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria).map(v=>v.classificacao));mostrarGrupo("C3",true);}
   aplicarFiltros();
 });
+
+
+  
 menuC3.addEventListener("change",()=>{
   if(modoPesquisa){
     if(menuC3.value==="")return;
@@ -719,13 +776,11 @@ menuC3.addEventListener("change",()=>{
   }
 
   limparAbaixo(3);
-  const tema=menuA1.value,categoria=menuB2.value,classificacao=menuC3.value;
-  if(tema&&categoria&&classificacao){
-    preencherSelect(menuD4,todosVideos.filter(v=>v.tema===tema&&v.categoria===categoria&&v.classificacao===classificacao).map(v=>v.titulo));
-    mostrarGrupo("D4",true);
-  }
   aplicarFiltros();
 });
+
+
+  
 menuD4.addEventListener("change",aplicarFiltros);
 
 function limparPlayerPesquisa(){
