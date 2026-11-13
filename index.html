@@ -200,9 +200,7 @@ document.addEventListener("keydown", function(e){
     dominio === "rdcanais.org" ||
     dominio.endsWith(".rdcanais.org") ||
     dominio === "redecanais.by" ||
-    dominio.endsWith(".redecanais.by") ||
-    dominio === "embedtv.cc" ||
-    dominio.endsWith(".embedtv.cc");
+    dominio.endsWith(".redecanais.by");
 
   if(!playerEspecial) return;
 
@@ -828,29 +826,9 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
   const area = document.getElementById("player");
   const iframe = document.createElement("iframe");
 
-  // EmbedTV recebe autoplay=1 na URL final e precisa manter
-  // o iframe acessível ao controle remoto e ao clique.
   let liberarClique = temAutoplayLiberado(urlOriginal);
-  try {
-    const hostOriginal = new URL(urlOriginal, location.href).hostname.toLowerCase();
-    if (hostOriginal === "embedtv.cc" || hostOriginal.endsWith(".embedtv.cc")) {
-      liberarClique = true;
-    }
-  } catch(e) {}
 
   iframe.title = item.titulo || "Player externo";
-
-  // No EmbedTV, restringe a abertura de novas abas/janelas.
-  // Scripts, formulários e reprodução continuam permitidos.
-  try {
-    const hostIframe = new URL(urlFinal, location.href).hostname.toLowerCase();
-    if (hostIframe === "embedtv.cc" || hostIframe.endsWith(".embedtv.cc")) {
-      iframe.setAttribute(
-        "sandbox",
-        "allow-scripts allow-same-origin allow-forms allow-presentation allow-pointer-lock"
-      );
-    }
-  } catch(e) {}
 
   iframe.src = urlFinal;
   iframe.allow = "autoplay; fullscreen; picture-in-picture; encrypted-media; clipboard-write";
@@ -1051,6 +1029,8 @@ function extrairId(valor){
   }catch(e){return null;}
 }
 
+
+  
 function criarPlayer(){
   if(!videos.length)return;
   const item=videos[selecionado];if(!item)return;
@@ -1151,7 +1131,7 @@ if(item.tipo==="youtube-channel"){
     return;
   }
   // PLAYER EXTERNO UNIFICADO
-  // Twitch, Restream, NPHd, EmbedTV, RDCanais,
+  // Twitch, Restream, NPHd, RDCanais,
   // RedeCanais e demais páginas externas.
 
   if(
@@ -1189,19 +1169,6 @@ if(item.tipo==="youtube-channel"){
         twitchUrl.searchParams.set("controls","true");
 
         url = twitchUrl.toString();
-
-      }
-
-      // Configuração especial do EmbedTV.
-      // O marcador de liberação continua sendo verificado
-      // na URL original da playlist, não nesta URL modificada.
-      else if(
-        endereco.hostname === "embedtv.cc" ||
-        endereco.hostname.endsWith(".embedtv.cc")
-      ){
-
-        endereco.searchParams.set("autoplay","1");
-        url = endereco.toString();
 
       }
 
@@ -1564,8 +1531,7 @@ async function carregarAba(login, nomeAba) {
       } else if (extrairHandleCanal(url)) {
         tipo = "youtube-channel";
       } else if (
-        /^https?:\/\/(?:www\.)?nphd\.online\//i.test(url) ||
-        /^https?:\/\/(?:[a-z0-9-]+\.)?embedtv\.cc\//i.test(url)
+        /^https?:\/\/(?:www\.)?nphd\.online\//i.test(url)
       ) {
         tipo = "frame";
       } else if (/^https?:\/\//i.test(url) &&
