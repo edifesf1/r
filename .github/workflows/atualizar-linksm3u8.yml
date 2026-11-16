@@ -1,0 +1,38 @@
+
+name: Atualizar links M3U8
+
+on:
+  schedule:
+    - cron: "0,15,30,45 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Executar extrator
+        run: python linksm3u8/scripts/extrator.py
+
+      - name: Salvar arquivos atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add linksm3u8/
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar links M3U8"
+            git push
+          else
+            echo "Nenhuma alteração encontrada."
+          fi
