@@ -23,7 +23,7 @@ jobs:
           python-version: "3.x"
 
       - name: Executar extrator
-        run: python linksm3u8/scripts/extrator.py
+        run: python scripts/extrator.py
 
       - name: Salvar arquivos atualizados
         run: |
