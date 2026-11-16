@@ -20,7 +20,7 @@ STREAM_BASE = (
     "edge_servers/cnn-720p/playlist.m3u8"
 )
 
-OUTPUT = Path("cnn_portugal.m3u8")
+OUTPUT = Path("linksm3u8/cnn_portugal.m3u8")
 
 
 def obter_token() -> str:
@@ -104,6 +104,9 @@ def main() -> None:
         + urllib.parse.quote(token, safe="")
     )
 
+    # Garante que a pasta exista.
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    
     # Grava SOMENTE o endereço, sem cabeçalho M3U.
     OUTPUT.write_text(stream_url, encoding="utf-8")
 
