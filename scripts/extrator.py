@@ -7,9 +7,11 @@ import unicodedata
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse, unquote
 
-BASE = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..")
+BASE = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "linksm3u8"
 )
+
 ENTRADA = os.path.join(BASE, "links.txt")
 
 HEADERS = {
