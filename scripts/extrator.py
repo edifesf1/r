@@ -110,14 +110,8 @@ def salvar_playlist(canal, grupo, endereco):
     arquivo = nome_arquivo(canal) + ".m3u8"
     destino = os.path.join(BASE, arquivo)
 
-    conteudo = (
-        "#EXTM3U\n"
-        f'#EXTINF:-1 tvg-name="{canal}" group-title="{grupo}",{canal}\n'
-        f"{endereco}\n"
-    )
-
     with open(destino, "w", encoding="utf-8") as f:
-        f.write(conteudo)
+        f.write(endereco.strip() + "\n")
 
     return arquivo
 
