@@ -1559,9 +1559,9 @@ async function carregarAba(login, nomeAba) {
       const id = extrairId(url);
       let tipo = "desconhecido";
 
-      if (/raw\.githubusercontent\.com\/edifesf1\/r\/main\/cnn_portugal\.m3u8(?:$|[?#])/i.test(url)) {
-        tipo = "m3u-ref";
-      } else if (/\.m3u8(?:$|[?#])/i.test(url)) {
+      if (/raw\.githubusercontent\.com\/edifesf1\/r\/main\/linksm3u8\/[^/?#]+\.m3u8(?:$|[?#])/i.test(url)) {
+  tipo = "m3u-ref";
+}else if (/\.m3u8(?:$|[?#])/i.test(url)) {
         tipo = "hls";
       } else if (id) {
         tipo = "youtube";
