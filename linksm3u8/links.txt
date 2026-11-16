@@ -1,2 +1,2 @@
 RTP1|https://www.rtp.pt/play/direto/rtp1
-CNN Portugal|https://video-auth1.iol.pt/live_cnn/live_cnn
+CNN Portugal|https://cnnportugal.iol.pt/direto
