@@ -22,9 +22,13 @@ STREAM_BASE = (
 
 OUTPUT = Path("linksm3u8/cnn_portugal.m3u8")
 
-
 def obter_token() -> str:
     user_id = os.environ.get("IOL_USER_ID", "").strip()
+
+    if not user_id:
+        raise RuntimeError(
+            "Segredo IOL_USER_ID não configurado no GitHub."
+        )
 
     url = ENDPOINT + "?" + urllib.parse.urlencode({
         "userId": user_id
