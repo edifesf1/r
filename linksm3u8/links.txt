@@ -4,3 +4,5 @@ TVI Internacional|https://www.cxtv.com.br/tv-ao-vivo/tvi-internacional
 TVI Reality|https://www.cxtv.com.br/tv-ao-vivo/tvi-reality
 V+ TVI|https://www.cxtv.com.br/tv-ao-vivo/vmais
 RTP1|https://www.rtp.pt/play/direto/rtp1
+RTP3|https://www.rtp.pt/play/direto/rtp3
+RTP Mundo|https://www.rtp.pt/play/direto/rtpmundo
