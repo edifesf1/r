@@ -1057,6 +1057,19 @@ function extrairId(valor){
 
 
   
+// Converte somente fluxos HLS em HTTP para o proxy HTTPS gratuito do Render.
+// Links HTTPS continuam sendo carregados diretamente pelo HLS.js.
+function urlHLSParaReproducao(url){
+  const endereco = new URL(url, location.href);
+
+  if(endereco.protocol === "http:"){
+    return "https://player-http-online.onrender.com/proxy?url=" +
+      encodeURIComponent(endereco.href);
+  }
+
+  return endereco.href;
+}
+
 function criarPlayer(){
   if(!videos.length)return;
   const item=videos[selecionado];if(!item)return;
@@ -1203,13 +1216,21 @@ if(item.tipo==="youtube-channel"){
 
       const endereco = new URL(url);
 
+      const host = endereco.hostname.toLowerCase();
+
       // Configuração especial da Twitch.
       if(item.tipo==="twitch"){
 
-        const canal = endereco.searchParams.get("channel");
+        let canal = endereco.searchParams.get("channel");
+
+        // Também aceita URLs no formato twitch.tv/NOME-DO-CANAL.
+        if(!canal){
+          const partes = endereco.pathname.split("/").filter(Boolean);
+          canal = partes[0] || "";
+        }
 
         if(!canal){
-          throw new Error("O endereço da Twitch não contém o nome do canal.");
+          throw new Error("Não foi possível identificar o canal da Twitch.");
         }
 
         const twitchUrl = new URL("https://player.twitch.tv/");
@@ -1224,11 +1245,32 @@ if(item.tipo==="youtube-channel"){
 
       }
 
-      // Restream e os demais players usam o endereço original.
-      else{
+      // Configuração especial do RDCanais e RedeCanais.
+      else if(
+        /(^|\.)rdcanais\.org$/i.test(host) ||
+        /(^|\.)redecanais\.by$/i.test(host)
+      ){
 
+        // Mantém o áudio habilitado sem forçar autoplay.
+        endereco.searchParams.set("mute","0");
         url = endereco.toString();
 
+      }
+
+      // Configuração especial do EmbedTV.
+      else if(
+        host === "embedtv.cc" ||
+        host.endsWith(".embedtv.cc")
+      ){
+
+        endereco.searchParams.set("autoplay","1");
+        url = endereco.toString();
+
+      }
+
+      // Restream e demais páginas externas usam o endereço original.
+      else{
+        url = endereco.toString();
       }
 
     }catch(erro){
@@ -1274,6 +1316,9 @@ if(item.tipo==="youtube-channel"){
   }
 
   if(item.tipo==="hls"||/\.m3u8(?:$|[?#])/i.test(item.url)){
+    // HTTP usa o proxy HTTPS do Render; HTTPS segue direto para o player.
+    const urlReproducao = urlHLSParaReproducao(item.url);
+
     const videoEl=document.createElement("video");
     videoEl.title=item.titulo;
     videoEl.controls=false;
@@ -1404,11 +1449,11 @@ videoEl.addEventListener("keydown",e=>{
         if(hlsInstance===hls)hlsInstance=null;
       });
 
-      hls.loadSource(item.url);
+      hls.loadSource(urlReproducao);
       hls.attachMedia(videoEl);
     }else if(videoEl.canPlayType("application/vnd.apple.mpegurl")||videoEl.canPlayType("application/x-mpegURL")){
       // Safari e dispositivos com suporte HLS nativo.
-      videoEl.src=item.url;
+      videoEl.src=urlReproducao;
       // Aguarda os metadados antes de iniciar, como no player de referência.
       videoEl.addEventListener("loadedmetadata",()=>{
         if(geracao!==geracaoPlayer)return;
