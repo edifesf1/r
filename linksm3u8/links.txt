@@ -1,1 +1,6 @@
+TVI|https://www.cxtv.com.br/tv-ao-vivo/tvi
+TVI Ficcao|https://www.cxtv.com.br/tv-ao-vivo/tvi-ficcao
+TVI Internacional|https://www.cxtv.com.br/tv-ao-vivo/tvi-internacional
+TVI Reality|https://www.cxtv.com.br/tv-ao-vivo/tvi-reality
+V+ TVI|https://www.cxtv.com.br/tv-ao-vivo/vmais
 RTP1|https://www.rtp.pt/play/direto/rtp1
