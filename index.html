@@ -1094,68 +1094,94 @@ if(item.tipo==="youtube-channel"){
 
   return;
 }
-    // PLAYLIST M3U EXTERNA: CNN PORTUGAL
-  // Lê o arquivo do GitHub e extrai a URL HLS atualizada.
 
-  //if(item.tipo==="m3u-ref"){
-    if(item.tipo==="m3u-ref"){
+  // PLAYLIST M3U8 EXTERNA: LEITURA GENÉRICA PELO GITHUB
+  // Funciona com CNN, RTP, TVI e novos arquivos da pasta linksm3u8.
+
+  if(item.tipo === "m3u-ref"){
 
     const urlArquivo = item.urlM3uRef || item.url;
 
-    status.textContent="Buscando endereço atualizado da CNN Portugal...";
+    status.textContent = "Buscando transmissão atualizada: " + item.titulo + "...";
 
-    fetch(urlArquivo+"?v="+Date.now(),{
-      cache:"no-store"
+    // Evita problemas com parâmetros de cache já existentes.
+    const urlConsulta = new URL(urlArquivo);
+    urlConsulta.searchParams.set("_", Date.now());
+
+    fetch(urlConsulta.toString(), {
+      cache: "no-store"
     })
-    .then(resposta=>{
+    .then(resposta => {
       if(!resposta.ok){
-        throw new Error("HTTP "+resposta.status);
+        throw new Error("HTTP " + resposta.status);
       }
+
       return resposta.text();
     })
-    .then(texto=>{
+    .then(texto => {
 
-      if(geracao!==geracaoPlayer)return;
+      if(geracao !== geracaoPlayer) return;
 
-      const enderecoHLS=texto
-        .replace(/^\uFEFF/,"")
+      // Remove BOM e identifica o endereço dentro do arquivo.
+      const linhas = texto
+        .replace(/^\uFEFF/, "")
         .split(/\r?\n/)
-        .map(linha=>linha.trim())
-        .filter(linha=>linha && !linha.startsWith("#"))
-        .find(linha=>/^https:\/\/video-auth1\.iol\.pt\//i.test(linha));
+        .map(linha => linha.trim())
+        .filter(linha => linha && !linha.startsWith("#"));
 
-      if(!enderecoHLS){
-        throw new Error("Não encontrei a URL HLS da CNN no arquivo M3U.");
+      if(!linhas.length){
+        throw new Error("O arquivo não contém um endereço de transmissão.");
       }
 
-      const urlValidada=new URL(enderecoHLS);
+      // Aceita diferentes servidores e sistemas de autenticação.
+      const linhaEndereco = linhas.find(linha =>
+        /^https?:\/\//i.test(linha) ||
+        !/^[a-z][a-z0-9+.-]*:/i.test(linha)
+      );
 
-      if(urlValidada.searchParams.get("wmsAuthSign")===null ||
-         !urlValidada.searchParams.get("wmsAuthSign")){
-        throw new Error("O arquivo M3U não contém um token de autenticação.");
+      if(!linhaEndereco){
+        throw new Error("Não foi encontrado um endereço HLS válido.");
       }
 
-      item.urlM3uRef=urlArquivo;
-      item.url=urlValidada.toString();
-      item.tipo="hls";
+      // Também aceita endereços relativos, se existirem.
+      const enderecoHLS = new URL(
+        linhaEndereco,
+        urlArquivo
+      );
 
-      console.log("URL HLS da CNN Portugal encontrada.");
+      if(!["http:", "https:"].includes(enderecoHLS.protocol)){
+        throw new Error("Protocolo de transmissão inválido.");
+      }
 
+      // Guarda a referência original do GitHub.
+      item.urlM3uRef = urlArquivo;
+
+      // Entrega ao player o endereço verdadeiro da transmissão.
+      item.url = enderecoHLS.toString();
+      item.tipo = "hls";
+
+      console.log("Arquivo GitHub:", urlArquivo);
+      console.log("Endereço HLS extraído:", item.url);
+
+      // Abre o player HLS normal.
       criarPlayer();
 
     })
-    .catch(erro=>{
+    .catch(erro => {
 
-      if(geracao!==geracaoPlayer)return;
+      if(geracao !== geracaoPlayer) return;
 
-      console.error("Erro ao carregar playlist da CNN:",erro);
+      console.error("Erro ao carregar arquivo M3U8:", erro);
 
-      status.textContent="Erro ao buscar CNN Portugal: "+erro.message;
+      status.textContent =
+        "Erro ao carregar " + item.titulo + ": " + erro.message;
 
     });
 
     return;
   }
+
+  
   // PLAYER EXTERNO UNIFICADO
   // Twitch, Restream, NPHd, RDCanais,
   // RedeCanais e demais páginas externas.
