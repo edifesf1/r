@@ -1111,11 +1111,61 @@ if(item.tipo==="youtube-channel"){
   // PLAYLIST M3U8 EXTERNA: LEITURA GENÉRICA PELO GITHUB
   // Funciona com CNN, RTP, TVI e novos arquivos da pasta linksm3u8.
 
-  if(item.tipo === "m3u-ref"){
+
+if(item.tipo === "m3u-ref"){
 
     const urlArquivo = item.urlM3uRef || item.url;
 
+    // RTP1: abre o arquivo diretamente pelo player minimalista do Render.
+    let ehRTP1 = false;
+
+    try{
+      ehRTP1 = new URL(urlArquivo).pathname
+        .toLowerCase()
+        .endsWith("/rtp1.m3u8");
+    }catch(e){}
+
+    if(ehRTP1){
+
+      const enderecoRender = new URL(
+        "https://player-http-online.onrender.com/"
+      );
+
+      enderecoRender.searchParams.set("url", urlArquivo);
+      enderecoRender.searchParams.set("embed", "1");
+
+      const iframe = document.createElement("iframe");
+
+      iframe.title = item.titulo || "RTP1";
+      iframe.src = enderecoRender.toString();
+      iframe.allow = "autoplay; fullscreen; picture-in-picture; encrypted-media";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      iframe.style.cssText =
+        "display:block;width:100%;height:100%;border:0;background:#000;";
+
+      area.appendChild(iframe);
+      player = iframe;
+
+      status.textContent = "Abrindo RTP1 pelo player Render...";
+
+      iframe.addEventListener("load",()=>{
+        if(geracao === geracaoPlayer){
+          status.textContent = "Player RTP1 carregado.";
+        }
+      });
+
+      iframe.addEventListener("error",()=>{
+        if(geracao === geracaoPlayer){
+          status.textContent = "Não foi possível carregar o player RTP1.";
+        }
+      });
+
+      return;
+    }
+
     status.textContent = "Buscando transmissão atualizada: " + item.titulo + "...";
+
 
     // Evita problemas com parâmetros de cache já existentes.
     const urlConsulta = new URL(urlArquivo);
