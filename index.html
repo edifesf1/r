@@ -852,7 +852,16 @@ function criarIframeExterno(item, geracao, urlFinal, urlOriginal){
   const area = document.getElementById("player");
   const iframe = document.createElement("iframe");
 
-  let liberarClique = temAutoplayLiberado(urlOriginal);
+  // O player edifesf1.github.io/s precisa receber os cliques diretamente.
+  let ehPlayerEdifesf = false;
+  try {
+    const enderecoOriginal = new URL(urlOriginal, location.href);
+    ehPlayerEdifesf =
+      enderecoOriginal.hostname.toLowerCase() === "edifesf1.github.io" &&
+      /^\/s\/?$/i.test(enderecoOriginal.pathname);
+  } catch(e) {}
+
+  let liberarClique = temAutoplayLiberado(urlOriginal) || ehPlayerEdifesf;
 
   iframe.title = item.titulo || "Player externo";
 
@@ -1680,7 +1689,19 @@ async function carregarAba(login, nomeAba) {
       const id = extrairId(url);
       let tipo = "desconhecido";
 
-      if (/raw\.githubusercontent\.com\/edifesf1\/r\/main\/linksm3u8\/[^/?#]+\.m3u8(?:$|[?#])/i.test(url)) {
+      // O link do player GitHub Pages leva a URL M3U8 dentro do fragmento (#).
+      // Ele deve abrir como iframe, sem passar pela leitura de arquivo M3U8.
+      let ehPlayerEdifesf = false;
+      try {
+        const endereco = new URL(url);
+        ehPlayerEdifesf =
+          endereco.hostname.toLowerCase() === "edifesf1.github.io" &&
+          /^\/s\/?$/i.test(endereco.pathname);
+      } catch(e) {}
+
+      if (ehPlayerEdifesf) {
+        tipo = "iframe";
+      } else if (/raw\.githubusercontent\.com\/edifesf1\/r\/main\/linksm3u8\/[^/?#]+\.m3u8(?:$|[?#])/i.test(url)) {
   tipo = "m3u-ref";
 }else if (/\.m3u8(?:$|[?#])/i.test(url)) {
         tipo = "hls";
