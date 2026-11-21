@@ -224,7 +224,7 @@ document.addEventListener("keydown", function(e){
       if(
         !iframeAlvo.isConnected ||
         document.querySelector("#player iframe") !== iframeAlvo ||
-        Date.now() - inicioFoco > 1600
+        Date.now() - inicioFoco > 3000
       ){
         clearInterval(repetirFoco);
         return;
@@ -238,7 +238,7 @@ document.addEventListener("keydown", function(e){
     }
 
     forcarFoco();
-    const repetirFoco = setInterval(forcarFoco, 120);
+    const repetirFoco = setInterval(forcarFoco, 1000);
   }
 
 }, true);
