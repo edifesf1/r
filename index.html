@@ -1384,7 +1384,7 @@ if(item.tipo === "m3u-ref"){
     videoEl.autoplay=true;
     videoEl.playsInline=true;
     videoEl.preload="auto";
-    videoEl.tabIndex=0;
+    videoEl.tabIndex=1;
     videoEl.setAttribute("playsinline","");
     videoEl.setAttribute("webkit-playsinline","");
     // Controles próprios: evita o símbolo de pausa nativo preso na tela.
@@ -1411,8 +1411,19 @@ videoEl.addEventListener("keydown",e=>{
    
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
 
-    area.appendChild(videoEl);
-    player=videoEl;
+area.appendChild(videoEl);
+player=videoEl;
+
+// Retira o foco do vídeo após sua abertura.
+setTimeout(()=>{
+    videoEl.blur();
+    document.activeElement?.blur();
+},300);
+
+setTimeout(()=>{
+    videoEl.blur();
+    document.activeElement?.blur();
+},1000);
 
     videoEl.addEventListener("playing",()=>{
       if(geracao===geracaoPlayer)status.textContent="Reproduzindo transmissão: "+item.titulo;
