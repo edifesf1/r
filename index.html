@@ -1388,6 +1388,8 @@ if(item.tipo === "m3u-ref"){
     videoEl.setAttribute("playsinline","");
     videoEl.setAttribute("webkit-playsinline","");
     // Controles próprios: evita o símbolo de pausa nativo preso na tela.
+
+
 videoEl.addEventListener("click",()=>{
   if(videoEl.paused){
     videoEl.play().catch(e=>console.warn("Não foi possível iniciar:",e));
@@ -1406,6 +1408,28 @@ videoEl.addEventListener("keydown",e=>{
     }
   }
 });
+//acrescentei aqui
+let focoTimer;
+
+function removerFocoPlayer() {
+  clearTimeout(focoTimer);
+
+  focoTimer = setTimeout(() => {
+    if (document.activeElement === videoEl) {
+      videoEl.blur();
+    }
+  }, 5000);
+}
+
+videoEl.addEventListener("click", removerFocoPlayer);
+videoEl.addEventListener("keydown", removerFocoPlayer);
+videoEl.addEventListener("play", removerFocoPlayer);
+    
+
+
+
+
+    
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
 
     area.appendChild(videoEl);
