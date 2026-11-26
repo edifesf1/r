@@ -175,10 +175,16 @@ const botaoTarja = document.getElementById("botaoTarja");
 
 function alternarTarja(){
   const recolhida = document.body.classList.toggle("tarja-recolhida");
+
   botaoTarja.textContent = recolhida ? "☰" : "▁";
   botaoTarja.title = recolhida ? "Mostrar tarja" : "Recolher tarja";
   botaoTarja.setAttribute("aria-label", botaoTarja.title);
   botaoTarja.setAttribute("aria-pressed", String(recolhida));
+
+  // Retira o foco do botão depois de recolher ou mostrar a tarja.
+  setTimeout(() => {
+    botaoTarja.blur();
+  }, 100);
 }
 botaoTarja.addEventListener("click", alternarTarja);
 //inicio
