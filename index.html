@@ -175,16 +175,10 @@ const botaoTarja = document.getElementById("botaoTarja");
 
 function alternarTarja(){
   const recolhida = document.body.classList.toggle("tarja-recolhida");
-
   botaoTarja.textContent = recolhida ? "☰" : "▁";
   botaoTarja.title = recolhida ? "Mostrar tarja" : "Recolher tarja";
   botaoTarja.setAttribute("aria-label", botaoTarja.title);
   botaoTarja.setAttribute("aria-pressed", String(recolhida));
-
-  // Retira o foco do botão depois de recolher ou mostrar a tarja.
-  setTimeout(() => {
-    botaoTarja.blur();
-  }, 100);
 }
 botaoTarja.addEventListener("click", alternarTarja);
 //inicio
@@ -1390,12 +1384,10 @@ if(item.tipo === "m3u-ref"){
     videoEl.autoplay=true;
     videoEl.playsInline=true;
     videoEl.preload="auto";
-    videoEl.tabIndex=1;
+    videoEl.tabIndex=0;
     videoEl.setAttribute("playsinline","");
     videoEl.setAttribute("webkit-playsinline","");
     // Controles próprios: evita o símbolo de pausa nativo preso na tela.
-
-
 videoEl.addEventListener("click",()=>{
   if(videoEl.paused){
     videoEl.play().catch(e=>console.warn("Não foi possível iniciar:",e));
@@ -1414,22 +1406,10 @@ videoEl.addEventListener("keydown",e=>{
     }
   }
 });
-   
     videoEl.style.cssText="display:block;width:100%;height:100%;object-fit:contain;background:#000;";
 
-area.appendChild(videoEl);
-player=videoEl;
-
-// Retira o foco do vídeo após sua abertura.
-setTimeout(()=>{
-    videoEl.blur();
-    document.activeElement?.blur();
-},300);
-
-setTimeout(()=>{
-    videoEl.blur();
-    document.activeElement?.blur();
-},1000);
+    area.appendChild(videoEl);
+    player=videoEl;
 
     videoEl.addEventListener("playing",()=>{
       if(geracao===geracaoPlayer)status.textContent="Reproduzindo transmissão: "+item.titulo;
